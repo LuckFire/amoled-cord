@@ -1,4 +1,5 @@
 @import url("https://raw.githack.com/LuckFire/AMOLED-Cord/main/src/source.css");
+@import url("https://raw.githack.com/Snapperito/Settings-Icons/main/source.css"); /* Got permission from Snapperito, ty for this amazing snipept :^) */
 
 :root {
     --background-primary: rgb(10, 10, 10) !important;
