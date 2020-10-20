@@ -1,5 +1,9 @@
 @import url("https://raw.githack.com/LuckFire/Theme-Source/main/src/source.css");
 
+.checkboxWrapper-SkhIWG > .checkbox-1ix_J3:not(.checked-3_4uQ9) {
+    background: var(--background-secondary-alt);
+}
+
 .role-2irmRk {
     position: relative;
     overflow: hidden;
