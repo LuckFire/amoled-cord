@@ -1,4 +1,24 @@
 @import url("https://raw.githack.com/LuckFire/Theme-Source/main/src/source.css");
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css"); /* Discord Font */
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+}
+.wordmark-2iDDfm:after {
+    content: "AMOLEDCord";
+    font-size: 14px;
+    background: rgb(100, 100, 100);
+    background-size: 400% 400%;
+    animation: Gradient1 5s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    position: absolute;
+    padding-left: -3px;
+    top: 6px;
+    font-family: "Discord";
+}
 
 /* ty bowser */
 html.theme-dark .theme-light {
