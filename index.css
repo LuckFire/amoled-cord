@@ -11,7 +11,7 @@
     --background-modifier-active: rgba(255, 255, 255, 0.025) !important;
     --background-modifier-selected: rgba(255, 255, 255, 0.03) !important;
     --background-modifier-accent: hsla(0, 0%, 100%, 0.06) !important;
-    --channeltextarea-background: var(--background-accent);
+    --channeltextarea-background: rgb(20, 20, 20);
     --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
     --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
     --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
