@@ -1,5 +1,5 @@
 # AMOLED-Cord (in dev)
-A theme that's nice on your eyes, lights out baby.
+A theme that's nice on your eyes, lights out baby. This is my first ever theme, don't expect *everything* to be perfect.
 
 ![Preview](./Previews/ChatPreview.png)
 
