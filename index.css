@@ -1,4 +1,4 @@
-@import url("https://raw.githack.com/LuckFire/Dark-Discord-Test/main/src/source.css");
+@import url("https://raw.githack.com/LuckFire/AMOLED-Cord/main/src/source.css");
 
 :root {
     --background-primary: rgb(10, 10, 10) !important;
@@ -30,30 +30,4 @@
     --toast-box-shadow: rgba(0, 0, 0, .2) !important;
     --toast-border: var(--background-tertiary) !important;
     --offline-color: rgb(60, 60, 60) !important;
-}
-
-.checkboxWrapper-SkhIWG > .checkbox-1ix_J3:not(.checked-3_4uQ9) {
-    background: var(--background-secondary-alt);
-}
-
-.role-2irmRk {
-    position: relative;
-    overflow: hidden;
-    border: 0;
-    z-index: 0;
-    padding: 5px;
-}
-.roleCircle-3xAZ1j::before {
-    content: "";
-    position: absolute;
-    background: inherit;
-    z-index: -1;;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    opacity: 0.25;
-}
-
-.accountCreditRow-SHgyi0:not(:last-child) {
-    border-bottom: 0;
 }
