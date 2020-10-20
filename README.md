@@ -1,9 +1,10 @@
-# AMOLED-Cord
+# AMOLED-Cord (in dev)
 A theme that's nice on your eyes, lights out baby.
-
-## NOTICE: This theme is currently in dev, aka some shit is probably not fully themed yet. If you notice something not themed, please make an issue request if you find something (same applies if something is broken).
 
 # Previews
 ![Preview](./Previews/ChatPreview.png)
 
 # Installation
+
+# In-Dev
+This theme is still in dev, meaning that it's still being made. I need to finish updating the source (https://github.com/LuckFire/Theme-Source) to make everything themed before fully releasing. If you notice anything not themed, make an issue request and I'll get to it ASAP.
