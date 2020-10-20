@@ -47,9 +47,11 @@ html.theme-dark .theme-light .footer-2gL1pp {
 .checkboxWrapper-SkhIWG > .checkbox-1ix_J3:not(.checked-3_4uQ9) {
     background: var(--background-secondary-alt);
 }
-
 .accountCreditRow-SHgyi0:not(:last-child) {
     border-bottom: 0;
+}
+.notches-1sAcEM.gray-3_LNYR {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='rgb(8, 8, 8)'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E") !important;
 }
 
 /* Cool Roles */
