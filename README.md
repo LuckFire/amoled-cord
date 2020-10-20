@@ -1,5 +1,6 @@
 # AMOLED-Cord (in dev)
 A theme that's nice on your eyes, lights out baby.
+
 ![Preview](./Previews/ChatPreview.png)
 
 # Installation
