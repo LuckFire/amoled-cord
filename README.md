@@ -1,5 +1,7 @@
-# AMOLED-Cord (in dev)
+# AMOLED-Cord
 A theme that's nice on your eyes, lights out baby. This is my first ever theme, don't expect *everything* to be perfect.
+
+**This is my FIRST ever theme, don't expect everything to be perfect/flawless. Things may be unthemed still, but everything should be mostly themed. If you find something unthemed, make an issue or a pr at https://github.com/LuckFire/Theme-Source (since that is the source of this theme).**
 
 ![Preview](./Previews/ChatPreview.png)
 
