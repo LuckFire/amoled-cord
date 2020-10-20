@@ -1,1 +1,19 @@
+/*          Some juicy addons that enhance the experience. Remove if you'd like. :)          */
+@import url("https://raw.githack.com/LuckFire/BottomBar/master/bottombar.css");
+@import url("https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/source.css");
+@import url("https://raw.githack.com/Snapperito/Settings-Icons/main/source.css");
 
+:root {
+    /*   Bottom Bar   */
+    --bar-color: var(--background-tertiary) !important;
+
+    /*   Better Channel Indicators   */
+    --unread-badge: rgba(255, 255, 255, 0.6);
+    --unread-bg: rgba(255, 255, 255, 0.01);
+    --selected-badge: rgb(112, 135, 215);
+    --selected-bg: rgba(112, 135, 215, 0.1);
+    --selected-bg-hover: rgba(112, 135, 215, 0.18);
+    --hovered-bg: rgba(79, 84, 92, 0.25);
+    --bg-rounding: 0 50px 50px 0;
+    --border-info: 2px solid;
+}
