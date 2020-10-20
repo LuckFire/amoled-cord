@@ -1,5 +1,5 @@
 # AMOLED-Cord
-A theme that's nice on your eyes, lights out baby. This is my first ever theme, don't expect *everything* to be perfect.
+A theme that's nice on your eyes, lights out baby. This is some-what based off of the AMOLED theme on Android, but not as dark (because ew). This is my first ever theme, don't expect *everything* to be perfect.
 
 **This is my FIRST ever theme, don't expect everything to be perfect/flawless. Things may be unthemed still, but everything should be mostly themed. If you find something unthemed, make an issue or a pull request at https://github.com/LuckFire/Theme-Source (since that is the part of the source for the theme). If you find something that isn't colored properly, make an issue or pull request here.**
 
