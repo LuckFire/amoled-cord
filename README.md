@@ -4,7 +4,7 @@ A theme that's nice on your eyes, lights out baby.
 ![Preview](./Previews/ChatPreview.png)
 
 # Previews
-![Preview](./Previews/FriendsPreview.png)
+![Preview](./Previews/FriendPreview.png)
 ![Preview](./Previews/ChatPreview2.png)
 ![Preview](./Previews/SettingsPreview.png)
 
