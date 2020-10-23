@@ -75,3 +75,9 @@ html.theme-dark .theme-light .footer-2gL1pp {
     left: 0;
     opacity: 0.25;
 }
+
+/* box shadow fixies */
+.container-1r6BKw,
+.header-2o-2hj {
+    box-shadow: 0 1px 2px var(--background-tertiary) !important;
+}
