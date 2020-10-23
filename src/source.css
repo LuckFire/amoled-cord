@@ -82,3 +82,9 @@ html.theme-dark .theme-light .footer-2gL1pp {
 .searchBar-6Kv8R2 {
     box-shadow: 0 1px 2px var(--background-tertiary) !important;
 }
+
+/* Status Picker */
+#status-picker {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-secondary-alt);
+}
