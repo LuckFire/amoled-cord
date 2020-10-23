@@ -76,8 +76,9 @@ html.theme-dark .theme-light .footer-2gL1pp {
     opacity: 0.25;
 }
 
-/* box shadow fixies */
+/* Visible Box Shadows */
 .container-1r6BKw,
-.header-2o-2hj {
+.header-2o-2hj,
+.searchBar-6Kv8R2 {
     box-shadow: 0 1px 2px var(--background-tertiary) !important;
 }
