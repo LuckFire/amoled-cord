@@ -90,6 +90,21 @@ html.theme-dark .theme-light .footer-2gL1pp {
 }
 
 /* Light Theme Warning */
+@keyframes flash {
+    100% {
+        border-color: white;
+        box-shadow: 0 1px 5px rgba(255, 255, 255, 0.452);
+    }
+    50% {
+        border-color: #c21616;
+        box-shadow: 0 2px 10px rgba(240, 71, 71, 0.452);
+    }
+    0% {
+        border-color: white;
+        box-shadow: 0 1px 5px rgba(255, 255, 255, 0.452);
+    }
+}
+
 .theme-light .layer-3QrUeG:first-of-type::before {
     content: "This theme is intended to be used with Dark Mode. In order to enable it, head to User Settings -> Appearance Tab -> Under THEME, select Dark.";
     z-index: 2;
