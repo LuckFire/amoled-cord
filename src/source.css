@@ -26,7 +26,7 @@ html.theme-dark .theme-light {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #dcddde;
-    --background-primary: var(--backgruond-primary) !important;
+    --background-primary: rgb(8, 8, 8) !important;
     --background-secondary: rgb(7, 7, 7) !important;
     --background-secondary-alt: rgb(15, 15, 15) !important;
     --background-tertiary: black !important;
