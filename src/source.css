@@ -79,8 +79,14 @@ html.theme-dark .theme-light .footer-2gL1pp {
 /* Visible Box Shadows */
 .container-1r6BKw:not(.headerBar-2wGwms),
 .container-2Rl01u:not(.hasBanner-14PPlG),
-.searchBar-6Kv8R2 {
+.searchBar-6Kv8R2,
+.container-1taM1r {
     box-shadow: 0 1px 2px var(--background-tertiary) !important;
+}
+
+/* Change color of channel header things */
+.container-1r6BKw.themed-ANHk51 {
+    background-color: var(--background-secondary) !important;
 }
 
 /* Status Picker */
