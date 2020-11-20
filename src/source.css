@@ -151,3 +151,11 @@ html.theme-dark .theme-light .footer-2gL1pp {
     top: 0;
     left: 0;
 }
+
+/* Subscriptions Page Changes */
+.subscriptionDetails-1dUmjl ~ .featureGrid-3-fNl- > .feature-2w65J5 {
+    background-color: var(--background-secondary) !important;
+}
+.stickerImageSection-7EUs8E {
+    background-color: var(--background-secondary-alt) !important;
+}
