@@ -159,3 +159,13 @@ html.theme-dark .theme-light .footer-2gL1pp {
 .stickerImageSection-7EUs8E {
     background-color: var(--background-secondary-alt) !important;
 }
+
+/* DM In-Call Buttons */
+.colorable-1bkp8v.primaryDark-3mSFDl,
+.contextMenuNub-3yOOYo:not(.white-3GPOIp) {
+    background: rgb(15, 15, 15);
+}
+.colorable-1bkp8v.primaryDark-3mSFDl:hover,
+.contextMenuNub-3yOOYo:not(.white-3GPOIp):hover {
+    background:rgb(8, 8, 8);
+}
