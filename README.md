@@ -6,7 +6,7 @@ A theme that's nice on your eyes.. lights out baby!
 
 ![Preview](./screenshots/main-preview.png)
 
-## Disclaimer:
+#### Disclaimer:
 This is my FIRST ever theme (redone as of Apr 11th, 2021), so don't expect everything to be done flawlessly. If you notice any issue with themeing, please report it to the [theme source](https://github.com/LuckFire/theme-source) repo, as this theme is based off using that.
 
 ## Installation
