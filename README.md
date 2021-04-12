@@ -6,8 +6,7 @@ A theme that's nice on your eyes.. lights out baby!
 
 ![Preview](./screenshots/main-preview.png)
 
-#### Disclaimer:
-This is my FIRST ever theme (redone as of Apr 11th, 2021), so don't expect everything to be done flawlessly. If you notice any issue with themeing, please report it to the [theme source](https://github.com/LuckFire/theme-source) repo, as this theme is based off using that.
+**DISCLAIMER:** This is my FIRST EVER theme (redone as of April 11th, 2021), so please don't expect everything to be done flawlessly. If you notice any errors with theming, please DO NOT report it on this repo. Instead, please report the unthemed area on the [Theme Source](https://github.com/LuckFire/theme-source) repo, as this theme uses this to color Discord.
 
 ## Installation
 Alright, lets get to the good stuff! For Powercord & Vizality installation, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
