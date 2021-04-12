@@ -1,17 +1,21 @@
+![Banner](./assets/banner-temp.png)
+
 # AMOLED-Cord
-A theme that's nice on your eyes, lights out baby. This is some-what based off of the AMOLED theme that's on Android, but it isn't as dark. This theme is meant for dark mode only.
+A theme that's nice on your eyes.. lights out baby!
+- This theme is (some-)what based off of the AMOLED theme that is on Android, but isn't as dark. This theme is obviously meant for Dark Mode only.
+![Preview](./screenshots/main-preview.png)
 
-**This is my FIRST ever theme, don't expect everything to be done perfectly/flawlessly. Thing may be unthemed still, but most thing should be themed. If you find something that's unthemed/broke because of a Discord update, make an issue describing it or a pull request that fixes it at https://github.com/LuckFire/Theme-Source (since this is the source that changes the color for the theme). If you find something that doesn't relate to that, make an issue or pull request fixing it here.**
+## Disclaimer:
+This is my FIRST ever theme (redone as of Apr 11th, 2021), so don't expect everything to be done flawlessly. If you notice any issue with themeing, please report it to the [theme source](https://github.com/LuckFire/theme-source) repo, as this theme is based off using that.
 
-![Preview](./Previews/MainPreview.png)
-
-# Installation
-Okay, let's get to the good stuff. If you'd like to install this AMAZING theme, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
+## Installation
+Alright, lets get to the good stuff! For Powercord & Vizality installation, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
 ```
-git clone https://github.com/LuckFire/AMOLED-Cord
+git clone https://github.com/LuckFire/amoled-cord
 ```
 
-# More Previews
-![Preview](./Previews/FriendPreview.png)
-![Preview](./Previews/ChatPreview2.png)
-![Preview](./Previews/SettingsPreview.png)
+**BetterDiscord installation will be coming soon!**
+
+# Credits
+A huge thank you to everyone who has helped.
+- **[snapper](https://github.com/snappercord/)** for letting me use his Setting Icons & for making the light theme notification warning.

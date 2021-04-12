@@ -1,0 +1,26 @@
+html.theme-light {
+	#app-mount {
+		&::after {
+			content: 'You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance';
+			background: var(--background-tertiary); /* Container color */
+			position: fixed;
+			z-index: 5;
+			right: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			max-width: 225px;
+			line-height: normal;
+			padding: 15px 0 15px 60px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			border-left: 2px solid #F04747;
+			border-radius: 2px;
+			color: rgba(255, 255, 255, .65); /* Text Color */
+			background-image: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==');
+			background-repeat: no-repeat;
+			background-size: 35px;
+			background-position: 10px center;
+		}
+	}
+}

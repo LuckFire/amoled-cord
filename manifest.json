@@ -1,0 +1,10 @@
+{
+    "name": "AMOLEDCord",
+    "description": "Lights out, baby.",
+    "version": "1.0.1",
+    "author": "LuckFire#4800",
+    "theme": "index.scss",
+    "consent": "false",
+    "splashTheme": "splash.css",
+    "license": "MIT"
+}
