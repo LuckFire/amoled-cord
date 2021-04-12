@@ -1,3 +1,6 @@
+# v1.0.2
+Hopefully a fix for the source not consistently importing.
+
 # v1.0.1
 Recent changes as [theme source](https://github.com/luckfire/theme-source) has been redone.
 - Tinkered with the colors a bit, mainly the ones that still used Discord's default ones.
