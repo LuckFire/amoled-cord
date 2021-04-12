@@ -1,10 +1,11 @@
 # v1.0.1
 Recent changes as [theme source](https://github.com/luckfire/theme-source) has been redone.
-- Tinkered with the colors a bit.
-- Better light-theme warning.
-- Version bumped down from v1.1.0 to v1.0.1.
-- Repo has been redone, looks nicer right?!
-BetterDiscord & Web support will (hopefilly) be coming soon!
+- Tinkered with the colors a bit, mainly the ones that still used Discord's default ones.
+- A nicer looking light theme warning (thank you snapper c:).
+- Version has been bumped down: v1.1.0 -> v1.0.1
+- Redid the entire repo. Looks nicer, right?!
+
+BetterDiscord & Web support will (hopefully) be coming soon!
 
 # v1.0.0
 Inital creation, welcome!
