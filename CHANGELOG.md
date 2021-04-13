@@ -1,3 +1,6 @@
+# v1.0.4
+Probably unnecessary for a version bump, but BetterDiscord and Web support has finally been added! If you notice any issues, please read **[this part](https://github.com/LuckFire/amoled-cord#issue-reporting)** of the readme on issue reporting.
+
 # v1.0.3
 Some small enhancements.
 - Updated the import for [Theme Source](https://github.com/luckfire/theme-source) to use the github pages link. 

@@ -1,0 +1,146 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         AMOLED-Cord
+    @description  A theme that's nice on your eyes.. lights out baby!
+    @author       LuckFire#4800
+    @namespace    github.com/LuckFire/amoled-cord
+    @version      1.0.4
+    ==/UserStyle== */
+
+    @import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
+    @import url("https://raw.githack.com/Snapperito/Settings-Icons/main/source.css"); /* Got permission from Snapperito, ty for this amazing snipept :^) */
+    @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+    :root {
+        /* ----- ADDON CUSTOMIZATION -----*/
+        /* Chat Indicator */
+        --display-height: 4px; /* to completely disable, set to 0 or none. */
+        --border-radius: 4px; /* i dont recommend anything past 4px since it'll look off. */
+        --indicator-color: #7289DA;
+        --transition-time: 500ms;
+    
+        /* --------- BASE THEME --------- */
+        --background-primary: rgb(8, 8, 8);
+        --background-secondary: rgb(5, 5, 5);
+        --background-secondary-alt: rgb(15, 15, 15);
+        --background-tertiary: black;
+        --background-accent: rgb(15, 15, 15);
+        --background-floating: black;
+        --userarea-background: var(--background-tertiary);
+        --header-primary: #fff;
+        --header-secondary: #b9bbbe;
+        --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+        --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+        --channels-default: #969696;
+        --channeltextarea-background: rgb(20, 20, 20);
+        --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        --activity-card-background: #202225;
+        --interactive-normal: #b9bbbe;
+        --interactive-hover: #dcddde;
+        --interactive-active: #fff;
+        --interactive-muted: rgb(75, 75, 75);
+        --background-modifier-hover: rgba(50, 50, 50, 0.16);
+        --background-modifier-active: rgba(50, 50, 50, 0.24);
+        --background-modifier-selected: rgba(50, 50, 50, 0.32);
+        --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+        --text-link: #00b0f4;
+        --text-normal: #dcddde;
+        --text-muted: #969696;
+        --deprecated-panel-background: #292b2f;
+        --deprecated-card-bg: rgba(32, 34, 37, 0.6);
+        --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+        --deprecated-store-bg: #36393f;
+        --deprecated-quickswitcher-input-background: #72767d;
+        --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+        --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+        --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+        --deprecated-text-input-border-hover: #040405;
+        --deprecated-text-input-border-disabled: #202225;
+        --deprecated-text-input-prefix: #dcddde;
+        --background-accent-1: rgb(15, 15, 15, 0.1);
+        --background-accent-3: rgb(15, 15, 15, 0.3);
+        --background-floating-2: rgba(0, 0, 0, 0.2);
+    }
+    
+    #app-mount .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
+        border-bottom-right-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+        border-bottom: solid var(--display-height) var(--background-tertiary);
+        transition: all var(--transition-time);
+    }
+    #app-mount .form-2fGMdU:focus-within .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
+        border-color: var(--indicator-color);
+    }
+    
+    #app-mount .role-2irmRk {
+        position: relative;
+        overflow: hidden;
+        border: 0;
+        z-index: 0;
+        padding: 5px;
+    }
+    #app-mount .role-2irmRk .roleCircle-3xAZ1j::after {
+        content: "";
+        position: absolute;
+        background: inherit;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        opacity: 0.25;
+    }
+    #app-mount .role-2irmRk.addButton-pcyyf6 {
+        background-color: rgba(125, 125, 125, 0.25);
+    }
+    
+    .titleBar-AC4pGV.typeWindows-1za-n7::after {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+        background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="moon" class="svg-inline--fa fa-moon fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="white" d="M279.135 512c78.756 0 150.982-35.804 198.844-94.775 28.27-34.831-2.558-85.722-46.249-77.401-82.348 15.683-158.272-47.268-158.272-130.792 0-48.424 26.06-92.292 67.434-115.836 38.745-22.05 28.999-80.788-15.022-88.919A257.936 257.936 0 0 0 279.135 0c-141.36 0-256 114.575-256 256 0 141.36 114.576 256 256 256zm0-464c12.985 0 25.689 1.201 38.016 3.478-54.76 31.163-91.693 90.042-91.693 157.554 0 113.848 103.641 199.2 215.252 177.944C402.574 433.964 344.366 464 279.135 464c-114.875 0-208-93.125-208-208s93.125-208 208-208z"></path></svg>') center/100% no-repeat;
+        width: 16px;
+        height: 16px;
+        left: 5px;
+        top: 3px;
+    }
+    .titleBar-AC4pGV .wordmark-2iDDfm svg {
+        width: 0;
+    }
+    .titleBar-AC4pGV .wordmark-2iDDfm::after {
+        content: "AMOLED-Cord";
+        position: absolute;
+        font-family: "Fredoka One";
+        background: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 13px;
+        font-weight: 550;
+        top: 5px;
+        left: 25px;
+        width: 135px;
+    }
+    
+    html.theme-light #app-mount::after {
+        content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
+        background: var(--background-tertiary); /* Container color */
+        position: fixed;
+        z-index: 5;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        max-width: 225px;
+        line-height: normal;
+        padding: 15px 0 15px 60px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-left: 2px solid #F04747;
+        border-radius: 2px;
+        color: rgba(255, 255, 255, 0.65); /* Text Color */
+        background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
+        background-repeat: no-repeat;
+        background-size: 35px;
+        background-position: 10px center;
+    }    
+}
