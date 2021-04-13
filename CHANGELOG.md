@@ -1,8 +1,13 @@
+# v1.0.3
+Some small enhancements.
+- Updated the import for [Theme Source](https://github.com/luckfire/theme-source) to use the github pages link. 
+- I also added a new indicator for when the chatbar is hovered & active. I may remove this depending on if people dislike it, but if not the ability to customize the color easier will be coming soon.
+
 # v1.0.2
 Hopefully a fix for the source not consistently importing.
 
 # v1.0.1
-Recent changes as [theme source](https://github.com/luckfire/theme-source) has been redone.
+Recent changes as [Theme Source](https://github.com/luckfire/theme-source) has been redone.
 - Tinkered with the colors a bit, mainly the ones that still used Discord's default ones.
 - A nicer looking light theme warning (thank you snapper c:).
 - Version has been bumped down: v1.1.0 -> v1.0.1
