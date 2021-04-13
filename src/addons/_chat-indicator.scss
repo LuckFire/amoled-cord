@@ -1,20 +1,14 @@
 #app-mount {
     .form-2fGMdU {
         .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-            border-radius: 3px;
-            border-bottom-right-radius: 2px;
-            border-bottom-left-radius: 2px;
-            border-bottom: solid 2px var(--background-secondary); 
-            transition: all 500ms;
+            border-bottom-right-radius: var(--border-radius);
+            border-bottom-left-radius: var(--border-radius);
+            border-bottom: solid var(--display-height) var(--background-tertiary); 
+            transition: all var(--transition-time);
         }
 
         &:focus-within .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-            border-color: #7289DA;
-        }
-
-        &:hover .channelTextArea-rNsIhG .scrollableContainer-2NUZem:not(:focus-within) {
-            border-color: rgba(114, 137, 218, 0.35);
-            transition: 250ms;
+            border-color: var(--indicator-color);
         }
     }
 }

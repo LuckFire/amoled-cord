@@ -1,7 +1,7 @@
 # v1.0.3
 Some small enhancements.
 - Updated the import for [Theme Source](https://github.com/luckfire/theme-source) to use the github pages link. 
-- I also added a new indicator for when the chatbar is hovered & active. I may remove this depending on if people dislike it, but if not the ability to customize the color easier will be coming soon.
+- Added a new indicator for when the chatbar is active.
 
 # v1.0.2
 Hopefully a fix for the source not consistently importing.

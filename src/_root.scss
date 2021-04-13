@@ -1,4 +1,12 @@
 :root {
+    /* ----- ADDON CUSTOMIZATION -----*/
+    /* Chat Indicator */
+    --display-height: 4px; /* to completely disable, set to 0 or none. */
+    --border-radius: 4px; /* i dont recommend anything past 4px since it'll look off. */
+    --indicator-color: #7289DA;
+    --transition-time: 500ms;
+
+    /* --------- BASE THEME --------- */
     --background-primary: rgb(8, 8, 8);
     --background-secondary: rgb(5, 5, 5);
     --background-secondary-alt: rgb(15, 15, 15);
