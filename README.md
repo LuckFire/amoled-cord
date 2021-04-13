@@ -12,7 +12,7 @@ git clone https://github.com/LuckFire/amoled-cord
 ```
 
 **For BetterDiscord:**
-- [Direct Download](https://betterdiscord.net/ghdl?id=)
+- [Direct Download](https://betterdiscord.net/ghdl?id=3625)
 - [View Source](https://luckfire.github.io/amoled-cord/src/support/betterdiscord/compiled.css)
 
 **For Browser / Web:**
