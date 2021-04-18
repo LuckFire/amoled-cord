@@ -9,7 +9,7 @@
 
     @import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
     @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
-
+    
     :root {
         /* ----- ADDON CUSTOMIZATION -----*/
         /* Chat Indicator */
@@ -17,7 +17,6 @@
         --border-radius: 4px; /* i dont recommend anything past 4px since it'll look off. */
         --indicator-color: #7289DA;
         --transition-time: 500ms;
-    
         /* --------- BASE THEME --------- */
         --background-primary: rgb(8, 8, 8);
         --background-secondary: rgb(5, 5, 5);
@@ -59,6 +58,10 @@
         --background-accent-1: rgb(15, 15, 15, 0.1);
         --background-accent-3: rgb(15, 15, 15, 0.3);
         --background-floating-2: rgba(0, 0, 0, 0.2);
+    }
+    
+    #app-mount .spoilerText-3p6IlD {
+        background-color: rgba(255, 255, 255, 0.15);
     }
     
     #app-mount .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
@@ -122,7 +125,8 @@
     
     html.theme-light #app-mount::after {
         content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
-        background: var(--background-tertiary); /* Container color */
+        background: var(--background-tertiary);
+        /* Container color */
         position: fixed;
         z-index: 5;
         right: 0;
@@ -136,10 +140,11 @@
         margin-bottom: 10px;
         border-left: 2px solid #F04747;
         border-radius: 2px;
-        color: rgba(255, 255, 255, 0.65); /* Text Color */
+        color: rgba(255, 255, 255, 0.65);
+        /* Text Color */
         background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
         background-repeat: no-repeat;
         background-size: 35px;
         background-position: 10px center;
-    }    
+    }
 }
