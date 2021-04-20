@@ -1,0 +1,35 @@
+#app-mount {
+    .connectedAccount-36nQx7 {
+        background-color: transparent;
+        border: none;
+    
+        .connectedAccountNameInner-1phBvE {
+            &::after {
+                content: "";
+                position: absolute;
+                border-radius: 3px;
+                margin-left: -38px;
+                height: 46px;
+                width: 260px;
+            }
+        }
+    }
+
+    .connectedAccountVerifiedIcon-3aZz_K {
+        svg path {
+            fill: #fff;
+            opacity: 0.4;
+        }
+
+        .childContainer-1wxZNh svg path {
+            opacity: 1;
+        }
+    }
+    
+    .connectedAccountIcon-3P3V6F,
+    .connectedAccountName-f8AEe2,
+    .connectedAccountNameInner-1phBvE span,
+    .connectedAccountNameInner-1phBvE + .anchor-3Z-8Bb {
+        z-index: 1;
+    }    
+}

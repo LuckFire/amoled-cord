@@ -1,6 +1,6 @@
 /**
     * @name AMOLED-Cord
-    * @version 1.0.4
+    * @version 1.1.0
     * @description A theme that's nice on your eyes.. lights out baby!
     * @author LuckFire#4800
     *
@@ -11,14 +11,8 @@
 @import url('https://luckfire.github.io/amoled-cord/src/support/betterdiscord/compiled.css');
 
 :root {
-    /* ----- ADDON CUSTOMIZATION -----*/
-    /* Chat Indicator */
-    --display-height: 4px; /* to completely disable, set to 0 or none. */
-    --border-radius: 4px; /* i dont recommend anything past 4px since it'll look off. */
-    --indicator-color: #7289DA;
-    --transition-time: 500ms;
-
     /* --------- BASE THEME --------- */
+    --blurple-replace: #7289DA;
     --background-primary: rgb(8, 8, 8);
     --background-secondary: rgb(5, 5, 5);
     --background-secondary-alt: rgb(15, 15, 15);
@@ -31,9 +25,9 @@
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
     --channels-default: #969696;
-    --channeltextarea-background: rgb(20, 20, 20);
+    --channeltextarea-background: rgb(25, 25, 25);
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-    --activity-card-background: #202225;
+    --activity-card-background: #0f0f0f;
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;

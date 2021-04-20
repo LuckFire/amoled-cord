@@ -1,7 +1,7 @@
 {
     "name": "AMOLED-Cord",
     "description": "A theme that's nice on your eyes.. lights out baby!",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "author": "LuckFire#4800",
     "theme": "index.scss",
     "consent": "false",

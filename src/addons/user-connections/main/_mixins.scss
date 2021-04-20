@@ -1,0 +1,6 @@
+@mixin connection($connectionType, $connectionBG, $connectionBorder) {
+    [alt="#{$connectionType} Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: $connectionBG;
+        border: 1px solid $connectionBorder;
+    }
+}

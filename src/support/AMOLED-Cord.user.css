@@ -4,20 +4,16 @@
     @description  A theme that's nice on your eyes.. lights out baby!
     @author       LuckFire#4800
     @namespace    github.com/LuckFire/amoled-cord
-    @version      1.0.4
+    @version      1.1.0
     ==/UserStyle== */
 
     @import url("https://luckfire.github.io/theme-source/src/css-compile/ThemeSource-Compiled.css");
+    @import url("https://nyri4.github.io/Discolored/main.css");
     @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
     
     :root {
-        /* ----- ADDON CUSTOMIZATION -----*/
-        /* Chat Indicator */
-        --display-height: 4px; /* to completely disable, set to 0 or none. */
-        --border-radius: 4px; /* i dont recommend anything past 4px since it'll look off. */
-        --indicator-color: #7289DA;
-        --transition-time: 500ms;
         /* --------- BASE THEME --------- */
+        --blurple-replace: #7289DA;
         --background-primary: rgb(8, 8, 8);
         --background-secondary: rgb(5, 5, 5);
         --background-secondary-alt: rgb(15, 15, 15);
@@ -30,9 +26,9 @@
         --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
         --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
         --channels-default: #969696;
-        --channeltextarea-background: rgb(20, 20, 20);
+        --channeltextarea-background: rgb(25, 25, 25);
         --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-        --activity-card-background: #202225;
+        --activity-card-background: #0f0f0f;
         --interactive-normal: #b9bbbe;
         --interactive-hover: #dcddde;
         --interactive-active: #fff;
@@ -60,20 +56,177 @@
         --background-floating-2: rgba(0, 0, 0, 0.2);
     }
     
+    #app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
+    #app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    #app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-track,
+    #app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-track {
+        background-color: var(--background-modifier-accent);
+    }
+    #app-mount .scrollerBase-289Jih.thin-1ybCId::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    #app-mount .rolesList-22qj2L::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
     #app-mount .spoilerText-3p6IlD {
         background-color: rgba(255, 255, 255, 0.15);
     }
-    
-    #app-mount .form-2fGMdU .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-        border-bottom-right-radius: var(--border-radius);
-        border-bottom-left-radius: var(--border-radius);
-        border-bottom: solid var(--display-height) var(--background-tertiary);
-        transition: all var(--transition-time);
+
+    /* Colored User Connections */
+    #app-mount .connectedAccount-36nQx7 {
+        background-color: transparent;
+        border: none;
     }
-    #app-mount .form-2fGMdU:focus-within .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
-        border-color: var(--indicator-color);
+    #app-mount .connectedAccount-36nQx7 .connectedAccountNameInner-1phBvE::after {
+        content: "";
+        position: absolute;
+        border-radius: 3px;
+        margin-left: -38px;
+        height: 46px;
+        width: 260px;
     }
-    
+    #app-mount .connectedAccountVerifiedIcon-3aZz_K svg path {
+        fill: #fff;
+        opacity: 0.4;
+    }
+    #app-mount .connectedAccountVerifiedIcon-3aZz_K .childContainer-1wxZNh svg path {
+        opacity: 1;
+    }
+    #app-mount .connectedAccountIcon-3P3V6F,
+    #app-mount .connectedAccountName-f8AEe2,
+    #app-mount .connectedAccountNameInner-1phBvE span,
+    #app-mount .connectedAccountNameInner-1phBvE + .anchor-3Z-8Bb {
+        z-index: 1;
+    }
+
+    [alt="GitHub Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #181b1f;
+        border: 1px solid #d9dadb;
+    }
+
+    [alt="Twitch Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #3A2E5E;
+        border: 1px solid #563194;
+    }
+
+    [alt="Steam Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #171a21;
+        border: 1px solid #2a475e;
+    }
+
+    [alt="Spotify Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #2C523E;
+        border: 1px solid #1ED760;
+    }
+
+    [alt="Twitter Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #266994;
+        border: 1px solid #1DA1F2;
+    }
+
+    [alt="Reddit Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #7D442A;
+        border: 1px solid #FF6314;
+    }
+
+    [alt="YouTube Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #772528;
+        border: 1px solid #EE0F0F;
+    }
+
+    [alt="Battle.net Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #264659;
+        border: 1px solid #009AE4;
+    }
+
+    [alt="Xbox Live Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #394E31;
+        border: 1px solid #5DC21E;
+    }
+
+    [alt="Facebook Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #14223d;
+        border: 1px solid #3A5998;
+    }
+
+    [alt="League of Legends Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #424491;
+        border: 1px solid #676AE6;
+    }
+
+    [alt="Skype Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #424491;
+        border: 1px solid #676AE6;
+    }
+
+    [alt="GitLab Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #6E4330;
+        border: 1px solid #FC6D26;
+    }
+
+    [alt="Minecraft Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #693037;
+        border: 1px solid #EE303D;
+    }
+
+    [alt="osu! Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #5F3E51;
+        border: 1px solid #EE65A2;
+    }
+
+    [alt="discord.bio Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background-color: #3d4870;
+        border: 1px solid #7289da;
+    }
+
+    /* USRBG Support */
+    .userPopout-3XzG_A .header-2BwW8b {
+        transform: translateZ(0);
+    }
+    .userPopout-3XzG_A .wrapper-3t9DeA::after {
+        content: "";
+        position: fixed;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+        opacity: 0.5;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: var(--user-popout-position) center;
+        background-image: var(--user-background);
+    }
+
+    .root-SR8cQa > div:not(.body-3ND3kc) {
+        transform: translateZ(0);
+    }
+    .root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA::after {
+        content: "";
+        position: fixed;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        z-index: 0 !important;
+        pointer-events: none;
+        background: var(--user-background) center/cover no-repeat;
+    }
+    .root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA svg {
+        z-index: 1;
+        position: relative;
+    }
+    .root-SR8cQa > div:not(.body-3ND3kc) .headerInfo-30uryT, .root-SR8cQa > div:not(.body-3ND3kc) .tabBarItem-1b8RUP, .root-SR8cQa > div:not(.body-3ND3kc) .activity-1ythUs {
+        z-index: 1;
+        position: relative;
+    }
+
+    /* Color Filled Roles */
     #app-mount .role-2irmRk {
         position: relative;
         overflow: hidden;
@@ -94,7 +247,34 @@
     #app-mount .role-2irmRk.addButton-pcyyf6 {
         background-color: rgba(125, 125, 125, 0.25);
     }
-    
+
+    /* Light Theme Warning */
+    html.theme-light #app-mount::after {
+        content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
+        background: var(--background-tertiary);
+        /* Container color */
+        position: fixed;
+        z-index: 5;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        max-width: 225px;
+        line-height: normal;
+        padding: 15px 0 15px 60px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-left: 2px solid #F04747;
+        border-radius: 2px;
+        color: rgba(255, 255, 255, 0.65);
+        /* Text Color */
+        background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
+        background-repeat: no-repeat;
+        background-size: 35px;
+        background-position: 10px center;
+    }
+
+    /* AMOLED-Cord Watermark */
     .titleBar-AC4pGV.typeWindows-1za-n7::after {
         content: "";
         position: absolute;
@@ -121,30 +301,5 @@
         top: 5px;
         left: 25px;
         width: 135px;
-    }
-    
-    html.theme-light #app-mount::after {
-        content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
-        background: var(--background-tertiary);
-        /* Container color */
-        position: fixed;
-        z-index: 5;
-        right: 0;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        max-width: 225px;
-        line-height: normal;
-        padding: 15px 0 15px 60px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-        border-left: 2px solid #F04747;
-        border-radius: 2px;
-        color: rgba(255, 255, 255, 0.65);
-        /* Text Color */
-        background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
-        background-repeat: no-repeat;
-        background-size: 35px;
-        background-position: 10px center;
     }
 }

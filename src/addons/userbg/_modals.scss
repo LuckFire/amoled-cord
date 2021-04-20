@@ -1,0 +1,28 @@
+.root-SR8cQa > div:not(.body-3ND3kc){
+    transform: translateZ(0);
+
+    .header-QKLPzZ .wrapper-3t9DeA {
+        &::after {
+            content: '';
+            position: fixed;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100%;
+            height: 100%;
+            opacity: .5;
+            z-index: 0 !important;
+            pointer-events: none;
+            background: var(--user-background) center/cover no-repeat;
+        }
+
+        svg {
+            z-index: 1;
+            position: relative;
+        }
+    }
+
+    .headerInfo-30uryT, .tabBarItem-1b8RUP, .activity-1ythUs {
+        z-index: 1;
+        position: relative;
+    }
+}

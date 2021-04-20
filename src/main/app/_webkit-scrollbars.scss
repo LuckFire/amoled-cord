@@ -1,0 +1,24 @@
+#app-mount {
+    .scrollerBase-289Jih {
+        &.disableScrollAnchor-3V9UtP,
+        &.auto-Ge5KZx {
+            &::-webkit-scrollbar {
+                &-thumb {
+                    background-color: rgb(255, 255, 255, 0.2);
+                }
+    
+                &-track {
+                    background-color: var(--background-modifier-accent);
+                }
+            }
+        }
+    
+        &.thin-1ybCId::-webkit-scrollbar-thumb {
+            background-color: rgb(255, 255, 255, 0.2);
+        }
+    }
+
+    .rolesList-22qj2L::-webkit-scrollbar-thumb {
+        background-color: rgb(255, 255, 255, 0.2);
+    }
+}

@@ -25,4 +25,6 @@ Since this is pretty much my first theme that completely colors and changes Disc
 
 # Credits
 A huge thank you to everyone who has helped.
-- **[snapper](https://github.com/snappercord/)** for letting me use his Setting Icons & for making the light theme notification warning.
+- **[snapper](https://github.com/snappercord/)** for [Setting Icons](https://github.com/snappercord/Settings-Icons) & for the [light theme warning](https://github.com/Snippets-For-Discord/theme-warnings).
+- **[NYRI4](https://github.com/NYRI4)** for [Discolored](https://github.com/NYRI4/Discolored).
+- **[Tropical](https://github.com/Tropix126)** for [usrbg](https://github.com/Discord-Custom-Covers/usrbg).
