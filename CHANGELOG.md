@@ -1,7 +1,7 @@
 # v1.1.0
 A few minor changes and additions.
 - Made some things brighter, as they were too dark and not noticeable. This closes [issue #6](https://github.com/LuckFire/amoled-cord/issues/6) and [issue #7](https://github.com/LuckFire/amoled-cord/issues/7).
-- Added **[Tropical](https://github.com/Tropix126)'s** [usrbg](https://github.com/Discord-Custom-Covers/usrbg), **[NYRI4](https://github.com/NYRI4)'s**[Discolored](https://github.com/NYRI4/Discolored) and colored user connections as new addons.
+- Added **[Tropical's](https://github.com/Tropix126)** [usrbg](https://github.com/Discord-Custom-Covers/usrbg), **[NYRI4's](https://github.com/NYRI4)** [Discolored](https://github.com/NYRI4/Discolored) and colored user connections as new addons.
 - Removed the bottom chat indicator bar. It appeared that most users disliked this, so I bonked it.
 - Reconstructed the file structure a bit.
 
