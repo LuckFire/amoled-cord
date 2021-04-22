@@ -1,12 +1,20 @@
-@include connection(GitHub, #181b1f, #d9dadb);
-@include connection(Twitch, #3A2E5E, #563194);
-@include connection(Steam, #171a21, #2a475e);
-@include connection(Spotify, #2C523E, #1ED760);
-@include connection(Twitter, #266994, #1DA1F2);
-@include connection(Reddit, #7D442A, #FF6314);
-@include connection(YouTube, #772528, #EE0F0F);
-@include connection(Battle\.net, #264659, #009AE4);
-@include connection(Xbox Live, #394E31, #5DC21E);
-@include connection(Facebook, #14223d, #3A5998);
-@include connection(League of Legends, #424491, #676AE6);
-@include connection(Skype, #424491, #676AE6);
+$defaultConnections:
+    'GitHub' #181b1f #d9dadb,
+    'Twitch' #3A2E5E #563194,
+    'Steam' #171a21 #2a475e,
+    'Spotify' #2C523E #1ED760,
+    'Twitter' #266994 #1DA1F2,
+    'Reddit' #7D442A #FF6314,
+    'YouTube' #772528 #EE0F0F,
+    'Battle.net' #264659 #009AE4,
+    'Xbox Live' #394E31 #5DC21E,
+    'Facebook' #14223d #3A5998,
+    'League of Legends' #424491 #676AE6,
+    'Skype' #106d8f #00AAE8;
+
+@each $name, $connectionBackground, $connectionBorder in $defaultConnections {
+    [alt="#{$name} Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background: $connectionBackground;
+        border-color: $connectionBorder;
+    }
+}

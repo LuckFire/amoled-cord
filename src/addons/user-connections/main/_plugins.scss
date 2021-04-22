@@ -1,0 +1,12 @@
+$pluginConnections:
+    'GitLab' #6E4330 #FC6D26,
+    'Minecraft' #693037 #EE303D,
+    'osu!' #5F3E51 #EE65A2,
+    'discord.bio' #3d4870 #7289da;
+
+@each $name, $connectionBackground, $connectionBorder in $pluginConnections {
+    [alt="#{$name} Logo"] + .connectedAccountNameInner-1phBvE::after {
+        background: $connectionBackground;
+        border-color: $connectionBorder;
+    }
+}

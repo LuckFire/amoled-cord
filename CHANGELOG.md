@@ -1,3 +1,6 @@
+# v1.1.1
+Small changes to the colored user connections addon.
+
 # v1.1.0
 A few minor changes and additions.
 - Made some things brighter, as they were too dark and not noticeable. This closes [issue #6](https://github.com/LuckFire/amoled-cord/issues/6) and [issue #7](https://github.com/LuckFire/amoled-cord/issues/7).
