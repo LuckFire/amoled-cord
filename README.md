@@ -1,9 +1,9 @@
-![Banner](./assets/banner.png)
+![Banner](https://github.com/LuckFire/amoled-cord/blob/main/assets/banner.png)
 
 # AMOLED-Cord
 A theme that's nice on your eyes.. lights out baby! This theme is some-what based off of the AMOLED theme that is on Android, but isn't as dark. (This theme is obviously meant for Dark Mode only)
 
-![Preview](./screenshots/main-preview.png)
+![Preview](https://github.com/LuckFire/amoled-cord/blob/main/screenshots/main-preview.png)
 
 ## Installation
 Alright, lets get to the good stuff! For Powercord & Vizality installation, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
