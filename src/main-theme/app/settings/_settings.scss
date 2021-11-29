@@ -1,0 +1,57 @@
+#app-mount .layer-3QrUeG {
+    // base
+    .contentRegionScroller-26nc1e,
+    .contentRegion-3nDuYy {
+        background-color: var(--background-base);
+    }
+    .sidebarRegionScroller-3MXcoP {
+        background-color: var(--background-alt);
+    }
+    // close
+    .closeButton-1tv5uR {
+        border-color: var(--background-light-alt);
+        &:hover {
+            background-color: var(--background-light-alt);
+        }
+    }
+    .keybind-KpFkfr {
+        color: var(--text-normal);
+    }
+    //
+    .scroller-305q3I {
+        background-color: var(--background-base);
+    }
+    .card-4s8auQ,
+    .settingCard-3w2mVL {
+        background-color: var(--background-light);
+    }
+    .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+        border-color: var(--background-light);
+        background-color: var(--background-light);
+    }
+    .iconWrapper-lS1uig {
+        background-color: var(--background-alt);
+    }
+    .input-cIJ7To {
+        border-color: var(--background-light);
+        background-color: var(--background-alt);
+    }
+    .itemFilled-3llgIC {
+        background-color: var(--background-light-alt);
+        &[aria-checked=true] {
+            background-color: var(--background-alt) !important;
+        }
+        &:hover {
+            background-color: var(--background-light);
+        }
+    }
+    .detailsBlock-2mCK9A {
+        background-color: var(--background-light);
+    }
+    .default-3oAQTF {
+        background-color: var(--background-light-alt);
+    }
+    .premiumGuildAvailabilityIndicator-2yVVuW {
+        background-color: var(--background-light-alt);
+    }
+}

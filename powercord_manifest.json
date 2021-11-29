@@ -1,9 +1,9 @@
 {
     "name": "AMOLED-Cord",
-    "description": "A theme that's nice on your eyes.. lights out baby!",
-    "version": "1.1.1",
+    "description": "A simple, no-bullshit AMOLED theme that's nice on your eyes. Lights out baby!",
+    "version": "2.0.0",
     "author": "LuckFire#4800",
-    "theme": "index.scss",
+    "theme": "src/_theme.scss",
     "consent": "false",
     "splashTheme": "splash.css",
     "license": "MIT"

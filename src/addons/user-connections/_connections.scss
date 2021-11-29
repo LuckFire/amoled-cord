@@ -1,0 +1,35 @@
+.connectedAccount-2Jb-Z0 {
+    background-color: transparent;
+    border: none;
+
+    .connectedAccountNameInner-2q3MVf {
+        &::after {
+            content: '';
+            position: absolute;
+            border-radius: 2px;
+            border: solid 1px transparent;
+            margin-left: -40px;
+            height: 46px;
+            width: 260px;
+        }
+    }
+
+    .connectedAccountVerifiedIcon-2cA82O {
+        .flowerStar-1GeTsn path {
+            fill: rgba(255, 255, 255, 0.25);
+        }
+        .childContainer-1wxZNh {
+            margin-top: 1px;
+        }
+    }
+
+    .connectedAccountIcon-3_EQqg,
+    .connectedAccountName-E1KzaT,
+    .connectedAccountNameInner-2q3MVf span,
+    .connectedAccountNameInner-2q3MVf + .anchor-3Z-8Bb {
+        z-index: 1;
+    }
+    .connectedAccountIcon-3_EQqg {
+        margin-left: 2px;
+    }
+}

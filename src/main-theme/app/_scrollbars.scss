@@ -1,0 +1,17 @@
+.scrollerBase-289Jih {
+    &.thin-1ybCId {
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--scroller-thumb);
+        }
+    }
+    &.auto-Ge5KZx {
+        &::-webkit-scrollbar {
+            &-thumb {
+                background-color: var(--scroller-thumb);
+            }
+            &-track {
+                background-color: var(--scroller-track);
+            }
+        }
+    }
+}

@@ -3,6 +3,26 @@
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
+#app-mount::after {
+    z-index: 1005;
+    content: "Your version of AMOLED-Cord is out of date. \a\aPlease head over to https://github.com/LuckFire/amoled-cord and redownload the theme.";
+    white-space: pre-wrap;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    max-width: 285px;
+    padding: 15px 0 15px 80px;
+    border-radius: 5px;
+    border-left: 4px solid #ed4245;
+    font-weight: 500;
+    color: var(--text-normal);
+    background: rgba(25, 25, 25);
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZWQ0MjQ1IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNNC40NyAyMWgxNS4wNmMxLjU0IDAgMi41LTEuNjcgMS43My0zTDEzLjczIDQuOTljLS43Ny0xLjMzLTIuNjktMS4zMy0zLjQ2IDBMMi43NCAxOGMtLjc3IDEuMzMuMTkgMyAxLjczIDN6TTEyIDE0Yy0uNTUgMC0xLS40NS0xLTF2LTJjMC0uNTUuNDUtMSAxLTFzMSAuNDUgMSAxdjJjMCAuNTUtLjQ1IDEtMSAxem0xIDRoLTJ2LTJoMnYyeiIvPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: 12px center;
+}
+
 #app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
 #app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: rgba(255, 255, 255, 0.2);

@@ -1,0 +1,36 @@
+:root {
+    // base
+    --background-base: black;
+    --background-alt: rgb(12, 12, 12);
+    --background-light: rgb(20, 20, 20);
+    --background-light-alt: rgb(35, 35, 35);
+    --background-dark: rgb(6, 6, 6);
+    --background-floating: rgb(25, 25, 25);
+    --channeltextarea-background: rgb(28, 28, 28);
+    --searcharea-background: rgb(25, 25, 25);
+
+    // text colors
+    --channels-default: #969696;
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #969696;
+
+    // scrollers
+    --scroller-thumb: rgb(45, 45, 45); // webkit-scrollbar-thumb
+    --scroller-track: rgb(15, 15, 15); // webkit-scrollbar-track
+
+    // bg modifier colors
+    --background-modifier-rgb: 60, 60, 60;
+    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.16);
+    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.24);
+    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.32);
+    --background-modifier-accent: rgba(255, 255, 255, 0.06);
+
+    // interactive
+    --interactive-muted: rgb(75, 75, 75);
+
+    // elevation
+    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+}

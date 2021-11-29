@@ -1,0 +1,32 @@
+#app-mount .container-3ayLPN {
+    box-shadow: 0 0 0 1px var(--background-light), 0 2px 10px 0 rgb(0 0 0 / 20%);
+    background-color: var(--background-alt);
+    .option-96V44q {
+        &:hover {
+            background-color: var(--background-light-alt);
+        }
+        &::after {
+            background: none;
+        }
+    }
+    .calendarPicker-2yf6Ci {
+        .react-datepicker,
+        .react-datepicker__header {
+            background-color: var(--background-alt);
+        }
+        .react-datepicker__navigation.react-datepicker__navigation--next, 
+        .react-datepicker__navigation.react-datepicker__navigation--previous {
+            background-color: var(--background-light);
+        }
+        .react-datepicker__day--disabled, 
+        .react-datepicker__day--outside-month, 
+        .react-datepicker__day.react-datepicker__day--disabled, 
+        .react-datepicker__day.react-datepicker__day--disabled:hover {
+            background-color: var(--background-light);
+        }
+        .react-datepicker__day,
+        .react-datepicker__day:last-of-type {
+            border-color: var(--background-light-alt);
+        }
+    }
+}

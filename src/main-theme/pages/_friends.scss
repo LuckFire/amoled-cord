@@ -1,0 +1,37 @@
+#app-mount .container-1D34oG {
+    background-color: var(--background-base);
+    .container-lRFx4q {
+        background-color: var(--background-alt);
+    }
+    .wrapper-3D2qGf {
+        border-color: var(--background-light);
+        background-color: var(--background-light);
+        .section-2gLsgF,
+        .inset-3sAvek {
+            border-color: var(--background-light-alt);
+            background-color: var(--background-light-alt);
+        }
+        &:hover {
+            border-color: var(--background-dark);
+            background-color: var(--background-dark);
+            .section-2gLsgF,
+            .inset-3sAvek {
+                border-color: var(--background-light);
+                background-color: var(--background-light);
+            }
+        }
+    }
+    .peopleListItem-2nzedh:hover {
+        background-color: var(--background-alt);
+        .actionButton-uPB8Fs {
+            background-color: var(--background-light-alt);
+        }
+    }
+    .actionButton-uPB8Fs {
+        background-color: var(--background-light);
+    }
+    .addFriendInputWrapper-3PjsbB {
+        border-color: var(--background-light);
+        background-color: var(--background-alt);
+    }
+}

@@ -1,0 +1,20 @@
+.container-3w7J-x {
+    .header-2V-4Sw {
+        background-color: var(--background-alt);
+        &:hover {
+            background-color: var(--background-light);
+        }
+    }
+    .hasBanner-2SrLR3 .header-2V-4Sw {
+        background-color: transparent;
+    }
+    .users-3kndPl {
+        background-color: var(--background-dark);
+    }
+    .total-i6us2n {
+        background-color: var(--background-light);
+        &::after {
+            border-right-color: var(--background-light);
+        }
+    }
+}
