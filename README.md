@@ -1,11 +1,11 @@
 ## **PLEASE REDWONLOAD THE THEME IF YOUR ON A VERSION OLDER THAN V2.0.0**
 
-![banner](https://raw.githubusercontent.com/LuckFire/amoled-cord/master/assets/readme/banner.png) 
+![banner](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/banner.png) 
 
 # AMOLED-Cord
 A simple, no-bullshit AMOLED theme that's nice on your eyes. Lights out baby!
 
-![preview](https://raw.githubusercontent.com/LuckFire/amoled-cord/master/assets/readme/main-preview.png)
+![preview](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/main-preview.png)
 
 ## Installation
 **Powercord / Vizality**
