@@ -1,4 +1,4 @@
-## **PLEASE REDWONLOAD THE THEME IF YOUR ON A VERSION OLDER THAN V2.0.0**
+## **PLEASE REDOWNLOAD THE THEME IF YOUR ON A VERSION OLDER THAN V2.0.0**
 
 ![banner](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/banner.png) 
 
