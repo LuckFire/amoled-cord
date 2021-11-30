@@ -1,0 +1,12 @@
+#app-mount {
+    .channelTabs-tabContainer {
+        background-color: var(--background-dark);
+    }
+    .channelTabs-newTab {
+        color: var(--header-secondary);
+        background-color: var(--background-light-alt);
+    }
+    #channelTabs-settingsMenu {
+        background-color: var(--background-light);
+    }
+}

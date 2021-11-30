@@ -255,6 +255,26 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background: var(--background-dark);
 }
 
+#bd-pub-button {
+    background-color: var(--background-light-alt);
+}
+
+#app-mount .bd-addon-card {
+    background-color: var(--background-light-alt);
+}
+
+#app-mount .bd-addon-header {
+    background-color: var(--background-alt);
+}
+
+.bd-switch-body {
+    --switch-color: #4c4c4c;
+}
+
+.bd-search-wrapper {
+    background-color: var(--searcharea-background);
+}
+
 #app-mount .button-1YfofB.buttonColor-7qQbGO,
 #app-mount .button-1YfofB .buttonColor-7qQbGO,
 #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV {
@@ -527,13 +547,50 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     -webkit-box-shadow: inset 0 -1px 0 var(--background-light-alt);
             box-shadow: inset 0 -1px 0 var(--background-light-alt);
 }
+#app-mount .root-1gCeng .optionContainer-15srkc {
+    background-color: var(--background-light-alt);
+}
+#app-mount .root-1gCeng .guildSidebar-2OCzWB {
+    background-color: var(--backgrounds-dark);
+}
+#app-mount .root-1gCeng .modal-f02hVt {
+    background-color: var(--background-base);
+}
+#app-mount .root-1gCeng .formFieldWrapper-malor5 {
+    background-color: var(--background-alt);
+}
+#app-mount .root-1gCeng .formFieldWrapper-malor5,
+#app-mount .root-1gCeng .settingsFormFieldWrapper-3Y77Pr {
+    border-color: var(--background-light);
+}
+
+.quickswitcher-3JagVE {
+    background-color: var(--background-alt);
+}
+.quickswitcher-3JagVE .scroller-zPkAnE {
+    background-color: var(--background-alt);
+}
+.quickswitcher-3JagVE .scroller-zPkAnE::-webkit-scrollbar-track {
+    background-color: var(--scroller-track) !important;
+}
+.quickswitcher-3JagVE .input-2VB9rf {
+    background-color: #4c4c4c;
+}
 
 .theme-light .root-1gCeng {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #dcddde;
+    --text-muted: #969696;
 }
-.theme-light .root-1gCeng .container-UC8Ug1 {
+.theme-light .root-1gCeng .formTitle-aeXUoN {
+    color: var(--header-primary);
+}
+.theme-light .root-1gCeng .sampleLink-2NLvZg {
+    color: var(--text-muted);
+}
+.theme-light .root-1gCeng .container-UC8Ug1,
+.theme-light .root-1gCeng .rowContainer-3AFY0S {
     border-color: var(--background-light-alt);
     background-color: var(--background-light-alt);
 }
@@ -542,6 +599,15 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 }
 .theme-light .root-1gCeng .iconContainer-2B0ixr {
     color: var(--header-secondary);
+}
+.theme-light .root-1gCeng .input--jS-j2 {
+    border: solid 1px var(--background-modifier-selected);
+    background-color: transparent;
+}
+.theme-light .root-1gCeng .lookLink-9FtZy-.colorPrimary,
+.theme-light .root-1gCeng .lookLink-9FtZy-.colorPrimary-3b3xI6,
+.theme-light .root-1gCeng .lookBlank-3eh9lL {
+    color: var(--text-normal);
 }
 
 #app-mount .keyboardShortcutsModal-3piNz7 {
@@ -625,6 +691,21 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background-color: var(--background-light);
 }
 
+#app-mount .channelTabs-tabContainer {
+    background-color: var(--background-dark);
+}
+#app-mount .channelTabs-newTab {
+    color: var(--header-secondary);
+    background-color: var(--background-light-alt);
+}
+#app-mount #channelTabs-settingsMenu {
+    background-color: var(--background-light);
+}
+
+#app-mount #MemberCount {
+    background-color: var(--background-dark);
+}
+
 #app-mount .autocomplete-1vrmpx {
     background-color: var(--background-alt);
 }
@@ -692,7 +773,7 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 #app-mount .tertiary-aMXF0g:hover,
 #app-mount .primary-2McadE:hover:not(.disabled-3Njyym):hover,
 #app-mount .secondary-dIudih:hover {
-    background-color: var(--background-dark);
+    background-color: var(--background-s);
 }
 #app-mount .messageContainer-gbhlwo,
 #app-mount .messages-3G3erD {
