@@ -1,10 +1,10 @@
 :root {
     --background-base: black;
-    --background-alt: rgb(13, 13, 13);
+    --background-alt: rgb(15, 15, 15);
     --background-light: rgb(23, 23, 23);
     --background-light-alt: rgb(30, 30, 30);
     --background-dark: rgb(10, 10, 10);
-    --background-floating: rgb(15, 15, 15);
+    --background-floating: rgb(13, 13, 13);
     --channeltextarea-background: rgb(20, 20, 20);
     --searcharea-background: rgb(20, 20, 20);
     --channels-default: #969696;
@@ -60,6 +60,15 @@
 #app-mount .layer-3QrUeG .secondary-dIudih:hover {
     background-color: var(--background-light);
 }
+#app-mount .layer-3QrUeG .previewContainer-sli91T {
+    background-color: var(--background-light);
+}
+#app-mount .layer-3QrUeG .previewContainer-1KQDJS .theme-light {
+    display: none;
+}
+#app-mount .layer-3QrUeG .previewContainer-1KQDJS .messageContainer-1DiFnQ {
+    background-color: var(--background-light);
+}
 #app-mount .layer-3QrUeG .tierHeaderLocked-3S508x {
     background-color: var(--background-light);
 }
@@ -102,6 +111,10 @@
     background-color: var(--background-base);
 }
 #app-mount .layer-3QrUeG .sidebarRegionScroller-3MXcoP {
+    background-color: var(--background-base);
+}
+#app-mount .layer-3QrUeG .titleContainer-2CXtJo,
+#app-mount .layer-3QrUeG .header-2mZ9Ov {
     background-color: var(--background-base);
 }
 #app-mount .layer-3QrUeG .closeButton-1tv5uR {
@@ -406,10 +419,10 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 }
 
 #app-mount .messageListItem-1-jvGY:hover {
-    background-color: rgba(255, 255, 255, 0.04);
+    background-color: rgba(255, 255, 255, 0.028);
 }
 #app-mount .wrapper-2aW0bm {
-    background-color: var(--background-light);
+    background-color: var(--background-light-alt);
 }
 #app-mount .markup-2BOw-j code,
 #app-mount .wrapperAudio-1jDe0Q,
@@ -808,7 +821,7 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 }
 
 .panels-j1Uci_ {
-    background-color: var(--background-base);
+    background-color: var(--background-alt);
 }
 
 .content-98HsJk .sidebar-2K8pFh {
