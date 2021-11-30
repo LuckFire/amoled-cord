@@ -1,6 +1,12 @@
-# Version 2.1.0 - 11/29/2021
+# Version 2.1.1 - 11/29/2021
+- Themed some missing areas.
+
+<details>
+<summary><b> Version 2.1.0 - 11/29/2021 </b></summary>
+
 - Some color adjustments based on feedback (please give more feedback, dunno if anyone will like these as well).
 - Themed some missing areas.
+</details>
 
 <details>
 <summary><b> Version 2.0.0 - 11/29/2021 </b></summary>

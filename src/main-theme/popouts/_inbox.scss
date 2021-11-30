@@ -1,5 +1,4 @@
-.messagesPopoutWrap-1MQ1bW {
-    background-color: var(--background-alt);
+#app-mount {
     .channelHeader-3Gd2xq {
         background-color: var(--background-alt);
     }
@@ -8,10 +7,20 @@
     .secondary-dIudih {
         background-color: var(--background-light-alt);
         &:hover {
-            background-color: var(--background-dark);
+            background-color: var(--background-s);
         }
     }
-    .messageContainer-gbhlwo {
+    .messageContainer-gbhlwo,
+    .messages-3G3erD {
         background-color: var(--background-light);
+    }
+    .messages-3G3erD .content-1o0f9g {
+        background-color: var(--background-light-alt);
+    }
+    .tutorial-3w5I9h {
+        background-color: var(--background-light-alt);
+    }
+    .tutorialIcon-3f1miQ {
+        background-color: var(--background-alt);
     }
 }

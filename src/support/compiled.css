@@ -681,24 +681,31 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background-color: var(--background-modifier-selected);
 }
 
-.messagesPopoutWrap-1MQ1bW {
+#app-mount .channelHeader-3Gd2xq {
     background-color: var(--background-alt);
 }
-.messagesPopoutWrap-1MQ1bW .channelHeader-3Gd2xq {
-    background-color: var(--background-alt);
-}
-.messagesPopoutWrap-1MQ1bW .tertiary-aMXF0g,
-.messagesPopoutWrap-1MQ1bW .primary-2McadE:hover:not(.disabled-3Njyym),
-.messagesPopoutWrap-1MQ1bW .secondary-dIudih {
+#app-mount .tertiary-aMXF0g,
+#app-mount .primary-2McadE:hover:not(.disabled-3Njyym),
+#app-mount .secondary-dIudih {
     background-color: var(--background-light-alt);
 }
-.messagesPopoutWrap-1MQ1bW .tertiary-aMXF0g:hover,
-.messagesPopoutWrap-1MQ1bW .primary-2McadE:hover:not(.disabled-3Njyym):hover,
-.messagesPopoutWrap-1MQ1bW .secondary-dIudih:hover {
+#app-mount .tertiary-aMXF0g:hover,
+#app-mount .primary-2McadE:hover:not(.disabled-3Njyym):hover,
+#app-mount .secondary-dIudih:hover {
     background-color: var(--background-dark);
 }
-.messagesPopoutWrap-1MQ1bW .messageContainer-gbhlwo {
+#app-mount .messageContainer-gbhlwo,
+#app-mount .messages-3G3erD {
     background-color: var(--background-light);
+}
+#app-mount .messages-3G3erD .content-1o0f9g {
+    background-color: var(--background-light-alt);
+}
+#app-mount .tutorial-3w5I9h {
+    background-color: var(--background-light-alt);
+}
+#app-mount .tutorialIcon-3f1miQ {
+    background-color: var(--background-alt);
 }
 
 .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G {
