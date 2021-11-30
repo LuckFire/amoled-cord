@@ -405,8 +405,11 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background-color: var(--background-dark);
 }
 
+#app-mount .messageListItem-1-jvGY:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+}
 #app-mount .wrapper-2aW0bm {
-    background-color: var(--background-alt);
+    background-color: var(--background-light);
 }
 #app-mount .markup-2BOw-j code,
 #app-mount .wrapperAudio-1jDe0Q,
