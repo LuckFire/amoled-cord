@@ -1,12 +1,12 @@
 :root {
     --background-base: black;
-    --background-alt: rgb(12, 12, 12);
-    --background-light: rgb(20, 20, 20);
-    --background-light-alt: rgb(35, 35, 35);
+    --background-alt: rgb(8, 8, 8);
+    --background-light: rgb(18, 18, 18);
+    --background-light-alt: rgb(28, 28, 28);
     --background-dark: rgb(6, 6, 6);
     --background-floating: rgb(25, 25, 25);
-    --channeltextarea-background: rgb(28, 28, 28);
-    --searcharea-background: rgb(25, 25, 25);
+    --channeltextarea-background: rgb(22, 22, 22);
+    --searcharea-background: rgb(20, 20, 20);
     --channels-default: #969696;
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
@@ -689,6 +689,18 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background-color: var(--background-modifier-selected);
 }
 
+#app-mount .searchHeader-2XoQg7 {
+    background-color: var(--background-light);
+}
+#app-mount .searchResultsWrap-3-pOjs {
+    background-color: var(--background-light);
+}
+#app-mount .searchResultsWrap-3-pOjs .channelName-1JRO3C {
+    background-color: var(--background-light);
+}
+#app-mount .searchResult-9tQ1uo {
+    background-color: var(--background-alt);
+}
 #app-mount .container-3ayLPN {
     -webkit-box-shadow: 0 0 0 1px var(--background-light), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
             box-shadow: 0 0 0 1px var(--background-light), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
@@ -761,13 +773,13 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background-color: transparent;
 }
 .container-3w7J-x .users-3kndPl {
-    background-color: var(--background-dark);
-}
-.container-3w7J-x .total-i6us2n {
     background-color: var(--background-light);
 }
+.container-3w7J-x .total-i6us2n {
+    background-color: var(--background-light-alt);
+}
 .container-3w7J-x .total-i6us2n::after {
-    border-right-color: var(--background-light);
+    border-right-color: var(--background-light-alt);
 }
 
 .privateChannels-1nO12o .scroller-1JbKMe {
