@@ -24,11 +24,14 @@
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
 }
 
+#app-mount .layer-3QrUeG .cardFolder-28dwxo {
+    background-color: var(--background-light-alt);
+}
 #app-mount .layer-3QrUeG .group-1WdBVp {
-    border-color: var(--background-light);
+    border-color: var(--background-alt);
 }
 #app-mount .layer-3QrUeG .item-1yAxl1 {
-    background-color: var(--background-light);
+    background-color: var(--background-alt);
 }
 #app-mount .layer-3QrUeG .item-1yAxl1.selected-2YhbGh {
     background-color: var(--background-light-alt);
