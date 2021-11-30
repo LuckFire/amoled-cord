@@ -1,15 +1,16 @@
 #app-mount {
     .wrapper-2aW0bm {
-        background-color: var(--background-light);
+        background-color: var(--background-alt);
     }
     .markup-2BOw-j code,
-    .wrapperAudio-1jDe0Q {
-        border-color: var(--background-light);
-        background-color: var(--background-light);
+    .wrapperAudio-1jDe0Q,
+    .attachment-33OFj0 { // attachments, audio, and markup
+        border-color: var(--background-alt);
+        background-color: var(--background-alt);
     }
-    .embedFull-2tM8-- {
+    .embedFull-2tM8-- { // embed
         border-color: var(--background-light-alt);
-        background-color: var(--background-light);
+        background-color: var(--background-alt);
     }
     .textContainer-C0szpm,
     .footer-2yA7Ep {

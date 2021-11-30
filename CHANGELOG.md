@@ -1,4 +1,10 @@
-# Version 2.0.0
+# Version 2.1.0 - 11/29/2021
+- Some color adjustments based on feedback (please give more feedback, dunno if anyone will like these as well).
+- Themed some missing areas.
+
+<details>
+<summary><b> Version 2.0.0 - 11/29/2021 </b></summary>
+
 A rework from the ground up, below are a list of all of the changes if you're interested.
 - This theme will no longer be using Theme Source, and will it's own source instead of relying on it. This allows me to have better maintainability and management of the theme.
 - Switched to (mostly) custom variables for coloring things instead of only relying on Discord's. This helps with more customization, tho stuff may still be a bit wonky.
@@ -10,6 +16,7 @@ A rework from the ground up, below are a list of all of the changes if you're in
 - Things that were "too dark" should now be more visible.
 - The AMOLED-Cord watermark is now the version of the theme.
 - Major color adjustments overall to make the theme look better.
+</details>
 
 <details>
 <summary><b> Version 1.0.0 - Version 1.1.1 Changelog </b></summary>

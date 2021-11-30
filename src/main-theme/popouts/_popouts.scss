@@ -1,13 +1,18 @@
 #app-mount {
     .layer-v9HyYc {
         .header-ykumBX {
-            background-color: var(--background-light);
+            background-color: var(--background-alt);
             + div {
-                background-color: var(--background-light);
+                background-color: var(--background-alt);
             }
         }
         .tab-ck0077.active-1MbGPa {
             background-color: var(--background-modifier-selected);
         }
+    }
+    // menu things (idk what they're called, will update when i gain braincells)
+    .lookFilled-22uAsw.select-2fjwPw {
+        border-color: var(--background-light);
+        background-color: var(--background-alt);
     }
 }

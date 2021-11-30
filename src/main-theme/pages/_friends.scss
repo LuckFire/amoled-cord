@@ -1,7 +1,7 @@
 #app-mount .container-1D34oG {
     background-color: var(--background-base);
     .container-lRFx4q {
-        background-color: var(--background-alt);
+        background-color: var(--background-dark);
     }
     .wrapper-3D2qGf {
         border-color: var(--background-light);
@@ -12,23 +12,27 @@
             background-color: var(--background-light-alt);
         }
         &:hover {
-            border-color: var(--background-dark);
-            background-color: var(--background-dark);
+            border-color: var(--background-base);
+            background-color: var(--background-base);
             .section-2gLsgF,
             .inset-3sAvek {
-                border-color: var(--background-light);
-                background-color: var(--background-light);
+                border-color: var(--background-dark);
+                background-color: var(--background-dark);
             }
         }
     }
+    .partyMemberOverflow-lXnzvu {
+        background-color: var(--background-alt)
+    }
+    // people
     .peopleListItem-2nzedh:hover {
-        background-color: var(--background-alt);
+        background-color: var(--background-dark);
         .actionButton-uPB8Fs {
-            background-color: var(--background-light-alt);
+            background-color: var(--background-light);
         }
     }
     .actionButton-uPB8Fs {
-        background-color: var(--background-light);
+        background-color: var(--background-light-alt);
     }
     .addFriendInputWrapper-3PjsbB {
         border-color: var(--background-light);
