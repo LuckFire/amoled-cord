@@ -431,11 +431,11 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 }
 
 .container-2wlB3z {
-    background-color: var(--background-dark);
+    background-color: var(--background-base);
 }
 
 .members-1998pB, .members-1998pB > div {
-    background-color: var(--background-dark);
+    background-color: var(--background-base);
 }
 
 #app-mount .messageListItem-1-jvGY:hover {
