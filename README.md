@@ -1,6 +1,3 @@
-## **PLEASE REDOWNLOAD THE THEME IF YOUR ON A VERSION OLDER THAN V2.0.0**
-If you still insist on using the old version, feel free to. However, I will no longer be maintaining it. If you have some sort of feedback as to what should be changed back / what should be different, please comment on [this issue](https://github.com/LuckFire/amoled-cord/issues/20) giving feedback.
-
 ![banner](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/banner.png) 
 
 # AMOLED-Cord
