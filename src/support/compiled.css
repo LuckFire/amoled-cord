@@ -1,13 +1,14 @@
 :root {
     --background-base: black;
     --background-alt: rgb(15, 15, 15);
-    --background-light: rgb(23, 23, 23);
-    --background-light-alt: rgb(30, 30, 30);
+    --background-light: rgb(20, 20, 20);
+    --background-light-alt: rgb(28, 28, 28);
     --background-dark: rgb(10, 10, 10);
     --background-floating: rgb(13, 13, 13);
-    --channeltextarea-background: rgb(20, 20, 20);
-    --searcharea-background: rgb(20, 20, 20);
-    --channels-default: #969696;
+    --background-accent: var(--background-light-alt);
+    --channeltextarea-background: var(--background-light);
+    --searcharea-background: var(--background-light);
+    --channels-default: #8b8b8b;
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #dcddde;
@@ -278,13 +279,18 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 #app-mount .button-1YfofB.buttonColor-7qQbGO,
 #app-mount .button-1YfofB .buttonColor-7qQbGO,
 #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV {
-    background-color: #4c4c4c;
+    background-color: #282828;
+}
+#app-mount .button-1YfofB.buttonColor-7qQbGO:enabled:hover,
+#app-mount .button-1YfofB .buttonColor-7qQbGO:enabled:hover,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:enabled:hover {
+    background-color: #1e1e1e;
 }
 #app-mount .container-3auIfb[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
-    background-color: #4c4c4c !important;
+    background-color: #282828 !important;
 }
 #app-mount .colorable-1bkp8v.primaryDark-3mSFDl {
-    background-color: #4c4c4c;
+    background-color: #282828;
 }
 
 .scrollerBase-289Jih.thin-1ybCId::-webkit-scrollbar-thumb {
@@ -427,10 +433,10 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 }
 
 .jumpToPresentBar-G1R9s6 {
-    background-color: #4c4c4c;
+    background-color: #2b2b2b;
 }
 
-.container-2wlB3z {
+.container-2wlB3z, .container-2PDP7D, .container-1CU5bi {
     background-color: var(--background-base);
 }
 
@@ -466,6 +472,13 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background-color: var(--background-light-alt);
 }
 #app-mount .container-3hZ-gs {
+    background-color: var(--background-light);
+}
+
+.callContainer-3UuV6S {
+    background-color: var(--background-base);
+}
+.callContainer-3UuV6S .container-O91r7V {
     background-color: var(--background-light);
 }
 
@@ -892,13 +905,13 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background-color: transparent;
 }
 .container-3w7J-x .users-3kndPl {
-    background-color: var(--background-light);
-}
-.container-3w7J-x .total-i6us2n {
     background-color: var(--background-light-alt);
 }
+.container-3w7J-x .total-i6us2n {
+    background-color: var(--background-light);
+}
 .container-3w7J-x .total-i6us2n::after {
-    border-right-color: var(--background-light-alt);
+    border-right-color: var(--background-light);
 }
 
 .privateChannels-1nO12o .scroller-1JbKMe {

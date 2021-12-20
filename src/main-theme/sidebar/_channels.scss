@@ -9,12 +9,12 @@
         background-color: transparent;
     }
     .users-3kndPl {
-        background-color: var(--background-light);
+        background-color: var(--background-light-alt);
     }
     .total-i6us2n {
-        background-color: var(--background-light-alt);
+        background-color: var(--background-light);
         &::after {
-            border-right-color: var(--background-light-alt);
+            border-right-color: var(--background-light);
         }
     }
 }

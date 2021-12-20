@@ -1,5 +1,11 @@
-# Version 2.1.2 - 12/01/2021
+# Version 2.1.3 - 12/19/2021
+Themed some missing areas and made some minor color adjustments.
+
+<details>
+<summary><b> Version 2.1.2 - 12/01/2021 </b></summary>
+
 Themed some missing areas, stuff for plugins, and some minor adjustments
+</details>
 
 <details>
 <summary><b> Version 2.1.1 - 11/29/2021 </b></summary>

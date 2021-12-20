@@ -2,12 +2,15 @@
     .button-1YfofB.buttonColor-7qQbGO, 
     .button-1YfofB .buttonColor-7qQbGO,
     .lookFilled-1Gx00P.colorGrey-2DXtkV {
-        background-color: #4c4c4c;
+        background-color: rgb(40, 40, 40);
+        &:enabled:hover {
+            background-color: rgb(30, 30, 30);
+        }
     }
     .container-3auIfb[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
-        background-color: #4c4c4c !important;
+        background-color: rgb(40, 40, 40) !important;
     }
     .colorable-1bkp8v.primaryDark-3mSFDl {
-        background-color: #4c4c4c;
+        background-color: rgb(40, 40, 40);
     }
 }
