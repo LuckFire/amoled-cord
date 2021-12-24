@@ -584,6 +584,9 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 #app-mount .root-1gCeng .perks-2hUniO {
     background-color: var(--background-light-alt);
 }
+#app-mount .root-1gCeng .contentContainer-1f7Gvv {
+    background-color: var(--background-light);
+}
 #app-mount .root-1gCeng .itemFilled-3llgIC {
     background-color: var(--background-light-alt);
 }
