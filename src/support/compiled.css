@@ -163,6 +163,9 @@
 #app-mount .layer-3QrUeG .premiumGuildAvailabilityIndicator-2yVVuW {
     background-color: var(--background-light-alt);
 }
+#app-mount .layer-3QrUeG .container-1nZlH6 {
+    background-color: var(--background-alt);
+}
 
 #app-mount .layer-3QrUeG .accountProfileCard-1XCH88 {
     background-color: var(--background-dark);
@@ -256,6 +259,17 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
     background: var(--background-dark);
 }
 
+.popout-VcNcHB {
+    border-color: var(--background-light);
+    background-color: var(--background-alt);
+}
+.popout-VcNcHB .option-3KoAJB:hover, .popout-VcNcHB .option-3KoAJB:focus {
+    background-color: var(--background-light-alt);
+}
+.popout-VcNcHB .option-3KoAJB[aria-selected=true] {
+    background-color: var(--background-dark);
+}
+
 #bd-pub-button {
     background-color: var(--background-light-alt);
 }
@@ -278,12 +292,14 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 
 #app-mount .button-1YfofB.buttonColor-7qQbGO,
 #app-mount .button-1YfofB .buttonColor-7qQbGO,
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     background-color: #282828;
 }
 #app-mount .button-1YfofB.buttonColor-7qQbGO:enabled:hover,
 #app-mount .button-1YfofB .buttonColor-7qQbGO:enabled:hover,
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:enabled:hover {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:enabled:hover,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:enabled:hover {
     background-color: #1e1e1e;
 }
 #app-mount .container-3auIfb[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
@@ -483,7 +499,7 @@ body, #app-mount, .app-2rEoOp, .bg-h5JY_x {
 }
 
 .container-1r6BKw.themed-ANHk51 {
-    background-color: var(--background-main);
+    background: var(--background-base);
 }
 .container-1r6BKw .children-19S4PO::after {
     display: none;
