@@ -6,20 +6,20 @@ A simple, no-bullshit AMOLED theme that's nice on your eyes. Lights out baby!
 ![preview](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/main-preview.png)
 
 ## Installation
-**Powercord / Vizality**
-
-Go to **your Themes folder -> open a terminal of choice**, and enter the following into the terminal:
+For **[Powercord](http://powercord.dev/)** or **[Vizality](https://vizality.com/)** installation, head over to your **Themes folder -> open a terminal of choice**, and paste / enter the following:
 ```
 git clone https://github.com/LuckFire/amoled-cord
 ```
 
-**BetterDiscord:**
+**[BetterDiscord](https://betterdiscord.app/)**
 <!-- - [Direct Download](https://betterdiscord.net/ghdl?id=3625) -->
 - [Direct Download](https://github.com/LuckFire/amoled-cord/releases/download/temp-bd-download/AMOLED-Cord.theme.css) <!-- temporary direct download -->
 - [View Source](https://luckfire.github.io/amoled-cord/src/support/compiled.css)
 
-**Browser / Web:**
-1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
+**Stylus**
+1. Make sure you have the Stylus browser extension installed.
+    - **[Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)**
+    - **[Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)**
 2. After installing, head over to [this link](https://luckfire.github.io/amoled-cord/src/support/AMOLED-Cord.user.css).
 3. Press the "Install Style" button.
 
