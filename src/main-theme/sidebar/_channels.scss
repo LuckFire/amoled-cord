@@ -1,20 +1,21 @@
-.container-3w7J-x {
-    .header-2V-4Sw {
-        background-color: var(--background-base);
-        &:hover {
-            background-color: var(--background-light);
-        }
+.container-1NXEtd {
+    // header
+    .selected-1GtAC5 .header-3OsQeK, .header-3OsQeK:hover {
+        background-color: var(--background-secondary);
     }
-    .hasBanner-2SrLR3 .header-2V-4Sw {
+    .hasBanner-2IrYih .header-3OsQeK {
         background-color: transparent;
     }
-    .users-3kndPl {
-        background-color: var(--background-light-alt);
-    }
-    .total-i6us2n {
-        background-color: var(--background-light);
-        &::after {
-            border-right-color: var(--background-light);
+    // voice channel
+    .userLimit-VbEkeM {
+        .users-2JoyGL {
+            background-color: var(--background-secondary-alt);
+        }
+        .total-1c5KCN {
+            background-color: var(--background-secondary);
+            &::after {
+                border-right-color: var(--background-secondary)
+            }
         }
     }
 }

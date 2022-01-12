@@ -1,47 +1,47 @@
 #app-mount {
     // page
-    .searchHeader-2XoQg7 {
-        background-color: var(--background-alt);
+    .searchHeader-1r_ZSh {
+        background-color: var(--background-tertiary);
     }
-    .searchResultsWrap-3-pOjs {
-        background-color: var(--background-alt);
-        .channelName-1JRO3C {
-            background-color: var(--background-alt);
+    .searchResultsWrap-5RVOkx {
+        background-color: var(--background-tertiary);
+        .channelName-3w2Y3c {
+            background-color: var(--background-tertiary);
         }
     }
-    .searchResult-9tQ1uo {
-        background-color: var(--background-light);
+    .searchResult-O9NDji {
+        background-color: var(--background-secondary);
     }
     // container dropdown
-    .container-3ayLPN {
-        box-shadow: 0 0 0 1px var(--background-light), 0 2px 10px 0 rgb(0 0 0 / 20%);
-        background-color: var(--background-alt);
-        .option-96V44q {
+    .container-2McqkF {
+        box-shadow: 0 0 0 1px var(--background-tertiary), 0 2px 10px 0 rgb(0 0 0 / 20%);
+        background-color: var(--background-tertiary);
+        .option-2KkUJO {
             &:hover {
-                background-color: var(--background-light-alt);
+                background-color: var(--background-secondary-alt);
             }
             &::after {
                 background: none;
             }
         }
-        .calendarPicker-2yf6Ci {
+        .calendarPicker-sDhzdi {
             .react-datepicker,
             .react-datepicker__header {
-                background-color: var(--background-alt);
+                background-color: var(--background-tertiary);
             }
             .react-datepicker__navigation.react-datepicker__navigation--next, 
             .react-datepicker__navigation.react-datepicker__navigation--previous {
-                background-color: var(--background-light);
+                background-color: var(--background-secondary);
             }
             .react-datepicker__day--disabled, 
             .react-datepicker__day--outside-month, 
             .react-datepicker__day.react-datepicker__day--disabled, 
             .react-datepicker__day.react-datepicker__day--disabled:hover {
-                background-color: var(--background-light);
+                background-color: var(--background-secondary);
             }
             .react-datepicker__day,
             .react-datepicker__day:last-of-type {
-                border-color: var(--background-light-alt);
+                border-color: var(--background-secondary-alt);
             }
         }
     }

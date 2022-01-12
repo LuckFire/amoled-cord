@@ -1,33 +1,33 @@
-.theme-light .root-1gCeng {
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #969696;
+// these values are hard-coded cause im a lazy sack of shit
+// BUUUUUT doesnt matter much anyways
+// also unnecessary comments go brrrrrrrrrrrt
+body #app-mount {
+    .theme-light .root-g14mjS {
+        --header-primary: #fff;
+        --header-secondary: #b9bbbe;
+        --text-normal: #dcddde;
+        --text-muted: #969696;
+        background-color: rgb(20, 20, 20);
+        .footer-31IekZ {
+            box-shadow: none;
+            background-color: rgb(10, 10, 10);
+        }
+        .container-x8Y1ix,
+        .rowContainer-3t7486 {
+            background-color: black;
+            &:hover {
+                background-color: rgb(28, 28, 28);
+            }
+        }
 
-    .formTitle-aeXUoN {
-        color: var(--header-primary);
-    }
-    .sampleLink-2NLvZg {
-        color: var(--text-muted);
-    }
-    .container-UC8Ug1,
-    .rowContainer-3AFY0S {
-        border-color: var(--background-light-alt);
-        background-color: var(--background-light-alt);
-    }
-    .closeIcon-150W3V {
-        color: var(--header-secondary);
-    }
-    .iconContainer-2B0ixr {
-        color: var(--header-secondary);
-    }
-    .input--jS-j2 {
-        border: solid 1px var(--background-modifier-selected);
-        background-color: transparent;
-    }
-    .lookLink-9FtZy-.colorPrimary,
-    .lookLink-9FtZy-.colorPrimary-3b3xI6,
-    .lookBlank-3eh9lL {
-        color: var(--text-normal);
+        .formTitle-2YQyhj {
+            color: var(--header-primary);
+        }
+        .sampleLink-5BWNy9 {
+            color: var(--text-muted);
+        }
+        .input-m1-Y7Q {
+            background-color: rgb(10, 10, 10);
+        }
     }
 }

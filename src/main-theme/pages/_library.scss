@@ -1,19 +1,15 @@
-.container-3Mxszk {
-    .scroller-1IIF0A,
-    .scroller-2XE8rp {
-        background-color: var(--background-base);
+#app-mount {
+    .defaultIndicator-1AxErs {
+        background-color: var(--background-accent);
     }
-    .defaultIndicator-3WqGFB {
-        background-color: var(--background-light-alt);
+    .installationPath-2PbaRC {
+        box-shadow: 0 1px 0 0 var(--background-secondary)
     }
-    .installationPath-3cStrB {
-        box-shadow: 0 1px 0 0 var(--background-light);
-    }
-    .hiddenLibraryApplication-T6N3U1 {
-        border-color: var(--background-light);
+    .hiddenLibraryApplication-lfw1ab {
+        border-bottom-color: var(--background-secondary);
         &::before {
-            border-color: var(--background-light-alt);
-            background-color: var(--background-alt);
+            border-color: var(--background-secondary);
+            background-color: var(--background-secondary);
         }
     }
 }

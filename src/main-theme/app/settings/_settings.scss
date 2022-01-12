@@ -1,65 +1,68 @@
-#app-mount .layer-3QrUeG {
-    // base
-    .contentRegionScroller-26nc1e,
-    .contentRegion-3nDuYy {
-        background-color: var(--background-base);
+.layer-86YKbF[aria-label$="SETTINGS"] {
+    .input-2g-os5 {
+        border-color: var(--background-secondary);
+        background-color: var(--background-tertiary);
     }
-    .sidebarRegionScroller-3MXcoP {
-        background-color: var(--background-base);
+}
+
+#app-mount {
+    // primary
+    .contentRegionScroller-2_GT_N,
+    .contentRegion-3HkfJJ {
+        background-color: var(--background-primary);
     }
-    .titleContainer-2CXtJo,
-    .header-2mZ9Ov {
-        background-color: var(--background-base);
+    .sidebarRegionScroller-FXiQOh {
+        background-color: var(--background-primary);
+    }
+    .titleContainer-3fPic2,
+    .header-6h98Y_ {
+        background-color: var(--background-primary);
     }
     // close
-    .closeButton-1tv5uR {
-        border-color: var(--background-light-alt);
+    .closeButton-PCZcma {
+        border-color: var(--background-secondary-alt);
         &:hover {
-            background-color: var(--background-light-alt);
+            background-color: var(--background-secondary-alt);
         }
     }
-    .keybind-KpFkfr {
+    .keybind-13vtq8 {
         color: var(--text-normal);
     }
     //
-    .scroller-305q3I {
-        background-color: var(--background-base);
+    .scroller-3_YDR2 {
+        background-color: var(--background-primary);
     }
-    .card-4s8auQ,
-    .settingCard-3w2mVL {
-        background-color: var(--background-light);
+    .card-2EUiNF,
+    .settingCard-xZSDjS {
+        background-color: var(--background-secondary);
     }
-    .cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
-        border-color: var(--background-light);
-        background-color: var(--background-light);
+    .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i {
+        border-color: var(--background-secondary);
+        background-color: var(--background-secondary);
     }
     .iconWrapper-lS1uig {
-        background-color: var(--background-alt);
+        background-color: var(--background-tertiary);
     }
-    .input-cIJ7To {
-        border-color: var(--background-light);
-        background-color: var(--background-alt);
-    }
-    .itemFilled-3llgIC {
-        background-color: var(--background-light-alt);
+    .itemFilled-1cPbtg {
+        background-color: var(--background-secondary-alt);
         &[aria-checked=true] {
-            background-color: var(--background-alt) !important;
+            background-color: var(--background-tertiary) !important;
         }
         &:hover {
-            background-color: var(--background-light);
+            background-color: var(--background-secondary);
         }
     }
-    .detailsBlock-2mCK9A {
-        background-color: var(--background-light);
+    .detailsBlock-24pLFz {
+        background-color: var(--background-secondary);
     }
-    .default-3oAQTF {
-        background-color: var(--background-light-alt);
+    .default-1Tkeeg {
+        background-color: var(--background-secondary-alt);
     }
     .premiumGuildAvailabilityIndicator-2yVVuW {
-        background-color: var(--background-light-alt);
+        background-color: var(--background-secondary-alt);
     }
     // keybind actions
-    .container-1nZlH6 {
-        background-color: var(--background-alt);
+    .container-30qY7E {
+        background-color: var(--background-tertiary);
     }
 }

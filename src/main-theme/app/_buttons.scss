@@ -1,17 +1,17 @@
 #app-mount {
-    .button-1YfofB.buttonColor-7qQbGO, 
-    .button-1YfofB .buttonColor-7qQbGO,
-    .lookFilled-1Gx00P.colorGrey-2DXtkV,
-    .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    .button-1EGGcP.buttonColor-3bP3fX, 
+    .button-1EGGcP .buttonColor-3bP3fX,
+    .lookFilled-yCfaCM.colorGrey-2iAG-B,
+    .lookFilled-yCfaCM.colorPrimary-2AuQVo {
         background-color: rgb(40, 40, 40);
         &:enabled:hover {
             background-color: rgb(30, 30, 30);
         }
     }
-    .container-3auIfb[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
+    .container-2nx-BQ[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
         background-color: rgb(40, 40, 40) !important;
     }
-    .colorable-1bkp8v.primaryDark-3mSFDl {
+    .colorable-3rVGna.primaryDark-2UJt1G {
         background-color: rgb(40, 40, 40);
     }
 }

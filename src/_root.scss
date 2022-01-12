@@ -1,14 +1,13 @@
 :root {
     // base
-    --background-base: black;
-    --background-alt: rgb(15, 15, 15);
-    --background-light: rgb(20, 20, 20);
-    --background-light-alt: rgb(28, 28, 28);
-    --background-dark: rgb(10, 10, 10);
-    --background-floating: rgb(8, 8, 8);
-    --background-accent: var(--background-light-alt);
-    --channeltextarea-background: var(--background-light);
-    --searcharea-background: var(--background-light);
+    --background-primary: black;
+    --background-secondary: rgb(20, 20, 20);
+    --background-secondary-alt: rgb(28, 28, 28);
+    --background-tertiary: rgb(10, 10, 10);
+    --background-floating: rgb(12, 12, 12);
+    --background-accent: var(--background-secondary-alt);
+    --channeltextarea-background: var(--background-secondary);
+    --searcharea-background: var(--background-secondary);
 
     // text colors
     --channels-default: #8b8b8b;

@@ -27,3 +27,4 @@ git clone https://github.com/LuckFire/amoled-cord
 - **[NYRI4](https://github.com/NYRI4/Discolored)** for [Discolored](https://github.com/NYRI4/Discolored).
 - **[Snapperito](https://github.com/Snapperito/)** for [Settings Icons](https://github.com/snappercord/Settings-Icons).
 - File structuring ideas from **[Slate](https://github.com/DiscordStyles/Slate)** and **[Nebula](https://github.com/Loremly/Nebula)**.
+- **[LayneTheEpic](https://github.com/laynetheepic)** for their **[Theme Fixer](https://laynetheepic.github.io/projects/pc-theme-converter/)**

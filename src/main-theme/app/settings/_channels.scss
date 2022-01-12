@@ -1,14 +1,14 @@
-#app-mount .layer-3QrUeG {
-    .cardFolder-28dwxo {
-        background-color: var(--background-light-alt);
+#app-mount .layer-86YKbF {
+    .cardFolder-3H4uH4 {
+        background-color: var(--background-secondary-alt);
     }
-    .group-1WdBVp {
-        border-color: var(--background-alt);
+    .group-LWHoGI {
+        border-color: var(--background-tertiary);
     }
-    .item-1yAxl1 {
-        background-color: var(--background-alt);
-        &.selected-2YhbGh {
-            background-color: var(--background-light-alt);
-        }
+    .item-4m-12I[aria-checked="false"] {
+        background-color: var(--background-tertiary);
+    }
+    .passthrough--fbdFR.selected-3jieYB {
+        background-color: var(--background-secondary-alt);
     }
 }

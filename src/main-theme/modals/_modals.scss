@@ -1,87 +1,50 @@
-#app-mount .root-1gCeng {
-    box-shadow: 0 0 0 1px var(--background-light), 0 2px 10px 0 rgb(0 0 0 / 20%);
-    background-color: var(--background-light);
-    .header-2MrRa6 {
-        box-shadow: 0 0 0 1px var(--background-dark), 0 2px 10px 0 rgb(0 0 0 / 20%);
-        background-color: var(--background-dark);
+#app-mount .root-g14mjS {
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
+    background-color: var(--background-secondary);
+    .footer-31IekZ {
+        box-shadow: none;
+        background-color: var(--background-tertiary);
     }
-    .footer-2gL1pp {
-        box-shadow: inset 0 1px 0 var(--background-alt);
-        background-color: var(--background-alt);
+    .input-3r5zZY { // quick switcher
+        background-color: var(--background-tertiary);
     }
-    // message
-    .message-2qRu38 {
-        box-shadow: 0 0 0 1px var(--background-light-alt), 0 2px 10px 0 rgb(0 0 0 / 20%);
-        background-color: var(--background-light-alt);
-    }
-    // screenshare (mostly)
-    .card-2Mz_4z {
-        border-color: var(--background-light-alt);
-        background-color: var(--background-light-alt);
-    }
-    .qualitySettingsContainer-1gOtRJ {
-        background-color: var(--background-light-alt);
-    }
-    .item-3T2z1R {
-        border-color: var(--background-alt);
-        background-color: var(--background-light);
+    // raido
+    .itemFilled-1cPbtg {
+        &:hover {
+            background-color: var(--background-primary);
+        }
     }
     // reactions
-    .scroller-1-nKid {
-        background-color: var(--background-light-alt);
+    .scroller-2GkvCq {
+        background-color: var(--background-secondary-alt);
     }
-    .reactionSelected-1pqISm {
+    .reactionSelected-1aMb2K {
         background-color: var(--background-modifier-selected);
     }
-    .reactors-Blmlhw {
-        background-color: var(--background-light);
+    .container-KM8BU6, .reactors-1VXca7 {
+        background-color: var(--background-secondary);
     }
-    .reactorDefault-1IUqMZ {
-        box-shadow: inset 0 -1px 0 var(--background-light-alt);
+    .reactorDefault-3GSyaV {
+        box-shadow: inset 0 -1px 0 var(--background-secondary-alt);
     }
-    // guild join
-    .optionContainer-15srkc {
-        background-color: var(--background-light-alt);
+    // screenshare (mostly)
+    .card-1SdQ2-,
+    .lookFilled-1GseHa.select-1Ia3hD {
+        border-color: var(--background-primary) !important;
+        background-color: var(--background-tertiary) !important;
     }
-    // guild verify
-    .guildSidebar-2OCzWB {
-        background-color: var(--backgrounds-dark);
+    .qualitySettingsContainer-30AsSH {
+        border-color: var(--background-tertiary);
     }
-    .modal-f02hVt {
-        background-color: var(--background-base);
+    .item-2OyinQ {
+        border-color: var(--background-primary);
     }
-    .formFieldWrapper-malor5 {
-        background-color: var(--background-alt);
+    .item-2OyinQ:not(.selectorButtonSelected-3Z0WNU) {
+        background-color: var(--background-tertiary);
     }
-    .formFieldWrapper-malor5, 
-    .settingsFormFieldWrapper-3Y77Pr {
-        border-color: var(--background-light);
-    }
-    // server boost
-    .perks-2hUniO {
-        background-color: var(--background-light-alt);
-    }
-    // events
-    .contentContainer-1f7Gvv {
-        background-color: var(--background-light);
-    }
-    .itemFilled-3llgIC {
-        background-color: var(--background-light-alt);
-        &:hover {
-            background-color: var(--background-alt);
-        }
-        &[aria-checked="true"] {
-            background-color: var(--background-dark);
-        }
-    }
-    .card-2X8BSG {
-        border-color: var(--background-dark);
-        background-color: var(--background-dark);
-        &:hover {
-            background-color: var(--background-alt);
-        }
-    }
-    .rsvpCount-1Qtgtr {
-        background-color: var(--background-light-alt);
+    // delete message
+    .message-G6O-Wv {
+        box-shadow: none;
+        background-color: var(--background-tertiary);
     }
 }

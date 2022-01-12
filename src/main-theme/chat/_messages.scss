@@ -1,32 +1,29 @@
 #app-mount {
-    .messageListItem-1-jvGY:hover {
-        background-color: rgba(255, 255, 255, 0.028);
+    // messages
+    .messageListItem-ZZ7v6g:hover {
+        background-color: rgba(255, 255, 255, 0.030);
     }
-    .wrapper-2aW0bm {
-        background-color: var(--background-light-alt);
+    // borders
+    .wrapperAudio-1Bzv_Z,
+    .textContainer-36wgKK,
+    .footer-GXWBBp {
+        border-color: var(--background-secondary);
     }
-    .markup-2BOw-j code,
-    .wrapperAudio-1jDe0Q,
-    .attachment-33OFj0 { // attachments, audio, and markup
-        border-color: var(--background-alt);
-        background-color: var(--background-alt);
-    }
-    .embedFull-2tM8-- { // embed
-        border-color: var(--background-light-alt);
-        background-color: var(--background-alt);
-    }
-    .textContainer-C0szpm,
-    .footer-2yA7Ep {
-        border-color: var(--background-light-alt);
-        background-color: var(--background-light);
-    }
-    .wrapper-35wsBm {
-        background-color: var(--background-light);
-        .guildIconImage-3qTk45 {
-            background-color: var(--background-light-alt);
+    // playing bar -- no, this is not what causes it to break sometimes. that's actually discord.
+    .wrapperAudio-1Bzv_Z {
+        .mediaBarWrapper-33h1oY, .mediaBarWrapper-33h1oY:after, .mediaBarWrapper-33h1oY:before {
+            background-color: var(--background-secondary);
+        }
+        .buffer-3eVqKK, .buffer-3eVqKK:after, .buffer-3eVqKK:before {
+            background-color: #3a3a3a !important;
         }
     }
-    .container-3hZ-gs {
-        background-color: var(--background-light);
+    // server
+    .guildIconImage-74OdmM {
+        background-color: var(--background-secondary);
+    }
+    // message actions
+    .wrapper-2vIMkT {
+        background-color: var(--background-secondary);
     }
 }

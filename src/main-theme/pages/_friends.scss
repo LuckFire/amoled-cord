@@ -1,41 +1,25 @@
-#app-mount .container-1D34oG {
-    background-color: var(--background-base);
-    .container-lRFx4q {
-        background-color: var(--background-dark);
+#app-mount .container-2cd8Mz {
+    background-color: var(--background-primary);
+    .container-2oNtJn {
+        background-color: var(--background-secondary);
     }
-    .wrapper-3D2qGf {
-        border-color: var(--background-light);
-        background-color: var(--background-light);
-        .section-2gLsgF,
-        .inset-3sAvek {
-            border-color: var(--background-light-alt);
-            background-color: var(--background-light-alt);
-        }
+    // active
+    .wrapper-2RrXDg {
+        border-color: var(--background-tertiary);
+        background-color: var(--background-tertiary);
         &:hover {
-            border-color: var(--background-base);
-            background-color: var(--background-base);
-            .section-2gLsgF,
-            .inset-3sAvek {
-                border-color: var(--background-dark);
-                background-color: var(--background-dark);
+            border-color: var(--background-secondary);
+            background-color: var(--background-secondary);
+            .section-3G9aLW {
+                background-color: var(--background-tertiary);
             }
         }
     }
-    .partyMemberOverflow-lXnzvu {
-        background-color: var(--background-alt)
-    }
     // people
-    .peopleListItem-2nzedh:hover {
-        background-color: var(--background-dark);
-        .actionButton-uPB8Fs {
-            background-color: var(--background-light);
+    .peopleListItem-u6dGxF:hover {
+        background-color: var(--background-tertiary);
+        .actionButton-3-B2x- {
+            background-color: var(--background-primary);
         }
-    }
-    .actionButton-uPB8Fs {
-        background-color: var(--background-light-alt);
-    }
-    .addFriendInputWrapper-3PjsbB {
-        border-color: var(--background-light);
-        background-color: var(--background-alt);
     }
 }
