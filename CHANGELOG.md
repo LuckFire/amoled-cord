@@ -1,4 +1,4 @@
-# Version 3.0.0 - ??/??/??
+# Version 3.0.0 - 01/12/2022
 Theme has been entirely redone (yes, again) cause Discord did a class reroll and I wanted to redo it again to change how stuff is done.
 
 Please comment on **[this issue](https://github.com/LuckFire/amoled-cord/issues/27)** with things that look off / are broken, and I'll make sure to fix or adjust them.
