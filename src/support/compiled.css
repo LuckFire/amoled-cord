@@ -530,10 +530,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 
 .container-2o3qEW, .membersWrap-3NUR2t {
-    background-color: var(--background-base);
+    background-color: var(--background-primary);
 }
 .container-2o3qEW .members-3WRCEx, .container-2o3qEW .members-3WRCEx > div, .membersWrap-3NUR2t .members-3WRCEx, .membersWrap-3NUR2t .members-3WRCEx > div {
-    background-color:  var(--background-base);
+    background-color:  var(--background-primary);
 }
 
 #app-mount .messageListItem-ZZ7v6g:hover {
