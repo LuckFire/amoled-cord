@@ -167,39 +167,24 @@
     background-color: var(--background-tertiary);
 }
 
-#app-mount .layer-86YKbF .accountProfileCard-lbN7n- {
-    background-color: var(--background-tertiary);
-}
-#app-mount .layer-86YKbF .accountProfileCard-lbN7n- .background-3d_SjE,
-#app-mount .layer-86YKbF .accountProfileCard-lbN7n- .fieldList-in8WkP {
-    background-color: var(--background-secondary);
-}
-#app-mount .layer-86YKbF .avatar-3mTjvZ {
-    border-color: var(--background-tertiary);
-    background-color: var(--background-tertiary);
-}
 #app-mount .layer-86YKbF .profileBannerPreview-3mLIdO {
     background-color: var(--background-tertiary);
 }
-#app-mount .layer-86YKbF .cardPrimaryOutline-1ofwVz {
-    border-color: var(--background-tertiary);
-    background-color: var(--background-tertiary);
-}
-#app-mount .layer-86YKbF .accountList-305sx3 {
+#app-mount .layer-86YKbF .bioTextArea-dDGOeC {
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .accountBtn-1YkMgV .accountBtnInner-3XK70s {
+#app-mount .layer-86YKbF .cardPrimaryOutline-1ofwVz {
+    background-color: var(--background-tertiary);
+}
+#app-mount .layer-86YKbF .accountList-Wii_T5 {
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .layer-86YKbF .connection-107AGH,
-#app-mount .layer-86YKbF .guildSubscriptionSlots-1IKD1q {
-    background-color: var(--background-secondary);
-}
-#app-mount .layer-86YKbF .connectionHeader-2rV1ze,
-#app-mount .layer-86YKbF .guildHeader-p5Yoct {
+#app-mount .layer-86YKbF .connectionHeader-Ixbb1s {
     background-color: var(--background-tertiary);
 }
-#app-mount .layer-86YKbF .subscriptionsRedirectContainer-zD3U79,
 #app-mount .layer-86YKbF .feature-2IUcBI {
     background-color: var(--background-secondary);
 }
@@ -212,7 +197,6 @@
 #app-mount .layer-86YKbF .gemIndicatorContainer-PqApbX {
     background-color: var(--background-tertiary);
 }
-#app-mount .layer-86YKbF .premiumSubscriptionAccountCredit-1UInYJ,
 #app-mount .layer-86YKbF .promotionCard-3bv1Uh {
     background-color: var(--background-secondary);
 }
@@ -224,24 +208,29 @@
 #app-mount .layer-86YKbF .bottomDivider-ZmTm-j {
     border-color: var(--background-primary);
 }
-#app-mount .layer-86YKbF .codeRedemptionRedirect-3SBiCp {
+#app-mount .layer-86YKbF .expandedInfo-1W31i3 {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .codeRedemptionRedirect-2hYMSQ {
     border-color: var(--background-secondary);
     background-color: var(--background-tertiary);
 }
-#app-mount .layer-86YKbF .previewMessage-2uxBrA {
+#app-mount .layer-86YKbF .previewMessage-2g_aBv {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .notches-2w7UZJ.gray-3wP137 {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='black'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
-#app-mount .layer-86YKbF .cameraWrapper-1hB0cM {
+#app-mount .layer-86YKbF .cameraWrapper-3a7Ngv {
     border-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .backgroundOptionInner-SSz19O {
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .notDetected-2HEmAp {
+#app-mount .layer-86YKbF .notDetected-M3Ghh2 {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .layer-86YKbF .game-3x3aDt {
+#app-mount .layer-86YKbF .game-2f2vPC {
     -webkit-box-shadow: 0 1px 0 0 var(--background-secondary-alt);
             box-shadow: 0 1px 0 0 var(--background-secondary-alt);
 }
