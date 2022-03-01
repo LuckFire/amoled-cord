@@ -103,6 +103,9 @@
 #app-mount .layer-86YKbF .previewCard-22p9UT {
     background-color: var(--background-secondary-alt);
 }
+#app-mount .layer-86YKbF .welcomeChannel-_Q4qAA {
+    background-color: var(--background-secondary-alt);
+}
 #app-mount .layer-86YKbF .tierHeaderUnlocked-1OpOLf {
     background-color: var(--background-secondary);
 }
@@ -505,10 +508,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     color: #6b6b6b;
 }
 
-.container-2o3qEW, .membersWrap-3NUR2t {
-    background-color: var(--background-primary);
-}
-.container-2o3qEW .members-3WRCEx, .container-2o3qEW .members-3WRCEx > div, .membersWrap-3NUR2t .members-3WRCEx, .membersWrap-3NUR2t .members-3WRCEx > div {
+.container-2o3qEW, .membersWrap-3NUR2t, .members-3WRCEx, .members-3WRCEx > div {
     background-color:  var(--background-primary);
 }
 
