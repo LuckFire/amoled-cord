@@ -535,8 +535,18 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 .callContainer-BGIngG .scroller-35tvpe,
 .callContainer-BGIngG .container-3r7mfc,
-.callContainer-BGIngG .participants-3hk3ND {
+.callContainer-BGIngG .participants-3hk3ND,
+.callContainer-BGIngG .rowContainer-jDvyA4 {
     background-color: var(--background-primary);
+}
+.callContainer-BGIngG .tileContainer-Os085F {
+    background-color: var(--background-primary);
+}
+.callContainer-BGIngG .tileContainer-Os085F:hover {
+    background-color: var(--background-secondary);
+}
+.callContainer-BGIngG .divider-vv_iHh {
+    border-color: var(--background-secondary);
 }
 
 .folder-241Joy .folderIconWrapper-1oRIZr:hover {

@@ -1,7 +1,17 @@
 .callContainer-BGIngG {
     .scroller-35tvpe,
     .container-3r7mfc,
-    .participants-3hk3ND {
+    .participants-3hk3ND,
+    .rowContainer-jDvyA4 {
         background-color: var(--background-primary);
+    }
+    .tileContainer-Os085F {
+        background-color: var(--background-primary);
+        &:hover {
+            background-color: var(--background-secondary);
+        }
+    }
+    .divider-vv_iHh {
+        border-color: var(--background-secondary);
     }
 }
