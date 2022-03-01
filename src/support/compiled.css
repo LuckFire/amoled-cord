@@ -1,4 +1,5 @@
-:root {
+:root,
+.theme-dark {
     --background-primary: black;
     --background-secondary: rgb(20, 20, 20);
     --background-secondary-alt: rgb(28, 28, 28);
@@ -27,9 +28,6 @@
 #app-mount .layer-86YKbF .cardFolder-3H4uH4 {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .layer-86YKbF .group-LWHoGI {
-    border-color: var(--background-tertiary);
-}
 #app-mount .layer-86YKbF .item-4m-12I[aria-checked=false] {
     background-color: var(--background-tertiary);
 }
@@ -37,7 +35,7 @@
     background-color: var(--background-secondary-alt);
 }
 
-#app-mount .layer-86YKbF .avatarUploaderInnerSquareDisabled-e_U2MZ {
+#app-mount .layer-86YKbF .avatarUploaderInnerSquareDisabled-3M9eJS {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .container-3EtAkD {
@@ -63,7 +61,7 @@
 #app-mount .layer-86YKbF .previewContainer-1GxmBJ {
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .previewContainer-1xQAsw .theme-secondary {
+#app-mount .layer-86YKbF .previewContainer-1xQAsw .theme-light {
     display: none;
 }
 #app-mount .layer-86YKbF .previewContainer-1xQAsw .messageContainer-3a6gLR {
@@ -102,11 +100,15 @@
 #app-mount .layer-86YKbF .featureCard-3XHbjy {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .layer-86YKbF .featureIcon-2sTnDK {
-    background-color: var(--background-tertiary);
+#app-mount .layer-86YKbF .previewCard-22p9UT {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .tierHeaderUnlocked-1OpOLf {
+    background-color: var(--background-secondary);
 }
 
-.layer-86YKbF[aria-label$=SETTINGS] .input-2g-os5 {
+.layer-86YKbF[aria-label$=SETTINGS] .input-2g-os5,
+.layer-86YKbF[aria-label$=SETTINGS] .copyInput-3AbKWB {
     border-color: var(--background-secondary);
     background-color: var(--background-tertiary);
 }
@@ -620,6 +622,18 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     -webkit-box-shadow: none;
             box-shadow: none;
     background-color: var(--background-tertiary);
+}
+#app-mount .root-g14mjS .optionContainer-yOpaLq {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .optionContainer-yOpaLq:hover {
+    background-color: var(--background-tertiary);
+}
+#app-mount .root-g14mjS .previewLight-IOzFhi {
+    display: none;
+}
+#app-mount .root-g14mjS .previewDark-3Xp3UB {
+    background-color: var(--background-secondary-alt);
 }
 
 body #app-mount .theme-light .root-g14mjS {

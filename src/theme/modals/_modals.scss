@@ -47,4 +47,18 @@
         box-shadow: none;
         background-color: var(--background-tertiary);
     }
+    // welcome screen
+    .optionContainer-yOpaLq {
+        background-color: var(--background-secondary-alt);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
+    }
+    // sticker upload
+    .previewLight-IOzFhi {
+        display: none;
+    }
+    .previewDark-3Xp3UB {
+        background-color: var(--background-secondary-alt);
+    }
 }

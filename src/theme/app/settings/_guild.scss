@@ -1,7 +1,8 @@
 #app-mount .layer-86YKbF {
-    .avatarUploaderInnerSquareDisabled-e_U2MZ {
+    .avatarUploaderInnerSquareDisabled-3M9eJS {
         background-color: var(--background-secondary-alt);
     }
+
     .container-3EtAkD {
         background-color: var(--background-secondary);
         &:hover {
@@ -26,7 +27,7 @@
         background-color: var(--background-secondary);
     }
     .previewContainer-1xQAsw {
-        .theme-secondary {
+        .theme-light {
             display: none;
         }
         .messageContainer-3a6gLR {
@@ -70,7 +71,12 @@
     .featureCard-3XHbjy {
         background-color: var(--background-secondary-alt);
     }
-    .featureIcon-2sTnDK {
-        background-color: var(--background-tertiary);
+    
+    .previewCard-22p9UT {
+        background-color: var(--background-secondary-alt);
+    }
+
+    .tierHeaderUnlocked-1OpOLf {
+        background-color: var(--background-secondary);
     }
 }
