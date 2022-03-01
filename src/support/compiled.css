@@ -599,18 +599,18 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     -webkit-box-shadow: inset 0 -1px 0 var(--background-secondary-alt);
             box-shadow: inset 0 -1px 0 var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .card-1SdQ2-,
+#app-mount .root-g14mjS .card-m7VgZ8,
 #app-mount .root-g14mjS .lookFilled-1GseHa.select-1Ia3hD {
     border-color: var(--background-primary) !important;
     background-color: var(--background-tertiary) !important;
 }
-#app-mount .root-g14mjS .qualitySettingsContainer-30AsSH {
+#app-mount .root-g14mjS .qualitySettingsContainer-2LjkfM {
     border-color: var(--background-tertiary);
 }
 #app-mount .root-g14mjS .item-2OyinQ {
     border-color: var(--background-primary);
 }
-#app-mount .root-g14mjS .item-2OyinQ:not(.selectorButtonSelected-1VZ6hz) {
+#app-mount .root-g14mjS .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
     background-color: var(--background-tertiary);
 }
 #app-mount .root-g14mjS .message-G6O-Wv {
@@ -629,6 +629,16 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .root-g14mjS .previewDark-3Xp3UB {
     background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .perks-2IIbWQ {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .eventCard-2ZL9GD,
+#app-mount .root-g14mjS .childButton-3o_dlg {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .childButton-3o_dlg:hover {
+    background-color: var(--background-tertiary);
 }
 
 body #app-mount .theme-light .root-g14mjS {
