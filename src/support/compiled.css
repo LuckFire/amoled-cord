@@ -682,6 +682,12 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 #app-mount .perksModal-CLcR1c {
     background-color: var(--background-primary);
 }
+#app-mount .perksModal-CLcR1c .tierHeaderLocked-3ItHYn {
+    background-color: var(--background-secondary);
+}
+#app-mount .perksModal-CLcR1c .tierBody-3ju-rc {
+    background-color: var(--background-secondary-alt);
+}
 #app-mount .perksModal-CLcR1c .perk-19D_HN {
     background-color: var(--background-secondary);
 }
@@ -712,6 +718,9 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 }
 #app-mount .container-2cd8Mz .peopleListItem-u6dGxF:hover .actionButton-3-B2x- {
     background-color: var(--background-primary);
+}
+#app-mount .container-2cd8Mz .addFriendInputWrapper-kkoSV9 {
+    background-color: var(--background-secondary);
 }
 
 #app-mount .defaultIndicator-1AxErs {
