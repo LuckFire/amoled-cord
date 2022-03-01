@@ -113,14 +113,9 @@
     background-color: var(--background-tertiary);
 }
 
-#app-mount .contentRegionScroller-2_GT_N,
-#app-mount .contentRegion-3HkfJJ {
-    background-color: var(--background-primary);
-}
 #app-mount .sidebarRegionScroller-FXiQOh {
     background-color: var(--background-primary);
 }
-#app-mount .titleContainer-3fPic2,
 #app-mount .header-6h98Y_ {
     background-color: var(--background-primary);
 }
@@ -133,10 +128,6 @@
 #app-mount .keybind-13vtq8 {
     color: var(--text-normal);
 }
-#app-mount .scroller-3_YDR2 {
-    background-color: var(--background-primary);
-}
-#app-mount .card-2EUiNF,
 #app-mount .settingCard-xZSDjS {
     background-color: var(--background-secondary);
 }
@@ -144,7 +135,7 @@
     border-color: var(--background-secondary);
     background-color: var(--background-secondary);
 }
-#app-mount .iconWrapper-lS1uig {
+#app-mount .iconWrapper-1sOtkE {
     background-color: var(--background-tertiary);
 }
 #app-mount .itemFilled-1cPbtg {
@@ -156,13 +147,7 @@
 #app-mount .itemFilled-1cPbtg:hover {
     background-color: var(--background-secondary);
 }
-#app-mount .detailsBlock-24pLFz {
-    background-color: var(--background-secondary);
-}
 #app-mount .default-1Tkeeg {
-    background-color: var(--background-secondary-alt);
-}
-#app-mount .premiumGuildAvailabilityIndicator-2yVVuW {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .container-30qY7E {
