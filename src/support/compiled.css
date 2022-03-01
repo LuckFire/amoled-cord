@@ -632,33 +632,41 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 
 body #app-mount .theme-light .root-g14mjS {
+    --background-secondary: rgb(20, 20, 20);
+    --background-secondary-alt: rgb(28, 28, 28);
+    --background-tertiary: rgb(10, 10, 10);
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #dcddde;
     --text-muted: #969696;
-    background-color: #141414;
+    background-color: var(--background-secondary);
 }
 body #app-mount .theme-light .root-g14mjS .footer-31IekZ {
     -webkit-box-shadow: none;
             box-shadow: none;
-    background-color: #0a0a0a;
+    background-color: var(--background-tertiary);
 }
 body #app-mount .theme-light .root-g14mjS .container-x8Y1ix,
 body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486 {
-    background-color: black;
+    background-color: var(--background-secondary-alt);
 }
 body #app-mount .theme-light .root-g14mjS .container-x8Y1ix:hover,
 body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486:hover {
-    background-color: #1c1c1c;
+    background-color: var(--background-tertiary);
+}
+body #app-mount .theme-light .root-g14mjS .lookLink-15mFoz.colorPrimary-2AuQVo,
+body #app-mount .theme-light .root-g14mjS .lookBlank-21BCro {
+    color: var(--header-primary);
+}
+body #app-mount .theme-light .root-g14mjS .input-2g-os5 {
+    background-color: var(--background-tertiary);
+    border-color: var(--background-secondary);
 }
 body #app-mount .theme-light .root-g14mjS .formTitle-2YQyhj {
     color: var(--header-primary);
 }
 body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
     color: var(--text-muted);
-}
-body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
-    background-color: #0a0a0a;
 }
 
 #app-mount .perksModal-CLcR1c {
