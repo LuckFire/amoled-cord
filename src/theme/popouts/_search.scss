@@ -1,22 +1,23 @@
 #app-mount {
     // page
-    .searchHeader-1r_ZSh {
-        background-color: var(--background-tertiary);
-    }
-    .searchResultsWrap-5RVOkx {
-        background-color: var(--background-tertiary);
-        .channelName-3w2Y3c {
-            background-color: var(--background-tertiary);
-        }
-    }
     .searchResult-O9NDji {
+        background-color: var(--background-tertiary);
+    }
+    .button-cfOvv- {
         background-color: var(--background-secondary);
     }
     // container dropdown
+    .searchAnswer-23w-CH,
+    .searchFilter-2UfsDk {
+        background-color: var(--background-secondary-alt);
+    }
     .container-2McqkF {
         box-shadow: 0 0 0 1px var(--background-tertiary), 0 2px 10px 0 rgb(0 0 0 / 20%);
         background-color: var(--background-tertiary);
-        .option-2KkUJO {
+        .focused-2FU0YH {
+            background-color: var(--background-tertiary);
+        }
+        .option-ayUoaq {
             &:hover {
                 background-color: var(--background-secondary-alt);
             }
@@ -24,18 +25,21 @@
                 background: none;
             }
         }
+        .option-ayUoaq[aria-selected="true"] {
+            background-color: var(--background-secondary);
+        }
         .calendarPicker-sDhzdi {
             .react-datepicker,
             .react-datepicker__header {
                 background-color: var(--background-tertiary);
             }
-            .react-datepicker__navigation.react-datepicker__navigation--next, 
+            .react-datepicker__navigation.react-datepicker__navigation--next,
             .react-datepicker__navigation.react-datepicker__navigation--previous {
                 background-color: var(--background-secondary);
             }
-            .react-datepicker__day--disabled, 
-            .react-datepicker__day--outside-month, 
-            .react-datepicker__day.react-datepicker__day--disabled, 
+            .react-datepicker__day--disabled,
+            .react-datepicker__day--outside-month,
+            .react-datepicker__day.react-datepicker__day--disabled,
             .react-datepicker__day.react-datepicker__day--disabled:hover {
                 background-color: var(--background-secondary);
             }
