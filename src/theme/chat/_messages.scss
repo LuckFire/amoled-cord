@@ -1,7 +1,7 @@
 #app-mount {
     // messages
     .messageListItem-ZZ7v6g:hover {
-        background-color: rgba(255, 255, 255, 0.030);
+        background-color: rgba(255, 255, 255, 0.03);
     }
     // borders
     .wrapperAudio-1Bzv_Z,
@@ -11,10 +11,14 @@
     }
     // playing bar -- no, this is not what causes it to break sometimes. that's actually discord.
     .wrapperAudio-1Bzv_Z {
-        .mediaBarWrapper-33h1oY, .mediaBarWrapper-33h1oY:after, .mediaBarWrapper-33h1oY:before {
+        .mediaBarWrapper-33h1oY,
+        .mediaBarWrapper-33h1oY:after,
+        .mediaBarWrapper-33h1oY:before {
             background-color: var(--background-secondary);
         }
-        .buffer-3eVqKK, .buffer-3eVqKK:after, .buffer-3eVqKK:before {
+        .buffer-3eVqKK,
+        .buffer-3eVqKK:after,
+        .buffer-3eVqKK:before {
             background-color: #3a3a3a !important;
         }
     }

@@ -22,7 +22,8 @@
     .reactionSelected-1aMb2K {
         background-color: var(--background-modifier-selected);
     }
-    .container-KM8BU6, .reactors-1VXca7 {
+    .container-KM8BU6,
+    .reactors-1VXca7 {
         background-color: var(--background-secondary);
     }
     .reactorDefault-3GSyaV {
@@ -50,9 +51,9 @@
     }
     // welcome screen
     .optionContainer-yOpaLq {
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-tertiary);
         &:hover {
-            background-color: var(--background-tertiary);
+            background-color: var(--background-primary);
         }
     }
     // sticker upload
@@ -69,9 +70,9 @@
     // events
     .eventCard-2ZL9GD,
     .childButton-3o_dlg {
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-tertiary);
         &:hover {
-            background-color: var(--background-tertiary);
+            background-color: var(--background-primary);
         }
     }
 }

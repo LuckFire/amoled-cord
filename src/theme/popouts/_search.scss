@@ -28,25 +28,25 @@
         .option-ayUoaq[aria-selected="true"] {
             background-color: var(--background-secondary);
         }
-        .calendarPicker-sDhzdi {
-            .react-datepicker,
-            .react-datepicker__header {
-                background-color: var(--background-tertiary);
-            }
-            .react-datepicker__navigation.react-datepicker__navigation--next,
-            .react-datepicker__navigation.react-datepicker__navigation--previous {
-                background-color: var(--background-secondary);
-            }
-            .react-datepicker__day--disabled,
-            .react-datepicker__day--outside-month,
-            .react-datepicker__day.react-datepicker__day--disabled,
-            .react-datepicker__day.react-datepicker__day--disabled:hover {
-                background-color: var(--background-secondary);
-            }
-            .react-datepicker__day,
-            .react-datepicker__day:last-of-type {
-                border-color: var(--background-secondary-alt);
-            }
+    }
+    .calendarPicker-sDhzdi {
+        .react-datepicker,
+        .react-datepicker__header {
+            background-color: var(--background-tertiary);
+        }
+        .react-datepicker__navigation.react-datepicker__navigation--next,
+        .react-datepicker__navigation.react-datepicker__navigation--previous {
+            background-color: var(--background-secondary);
+        }
+        .react-datepicker__day--disabled,
+        .react-datepicker__day--outside-month,
+        .react-datepicker__day.react-datepicker__day--disabled,
+        .react-datepicker__day.react-datepicker__day--disabled:hover {
+            background-color: var(--background-secondary);
+        }
+        .react-datepicker__day,
+        .react-datepicker__day:last-of-type {
+            border-color: var(--background-secondary-alt);
         }
     }
 }

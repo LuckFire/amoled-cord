@@ -1,4 +1,5 @@
-.callContainer-BGIngG {
+#app-mount .callContainer-BGIngG {
+    background-color: var(--background-primary);
     .scroller-35tvpe,
     .container-3r7mfc,
     .participants-3hk3ND,
@@ -11,7 +12,22 @@
             background-color: var(--background-secondary);
         }
     }
-    .divider-vv_iHh {
+
+    .divider-vv_iHh,
+    .separator-3FDGQ4 {
+        background-color: var(--background-secondary);
         border-color: var(--background-secondary);
+    }
+
+    .eventPrompt-3DZIoO,
+    .container-1IyjjY {
+        background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
+    }
+
+    .iconBackground-3qSXiM {
+        background-color: var(--background-secondary-alt);
     }
 }

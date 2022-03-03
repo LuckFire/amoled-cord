@@ -16,7 +16,6 @@
     .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
         background-color: var(--background-secondary-alt);
     }
-
     .connectionHeader-Ixbb1s {
         background-color: var(--background-tertiary);
     }
@@ -27,6 +26,9 @@
 
     .outer-2JOHae {
         background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
     }
     .noIcon-3gSX9V {
         background-color: var(--background-secondary-alt);
@@ -43,6 +45,12 @@
     .paymentPane-ut5qKZ,
     .payment-2bOh4k {
         background-color: var(--background-secondary);
+    }
+    .hoverablePayment-lE1s4t {
+        background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
     }
     .bottomDivider-ZmTm-j {
         border-color: var(--background-primary);
