@@ -111,8 +111,8 @@
     background-color: var(--background-tertiary);
 }
 
-#app-mount .layer-86YKbF[aria-label$=SETTINGS] .input-2g-os5,
-#app-mount .layer-86YKbF[aria-label$=SETTINGS] .copyInput-3AbKWB {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .input-2g-os5,
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .copyInput-3AbKWB {
     border-color: var(--background-secondary);
     background-color: var(--background-tertiary);
 }
@@ -872,6 +872,13 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 }
 #app-mount .overflowRolesPopout-1Puiuq {
     background-color: var(--background-tertiary);
+}
+#app-mount .container-2rzKKA {
+    background-color: var(--background-tertiary);
+    border-color: var(--background-tertiary);
+}
+#app-mount .container-2rzKKA:hover {
+    border-color: var(--background-secondary);
 }
 
 #app-mount .searchResult-O9NDji {

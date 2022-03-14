@@ -18,4 +18,12 @@
     .overflowRolesPopout-1Puiuq {
         background-color: var(--background-tertiary);
     }
+    // threads list
+    .container-2rzKKA {
+        background-color: var(--background-tertiary);
+        border-color: var(--background-tertiary);
+        &:hover {
+            border-color: var(--background-secondary);
+        }
+    }
 }
