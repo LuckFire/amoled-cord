@@ -1,32 +1,36 @@
 #app-mount .layer-86YKbF {
-    .avatarUploaderInnerSquareDisabled-e_U2MZ {
+    .noticeRegion-qjyUVg .container-20TyK0 {
+        background-color: var(--background-secondary) !important;
+    }
+
+    .avatarUploaderInnerSquareDisabled-3M9eJS {
         background-color: var(--background-secondary-alt);
     }
+
     .container-3EtAkD {
         background-color: var(--background-secondary);
         &:hover {
             background-color: var(--background-tertiary);
             .icon-2DGsye {
-                background-color: var(--background-dark);
+                background-color: var(--background-primary);
             }
         }
     }
     .icon-2DGsye {
         background-color: var(--background-tertiary);
     }
-    .primary-38Hs-h:hover:not(.disabled-184-il), 
+    .primary-38Hs-h:hover:not(.disabled-184-il),
     .secondary-2bzKEX {
         background-color: var(--background-secondary-alt);
         &:hover {
             background-color: var(--background-secondary);
         }
     }
-
     .previewContainer-1GxmBJ {
         background-color: var(--background-secondary);
     }
     .previewContainer-1xQAsw {
-        .theme-secondary {
+        .theme-light {
             display: none;
         }
         .messageContainer-3a6gLR {
@@ -34,7 +38,8 @@
         }
     }
 
-    .tierHeaderLocked-30MLlO {
+    .tierHeaderLocked-30MLlO,
+    .tierHeaderUnlocked-1OpOLf {
         background-color: var(--background-secondary);
     }
     .tierBody-1d3UiS {
@@ -51,7 +56,7 @@
             }
         }
     }
-    .headerClickable-zGQJz3, 
+    .headerClickable-zGQJz3,
     .headerDefault-1e6yjj,
     .headerExpanded-1-zwDr {
         background-color: var(--background-secondary);
@@ -68,9 +73,14 @@
     }
 
     .featureCard-3XHbjy {
+        background-color: var(--background-secondary);
+    }
+
+    .previewCard-22p9UT {
         background-color: var(--background-secondary-alt);
     }
-    .featureIcon-2sTnDK {
+
+    .welcomeChannel-_Q4qAA {
         background-color: var(--background-tertiary);
     }
 }

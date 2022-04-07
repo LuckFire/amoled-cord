@@ -1,8 +1,6 @@
 #app-mount {
     .layer-2aCOJ3 {
         .header-1w9Q93 {
-            box-shadow: none;
-            background-color: var(--background-tertiary);
             + div {
                 background-color: var(--background-secondary);
             }
@@ -11,9 +9,21 @@
             background-color: var(--background-modifier-selected);
         }
     }
-    // menu things (idk what they're called, will update when i gain braincells)
+    // select menus
     .lookFilled-1GseHa.select-1Ia3hD {
         border-color: var(--background-secondary);
         background-color: var(--background-tertiary);
+    }
+    // roles view
+    .overflowRolesPopout-1Puiuq {
+        background-color: var(--background-tertiary);
+    }
+    // threads list
+    .container-2rzKKA {
+        background-color: var(--background-tertiary);
+        border-color: var(--background-tertiary);
+        &:hover {
+            border-color: var(--background-secondary);
+        }
     }
 }

@@ -1,7 +1,4 @@
 #app-mount {
-    .channelHeader-DFRX8q {
-        background-color: var(--background-secondary);
-    }
     .tertiary-1e-lAP,
     .primary-38Hs-h:hover:not(.disabled-184-il),
     .secondary-2bzKEX {
@@ -9,6 +6,9 @@
         &:hover {
             background-color: var(--background-primary);
         }
+    }
+    .jumpButton-1V_1FA {
+        background-color: var(--background-secondary);
     }
     .messageContainer-3VTXBC,
     .messages-23can0 {

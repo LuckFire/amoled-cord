@@ -1,48 +1,34 @@
 #app-mount .layer-86YKbF {
-    .accountProfileCard-lbN7n- {
-        background-color: var(--background-tertiary);
-        .background-3d_SjE,
-        .fieldList-in8WkP {
-            background-color: var(--background-secondary);
-        }
-    }
-    .avatar-3mTjvZ {
-        border-color: var(--background-tertiary);
-        background-color: var(--background-tertiary);
-    }
-
     .profileBannerPreview-3mLIdO {
         background-color: var(--background-tertiary);
     }
+    .bioTextArea-dDGOeC {
+        background-color: var(--background-secondary);
+    }
 
     .cardPrimaryOutline-1ofwVz {
-        border-color: var(--background-tertiary);
         background-color: var(--background-tertiary);
     }
 
-    .accountList-305sx3 {
+    .accountList-Wii_T5 {
         background-color: var(--background-secondary);
     }
-    .accountBtn-1YkMgV .accountBtnInner-3XK70s {
+    .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
         background-color: var(--background-secondary-alt);
     }
-
-    .connection-107AGH,
-    .guildSubscriptionSlots-1IKD1q {
-        background-color: var(--background-secondary);
-    }
-    .connectionHeader-2rV1ze,
-    .guildHeader-p5Yoct {
+    .connectionHeader-Ixbb1s {
         background-color: var(--background-tertiary);
     }
 
-    .subscriptionsRedirectContainer-zD3U79,
     .feature-2IUcBI {
         background-color: var(--background-secondary);
     }
 
     .outer-2JOHae {
         background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
     }
     .noIcon-3gSX9V {
         background-color: var(--background-secondary-alt);
@@ -51,8 +37,7 @@
         background-color: var(--background-tertiary);
     }
 
-    .premiumSubscriptionAccountCredit-1UInYJ,
-    .promotionCard-3bv1Uh {
+    .promotionCard-mo7ClH {
         background-color: var(--background-secondary);
     }
 
@@ -61,30 +46,41 @@
     .payment-2bOh4k {
         background-color: var(--background-secondary);
     }
+    .hoverablePayment-lE1s4t {
+        background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
+    }
     .bottomDivider-ZmTm-j {
         border-color: var(--background-primary);
     }
-    .codeRedemptionRedirect-3SBiCp {
+    .expandedInfo-1W31i3 {
+        background-color: var(--background-secondary-alt);
+    }
+    .codeRedemptionRedirect-2hYMSQ {
         border-color: var(--background-secondary);
         background-color: var(--background-tertiary);
     }
-    
-    .previewMessage-2uxBrA {
+
+    .previewMessage-2g_aBv {
         background-color: var(--background-secondary-alt);
     }
 
     .notches-2w7UZJ.gray-3wP137 {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='black'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
     }
-    .cameraWrapper-1hB0cM {
+    .cameraWrapper-3a7Ngv {
         border-color: var(--background-secondary);
+    }
+    .backgroundOptionInner-SSz19O {
         background-color: var(--background-secondary);
     }
 
-    .notDetected-2HEmAp {
+    .notDetected-M3Ghh2 {
         background-color: var(--background-secondary-alt);
     }
-    .game-3x3aDt {
+    .game-2f2vPC {
         box-shadow: 0 1px 0 0 var(--background-secondary-alt);
     }
 

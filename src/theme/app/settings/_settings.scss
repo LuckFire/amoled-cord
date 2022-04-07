@@ -1,20 +1,15 @@
-.layer-86YKbF[aria-label$="SETTINGS"] {
-    .input-2g-os5 {
-        border-color: var(--background-secondary);
-        background-color: var(--background-tertiary);
-    }
-}
-
 #app-mount {
+    .layer-86YKbF:not(.baseLayer-W6S8cY) {
+        .input-2g-os5,
+        .copyInput-3AbKWB {
+            border-color: var(--background-secondary);
+            background-color: var(--background-tertiary);
+        }
+    }    
     // primary
-    .contentRegionScroller-2_GT_N,
-    .contentRegion-3HkfJJ {
-        background-color: var(--background-primary);
-    }
     .sidebarRegionScroller-FXiQOh {
         background-color: var(--background-primary);
     }
-    .titleContainer-3fPic2,
     .header-6h98Y_ {
         background-color: var(--background-primary);
     }
@@ -29,36 +24,27 @@
         color: var(--text-normal);
     }
     //
-    .scroller-3_YDR2 {
-        background-color: var(--background-primary);
-    }
-    .card-2EUiNF,
     .settingCard-xZSDjS {
         background-color: var(--background-secondary);
     }
-    .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i {
+    .cardPrimary-3qRT__,
+    .cardPrimaryEditable-2mz_3i {
         border-color: var(--background-secondary);
         background-color: var(--background-secondary);
     }
-    .iconWrapper-lS1uig {
+    .iconWrapper-1sOtkE {
         background-color: var(--background-tertiary);
     }
     .itemFilled-1cPbtg {
         background-color: var(--background-secondary-alt);
-        &[aria-checked=true] {
+        &[aria-checked="true"] {
             background-color: var(--background-tertiary) !important;
         }
         &:hover {
             background-color: var(--background-secondary);
         }
     }
-    .detailsBlock-24pLFz {
-        background-color: var(--background-secondary);
-    }
     .default-1Tkeeg {
-        background-color: var(--background-secondary-alt);
-    }
-    .premiumGuildAvailabilityIndicator-2yVVuW {
         background-color: var(--background-secondary-alt);
     }
     // keybind actions

@@ -5,7 +5,8 @@
         box-shadow: none;
         background-color: var(--background-tertiary);
     }
-    .input-3r5zZY { // quick switcher
+    // quick switcher
+    .input-3r5zZY {
         background-color: var(--background-tertiary);
     }
     // raido
@@ -21,30 +22,57 @@
     .reactionSelected-1aMb2K {
         background-color: var(--background-modifier-selected);
     }
-    .container-KM8BU6, .reactors-1VXca7 {
+    .container-KM8BU6,
+    .reactors-1VXca7 {
         background-color: var(--background-secondary);
     }
     .reactorDefault-3GSyaV {
         box-shadow: inset 0 -1px 0 var(--background-secondary-alt);
     }
     // screenshare (mostly)
-    .card-1SdQ2-,
+    .card-m7VgZ8,
     .lookFilled-1GseHa.select-1Ia3hD {
         border-color: var(--background-primary) !important;
         background-color: var(--background-tertiary) !important;
     }
-    .qualitySettingsContainer-30AsSH {
+    .qualitySettingsContainer-2LjkfM {
         border-color: var(--background-tertiary);
     }
     .item-2OyinQ {
         border-color: var(--background-primary);
     }
-    .item-2OyinQ:not(.selectorButtonSelected-1VZ6hz) {
+    .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
         background-color: var(--background-tertiary);
     }
     // delete message
     .message-G6O-Wv {
         box-shadow: none;
         background-color: var(--background-tertiary);
+    }
+    // welcome screen
+    .optionContainer-yOpaLq {
+        background-color: var(--background-tertiary);
+        &:hover {
+            background-color: var(--background-primary);
+        }
+    }
+    // sticker upload
+    .previewLight-IOzFhi {
+        display: none;
+    }
+    .previewDark-3Xp3UB {
+        background-color: var(--background-secondary-alt);
+    }
+    // boost perks
+    .perks-2IIbWQ {
+        background-color: var(--background-secondary-alt);
+    }
+    // events
+    .eventCard-2ZL9GD,
+    .childButton-3o_dlg {
+        background-color: var(--background-tertiary);
+        &:hover {
+            background-color: var(--background-primary);
+        }
     }
 }

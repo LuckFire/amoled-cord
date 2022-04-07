@@ -3,21 +3,34 @@
 // also unnecessary comments go brrrrrrrrrrrt
 body #app-mount {
     .theme-light .root-g14mjS {
+        --background-primary: black;
+        --background-secondary: rgb(20, 20, 20);
+        --background-secondary-alt: rgb(28, 28, 28);
+        --background-tertiary: rgb(10, 10, 10);
         --header-primary: #fff;
         --header-secondary: #b9bbbe;
         --text-normal: #dcddde;
         --text-muted: #969696;
-        background-color: rgb(20, 20, 20);
+
+        background-color: var(--background-secondary);
         .footer-31IekZ {
             box-shadow: none;
-            background-color: rgb(10, 10, 10);
+            background-color: var(--background-tertiary);
         }
         .container-x8Y1ix,
         .rowContainer-3t7486 {
-            background-color: black;
+            background-color: var(--background-tertiary);
             &:hover {
-                background-color: rgb(28, 28, 28);
+                background-color: var(--background-primary);
             }
+        }
+        .lookLink-15mFoz.colorPrimary-2AuQVo,
+        .lookBlank-21BCro {
+            color: var(--header-primary);
+        }
+        .input-2g-os5 {
+            background-color: var(--background-tertiary);
+            border-color: var(--background-secondary);
         }
 
         .formTitle-2YQyhj {
@@ -25,9 +38,6 @@ body #app-mount {
         }
         .sampleLink-5BWNy9 {
             color: var(--text-muted);
-        }
-        .input-m1-Y7Q {
-            background-color: rgb(10, 10, 10);
         }
     }
 }
