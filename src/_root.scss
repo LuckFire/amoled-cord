@@ -1,14 +1,16 @@
 :root,
-.theme-dark {
+.theme-dark,
+.theme-light {
     // base
     --background-primary: black;
     --background-secondary: rgb(20, 20, 20);
     --background-secondary-alt: rgb(28, 28, 28);
     --background-tertiary: rgb(10, 10, 10);
-    --background-floating: rgb(12, 12, 12);
     --background-accent: var(--background-secondary-alt);
+    --background-floating: rgb(12, 12, 12);
     --channeltextarea-background: rgb(15, 15, 15);
     --searcharea-background: var(--background-secondary);
+    --input-background: var(--background-tertiary);
 
     // text colors
     --channels-default: #8b8b8b;
@@ -22,16 +24,15 @@
     --scroller-track: rgb(10, 10, 10); // webkit-scrollbar-track
 
     // bg modifier colors
-    --background-modifier-rgb: 60, 60, 60;
-    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.16);
-    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.24);
-    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.32);
-    --background-modifier-accent: rgba(255, 255, 255, 0.06);
+    --background-modifier-rgb: 40, 40, 40;
+    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.4);
+    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.6);
+    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.6);
+    --background-modifier-accent: rgba(var(--background-modifier-rgb), 0.48);
 
     // interactive
     --interactive-muted: rgb(75, 75, 75);
 
     // elevation
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
-    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
 }

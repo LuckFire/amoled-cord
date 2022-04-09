@@ -1,11 +1,15 @@
 #app-mount .layer-86YKbF {
-    .cardFolder-3H4uH4 {
-        background-color: var(--background-secondary-alt);
-    }
     .item-4m-12I[aria-checked="false"] {
         background-color: var(--background-tertiary);
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
     }
-    .passthrough--fbdFR.selected-3jieYB {
+    .bar-1Bhnl9,
+    .markDash-yk2kJ- {
+        background-color: var(--background-secondary-alt);
+    }
+    .cardFolder-3H4uH4 {
         background-color: var(--background-secondary-alt);
     }
 }

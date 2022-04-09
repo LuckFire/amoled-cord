@@ -1,43 +1,25 @@
-// these values are hard-coded cause im a lazy sack of shit
-// BUUUUUT doesnt matter much anyways
-// also unnecessary comments go brrrrrrrrrrrt
-body #app-mount {
-    .theme-light .root-g14mjS {
-        --background-primary: black;
-        --background-secondary: rgb(20, 20, 20);
-        --background-secondary-alt: rgb(28, 28, 28);
-        --background-tertiary: rgb(10, 10, 10);
-        --header-primary: #fff;
-        --header-secondary: #b9bbbe;
-        --text-normal: #dcddde;
-        --text-muted: #969696;
-
+#app-mount .root-g14mjS {
+    .container-x8Y1ix {
         background-color: var(--background-secondary);
-        .footer-31IekZ {
-            box-shadow: none;
+        &:hover {
             background-color: var(--background-tertiary);
         }
-        .container-x8Y1ix,
-        .rowContainer-3t7486 {
-            background-color: var(--background-tertiary);
-            &:hover {
-                background-color: var(--background-primary);
-            }
+    }
+    .rowContainer-3t7486 {
+        background-color: var(--background-tertiary);
+        &:hover {
+            background-color: var(--background-primary);
         }
-        .lookLink-15mFoz.colorPrimary-2AuQVo,
-        .lookBlank-21BCro {
-            color: var(--header-primary);
-        }
-        .input-2g-os5 {
-            background-color: var(--background-tertiary);
-            border-color: var(--background-secondary);
-        }
+    }
+    .lookLink-15mFoz.colorPrimary-2AuQVo,
+    .lookBlank-21BCro {
+        color: var(--header-primary);
+    }
 
-        .formTitle-2YQyhj {
-            color: var(--header-primary);
-        }
-        .sampleLink-5BWNy9 {
-            color: var(--text-muted);
-        }
+    .formTitle-2YQyhj {
+        color: var(--header-primary);
+    }
+    .sampleLink-5BWNy9 {
+        color: var(--text-muted);
     }
 }

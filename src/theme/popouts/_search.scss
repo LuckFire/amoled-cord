@@ -1,7 +1,7 @@
 #app-mount {
     // page
     .searchResult-O9NDji {
-        background-color: var(--background-tertiary);
+        background-color: var(--background-secondary-alt);
     }
     .button-cfOvv- {
         background-color: var(--background-secondary);
@@ -18,15 +18,9 @@
             background-color: var(--background-tertiary);
         }
         .option-ayUoaq {
-            &:hover {
-                background-color: var(--background-secondary-alt);
-            }
             &::after {
                 background: none;
             }
-        }
-        .option-ayUoaq[aria-selected="true"] {
-            background-color: var(--background-secondary);
         }
     }
     .calendarPicker-sDhzdi {

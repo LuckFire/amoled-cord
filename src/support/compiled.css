@@ -1,13 +1,15 @@
 :root,
-.theme-dark {
+.theme-dark,
+.theme-light {
     --background-primary: black;
     --background-secondary: rgb(20, 20, 20);
     --background-secondary-alt: rgb(28, 28, 28);
     --background-tertiary: rgb(10, 10, 10);
-    --background-floating: rgb(12, 12, 12);
     --background-accent: var(--background-secondary-alt);
+    --background-floating: rgb(12, 12, 12);
     --channeltextarea-background: rgb(15, 15, 15);
     --searcharea-background: var(--background-secondary);
+    --input-background: var(--background-tertiary);
     --channels-default: #8b8b8b;
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
@@ -15,29 +17,29 @@
     --text-muted: #969696;
     --scroller-thumb: rgb(30, 30, 30);
     --scroller-track: rgb(10, 10, 10);
-    --background-modifier-rgb: 60, 60, 60;
-    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.16);
-    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.24);
-    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.32);
-    --background-modifier-accent: rgba(255, 255, 255, 0.06);
+    --background-modifier-rgb: 40, 40, 40;
+    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.4);
+    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.6);
+    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.6);
+    --background-modifier-accent: rgba(var(--background-modifier-rgb), 0.48);
     --interactive-muted: rgb(75, 75, 75);
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
-    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
 }
 
-#app-mount .layer-86YKbF .cardFolder-3H4uH4 {
-    background-color: var(--background-secondary-alt);
-}
 #app-mount .layer-86YKbF .item-4m-12I[aria-checked=false] {
     background-color: var(--background-tertiary);
 }
-#app-mount .layer-86YKbF .passthrough--fbdFR.selected-3jieYB {
+#app-mount .layer-86YKbF .item-4m-12I[aria-checked=false]:hover {
+    background-color: var(--background-modifier-hover);
+}
+#app-mount .layer-86YKbF .bar-1Bhnl9,
+#app-mount .layer-86YKbF .markDash-yk2kJ- {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .cardFolder-3H4uH4 {
     background-color: var(--background-secondary-alt);
 }
 
-#app-mount .layer-86YKbF .noticeRegion-qjyUVg .container-20TyK0 {
-    background-color: var(--background-secondary) !important;
-}
 #app-mount .layer-86YKbF .avatarUploaderInnerSquareDisabled-3M9eJS {
     background-color: var(--background-secondary-alt);
 }
@@ -80,25 +82,13 @@
 #app-mount .layer-86YKbF .auditLog-1NVAY0 {
     border-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .auditLog-1NVAY0:hover {
-    border-color: var(--background-tertiary);
-}
-#app-mount .layer-86YKbF .auditLog-1NVAY0:hover .headerClickable-zGQJz3,
-#app-mount .layer-86YKbF .auditLog-1NVAY0:hover .headerExpanded-1-zwDr {
-    background-color: var(--background-tertiary);
-}
-#app-mount .layer-86YKbF .headerClickable-zGQJz3,
-#app-mount .layer-86YKbF .headerDefault-1e6yjj,
+#app-mount .layer-86YKbF .divider-M3saWq,
 #app-mount .layer-86YKbF .headerExpanded-1-zwDr {
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .divider-M3saWq {
-    background-color: var(--background-secondary);
-}
+#app-mount .layer-86YKbF .headerClickable-zGQJz3,
+#app-mount .layer-86YKbF .headerDefault-1e6yjj,
 #app-mount .layer-86YKbF .changeDetails-1kMZqI {
-    background-color: var(--background-secondary-alt);
-}
-#app-mount .layer-86YKbF .descriptionBox-SKGNgB {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .featureCard-3XHbjy {
@@ -108,10 +98,9 @@
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .welcomeChannel-_Q4qAA {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary-alt);
 }
 
-#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .input-2g-os5,
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .copyInput-3AbKWB {
     border-color: var(--background-secondary);
     background-color: var(--background-tertiary);
@@ -136,36 +125,36 @@
 }
 #app-mount .cardPrimary-3qRT__,
 #app-mount .cardPrimaryEditable-2mz_3i {
-    border-color: var(--background-secondary);
     background-color: var(--background-secondary);
 }
 #app-mount .iconWrapper-1sOtkE {
     background-color: var(--background-tertiary);
 }
-#app-mount .itemFilled-1cPbtg {
+#app-mount .itemFilled-1cPbtg:not(:hover):not([aria-checked=true]) {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .itemFilled-1cPbtg[aria-checked=true] {
     background-color: var(--background-tertiary) !important;
 }
-#app-mount .itemFilled-1cPbtg:hover {
-    background-color: var(--background-secondary);
-}
 #app-mount .default-1Tkeeg {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .container-30qY7E {
+    border-color: var(--background-secondary);
     background-color: var(--background-tertiary);
+}
+#app-mount .container-30qY7E:hover {
+    border-color: hsla(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.3);
+}
+#app-mount .noticeRegion-qjyUVg .container-20TyK0 {
+    background-color: var(--background-secondary) !important;
 }
 
 #app-mount .layer-86YKbF .profileBannerPreview-3mLIdO {
     background-color: var(--background-tertiary);
 }
-#app-mount .layer-86YKbF .bioTextArea-dDGOeC {
-    background-color: var(--background-secondary);
-}
 #app-mount .layer-86YKbF .cardPrimaryOutline-1ofwVz {
-    background-color: var(--background-tertiary);
+    border-color: var(--background-secondary);
 }
 #app-mount .layer-86YKbF .accountList-Wii_T5 {
     background-color: var(--background-secondary);
@@ -174,10 +163,10 @@
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .connectionHeader-Ixbb1s {
-    background-color: var(--background-tertiary);
-}
-#app-mount .layer-86YKbF .feature-2IUcBI {
     background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .connection-YOVI9j {
+    background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .outer-2JOHae {
     background-color: var(--background-secondary);
@@ -206,14 +195,14 @@
     background-color: var(--background-tertiary);
 }
 #app-mount .layer-86YKbF .bottomDivider-ZmTm-j {
-    border-color: var(--background-primary);
+    border-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .expandedInfo-1W31i3 {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .codeRedemptionRedirect-2hYMSQ {
-    border-color: var(--background-secondary);
-    background-color: var(--background-tertiary);
+    border-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
 }
 #app-mount .layer-86YKbF .previewMessage-2g_aBv {
     background-color: var(--background-secondary-alt);
@@ -225,7 +214,7 @@
     border-color: var(--background-secondary);
 }
 #app-mount .layer-86YKbF .backgroundOptionInner-SSz19O {
-    background-color: var(--background-secondary);
+    background-color: var(--background-tertiary);
 }
 #app-mount .layer-86YKbF .notDetected-M3Ghh2 {
     background-color: var(--background-secondary-alt);
@@ -243,16 +232,21 @@
     background-color: var(--background-secondary);
 }
 
+#app-mount .button-3Vyz67,
 #app-mount .button-1EGGcP.buttonColor-3bP3fX,
 #app-mount .button-1EGGcP .buttonColor-3bP3fX,
 #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B,
 #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo {
     background-color: #282828;
 }
+#app-mount .button-3Vyz67:enabled:hover,
 #app-mount .button-1EGGcP.buttonColor-3bP3fX:enabled:hover,
 #app-mount .button-1EGGcP .buttonColor-3bP3fX:enabled:hover,
 #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B:enabled:hover,
 #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo:enabled:hover {
+    background-color: #1e1e1e;
+}
+#app-mount .button-3Vyz67:hover {
     background-color: #1e1e1e;
 }
 #app-mount .container-2nx-BQ[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
@@ -505,6 +499,56 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     color: #6b6b6b;
 }
 
+#app-mount .callContainer-HtHELf .tile-2TcwiO {
+    background-color: var(--background-secondary);
+}
+
+#app-mount .container-3wLKDe {
+    background-color: var(--background-primary);
+}
+#app-mount .container-3wLKDe .mainCard-3KBsBI,
+#app-mount .container-3wLKDe .sidebarCard-1Gn1ch {
+    background-color: var(--background-secondary);
+    border-color: var(--background-secondary);
+}
+#app-mount .container-3wLKDe .reactionBox-1FeKQU {
+    background-color: var(--background-tertiary);
+}
+
+#app-mount .background-fkKrXt {
+    background-color: var(--background-primary);
+}
+#app-mount .container-2Hi7Km {
+    background-color: var(--background-secondary);
+}
+#app-mount .container-xwOzwi {
+    background-color: var(--background-secondary);
+}
+@media (max-width: 1300px) {
+    #app-mount .container-xwOzwi {
+        background: none;
+    }
+}
+#app-mount .channel-3RR50j {
+    background-color: var(--background-secondary);
+}
+#app-mount .channel-3RR50j:hover {
+    background-color: var(--background-secondary-alt);
+}
+@media (max-width: 1300px) {
+    #app-mount .channel-3RR50j:hover {
+        background-color: var(--background-secondary);
+    }
+}
+#app-mount .container-4HqGB3.background-3X6Uak,
+#app-mount .emptyStateContainer-xWOMPJ {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .card-3x20HF,
+#app-mount .homeContent-2_a0jF .wrapper-15CKyy {
+    background-color: var(--background-secondary);
+}
+
 #app-mount .container-2o3qEW,
 #app-mount .membersWrap-3NUR2t,
 #app-mount .members-3WRCEx,
@@ -514,11 +558,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 #app-mount .messageListItem-ZZ7v6g:hover {
     background-color: rgba(255, 255, 255, 0.03);
-}
-#app-mount .wrapperAudio-1Bzv_Z,
-#app-mount .textContainer-36wgKK,
-#app-mount .footer-GXWBBp {
-    border-color: var(--background-secondary);
 }
 #app-mount .wrapperAudio-1Bzv_Z .mediaBarWrapper-33h1oY,
 #app-mount .wrapperAudio-1Bzv_Z .mediaBarWrapper-33h1oY:after,
@@ -537,42 +576,36 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
 }
 
-#app-mount .callContainer-BGIngG {
+#app-mount .container-cH6QoY .callContainer-BGIngG,
+#app-mount .container-cH6QoY .scroller-35tvpe,
+#app-mount .container-cH6QoY .container-3r7mfc,
+#app-mount .container-cH6QoY .participants-3hk3ND,
+#app-mount .container-cH6QoY .rowContainer-jDvyA4 {
     background-color: var(--background-primary);
 }
-#app-mount .callContainer-BGIngG .scroller-35tvpe,
-#app-mount .callContainer-BGIngG .container-3r7mfc,
-#app-mount .callContainer-BGIngG .participants-3hk3ND,
-#app-mount .callContainer-BGIngG .rowContainer-jDvyA4 {
+#app-mount .container-cH6QoY .tileContainer-Os085F {
     background-color: var(--background-primary);
 }
-#app-mount .callContainer-BGIngG .tileContainer-Os085F {
-    background-color: var(--background-primary);
+#app-mount .container-cH6QoY .tileContainer-Os085F:hover {
+    background-color: var(--background-secondary-alt);
 }
-#app-mount .callContainer-BGIngG .tileContainer-Os085F:hover {
-    background-color: var(--background-secondary);
-}
-#app-mount .callContainer-BGIngG .divider-vv_iHh,
-#app-mount .callContainer-BGIngG .separator-3FDGQ4 {
+#app-mount .container-cH6QoY .divider-vv_iHh,
+#app-mount .container-cH6QoY .separator-3FDGQ4 {
     background-color: var(--background-secondary);
     border-color: var(--background-secondary);
 }
-#app-mount .callContainer-BGIngG .eventPrompt-3DZIoO,
-#app-mount .callContainer-BGIngG .container-1IyjjY {
+#app-mount .container-cH6QoY .container-1IyjjY {
     background-color: var(--background-secondary);
 }
-#app-mount .callContainer-BGIngG .eventPrompt-3DZIoO:hover,
-#app-mount .callContainer-BGIngG .container-1IyjjY:hover {
+#app-mount .container-cH6QoY .container-1IyjjY:hover {
     background-color: var(--background-tertiary);
 }
-#app-mount .callContainer-BGIngG .iconBackground-3qSXiM {
+#app-mount .container-cH6QoY .iconBackground-3qSXiM {
     background-color: var(--background-secondary-alt);
 }
 
-#app-mount .container-1RZJZM .input-2g-os5,
 #app-mount .container-1RZJZM .channelTextAreaInner-ITp5kW {
-    border-color: var(--background-secondary);
-    background-color: var(--background-tertiary);
+    background-color: var(--input-background);
 }
 
 #app-mount .folder-241Joy .folderIconWrapper-1oRIZr:hover {
@@ -604,11 +637,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     box-shadow: none;
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .input-3r5zZY {
-    background-color: var(--background-tertiary);
+#app-mount .root-g14mjS .footer-1hTRRZ {
+    background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .itemFilled-1cPbtg:hover {
-    background-color: var(--background-primary);
+#app-mount .root-g14mjS .input-3r5zZY {
+    background-color: var(--input-background);
 }
 #app-mount .root-g14mjS .scroller-2GkvCq {
     background-color: var(--background-secondary-alt);
@@ -623,19 +656,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .reactorDefault-3GSyaV {
     box-shadow: inset 0 -1px 0 var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .card-m7VgZ8,
-#app-mount .root-g14mjS .lookFilled-1GseHa.select-1Ia3hD {
-    border-color: var(--background-primary) !important;
-    background-color: var(--background-tertiary) !important;
-}
+#app-mount .root-g14mjS .item-2OyinQ,
 #app-mount .root-g14mjS .qualitySettingsContainer-2LjkfM {
     border-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .item-2OyinQ {
-    border-color: var(--background-primary);
-}
+#app-mount .root-g14mjS .card-m7VgZ8,
 #app-mount .root-g14mjS .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary-alt);
 }
 #app-mount .root-g14mjS .message-G6O-Wv {
     box-shadow: none;
@@ -651,7 +678,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     display: none;
 }
 #app-mount .root-g14mjS .previewDark-3Xp3UB {
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-secondary);
 }
 #app-mount .root-g14mjS .perks-2IIbWQ {
     background-color: var(--background-secondary-alt);
@@ -664,42 +691,50 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .childButton-3o_dlg:hover {
     background-color: var(--background-primary);
 }
-
-body #app-mount .theme-light .root-g14mjS {
-    --background-primary: black;
-    --background-secondary: rgb(20, 20, 20);
-    --background-secondary-alt: rgb(28, 28, 28);
-    --background-tertiary: rgb(10, 10, 10);
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #969696;
+#app-mount .root-g14mjS .contentContainer-BWAau5 {
     background-color: var(--background-secondary);
 }
-body #app-mount .theme-light .root-g14mjS .footer-31IekZ {
-    box-shadow: none;
+#app-mount .root-g14mjS .container-3zZkKh,
+#app-mount .root-g14mjS .rsvpCount-iCkObl {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .sidebarContainer-gUKhtL {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .contentWrapper-3oy4Xo {
+    background-color: var(--background-secondary);
+}
+#app-mount .root-g14mjS .root-cw9rWQ {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .modal-2TOYtq {
+    background-color: var(--background-secondary);
+}
+#app-mount .root-g14mjS .formFieldWrapper-2LV3S6,
+#app-mount .root-g14mjS .guildSidebar-UHnQqs {
+    background-color: var(--background-secondary-alt);
+}
+
+#app-mount .root-g14mjS .container-x8Y1ix {
+    background-color: var(--background-secondary);
+}
+#app-mount .root-g14mjS .container-x8Y1ix:hover {
     background-color: var(--background-tertiary);
 }
-body #app-mount .theme-light .root-g14mjS .container-x8Y1ix,
-body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486 {
+#app-mount .root-g14mjS .rowContainer-3t7486 {
     background-color: var(--background-tertiary);
 }
-body #app-mount .theme-light .root-g14mjS .container-x8Y1ix:hover,
-body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486:hover {
+#app-mount .root-g14mjS .rowContainer-3t7486:hover {
     background-color: var(--background-primary);
 }
-body #app-mount .theme-light .root-g14mjS .lookLink-15mFoz.colorPrimary-2AuQVo,
-body #app-mount .theme-light .root-g14mjS .lookBlank-21BCro {
+#app-mount .root-g14mjS .lookLink-15mFoz.colorPrimary-2AuQVo,
+#app-mount .root-g14mjS .lookBlank-21BCro {
     color: var(--header-primary);
 }
-body #app-mount .theme-light .root-g14mjS .input-2g-os5 {
-    background-color: var(--background-tertiary);
-    border-color: var(--background-secondary);
-}
-body #app-mount .theme-light .root-g14mjS .formTitle-2YQyhj {
+#app-mount .root-g14mjS .formTitle-2YQyhj {
     color: var(--header-primary);
 }
-body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
+#app-mount .root-g14mjS .sampleLink-5BWNy9 {
     color: var(--text-muted);
 }
 
@@ -710,17 +745,20 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
     background-color: var(--background-primary);
 }
 #app-mount .perksModal-CLcR1c .tierHeaderLocked-3ItHYn {
-    background-color: var(--background-secondary);
+    background-color: var(--background-tertiary);
 }
 #app-mount .perksModal-CLcR1c .tierBody-3ju-rc {
-    background-color: var(--background-secondary-alt);
+    background-color: var(--background-secondary);
 }
 #app-mount .perksModal-CLcR1c .perk-19D_HN {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary-alt);
 }
 
 #app-mount .pageWrapper-2PwDoS {
     background-color: var(--background-primary);
+}
+#app-mount .pageWrapper-2PwDoS .searchBox-pyIJJj:not(.searchBox-31Zv9h) {
+    background-color: var(--background-secondary);
 }
 
 #app-mount .container-2cd8Mz {
@@ -730,11 +768,9 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
     background-color: var(--background-secondary);
 }
 #app-mount .container-2cd8Mz .wrapper-2RrXDg {
-    border-color: var(--background-tertiary);
     background-color: var(--background-tertiary);
 }
 #app-mount .container-2cd8Mz .wrapper-2RrXDg:hover {
-    border-color: var(--background-secondary);
     background-color: var(--background-secondary);
 }
 #app-mount .container-2cd8Mz .wrapper-2RrXDg:hover .section-3G9aLW {
@@ -769,13 +805,13 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 }
 
 #app-mount .autocomplete-3NRXG8 {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
 }
 #app-mount .autocomplete-3NRXG8 .selected-3H3-RC {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
 }
 #app-mount .autocomplete-3NRXG8 .wrapper-3z7DuG,
 #app-mount .autocomplete-3NRXG8 .wrapper-22rqw6 {
@@ -838,26 +874,22 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 #app-mount .secondary-2bzKEX:hover {
     background-color: var(--background-primary);
 }
-#app-mount .jumpButton-1V_1FA {
-    background-color: var(--background-secondary);
-}
 #app-mount .messageContainer-3VTXBC,
 #app-mount .messages-23can0 {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary-alt);
 }
 #app-mount .messages-23can0 .content-3spvdd {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .tutorial-Nb3Zz5 {
+#app-mount .tutorialIcon-25VF3Q {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .tutorialIcon-25VF3Q {
-    background-color: var(--background-tertiary);
+#app-mount .icon-2yhmi8 {
+    background-color: var(--background-secondary-alt);
 }
 
 #app-mount .messageGroupWrapper-1jf_7C {
-    border-color: var(--background-tertiary);
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary-alt);
 }
 
 #app-mount .layer-2aCOJ3 .header-1w9Q93 + div {
@@ -866,9 +898,8 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 #app-mount .layer-2aCOJ3 .tab-TRrPC8.active-1grPyy {
     background-color: var(--background-modifier-selected);
 }
-#app-mount .lookFilled-1GseHa.select-1Ia3hD {
-    border-color: var(--background-secondary);
-    background-color: var(--background-tertiary);
+#app-mount .popout-1KHNAq {
+    background-color: var(--background-secondary-alt);
 }
 #app-mount .overflowRolesPopout-1Puiuq {
     background-color: var(--background-tertiary);
@@ -880,9 +911,12 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 #app-mount .container-2rzKKA:hover {
     border-color: var(--background-secondary);
 }
+#app-mount .notches-2w7UZJ.black-11MaxJ {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='rgb(12, 12, 12)'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
 
 #app-mount .searchResult-O9NDji {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary-alt);
 }
 #app-mount .button-cfOvv- {
     background-color: var(--background-secondary);
@@ -898,14 +932,8 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 #app-mount .container-2McqkF .focused-2FU0YH {
     background-color: var(--background-tertiary);
 }
-#app-mount .container-2McqkF .option-ayUoaq:hover {
-    background-color: var(--background-secondary-alt);
-}
 #app-mount .container-2McqkF .option-ayUoaq::after {
     background: none;
-}
-#app-mount .container-2McqkF .option-ayUoaq[aria-selected=true] {
-    background-color: var(--background-secondary);
 }
 #app-mount .calendarPicker-sDhzdi .react-datepicker,
 #app-mount .calendarPicker-sDhzdi .react-datepicker__header {
@@ -950,6 +978,9 @@ body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
 }
 #app-mount .container-1NXEtd .channelNotice-K4UfZY {
     border-color: var(--background-secondary);
+}
+#app-mount .container-1NXEtd .audienceVoiceUserIconContainer-1aQGLF {
+    background-color: var(--background-secondary);
 }
 #app-mount .container-1NXEtd .wrapper-2fEmwW .users-2JoyGL {
     background-color: var(--background-secondary-alt);

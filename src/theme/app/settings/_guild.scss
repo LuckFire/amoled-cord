@@ -1,8 +1,4 @@
 #app-mount .layer-86YKbF {
-    .noticeRegion-qjyUVg .container-20TyK0 {
-        background-color: var(--background-secondary) !important;
-    }
-
     .avatarUploaderInnerSquareDisabled-3M9eJS {
         background-color: var(--background-secondary-alt);
     }
@@ -48,27 +44,14 @@
 
     .auditLog-1NVAY0 {
         border-color: var(--background-secondary);
-        &:hover {
-            border-color: var(--background-tertiary);
-            .headerClickable-zGQJz3,
-            .headerExpanded-1-zwDr {
-                background-color: var(--background-tertiary);
-            }
-        }
     }
-    .headerClickable-zGQJz3,
-    .headerDefault-1e6yjj,
+    .divider-M3saWq,
     .headerExpanded-1-zwDr {
         background-color: var(--background-secondary);
     }
-    .divider-M3saWq {
-        background-color: var(--background-secondary);
-    }
+    .headerClickable-zGQJz3,
+    .headerDefault-1e6yjj,
     .changeDetails-1kMZqI {
-        background-color: var(--background-secondary-alt);
-    }
-
-    .descriptionBox-SKGNgB {
         background-color: var(--background-secondary-alt);
     }
 
@@ -81,6 +64,6 @@
     }
 
     .welcomeChannel-_Q4qAA {
-        background-color: var(--background-tertiary);
+        background-color: var(--background-secondary-alt);
     }
 }

@@ -1,11 +1,10 @@
 #app-mount {
     .layer-86YKbF:not(.baseLayer-W6S8cY) {
-        .input-2g-os5,
         .copyInput-3AbKWB {
             border-color: var(--background-secondary);
             background-color: var(--background-tertiary);
         }
-    }    
+    }
     // primary
     .sidebarRegionScroller-FXiQOh {
         background-color: var(--background-primary);
@@ -29,26 +28,30 @@
     }
     .cardPrimary-3qRT__,
     .cardPrimaryEditable-2mz_3i {
-        border-color: var(--background-secondary);
         background-color: var(--background-secondary);
     }
     .iconWrapper-1sOtkE {
         background-color: var(--background-tertiary);
     }
-    .itemFilled-1cPbtg {
+    .itemFilled-1cPbtg:not(:hover):not([aria-checked="true"]) {
         background-color: var(--background-secondary-alt);
-        &[aria-checked="true"] {
-            background-color: var(--background-tertiary) !important;
-        }
-        &:hover {
-            background-color: var(--background-secondary);
-        }
+    }
+    .itemFilled-1cPbtg[aria-checked="true"] {
+        background-color: var(--background-tertiary) !important;
     }
     .default-1Tkeeg {
         background-color: var(--background-secondary-alt);
     }
     // keybind actions
     .container-30qY7E {
+        border-color: var(--background-secondary);
         background-color: var(--background-tertiary);
+        &:hover {
+            border-color: hsla(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.3);
+        }
+    }
+    // save popup
+    .noticeRegion-qjyUVg .container-20TyK0 {
+        background-color: var(--background-secondary) !important;
     }
 }

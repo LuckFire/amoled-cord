@@ -1,4 +1,5 @@
 #app-mount {
+    .button-3Vyz67,
     .button-1EGGcP.buttonColor-3bP3fX,
     .button-1EGGcP .buttonColor-3bP3fX,
     .lookFilled-yCfaCM.colorGrey-2iAG-B,
@@ -7,6 +8,9 @@
         &:enabled:hover {
             background-color: rgb(30, 30, 30);
         }
+    }
+    .button-3Vyz67:hover {
+        background-color: rgb(30, 30, 30);
     }
     .container-2nx-BQ[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
         background-color: rgb(40, 40, 40) !important;

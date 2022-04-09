@@ -3,12 +3,6 @@
     .messageListItem-ZZ7v6g:hover {
         background-color: rgba(255, 255, 255, 0.03);
     }
-    // borders
-    .wrapperAudio-1Bzv_Z,
-    .textContainer-36wgKK,
-    .footer-GXWBBp {
-        border-color: var(--background-secondary);
-    }
     // playing bar -- no, this is not what causes it to break sometimes. that's actually discord.
     .wrapperAudio-1Bzv_Z {
         .mediaBarWrapper-33h1oY,

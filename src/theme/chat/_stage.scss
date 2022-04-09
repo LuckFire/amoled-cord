@@ -1,5 +1,5 @@
-#app-mount .callContainer-BGIngG {
-    background-color: var(--background-primary);
+#app-mount .container-cH6QoY {
+    .callContainer-BGIngG,
     .scroller-35tvpe,
     .container-3r7mfc,
     .participants-3hk3ND,
@@ -9,7 +9,7 @@
     .tileContainer-Os085F {
         background-color: var(--background-primary);
         &:hover {
-            background-color: var(--background-secondary);
+            background-color: var(--background-secondary-alt);
         }
     }
 
@@ -19,7 +19,6 @@
         border-color: var(--background-secondary);
     }
 
-    .eventPrompt-3DZIoO,
     .container-1IyjjY {
         background-color: var(--background-secondary);
         &:hover {

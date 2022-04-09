@@ -1,0 +1,36 @@
+#app-mount {
+    .background-fkKrXt {
+        background-color: var(--background-primary);
+    }
+    // main card
+    .container-2Hi7Km {
+        background-color: var(--background-secondary);
+    }
+    // active now card
+    .container-xwOzwi {
+        background-color: var(--background-secondary);
+        @media (max-width: 1300px) {
+            background: none;
+        }
+    }
+    .channel-3RR50j {
+        background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-secondary-alt);
+        }
+        @media (max-width: 1300px) {
+            &:hover {
+                background-color: var(--background-secondary);
+            }
+        }
+    }
+    // top messages card
+    .container-4HqGB3.background-3X6Uak,
+    .emptyStateContainer-xWOMPJ {
+        background-color: var(--background-secondary-alt);
+    }
+    .card-3x20HF,
+    .homeContent-2_a0jF .wrapper-15CKyy {
+        background-color: var(--background-secondary);
+    }
+}

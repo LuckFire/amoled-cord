@@ -5,15 +5,12 @@
         box-shadow: none;
         background-color: var(--background-tertiary);
     }
+    .footer-1hTRRZ {
+        background-color: var(--background-secondary);
+    }
     // quick switcher
     .input-3r5zZY {
-        background-color: var(--background-tertiary);
-    }
-    // raido
-    .itemFilled-1cPbtg {
-        &:hover {
-            background-color: var(--background-primary);
-        }
+        background-color: var(--input-background);
     }
     // reactions
     .scroller-2GkvCq {
@@ -29,20 +26,14 @@
     .reactorDefault-3GSyaV {
         box-shadow: inset 0 -1px 0 var(--background-secondary-alt);
     }
-    // screenshare (mostly)
-    .card-m7VgZ8,
-    .lookFilled-1GseHa.select-1Ia3hD {
-        border-color: var(--background-primary) !important;
-        background-color: var(--background-tertiary) !important;
-    }
+    // screenshare
+    .item-2OyinQ,
     .qualitySettingsContainer-2LjkfM {
         border-color: var(--background-tertiary);
     }
-    .item-2OyinQ {
-        border-color: var(--background-primary);
-    }
+    .card-m7VgZ8,
     .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
-        background-color: var(--background-tertiary);
+        background-color: var(--background-secondary-alt);
     }
     // delete message
     .message-G6O-Wv {
@@ -61,7 +52,7 @@
         display: none;
     }
     .previewDark-3Xp3UB {
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-secondary);
     }
     // boost perks
     .perks-2IIbWQ {
@@ -74,5 +65,32 @@
         &:hover {
             background-color: var(--background-primary);
         }
+    }
+    .contentContainer-BWAau5 {
+        background-color: var(--background-secondary);
+    }
+    .container-3zZkKh,
+    .rsvpCount-iCkObl {
+        background-color: var(--background-secondary-alt);
+    }
+    // student hub
+    .sidebarContainer-gUKhtL {
+        background-color: var(--background-secondary-alt);
+    }
+    // server join
+    .contentWrapper-3oy4Xo {
+        background-color: var(--background-secondary);
+    }
+    // server leave feedback
+    .root-cw9rWQ {
+        background-color: var(--background-secondary-alt);
+    }
+    // membership screening
+    .modal-2TOYtq {
+        background-color: var(--background-secondary);
+    }
+    .formFieldWrapper-2LV3S6,
+    .guildSidebar-UHnQqs {
+        background-color: var(--background-secondary-alt);
     }
 }
