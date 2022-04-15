@@ -269,7 +269,7 @@
   This theme file was auto-generated from the Base16 scheme chalk
   by the Highlight.js Base16 template builder.
 
-  - https://github.com/highlightjs/base16-highlightjs
+- https://github.com/highlightjs/base16-highlightjs
 */
 /*
 base00  #151515  Default Background
@@ -511,6 +511,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
     border-color: var(--background-secondary);
 }
+#app-mount .container-3wLKDe .container-2IhveL {
+    background-color: var(--background-secondary);
+}
 #app-mount .container-3wLKDe .reactionBox-1FeKQU {
     background-color: var(--background-tertiary);
 }
@@ -529,20 +532,28 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
         background: none;
     }
 }
-#app-mount .channel-3RR50j {
+#app-mount .channel-TWuMcg {
     background-color: var(--background-secondary);
 }
-#app-mount .channel-3RR50j:hover {
+#app-mount .channel-TWuMcg:hover {
     background-color: var(--background-secondary-alt);
 }
 @media (max-width: 1300px) {
-    #app-mount .channel-3RR50j:hover {
+    #app-mount .channel-TWuMcg:hover {
         background-color: var(--background-secondary);
     }
 }
+#app-mount .spacerChannel-338bS4:hover {
+    border-color: var(--background-secondary-alt);
+}
+#app-mount .card-3x20HF .reaction-2A2y9y,
 #app-mount .container-4HqGB3.background-3X6Uak,
-#app-mount .emptyStateContainer-xWOMPJ {
+#app-mount .emptyStateContainer-xWOMPJ,
+#app-mount .options-2psDVJ {
     background-color: var(--background-secondary-alt);
+}
+#app-mount .option-3x6TXa:hover {
+    background-color: var(--background-modifier-hover);
 }
 #app-mount .card-3x20HF,
 #app-mount .homeContent-2_a0jF .wrapper-15CKyy {
