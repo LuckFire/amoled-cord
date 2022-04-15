@@ -13,7 +13,7 @@
             background: none;
         }
     }
-    .channel-3RR50j {
+    .channel-TWuMcg {
         background-color: var(--background-secondary);
         &:hover {
             background-color: var(--background-secondary-alt);
@@ -24,10 +24,18 @@
             }
         }
     }
+    .spacerChannel-338bS4:hover {
+        border-color: var(--background-secondary-alt);
+    }
     // top messages card
+    .card-3x20HF .reaction-2A2y9y,
     .container-4HqGB3.background-3X6Uak,
-    .emptyStateContainer-xWOMPJ {
+    .emptyStateContainer-xWOMPJ,
+    .options-2psDVJ {
         background-color: var(--background-secondary-alt);
+    }
+    .option-3x6TXa:hover {
+        background-color: var(--background-modifier-hover);
     }
     .card-3x20HF,
     .homeContent-2_a0jF .wrapper-15CKyy {
