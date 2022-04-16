@@ -529,10 +529,12 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .container-2Hi7Km {
     background-color: var(--background-secondary);
 }
+#app-mount .container-3rZ3XA,
 #app-mount .container-xwOzwi {
     background-color: var(--background-secondary);
 }
 @media (max-width: 1300px) {
+    #app-mount .container-3rZ3XA,
     #app-mount .container-xwOzwi {
         background: none;
     }
