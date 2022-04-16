@@ -740,6 +740,19 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .inviteBannerUpsell-1t_LYM {
     background-color: var(--background-secondary-alt);
 }
+#app-mount .root-g14mjS .ctaSection-3LqbxQ {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .formSection-23ecNl {
+    background-color: var(--background-secondary);
+}
+#app-mount .root-g14mjS .usagePill-P-Cmcv {
+    background-color: var(--background-secondary);
+}
+#app-mount .root-g14mjS .channelsWrapper-51IUFR,
+#app-mount .root-g14mjS .rolesWrapper-1LLZrU {
+    background-color: var(--background-secondary-alt);
+}
 
 #app-mount .root-g14mjS .container-x8Y1ix,
 #app-mount .root-g14mjS .guildRow-3fJnG6 {
@@ -941,6 +954,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .notches-2w7UZJ.black-11MaxJ {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='rgb(12, 12, 12)'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+#app-mount .colorPickerCustom-1swUKF {
+    background-color: var(--background-secondary);
+    border-color: var(--background-secondary-alt);
 }
 
 #app-mount .searchResult-O9NDji {
