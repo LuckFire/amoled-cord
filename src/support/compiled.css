@@ -146,11 +146,10 @@
     background-color: var(--background-secondary-alt);
 }
 #app-mount .container-30qY7E {
-    border-color: var(--background-secondary);
     background-color: var(--background-tertiary);
 }
-#app-mount .container-30qY7E:hover {
-    border-color: hsla(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.3);
+#app-mount .container-30qY7E.fileUpload-3JzU7g :not(:hover) {
+    border-color: var(--background-secondary);
 }
 #app-mount .noticeRegion-qjyUVg .container-20TyK0 {
     background-color: var(--background-secondary) !important;

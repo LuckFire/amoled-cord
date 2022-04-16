@@ -44,10 +44,9 @@
     }
     // keybind actions
     .container-30qY7E {
-        border-color: var(--background-secondary);
         background-color: var(--background-tertiary);
-        &:hover {
-            border-color: hsla(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.3);
+        &.fileUpload-3JzU7g :not(:hover) {
+            border-color: var(--background-secondary);
         }
     }
     // save popup
