@@ -10,7 +10,7 @@
     .accountList-Wii_T5 {
         background-color: var(--background-secondary);
     }
-    .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+    .accountBtn-3pgcgr .accountBtnInner-3ttD-i:not(:hover) {
         background-color: var(--background-secondary-alt);
     }
     .connectionHeader-Ixbb1s {

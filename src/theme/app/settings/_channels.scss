@@ -1,9 +1,6 @@
 #app-mount .layer-86YKbF {
-    .item-4m-12I[aria-checked="false"] {
+    .item-4m-12I[aria-checked="false"]:not(:hover) {
         background-color: var(--background-tertiary);
-        &:hover {
-            background-color: var(--background-modifier-hover);
-        }
     }
     .bar-1Bhnl9,
     .markDash-yk2kJ- {

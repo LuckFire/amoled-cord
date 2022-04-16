@@ -22,15 +22,15 @@
     --background-modifier-active: rgba(var(--background-modifier-rgb), 0.6);
     --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.6);
     --background-modifier-accent: rgba(var(--background-modifier-rgb), 0.48);
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
     --interactive-muted: rgb(75, 75, 75);
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
 }
 
-#app-mount .layer-86YKbF .item-4m-12I[aria-checked=false] {
+#app-mount .layer-86YKbF .item-4m-12I[aria-checked=false]:not(:hover) {
     background-color: var(--background-tertiary);
-}
-#app-mount .layer-86YKbF .item-4m-12I[aria-checked=false]:hover {
-    background-color: var(--background-modifier-hover);
 }
 #app-mount .layer-86YKbF .bar-1Bhnl9,
 #app-mount .layer-86YKbF .markDash-yk2kJ- {
@@ -91,11 +91,17 @@
 #app-mount .layer-86YKbF .changeDetails-1kMZqI {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .layer-86YKbF .featureCard-3XHbjy {
+#app-mount .layer-86YKbF .card-WWLYDO {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .iconMask-1EYGrv {
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .previewCard-22p9UT {
-    background-color: var(--background-secondary-alt);
+#app-mount .layer-86YKbF .css-17e1tep-control,
+#app-mount .layer-86YKbF .css-6fzn47-control,
+#app-mount .layer-86YKbF .css-gvi9bl-control,
+#app-mount .layer-86YKbF .inputWrapper-3a4ywb {
+    background-color: var(--input-background);
 }
 #app-mount .layer-86YKbF .welcomeChannel-_Q4qAA {
     background-color: var(--background-secondary-alt);
@@ -159,7 +165,7 @@
 #app-mount .layer-86YKbF .accountList-Wii_T5 {
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+#app-mount .layer-86YKbF .accountBtn-3pgcgr .accountBtnInner-3ttD-i:not(:hover) {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .connectionHeader-Ixbb1s {
@@ -532,19 +538,16 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
         background: none;
     }
 }
-#app-mount .channel-TWuMcg {
+#app-mount .container-3HMTms {
     background-color: var(--background-secondary);
 }
-#app-mount .channel-TWuMcg:hover {
+#app-mount .container-3HMTms:not(.fillerCard-28hW81):hover {
     background-color: var(--background-secondary-alt);
 }
 @media (max-width: 1300px) {
-    #app-mount .channel-TWuMcg:hover {
+    #app-mount .container-3HMTms:not(.fillerCard-28hW81):hover {
         background-color: var(--background-secondary);
     }
-}
-#app-mount .spacerChannel-338bS4:hover {
-    border-color: var(--background-secondary-alt);
 }
 #app-mount .card-3x20HF .reaction-2A2y9y,
 #app-mount .container-4HqGB3.background-3X6Uak,
@@ -734,11 +737,16 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .navRow-dG-XX8 {
     background-color: var(--background-tertiary);
 }
+#app-mount .root-g14mjS .inviteBannerUpsell-1t_LYM {
+    background-color: var(--background-secondary-alt);
+}
 
-#app-mount .root-g14mjS .container-x8Y1ix {
+#app-mount .root-g14mjS .container-x8Y1ix,
+#app-mount .root-g14mjS .guildRow-3fJnG6 {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .container-x8Y1ix:hover {
+#app-mount .root-g14mjS .container-x8Y1ix:hover,
+#app-mount .root-g14mjS .guildRow-3fJnG6:hover {
     background-color: var(--background-tertiary);
 }
 #app-mount .root-g14mjS .rowContainer-3t7486 {

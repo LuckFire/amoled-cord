@@ -13,19 +13,18 @@
             background: none;
         }
     }
-    .channel-TWuMcg {
+    .container-3HMTms {
         background-color: var(--background-secondary);
-        &:hover {
-            background-color: var(--background-secondary-alt);
-        }
-        @media (max-width: 1300px) {
-            &:hover {
-                background-color: var(--background-secondary);
-            }
-        }
-    }
-    .spacerChannel-338bS4:hover {
-        border-color: var(--background-secondary-alt);
+		&:not(.fillerCard-28hW81) {
+			&:hover {
+				background-color: var(--background-secondary-alt);
+			}
+			@media (max-width: 1300px) {
+				&:hover {
+					background-color: var(--background-secondary);
+				}
+			}
+		}
     }
     // top messages card
     .card-3x20HF .reaction-2A2y9y,
