@@ -32,10 +32,6 @@
 #app-mount .layer-86YKbF .item-4m-12I[aria-checked=false]:not(:hover) {
     background-color: var(--background-tertiary);
 }
-#app-mount .layer-86YKbF .bar-1Bhnl9,
-#app-mount .layer-86YKbF .markDash-yk2kJ- {
-    background-color: var(--background-secondary-alt);
-}
 #app-mount .layer-86YKbF .cardFolder-3H4uH4 {
     background-color: var(--background-secondary-alt);
 }
@@ -153,6 +149,10 @@
 }
 #app-mount .noticeRegion-qjyUVg .container-20TyK0 {
     background-color: var(--background-secondary) !important;
+}
+#app-mount .bar-1Bhnl9:not(.microphone-2RrrW7, .speaking-2Crrvt),
+#app-mount .markDash-yk2kJ- {
+    background-color: var(--background-secondary-alt);
 }
 
 #app-mount .layer-86YKbF .profileBannerPreview-3mLIdO {
@@ -274,7 +274,7 @@
   This theme file was auto-generated from the Base16 scheme chalk
   by the Highlight.js Base16 template builder.
 
-- https://github.com/highlightjs/base16-highlightjs
+  - https://github.com/highlightjs/base16-highlightjs
 */
 /*
 base00  #151515  Default Background
@@ -590,6 +590,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .wrapper-2vIMkT {
     background-color: var(--background-secondary);
 }
+#app-mount .upload-vLbqu- {
+    background-color: var(--background-secondary-alt);
+}
 
 #app-mount .container-cH6QoY .callContainer-BGIngG,
 #app-mount .container-cH6QoY .scroller-35tvpe,
@@ -648,7 +651,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .footer-31IekZ {
+#app-mount .root-g14mjS .footer-31IekZ,
+#app-mount .root-g14mjS .footer-3Gu_Tl {
     box-shadow: none;
     background-color: var(--background-tertiary);
 }
@@ -753,6 +757,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .channelsWrapper-51IUFR,
 #app-mount .root-g14mjS .rolesWrapper-1LLZrU {
     background-color: var(--background-secondary-alt);
+}
+#app-mount .root-g14mjS .authorize-2xTTr- {
+    background-color: var(--background-secondary);
 }
 
 #app-mount .root-g14mjS .container-x8Y1ix,
@@ -959,6 +966,12 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .colorPickerCustom-1swUKF {
     background-color: var(--background-secondary);
     border-color: var(--background-secondary-alt);
+}
+#app-mount .tooltipGrey-lpLZjh {
+    background-color: var(--background-secondary);
+}
+#app-mount .tooltipGrey-lpLZjh .tooltipPointer-3L49xb {
+    border-top-color: var(--background-secondary);
 }
 
 #app-mount .searchResult-O9NDji {
