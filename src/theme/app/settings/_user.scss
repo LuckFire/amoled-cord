@@ -2,26 +2,22 @@
     .profileBannerPreview-3mLIdO {
         background-color: var(--background-tertiary);
     }
-    .bioTextArea-dDGOeC {
-        background-color: var(--background-secondary);
-    }
 
     .cardPrimaryOutline-1ofwVz {
-        background-color: var(--background-tertiary);
+        border-color: var(--background-secondary);
     }
 
     .accountList-Wii_T5 {
         background-color: var(--background-secondary);
     }
-    .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+    .accountBtn-3pgcgr .accountBtnInner-3ttD-i:not(:hover) {
         background-color: var(--background-secondary-alt);
     }
     .connectionHeader-Ixbb1s {
-        background-color: var(--background-tertiary);
-    }
-
-    .feature-2IUcBI {
         background-color: var(--background-secondary);
+    }
+    .connection-YOVI9j {
+        background-color: var(--background-secondary-alt);
     }
 
     .outer-2JOHae {
@@ -53,14 +49,14 @@
         }
     }
     .bottomDivider-ZmTm-j {
-        border-color: var(--background-primary);
+        border-color: var(--background-secondary-alt);
     }
     .expandedInfo-1W31i3 {
         background-color: var(--background-secondary-alt);
     }
     .codeRedemptionRedirect-2hYMSQ {
-        border-color: var(--background-secondary);
-        background-color: var(--background-tertiary);
+        border-color: var(--background-tertiary);
+        background-color: var(--background-secondary);
     }
 
     .previewMessage-2g_aBv {
@@ -74,7 +70,7 @@
         border-color: var(--background-secondary);
     }
     .backgroundOptionInner-SSz19O {
-        background-color: var(--background-secondary);
+        background-color: var(--background-tertiary);
     }
 
     .notDetected-M3Ghh2 {
