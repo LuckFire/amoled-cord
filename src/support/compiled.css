@@ -1,7 +1,7 @@
 :root,
 .theme-dark,
 .theme-light {
-    --background-primary: black;
+    --background-primary: rgb(10, 10, 10);
     --background-secondary: rgb(20, 20, 20);
     --background-secondary-alt: rgb(28, 28, 28);
     --background-tertiary: rgb(10, 10, 10);
