@@ -1,44 +1,40 @@
-#app-mount {
-    .background-fkKrXt {
+#app-mount .background-fkKrXt {
+    background-color: var(--background-primary);
+    .card-3x20HF,
+    .container-2Hi7Km,
+    .container-xwOzwi,
+    .container-3rZ3XA,
+    .wrapper-15CKyy {
+        background-color: var(--background-tertiary);
+    }
+    .icon-2IDTxf {
+        border-color: var(--background-tertiary);
+    }
+    .emptyStateContainer-xWOMPJ,
+    .container-4HqGB3.background-3X6Uak,
+    .previewContainer-3BJM_S {
+        background-color: var(--background-secondary);
+    }
+    .iconContainer-2R-3M1,
+    .moreUsers-_v6T-L,
+    .typingIndicator-KF8hGa {
         background-color: var(--background-primary);
     }
-    // main card
-    .container-2Hi7Km {
-        background-color: var(--background-secondary);
-    }
-    // active now and events card
-    .container-3rZ3XA,
-    .container-xwOzwi {
-        background-color: var(--background-secondary);
-        @media (max-width: 1300px) {
-            background: none;
-        }
-    }
-    .container-3HMTms {
-        background-color: var(--background-secondary);
-        &:not(.fillerCard-28hW81) {
-            &:hover {
-                background-color: var(--background-secondary-alt);
-            }
-            @media (max-width: 1300px) {
-                &:hover {
-                    background-color: var(--background-secondary);
-                }
-            }
-        }
-    }
-    // top messages card
-    .card-3x20HF .reaction-2A2y9y,
-    .container-4HqGB3.background-3X6Uak,
-    .emptyStateContainer-xWOMPJ,
-    .options-2psDVJ {
-        background-color: var(--background-secondary-alt);
-    }
-    .option-3x6TXa:hover {
+    .container-3HMTms:hover {
         background-color: var(--background-modifier-hover);
     }
-    .card-3x20HF,
-    .homeContent-2_a0jF .wrapper-15CKyy {
-        background-color: var(--background-secondary);
+    @media (max-width: 1300px) {
+        .container-xwOzwi,
+        .container-3rZ3XA {
+            background-color: var(--background-primary);
+        }
+        .container-3HMTms,
+        .container-3HMTms:hover,
+        .iconContainer-2R-3M1 {
+            background-color: var(--background-tertiary);
+        }
+    }
+    .headerBarInner-2pcZSM::after {
+        background: unset;
     }
 }

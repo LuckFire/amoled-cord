@@ -1,32 +1,34 @@
 :root,
-.theme-dark,
-.theme-light {
-    --background-primary: black;
-    --background-secondary: rgb(20, 20, 20);
-    --background-secondary-alt: rgb(28, 28, 28);
-    --background-tertiary: rgb(10, 10, 10);
-    --background-accent: var(--background-secondary-alt);
-    --background-floating: rgb(12, 12, 12);
-    --channeltextarea-background: rgb(15, 15, 15);
-    --searcharea-background: var(--background-secondary);
-    --input-background: var(--background-tertiary);
-    --channels-default: #8b8b8b;
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #969696;
-    --scroller-thumb: rgb(30, 30, 30);
-    --scroller-track: rgb(10, 10, 10);
-    --background-modifier-rgb: 40, 40, 40;
-    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.4);
-    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.6);
-    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.6);
-    --background-modifier-accent: rgba(var(--background-modifier-rgb), 0.48);
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: rgb(75, 75, 75);
-    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+.theme-dark:not(.userProfileOuterThemed-3EfHmv),
+.theme-light:not(.userProfileOuterThemed-3EfHmv),
+.theme-amoled:not(.userProfileOuterThemed-3EfHmv) {
+    --background-primary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --background-secondary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 8%);
+    --background-secondary-alt: hsl(0, calc(var(--saturation-factor, 1) * 0%), 10%);
+    --background-tertiary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 4%);
+    --background-accent: hsl(0, calc(var(--saturation-factor, 1) * 0%), 12%);
+    --background-floating: hsl(0, calc(var(--saturation-factor, 1) * 0%), 6%);
+    --channeltextarea-background: hsl(0, calc(var(--saturation-factor, 1) * 0%), 5%);
+    --input-background: hsl(0, calc(var(--saturation-factor, 1) * 0%), 4%);
+    --channels-default: hsl(0, calc(var(--saturation-factor, 1) * 0%), 55%);
+    --header-primary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --header-secondary: hsl(216, calc(var(--saturation-factor, 1) * 4%), 74%);
+    --text-normal: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --text-muted: hsl(0, calc(var(--saturation-factor, 1) * 0%), 59%);
+    --scroller-thumb: hsl(0, calc(var(--saturation-factor, 1) * 0%), 12%);
+    --scroller-track: hsl(0, calc(var(--saturation-factor, 1) * 0%), 4%);
+    --background-modifier-hsl: 0, calc(var(--saturation-factor, 1) * 0%), 16%;
+    --background-modifier-hover: hsla(var(--background-modifier-hsl), 0.3);
+    --background-modifier-active: hsla(var(--background-modifier-hsl), 0.4);
+    --background-modifier-selected: hsla(var(--background-modifier-hsl), 0.5);
+    --background-modifier-accent: hsla(var(--background-modifier-hsl), 0.4);
+    --interactive-normal: hsl(216, calc(var(--saturation-factor, 1) * 4%), 74%);
+    --interactive-hover: hsl(210, calc(var(--saturation-factor, 1) * 3%), 87%);
+    --interactive-active: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --interactive-muted: hsl(0, calc(var(--saturation-factor, 1) * 0%), 29%);
+    --elevation-low: 0 1px 0 hsla(240, calc(var(--saturation-factor, 1) * 11%), 18%, 0.2),
+        0 1.5px 0 hsla(240, calc(var(--saturation-factor, 1) * 8%), 25%, 0.05),
+        0 2px 0 hsla(240, calc(var(--saturation-factor, 1) * 11%), 18%, 0.05);
 }
 
 #app-mount .layer-86YKbF .item-4m-12I[aria-checked=false]:not(:hover) {
@@ -161,10 +163,10 @@
 #app-mount .layer-86YKbF .cardPrimaryOutline-1ofwVz {
     border-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .accountList-Wii_T5 {
+#app-mount .layer-86YKbF .connectContainer-1hylYM {
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .accountBtn-3pgcgr .accountBtnInner-3ttD-i:not(:hover) {
+#app-mount .layer-86YKbF .accountButtonInner-33vCDY:not(:hover) {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .layer-86YKbF .connectionHeader-Ixbb1s {
@@ -209,9 +211,6 @@
     border-color: var(--background-tertiary);
     background-color: var(--background-secondary);
 }
-#app-mount .layer-86YKbF .previewMessage-2g_aBv {
-    background-color: var(--background-secondary-alt);
-}
 #app-mount .layer-86YKbF .notches-2w7UZJ.gray-3wP137 {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='black'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
@@ -242,23 +241,23 @@
 #app-mount .button-1EGGcP .buttonColor-3bP3fX,
 #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B,
 #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo {
-    background-color: #282828;
+    background-color: rgb(40, 40, 40);
 }
 #app-mount .button-3Vyz67:enabled:hover,
 #app-mount .button-1EGGcP.buttonColor-3bP3fX:enabled:hover,
 #app-mount .button-1EGGcP .buttonColor-3bP3fX:enabled:hover,
 #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B:enabled:hover,
 #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo:enabled:hover {
-    background-color: #1e1e1e;
+    background-color: rgb(30, 30, 30);
 }
 #app-mount .button-3Vyz67:hover {
-    background-color: #1e1e1e;
+    background-color: rgb(30, 30, 30);
 }
 #app-mount .container-2nx-BQ[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] {
-    background-color: #282828 !important;
+    background-color: rgb(40, 40, 40) !important;
 }
 #app-mount .colorable-3rVGna.primaryDark-2UJt1G {
-    background-color: #282828;
+    background-color: rgb(40, 40, 40);
 }
 
 /*!
@@ -421,31 +420,31 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 .theme-light #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
     -webkit-animation: flash 1s ease infinite;
-    animation: flash 1s ease infinite;
+            animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245;
 }
 .theme-light #app-mount #user-settings-cog-Appearance {
     -webkit-animation: flash 1s ease infinite;
-    animation: flash 1s ease infinite;
+            animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
 .theme-light #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
     -webkit-animation: flash 1s ease infinite;
-    animation: flash 1s ease infinite;
+            animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
 .theme-light #app-mount [aria-controls=appearance-tab] {
     -webkit-animation: flash 1s ease infinite;
-    animation: flash 1s ease infinite;
+            animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
 .theme-light #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
     -webkit-animation: flash 1s ease infinite;
-    animation: flash 1s ease infinite;
+            animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
@@ -512,62 +511,63 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-primary);
 }
 #app-mount .container-3wLKDe .mainCard-3KBsBI,
-#app-mount .container-3wLKDe .sidebarCard-1Gn1ch {
-    background-color: var(--background-secondary);
-    border-color: var(--background-secondary);
-}
-#app-mount .container-3wLKDe .container-2IhveL {
-    background-color: var(--background-secondary);
-}
-#app-mount .container-3wLKDe .reactionBox-1FeKQU {
+#app-mount .container-3wLKDe .container-3arpDl,
+#app-mount .container-3wLKDe .container-2nXUah,
+#app-mount .container-3wLKDe .container-2_J666 {
     background-color: var(--background-tertiary);
+}
+#app-mount .container-3wLKDe .container-2qVG6q:active {
+    background-color: var(--background-modifier-active);
+}
+#app-mount .container-3wLKDe .tagFiltered-1YWPlr,
+#app-mount .container-3wLKDe .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+    background-color: var(--background-modifier-hover);
 }
 
 #app-mount .background-fkKrXt {
     background-color: var(--background-primary);
 }
-#app-mount .container-2Hi7Km {
+#app-mount .background-fkKrXt .card-3x20HF,
+#app-mount .background-fkKrXt .container-2Hi7Km,
+#app-mount .background-fkKrXt .container-xwOzwi,
+#app-mount .background-fkKrXt .container-3rZ3XA,
+#app-mount .background-fkKrXt .wrapper-15CKyy {
+    background-color: var(--background-tertiary);
+}
+#app-mount .background-fkKrXt .icon-2IDTxf {
+    border-color: var(--background-tertiary);
+}
+#app-mount .background-fkKrXt .emptyStateContainer-xWOMPJ,
+#app-mount .background-fkKrXt .container-4HqGB3.background-3X6Uak,
+#app-mount .background-fkKrXt .previewContainer-3BJM_S {
     background-color: var(--background-secondary);
 }
-#app-mount .container-3rZ3XA,
-#app-mount .container-xwOzwi {
-    background-color: var(--background-secondary);
+#app-mount .background-fkKrXt .iconContainer-2R-3M1,
+#app-mount .background-fkKrXt .moreUsers-_v6T-L,
+#app-mount .background-fkKrXt .typingIndicator-KF8hGa {
+    background-color: var(--background-primary);
 }
-@media (max-width: 1300px) {
-    #app-mount .container-3rZ3XA,
-    #app-mount .container-xwOzwi {
-        background: none;
-    }
-}
-#app-mount .container-3HMTms {
-    background-color: var(--background-secondary);
-}
-#app-mount .container-3HMTms:not(.fillerCard-28hW81):hover {
-    background-color: var(--background-secondary-alt);
-}
-@media (max-width: 1300px) {
-    #app-mount .container-3HMTms:not(.fillerCard-28hW81):hover {
-        background-color: var(--background-secondary);
-    }
-}
-#app-mount .card-3x20HF .reaction-2A2y9y,
-#app-mount .container-4HqGB3.background-3X6Uak,
-#app-mount .emptyStateContainer-xWOMPJ,
-#app-mount .options-2psDVJ {
-    background-color: var(--background-secondary-alt);
-}
-#app-mount .option-3x6TXa:hover {
+#app-mount .background-fkKrXt .container-3HMTms:hover {
     background-color: var(--background-modifier-hover);
 }
-#app-mount .card-3x20HF,
-#app-mount .homeContent-2_a0jF .wrapper-15CKyy {
-    background-color: var(--background-secondary);
+@media (max-width: 1300px) {
+    #app-mount .background-fkKrXt .container-xwOzwi,
+#app-mount .background-fkKrXt .container-3rZ3XA {
+        background-color: var(--background-primary);
+    }
+    #app-mount .background-fkKrXt .container-3HMTms,
+#app-mount .background-fkKrXt .container-3HMTms:hover,
+#app-mount .background-fkKrXt .iconContainer-2R-3M1 {
+        background-color: var(--background-tertiary);
+    }
+}
+#app-mount .background-fkKrXt .headerBarInner-2pcZSM::after {
+    background: unset;
 }
 
 #app-mount .container-2o3qEW,
-#app-mount .membersWrap-3NUR2t,
-#app-mount .members-3WRCEx,
-#app-mount .members-3WRCEx > div {
+#app-mount .member-48YF_l,
+#app-mount .members-3WRCEx {
     background-color: var(--background-primary);
 }
 
@@ -638,6 +638,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary-alt);
 }
 
+#app-mount .directoryModal-YJsOMv {
+    background-color: var(--background-primary);
+}
+
 #app-mount .keyboardShortcutsModal-2CRmCm {
     background-color: var(--background-secondary);
 }
@@ -650,6 +654,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
     background-color: var(--background-secondary);
+}
+#app-mount .root-g14mjS.carouselModal-1eUFoq {
+    box-shadow: none;
+    background-color: transparent;
 }
 #app-mount .root-g14mjS .footer-31IekZ,
 #app-mount .root-g14mjS .footer-3Gu_Tl,
@@ -904,7 +912,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .contentWrapper-3vHNP2 .container-1SX9VC,
 #app-mount .emojiPicker-6YCk8a .container-2oNtJn,
 #app-mount .emojiPicker-6YCk8a .container-1SX9VC {
-    background-color: var(--searcharea-background);
+    background-color: var(--background-secondary);
 }
 #app-mount .contentWrapper-3vHNP2 .upsell-3B1lnN,
 #app-mount .emojiPicker-6YCk8a .upsell-3B1lnN {
