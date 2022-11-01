@@ -1,41 +1,43 @@
 :root,
-.theme-dark,
-.theme-light {
+.theme-dark:not(.userProfileOuterThemed-3EfHmv),
+.theme-light:not(.userProfileOuterThemed-3EfHmv),
+.theme-amoled:not(.userProfileOuterThemed-3EfHmv) {
     // base
-    --background-primary: black;
-    --background-secondary: rgb(20, 20, 20);
-    --background-secondary-alt: rgb(28, 28, 28);
-    --background-tertiary: rgb(10, 10, 10);
-    --background-accent: var(--background-secondary-alt);
-    --background-floating: rgb(12, 12, 12);
-    --channeltextarea-background: rgb(15, 15, 15);
-    --searcharea-background: var(--background-secondary);
-    --input-background: var(--background-tertiary);
+    --background-primary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
+    --background-secondary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 8%);
+    --background-secondary-alt: hsl(0, calc(var(--saturation-factor, 1) * 0%), 10%);
+    --background-tertiary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 4%);
+    --background-accent: hsl(0, calc(var(--saturation-factor, 1) * 0%), 12%);
+    --background-floating: hsl(0, calc(var(--saturation-factor, 1) * 0%), 6%);
+    --channeltextarea-background: hsl(0, calc(var(--saturation-factor, 1) * 0%), 5%);
+    --input-background: hsl(0, calc(var(--saturation-factor, 1) * 0%), 4%);
 
     // text colors
-    --channels-default: #8b8b8b;
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #969696;
+    --channels-default: hsl(0, calc(var(--saturation-factor, 1) * 0%), 55%);
+    --header-primary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --header-secondary: hsl(216, calc(var(--saturation-factor, 1) * 4%), 74%);
+    --text-normal: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --text-muted: hsl(0, calc(var(--saturation-factor, 1) * 0%), 59%);
 
     // scrollers
-    --scroller-thumb: rgb(30, 30, 30); // webkit-scrollbar-thumb
-    --scroller-track: rgb(10, 10, 10); // webkit-scrollbar-track
+    --scroller-thumb: hsl(0, calc(var(--saturation-factor, 1) * 0%), 12%);
+    --scroller-track: hsl(0, calc(var(--saturation-factor, 1) * 0%), 4%);
 
     // bg modifier colors
-    --background-modifier-rgb: 40, 40, 40;
-    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.4);
-    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.6);
-    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.6);
-    --background-modifier-accent: rgba(var(--background-modifier-rgb), 0.48);
+    --background-modifier-hsl: 0, calc(var(--saturation-factor, 1) * 0%), 16%;
+    --background-modifier-hover: hsla(var(--background-modifier-hsl), 0.3);
+    --background-modifier-active: hsla(var(--background-modifier-hsl), 0.4);
+    --background-modifier-selected: hsla(var(--background-modifier-hsl), 0.5);
+    --background-modifier-accent: hsla(var(--background-modifier-hsl), 0.4);
 
     // interactive
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: rgb(75, 75, 75);
+    --interactive-normal: hsl(216, calc(var(--saturation-factor, 1) * 4%), 74%);
+    --interactive-hover: hsl(210, calc(var(--saturation-factor, 1) * 3%), 87%);
+    --interactive-active: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+    --interactive-muted: hsl(0, calc(var(--saturation-factor, 1) * 0%), 29%);
 
     // elevation
-    --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
+    --elevation-low: 0 1px 0 hsla(240, calc(var(--saturation-factor, 1) * 11%), 18%, 0.2),
+        0 1.5px 0 hsla(240, calc(var(--saturation-factor, 1) * 8%), 25%, 0.05),
+        0 2px 0 hsla(240, calc(var(--saturation-factor, 1) * 11%), 18%, 0.05);
 }
