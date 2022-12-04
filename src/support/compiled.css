@@ -507,6 +507,32 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
 }
 
+#app-mount .container-1um7CU,
+#app-mount .container-2IKOsH,
+#app-mount .header-3xB4vB,
+#app-mount .emptyPage-2TGR7j,
+#app-mount .scrollerContainer-y16Rs9 {
+    background-color: var(--background-primary);
+}
+#app-mount .alternateTheme-iFG8-t,
+#app-mount .prompt-1sE27N,
+#app-mount .profileCard-2gVmvm {
+    background-color: var(--background-tertiary);
+}
+#app-mount .optionButton-1W9f7G.selected-KQBgNS {
+    background-color: var(--background-secondary);
+    border-color: var(--background-secondary);
+}
+#app-mount .alternateTheme-iFG8-t:hover:not(.disabled-3cfocy) {
+    background-color: var(--background-modifier-hover);
+}
+#app-mount .innerHeader-1cC3Fp:after {
+    background: unset;
+}
+#app-mount .gradient-qt4Dwd {
+    background: linear-gradient(180deg, hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 0.5), hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 1));
+}
+
 #app-mount .container-3wLKDe {
     background-color: var(--background-primary);
 }
