@@ -510,18 +510,27 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .container-3wLKDe {
     background-color: var(--background-primary);
 }
-#app-mount .container-3wLKDe .mainCard-3KBsBI,
+#app-mount .container-3wLKDe .mainCard-3KBsBI:not(.isOpen-2OXbFs):not(.container-2qVG6q:active, .container-1PloNW:active),
 #app-mount .container-3wLKDe .container-3arpDl,
 #app-mount .container-3wLKDe .container-2nXUah,
-#app-mount .container-3wLKDe .container-2_J666 {
+#app-mount .container-3wLKDe .container-2_J666,
+#app-mount .container-3wLKDe .loadingCard-3pIp9h {
     background-color: var(--background-tertiary);
 }
-#app-mount .container-3wLKDe .container-2qVG6q:active {
-    background-color: var(--background-modifier-active);
+#app-mount .container-3wLKDe .tagPill-1kSbgP {
+    background-color: hsla(0, calc(var(--saturation-factor, 1) * 0%), 8%, 0.8);
 }
-#app-mount .container-3wLKDe .tagFiltered-1YWPlr,
+#app-mount .container-3wLKDe .tag-19iIl1,
+#app-mount .container-3wLKDe .tagsButton-4pwOKH,
+#app-mount .container-3wLKDe .sortButton-n-cIAH,
 #app-mount .container-3wLKDe .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
-    background-color: var(--background-modifier-hover);
+    background-color: var(--background-secondary);
+}
+#app-mount .container-3wLKDe .tagFiltered-3GfGpy {
+    background-color: var(--background-modifier-selected);
+}
+#app-mount .container-3wLKDe .textContentFooter-2JnNv8 {
+    background: linear-gradient(0deg, hsla(0, calc(var(--saturation-factor, 1) * 0%), 3%, 1), hsla(0, calc(var(--saturation-factor, 1) * 0%), 3%, 0.97) 36px, hsla(0, calc(var(--saturation-factor, 1) * 0%), 3%, 0.4));
 }
 
 #app-mount .background-fkKrXt {
@@ -557,7 +566,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     }
     #app-mount .background-fkKrXt .container-3HMTms,
 #app-mount .background-fkKrXt .container-3HMTms:hover,
-#app-mount .background-fkKrXt .iconContainer-2R-3M1 {
+#app-mount .background-fkKrXt .collapsedLayout-2ZTglJ .iconContainer-2R-3M1 {
         background-color: var(--background-tertiary);
     }
 }
