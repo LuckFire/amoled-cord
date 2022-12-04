@@ -796,6 +796,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .authorize-2xTTr- {
     background-color: var(--background-secondary);
 }
+#app-mount .root-g14mjS .content-te-TUT {
+    background-color: var(--background-tertiary);
+}
 
 #app-mount .root-g14mjS .container-x8Y1ix,
 #app-mount .root-g14mjS .guildRow-3fJnG6 {
