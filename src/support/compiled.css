@@ -532,6 +532,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .gradient-qt4Dwd {
     background: linear-gradient(180deg, hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 0.5), hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 1));
 }
+#app-mount .content-te-TUT {
+    background-color: var(--background-tertiary);
+}
 
 #app-mount .container-3wLKDe {
     background-color: var(--background-primary);
@@ -795,9 +798,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .root-g14mjS .authorize-2xTTr- {
     background-color: var(--background-secondary);
-}
-#app-mount .root-g14mjS .content-te-TUT {
-    background-color: var(--background-tertiary);
 }
 
 #app-mount .root-g14mjS .container-x8Y1ix,

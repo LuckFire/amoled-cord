@@ -28,4 +28,7 @@
             hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 1)
         );
     }
+    .content-te-TUT {
+        background-color: var(--background-tertiary);
+    }
 }
