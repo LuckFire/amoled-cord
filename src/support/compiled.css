@@ -514,7 +514,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .scrollerContainer-y16Rs9 {
     background-color: var(--background-primary);
 }
-#app-mount .alternateTheme-iFG8-t,
+#app-mount .channelRow-4X_3fi,
 #app-mount .prompt-1sE27N,
 #app-mount .profileCard-2gVmvm {
     background-color: var(--background-tertiary);
@@ -523,7 +523,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
     border-color: var(--background-secondary);
 }
-#app-mount .alternateTheme-iFG8-t:hover:not(.disabled-3cfocy) {
+#app-mount .channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
     background-color: var(--background-modifier-hover);
 }
 #app-mount .innerHeader-1cC3Fp:after {
