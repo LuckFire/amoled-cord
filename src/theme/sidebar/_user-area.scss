@@ -1,3 +1,7 @@
-#app-mount .panels-3wFtMD {
-    background-color: var(--background-primary);
+#app-mount {
+    .panels-3wFtMD,
+    .container-YkUktl,
+    .container-1zzFcN {
+        background-color: var(--background-primary);
+    }
 }
