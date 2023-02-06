@@ -532,7 +532,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .gradient-qt4Dwd {
     background: linear-gradient(180deg, hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 0.5), hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 1));
 }
-#app-mount .content-te-TUT {
+#app-mount .prompt-R8SyL4 {
     background-color: var(--background-tertiary);
 }
 
@@ -551,7 +551,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .container-3wLKDe .tag-19iIl1,
 #app-mount .container-3wLKDe .tagsButton-4pwOKH,
-#app-mount .container-3wLKDe .sortButton-n-cIAH,
 #app-mount .container-3wLKDe .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
     background-color: var(--background-secondary);
 }
@@ -572,7 +571,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt .wrapper-15CKyy {
     background-color: var(--background-tertiary);
 }
+#app-mount .background-fkKrXt .headerIcon-3Q7cOC,
 #app-mount .background-fkKrXt .icon-2IDTxf {
+    background-color: var(--background-tertiary);
     border-color: var(--background-tertiary);
 }
 #app-mount .background-fkKrXt .emptyStateContainer-xWOMPJ,
