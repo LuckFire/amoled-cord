@@ -1050,7 +1050,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-primary);
 }
 
-#app-mount .panels-3wFtMD {
+#app-mount .panels-3wFtMD,
+#app-mount .container-YkUktl,
+#app-mount .container-1zzFcN {
     background-color: var(--background-primary);
 }
 #app-mount .panels-3wFtMD .container-YkUktl,
