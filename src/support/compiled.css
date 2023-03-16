@@ -10,6 +10,7 @@
     --background-floating: hsl(0, calc(var(--saturation-factor, 1) * 0%), 6%);
     --channeltextarea-background: hsl(0, calc(var(--saturation-factor, 1) * 0%), 5%);
     --input-background: hsl(0, calc(var(--saturation-factor, 1) * 0%), 4%);
+    --home-background: hsl(0, calc(var(--saturation-factor, 1) * 0%), 0%);
     --channels-default: hsl(0, calc(var(--saturation-factor, 1) * 0%), 55%);
     --header-primary: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
     --header-secondary: hsl(216, calc(var(--saturation-factor, 1) * 4%), 74%);
@@ -419,32 +420,27 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: #ed4245;
 }
 .theme-light #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
+    animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245;
 }
 .theme-light #app-mount #user-settings-cog-Appearance {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
+    animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
 .theme-light #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
+    animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
 .theme-light #app-mount [aria-controls=appearance-tab] {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
+    animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
 .theme-light #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
+    animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
@@ -453,18 +449,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 .theme-light #app-mount .sidebar-1tnWFu {
     border-radius: 0;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        box-shadow: 0 2px 10px rgba(237, 66, 69, 0.2), 0 0 0 2px rgba(237, 65, 68, 0.1);
-    }
-    70% {
-        box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0.1), 0 0 0 6px rgba(237, 65, 68, 0.1);
-    }
-    100% {
-        box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0), 0 0 0 6px rgba(237, 65, 68, 0.1);
-    }
 }
 
 @keyframes flash {
@@ -536,10 +520,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-tertiary);
 }
 
-#app-mount .container-3wLKDe {
-    background-color: var(--background-primary);
-}
-#app-mount .container-3wLKDe .mainCard-3KBsBI:not(.isOpen-2OXbFs):not(.container-2qVG6q:active, .container-1PloNW:active),
+#app-mount .container-3wLKDe .mainCard-3KBsBI:not(.isOpen-2OXbFs):not(.container-2qVG6q:active, .container-1PloNW:is(:active, :hover, .isOpen-O7ANQc)),
 #app-mount .container-3wLKDe .container-3arpDl,
 #app-mount .container-3wLKDe .container-2nXUah,
 #app-mount .container-3wLKDe .container-2_J666,
@@ -561,9 +542,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background: linear-gradient(0deg, hsla(0, calc(var(--saturation-factor, 1) * 0%), 3%, 1), hsla(0, calc(var(--saturation-factor, 1) * 0%), 3%, 0.97) 36px, hsla(0, calc(var(--saturation-factor, 1) * 0%), 3%, 0.4));
 }
 
-#app-mount .background-fkKrXt {
-    background-color: var(--background-primary);
-}
 #app-mount .background-fkKrXt .card-3x20HF,
 #app-mount .background-fkKrXt .container-2Hi7Km,
 #app-mount .background-fkKrXt .container-xwOzwi,
@@ -591,17 +569,14 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 @media (max-width: 1300px) {
     #app-mount .background-fkKrXt .container-xwOzwi,
-#app-mount .background-fkKrXt .container-3rZ3XA {
+    #app-mount .background-fkKrXt .container-3rZ3XA {
         background-color: var(--background-primary);
     }
     #app-mount .background-fkKrXt .container-3HMTms,
-#app-mount .background-fkKrXt .container-3HMTms:hover,
-#app-mount .background-fkKrXt .collapsedLayout-2ZTglJ .iconContainer-2R-3M1 {
+    #app-mount .background-fkKrXt .container-3HMTms:hover,
+    #app-mount .background-fkKrXt .collapsedLayout-2ZTglJ .iconContainer-2R-3M1 {
         background-color: var(--background-tertiary);
     }
-}
-#app-mount .background-fkKrXt .headerBarInner-2pcZSM::after {
-    background: unset;
 }
 
 #app-mount .container-2o3qEW,
@@ -690,148 +665,141 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary-alt);
 }
 
-#app-mount .root-g14mjS {
+#app-mount .root-1CAIjD {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS.carouselModal-1eUFoq {
+#app-mount .root-1CAIjD.carouselModal-1eUFoq {
     box-shadow: none;
     background-color: transparent;
 }
-#app-mount .root-g14mjS .footer-31IekZ,
-#app-mount .root-g14mjS .footer-3Gu_Tl,
-#app-mount .root-g14mjS .footer-VCsJQY {
+#app-mount .root-1CAIjD .footerSeparator-3U8YsT,
+#app-mount .root-1CAIjD .footer-3Gu_Tl,
+#app-mount .root-1CAIjD .footer-VCsJQY {
     box-shadow: none;
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .footer-1hTRRZ {
+#app-mount .root-1CAIjD .footer-1hTRRZ {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .input-3r5zZY {
+#app-mount .root-1CAIjD .input-3r5zZY {
     background-color: var(--input-background);
 }
-#app-mount .root-g14mjS .scroller-2GkvCq {
+#app-mount .root-1CAIjD .scroller-2GkvCq {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .reactionSelected-1aMb2K {
+#app-mount .root-1CAIjD .reactionSelected-1aMb2K {
     background-color: var(--background-modifier-selected);
 }
-#app-mount .root-g14mjS .container-KM8BU6,
-#app-mount .root-g14mjS .reactors-1VXca7 {
+#app-mount .root-1CAIjD .container-KM8BU6,
+#app-mount .root-1CAIjD .reactors-1VXca7 {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .reactorDefault-3GSyaV {
+#app-mount .root-1CAIjD .reactorDefault-3GSyaV {
     box-shadow: inset 0 -1px 0 var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .item-2OyinQ,
-#app-mount .root-g14mjS .qualitySettingsContainer-2LjkfM {
+#app-mount .root-1CAIjD .item-2OyinQ,
+#app-mount .root-1CAIjD .qualitySettingsContainer-2LjkfM {
     border-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .card-m7VgZ8,
-#app-mount .root-g14mjS .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
+#app-mount .root-1CAIjD .card-m7VgZ8,
+#app-mount .root-1CAIjD .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .message-G6O-Wv {
+#app-mount .root-1CAIjD .message-G6O-Wv {
     box-shadow: none;
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .optionContainer-yOpaLq {
+#app-mount .root-1CAIjD .optionContainer-yOpaLq {
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .optionContainer-yOpaLq:hover {
+#app-mount .root-1CAIjD .optionContainer-yOpaLq:hover {
     background-color: var(--background-primary);
 }
-#app-mount .root-g14mjS .previewLight-IOzFhi {
+#app-mount .root-1CAIjD .previewLight-IOzFhi {
     display: none;
 }
-#app-mount .root-g14mjS .previewDark-3Xp3UB {
+#app-mount .root-1CAIjD .previewDark-3Xp3UB {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .perks-2IIbWQ {
+#app-mount .root-1CAIjD .perks-2IIbWQ {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .eventCard-2ZL9GD,
-#app-mount .root-g14mjS .childButton-3o_dlg {
+#app-mount .root-1CAIjD .eventCard-2ZL9GD,
+#app-mount .root-1CAIjD .childButton-3o_dlg {
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .eventCard-2ZL9GD:hover,
-#app-mount .root-g14mjS .childButton-3o_dlg:hover {
+#app-mount .root-1CAIjD .eventCard-2ZL9GD:hover,
+#app-mount .root-1CAIjD .childButton-3o_dlg:hover {
     background-color: var(--background-primary);
 }
-#app-mount .root-g14mjS .contentContainer-BWAau5 {
+#app-mount .root-1CAIjD .contentContainer-BWAau5 {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .container-3zZkKh,
-#app-mount .root-g14mjS .rsvpCount-iCkObl {
+#app-mount .root-1CAIjD .container-3zZkKh,
+#app-mount .root-1CAIjD .rsvpCount-iCkObl {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .sidebarContainer-gUKhtL {
+#app-mount .root-1CAIjD .sidebarContainer-gUKhtL {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .contentWrapper-3oy4Xo {
+#app-mount .root-1CAIjD .contentWrapper-3oy4Xo {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .root-cw9rWQ {
+#app-mount .root-1CAIjD .root-cw9rWQ {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .modal-2TOYtq {
+#app-mount .root-1CAIjD .modal-2TOYtq {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .formFieldWrapper-2LV3S6,
-#app-mount .root-g14mjS .guildSidebar-UHnQqs {
+#app-mount .root-1CAIjD .formFieldWrapper-2LV3S6,
+#app-mount .root-1CAIjD .guildSidebar-UHnQqs {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .authBox-1HR6Ha {
+#app-mount .root-1CAIjD .authBox-1HR6Ha {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .list-3-WAYB {
+#app-mount .root-1CAIjD .list-3-WAYB {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .navRow-dG-XX8 {
+#app-mount .root-1CAIjD .navRow-dG-XX8 {
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .inviteBannerUpsell-1t_LYM {
+#app-mount .root-1CAIjD .inviteBannerUpsell-1t_LYM {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .ctaSection-3LqbxQ {
+#app-mount .root-1CAIjD .ctaSection-3LqbxQ {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .formSection-23ecNl {
+#app-mount .root-1CAIjD .formSection-23ecNl {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .usagePill-P-Cmcv {
+#app-mount .root-1CAIjD .usagePill-P-Cmcv {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .channelsWrapper-51IUFR,
-#app-mount .root-g14mjS .rolesWrapper-1LLZrU {
+#app-mount .root-1CAIjD .channelsWrapper-51IUFR,
+#app-mount .root-1CAIjD .rolesWrapper-1LLZrU {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .root-g14mjS .authorize-2xTTr- {
+#app-mount .root-1CAIjD .authorize-2xTTr- {
     background-color: var(--background-secondary);
 }
 
-#app-mount .root-g14mjS .container-x8Y1ix,
-#app-mount .root-g14mjS .guildRow-3fJnG6 {
+#app-mount .root-1CAIjD .container-x8Y1ix,
+#app-mount .root-1CAIjD .guildRow-3fJnG6 {
     background-color: var(--background-secondary);
 }
-#app-mount .root-g14mjS .container-x8Y1ix:hover,
-#app-mount .root-g14mjS .guildRow-3fJnG6:hover {
+#app-mount .root-1CAIjD .container-x8Y1ix:hover,
+#app-mount .root-1CAIjD .guildRow-3fJnG6:hover {
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .rowContainer-3t7486 {
+#app-mount .root-1CAIjD .rowContainer-3t7486 {
     background-color: var(--background-tertiary);
 }
-#app-mount .root-g14mjS .rowContainer-3t7486:hover {
+#app-mount .root-1CAIjD .rowContainer-3t7486:hover {
     background-color: var(--background-primary);
 }
-#app-mount .root-g14mjS .lookLink-15mFoz.colorPrimary-2AuQVo,
-#app-mount .root-g14mjS .lookBlank-21BCro {
-    color: var(--header-primary);
-}
-#app-mount .root-g14mjS .formTitle-2YQyhj {
-    color: var(--header-primary);
-}
-#app-mount .root-g14mjS .sampleLink-5BWNy9 {
+#app-mount .root-1CAIjD .sampleLink-5BWNy9 {
     color: var(--text-muted);
 }
 
@@ -858,9 +826,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
 }
 
-#app-mount .container-2cd8Mz {
-    background-color: var(--background-primary);
-}
 #app-mount .container-2cd8Mz .container-2oNtJn {
     background-color: var(--background-secondary);
 }
@@ -1011,7 +976,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .notches-2w7UZJ.black-11MaxJ {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='rgb(12, 12, 12)'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
-#app-mount .colorPickerCustom-1swUKF {
+#app-mount .customColorPicker-C_jddW {
     background-color: var(--background-secondary);
     border-color: var(--background-secondary-alt);
 }
@@ -1061,33 +1026,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-color: var(--background-secondary-alt);
 }
 
-#app-mount .userPopout-2j1gM4 {
-    background-color: var(--background-tertiary);
-}
-#app-mount .userPopout-2j1gM4 .avatar-2Vndt_ {
-    border-color: var(--background-tertiary);
-    background-color: var(--background-tertiary);
-}
-#app-mount .userPopout-2j1gM4 .bodyInnerWrapper-2bQs1k,
-#app-mount .userPopout-2j1gM4 .footer-3naVBw {
-    background-color: var(--background-tertiary);
-}
-#app-mount .userPopout-2j1gM4 .input-2z42oC {
-    background-color: var(--background-secondary);
-}
-
-#app-mount .container-1NXEtd .selected-1GtAC5 .header-3OsQeK,
-#app-mount .container-1NXEtd .header-3OsQeK:hover {
-    background-color: var(--background-secondary);
-}
-#app-mount .container-1NXEtd .hasBanner-2IrYih .header-3OsQeK {
-    background-color: transparent;
-}
 #app-mount .container-1NXEtd .channelNotice-K4UfZY {
     border-color: var(--background-secondary);
-}
-#app-mount .container-1NXEtd .audienceVoiceUserIconContainer-1aQGLF {
-    background-color: var(--background-secondary);
 }
 #app-mount .container-1NXEtd .wrapper-2fEmwW .users-2JoyGL {
     background-color: var(--background-secondary-alt);
@@ -1111,5 +1051,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 
 #app-mount .panels-3wFtMD {
+    background-color: var(--background-primary);
+}
+#app-mount .panels-3wFtMD .container-YkUktl,
+#app-mount .panels-3wFtMD .container-1zzFcN,
+#app-mount .panels-3wFtMD .panel-2ZFCRb {
     background-color: var(--background-primary);
 }
