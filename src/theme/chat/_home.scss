@@ -1,5 +1,4 @@
 #app-mount .background-fkKrXt {
-    background-color: var(--background-primary);
     .card-3x20HF,
     .container-2Hi7Km,
     .container-xwOzwi,
@@ -7,7 +6,9 @@
     .wrapper-15CKyy {
         background-color: var(--background-tertiary);
     }
+    .headerIcon-3Q7cOC,
     .icon-2IDTxf {
+        background-color: var(--background-tertiary);
         border-color: var(--background-tertiary);
     }
     .emptyStateContainer-xWOMPJ,
@@ -30,11 +31,8 @@
         }
         .container-3HMTms,
         .container-3HMTms:hover,
-        .iconContainer-2R-3M1 {
+        .collapsedLayout-2ZTglJ .iconContainer-2R-3M1 {
             background-color: var(--background-tertiary);
         }
-    }
-    .headerBarInner-2pcZSM::after {
-        background: unset;
     }
 }

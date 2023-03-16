@@ -1,0 +1,34 @@
+#app-mount {
+    .container-1um7CU,
+    .container-2IKOsH,
+    .header-3xB4vB,
+    .emptyPage-2TGR7j,
+    .scrollerContainer-y16Rs9 {
+        background-color: var(--background-primary);
+    }
+    .channelRow-4X_3fi,
+    .prompt-1sE27N,
+    .profileCard-2gVmvm {
+        background-color: var(--background-tertiary);
+    }
+    .optionButtonWrapper-2lbogO.selected-KQBgNS {
+        background-color: var(--background-secondary);
+        border-color: var(--background-secondary);
+    }
+    .channelRow-4X_3fi:hover:not(.disabled-3cfocy) {
+        background-color: var(--background-modifier-hover);
+    }
+    .innerHeader-1cC3Fp:after {
+        background: unset;
+    }
+    .gradient-qt4Dwd {
+        background: linear-gradient(
+            180deg,
+            hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 0.5),
+            hsla(0, calc(var(--saturation-factor, 1) * 0%), 6%, 1)
+        );
+    }
+    .prompt-R8SyL4 {
+        background-color: var(--background-tertiary);
+    }
+}
