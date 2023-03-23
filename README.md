@@ -1,3 +1,5 @@
+# A new version of AMOLED-cord is being work on. However, this repo will stay in a maintained (enough) state.
+
 ![banner](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/banner.png) 
 
 # AMOLED-Cord
