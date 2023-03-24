@@ -1,15 +1,18 @@
 #app-mount .chat-2ZfjoI {
     .container-3wLKDe {
         background-color: var(--background-primary);
-        .mainCard-3KBsBI, .container-2nXUah, .descriptionContainer-2ylKGk {
+        .mainCard-3KBsBI, .container-2nXUah, .container-3arpDl {
             background-color: var(--background-tertiary);
+        }
+        .descriptionContainer-2ylKGk {
+            background-color: var(--background-secondary);
         }
         .container-1PloNW {
             background-color: var(--background-tertiary);
             &:hover {
                 background-color: var(--background-modifier-hover);
             }
-            &:is(.isOpen-2OXbFs, :active) {
+            &:is(.isOpen-O7ANQc, :active) {
                 background-color: var(--background-modifier-active);
             }
             .textContentFooter-2JnNv8 {

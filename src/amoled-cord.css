@@ -255,8 +255,11 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .chat-2ZfjoI .container-3wLKDe {
   background-color: var(--background-primary);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, #app-mount .chat-2ZfjoI .container-3wLKDe .descriptionContainer-2ylKGk {
+#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3arpDl {
   background-color: var(--background-tertiary);
+}
+#app-mount .chat-2ZfjoI .container-3wLKDe .descriptionContainer-2ylKGk {
+  background-color: var(--background-secondary);
 }
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW {
   background-color: var(--background-tertiary);
@@ -264,7 +267,7 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:hover {
   background-color: var(--background-modifier-hover);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:is(.isOpen-2OXbFs, :active) {
+#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:is(.isOpen-O7ANQc, :active) {
   background-color: var(--background-modifier-active);
 }
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
