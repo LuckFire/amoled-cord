@@ -1,0 +1,26 @@
+#app-mount .chat-2ZfjoI {
+    // Roles
+    .container-2IKOsH,
+    .container-1um7CU,
+    .header-3xB4vB,
+    .scrollerContainer-y16Rs9,
+    .emptyPage-2TGR7j {
+        background-color: transparent;
+    }
+    .prompt-1sE27N {
+        background-color: var(--background-tertiary);
+        .selected-KQBgNS {
+            background-color: var(--background-modifier-active);
+        }
+    }
+    .profileCard-2gVmvm {
+        background-color: var(--background-tertiary);
+    }
+    // Channels
+    .channelRow-4X_3fi {
+        background-color: var(--background-tertiary);
+        &:not(.disabled-3cfocy):hover {
+            background-color: var(--background-modifier-hover);
+        }
+    }
+}

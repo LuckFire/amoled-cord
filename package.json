@@ -1,0 +1,23 @@
+{
+  "name": "amoled-cord",
+  "version": "4.0.0",
+  "description": "A customizable, pitch black theme for Discord. Lights out, baby!",
+  "type": "module",
+  "scripts": {
+    "dev": "bd-scss dev",
+    "bd:build": "bd-scss build",
+    "replugged:build": "replugged build theme",
+    "bundle": "replugged bundle theme"
+  },
+  "dependencies": {
+    "bd-scss": "^2.0.12"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@types/node": "^18.11.15",
+    "prettier": "^2.8.5",
+    "replugged": "^4.2.2"
+  }
+}
