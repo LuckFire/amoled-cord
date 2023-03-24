@@ -1,23 +1,29 @@
 #app-mount .chat-2ZfjoI {
     .container-3wLKDe {
         background-color: var(--background-primary);
+        .mainCard-3KBsBI, .container-2nXUah, .descriptionContainer-2ylKGk {
+            background-color: var(--background-tertiary);
+        }
         .container-1PloNW {
             background-color: var(--background-tertiary);
             &:hover {
                 background-color: var(--background-modifier-hover);
             }
-            &:active {
+            &:is(.isOpen-2OXbFs, :active) {
                 background-color: var(--background-modifier-active);
             }
             .textContentFooter-2JnNv8 {
                 background: transparent;
             }
         }
-        .mainCard-3KBsBI {
+        .container-2qVG6q {
             background-color: var(--background-tertiary);
-            &:active {
+            &:is(.isOpen-2OXbFs, :active) {
                 background-color: var(--background-modifier-active);
             }
+        }
+        .wrapper-2O6Aho {
+            background-color: var(--background-tertiary);
         }
     }
 }

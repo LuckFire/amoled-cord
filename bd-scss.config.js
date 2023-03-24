@@ -20,7 +20,6 @@ export default {
         output: 'src'
     },
     dev: {
-        target: 'src/source.scss',
-        output: ''
+        target: 'src/source.scss'
     }
 };

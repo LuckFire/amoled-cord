@@ -255,23 +255,29 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .chat-2ZfjoI .container-3wLKDe {
   background-color: var(--background-primary);
 }
+#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, #app-mount .chat-2ZfjoI .container-3wLKDe .descriptionContainer-2ylKGk {
+  background-color: var(--background-tertiary);
+}
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW {
   background-color: var(--background-tertiary);
 }
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:hover {
   background-color: var(--background-modifier-hover);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:active {
+#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:is(.isOpen-2OXbFs, :active) {
   background-color: var(--background-modifier-active);
 }
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
   background: transparent;
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI {
+#app-mount .chat-2ZfjoI .container-3wLKDe .container-2qVG6q {
   background-color: var(--background-tertiary);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI:active {
+#app-mount .chat-2ZfjoI .container-3wLKDe .container-2qVG6q:is(.isOpen-2OXbFs, :active) {
   background-color: var(--background-modifier-active);
+}
+#app-mount .chat-2ZfjoI .container-3wLKDe .wrapper-2O6Aho {
+  background-color: var(--background-tertiary);
 }
 
 .messageListItem-ZZ7v6g:hover {
