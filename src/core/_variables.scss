@@ -99,15 +99,17 @@ html.theme-dark .theme-light .root-1CAIjD {
     --button-outline-positive-text: var(--white-500);
     --button-outline-positive-text-active: var(--white-500);
     --button-outline-positive-text-hover: var(--white-500);
-    --button-outline-primary-background: hsl(var(--white-500-hsl)/0);
-    --button-outline-primary-background-active: var(--primary-430);
-    --button-outline-primary-background-hover: var(--primary-500);
-    --button-outline-primary-border: var(--primary-500);
-    --button-outline-primary-border-active: var(--primary-430);
-    --button-outline-primary-border-hover: var(--primary-500);
+
+    --button-outline-primary-background: var(--primary-700);
+    --button-outline-primary-background-active: var(--primary-600);
+    --button-outline-primary-background-hover: var(--primary-630);
+    --button-outline-primary-border: var(--primary-700);
+    --button-outline-primary-border-active: var(--primary-600);
+    --button-outline-primary-border-hover: var(--primary-630);
     --button-outline-primary-text: var(--white-500);
     --button-outline-primary-text-active: var(--white-500);
     --button-outline-primary-text-hover: var(--white-500);
+    
     --button-secondary-background: var(--primary-700);
     --button-secondary-background-active: var(--primary-600);
     --button-secondary-background-disabled: var(--primary-700);

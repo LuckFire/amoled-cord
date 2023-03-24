@@ -4,5 +4,14 @@
     }
     .searchBox-pyIJJj {
         background-color: var(--input-background);
+        input {
+            color: var(--primary-260);
+            &::placeholder {
+                color: var(--primary-400);
+            }
+        }
+        .searchIcon-3X4BYL, .closeIcon-BMGxx0 {
+            color: var(--interactive-normal);
+        }
     }
 }

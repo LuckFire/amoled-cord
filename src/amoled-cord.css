@@ -98,12 +98,12 @@ html.theme-dark .theme-light .root-1CAIjD {
   --button-outline-positive-text: var(--white-500);
   --button-outline-positive-text-active: var(--white-500);
   --button-outline-positive-text-hover: var(--white-500);
-  --button-outline-primary-background: hsl(var(--white-500-hsl)/0);
-  --button-outline-primary-background-active: var(--primary-430);
-  --button-outline-primary-background-hover: var(--primary-500);
-  --button-outline-primary-border: var(--primary-500);
-  --button-outline-primary-border-active: var(--primary-430);
-  --button-outline-primary-border-hover: var(--primary-500);
+  --button-outline-primary-background: var(--primary-700);
+  --button-outline-primary-background-active: var(--primary-600);
+  --button-outline-primary-background-hover: var(--primary-630);
+  --button-outline-primary-border: var(--primary-700);
+  --button-outline-primary-border-active: var(--primary-600);
+  --button-outline-primary-border-hover: var(--primary-630);
   --button-outline-primary-text: var(--white-500);
   --button-outline-primary-text-active: var(--white-500);
   --button-outline-primary-text-hover: var(--white-500);
@@ -311,12 +311,12 @@ html.theme-dark .theme-light .root-1CAIjD {
 }
 
 .container-2o3qEW {
-  background-color: var(--backrgound-primary);
+  background-color: var(--background-primary);
 }
 
 .container-2o3qEW .member-48YF_l,
 .container-2o3qEW .members-3WRCEx {
-  background-color: var(--backrgound-primary);
+  background-color: var(--background-primary);
 }
 
 #app-mount .root-1CAIjD .authBox-1HR6Ha {
@@ -324,6 +324,10 @@ html.theme-dark .theme-light .root-1CAIjD {
 }
 #app-mount .root-1CAIjD .navRow-dG-XX8 {
   background-color: var(--modal-footer-background);
+}
+
+.theme-light .root-1CAIjD {
+  color: var(--primary-300);
 }
 
 #app-mount .root-1CAIjD .message-G6O-Wv {
@@ -334,7 +338,7 @@ html.theme-dark .theme-light .root-1CAIjD {
   box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
 }
 #app-mount .root-1CAIjD .footerSeparator-3U8YsT {
-  box-shadow: inset 0 1px 0 var(--modal-footer-backrgound);
+  box-shadow: inset 0 1px 0 var(--modal-footer-background);
 }
 
 #app-mount .root-1CAIjD .container-2oNtJn {
@@ -357,7 +361,7 @@ html.theme-dark .theme-light .root-1CAIjD {
 }
 
 #app-mount .directoryModal-YJsOMv {
-  background-color: var(--backrgound-primary);
+  background-color: var(--background-primary);
 }
 
 #app-mount .content-1SgpWY .pageWrapper-2PwDoS {
@@ -365,6 +369,18 @@ html.theme-dark .theme-light .root-1CAIjD {
 }
 #app-mount .content-1SgpWY .searchBox-pyIJJj {
   background-color: var(--input-background);
+}
+#app-mount .content-1SgpWY .searchBox-pyIJJj input {
+  color: var(--primary-260);
+}
+#app-mount .content-1SgpWY .searchBox-pyIJJj input::-moz-placeholder {
+  color: var(--primary-400);
+}
+#app-mount .content-1SgpWY .searchBox-pyIJJj input::placeholder {
+  color: var(--primary-400);
+}
+#app-mount .content-1SgpWY .searchBox-pyIJJj .searchIcon-3X4BYL, #app-mount .content-1SgpWY .searchBox-pyIJJj .closeIcon-BMGxx0 {
+  color: var(--interactive-normal);
 }
 
 #app-mount .perksModal-CLcR1c {
