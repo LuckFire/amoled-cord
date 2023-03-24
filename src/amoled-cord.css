@@ -1,3 +1,4 @@
+@import url("https://nyri4.github.io/Discolored/main.css");
 :root {
   /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
   --lightness-600-660: 0%;
@@ -62,7 +63,7 @@
 
 .theme-dark,
 html.theme-dark .theme-light .root-1CAIjD {
-  --activity-card-background: var(--primary-700);
+  --activity-card-background: var(--primary-830);
   --android-navigation-bar-background: var(--primary-830);
   --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
   --android-ripple: hsl(var(--white-500-hsl)/0.07);
@@ -258,6 +259,9 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3arpDl {
   background-color: var(--background-tertiary);
 }
+#app-mount .chat-2ZfjoI .container-3wLKDe .loadingCard-3pIp9h {
+  background-color: var(--background-tertiary);
+}
 #app-mount .chat-2ZfjoI .container-3wLKDe .descriptionContainer-2ylKGk {
   background-color: var(--background-secondary);
 }
@@ -279,7 +283,7 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-2qVG6q:is(.isOpen-2OXbFs, :active) {
   background-color: var(--background-modifier-active);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .wrapper-2O6Aho {
+#app-mount .chat-2ZfjoI .container-3wLKDe .container-2_J666 {
   background-color: var(--background-tertiary);
 }
 
@@ -308,6 +312,21 @@ html.theme-dark .theme-light .root-1CAIjD {
 }
 #app-mount .chat-2ZfjoI .channelRow-4X_3fi:not(.disabled-3cfocy):hover {
   background-color: var(--background-modifier-hover);
+}
+
+#app-mount .button-1EGGcP.buttonColor-3bP3fX, #app-mount .button-1EGGcP .buttonColor-3bP3fX {
+  background-color: var(--button-secondary-background);
+}
+#app-mount .button-1EGGcP.buttonColor-3bP3fX:hover, #app-mount .button-1EGGcP .buttonColor-3bP3fX:hover {
+  background-color: var(--button-secondary-background-hover);
+}
+#app-mount .button-1EGGcP.buttonColor-3bP3fX:active, #app-mount .button-1EGGcP .buttonColor-3bP3fX:active {
+  background-color: var(--button-secondary-background-active);
+}
+
+#app-mount .key-RP8gj3 {
+  box-shadow: inset 0 -4px 0 var(--primary-760);
+  background-color: var(--primary-660);
 }
 
 .folder-241Joy.hover-3m7-WT {
@@ -369,6 +388,10 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--modal-footer-background);
 }
 
+#app-mount .root-1CAIjD .previewDark-3Xp3UB {
+  background-color: var(--background-primary);
+}
+
 #app-mount .directoryModal-YJsOMv {
   background-color: var(--background-primary);
 }
@@ -413,6 +436,10 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--background-tertiary);
 }
 
+#app-mount .container-2kTWmC {
+  background-color: var(--background-secondary);
+}
+
 #app-mount .customColorPicker-C_jddW {
   border: none;
   box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
@@ -438,6 +465,10 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
 #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__day--disabled {
   background-color: var(--background-tertiary);
+}
+
+#app-mount .body-2EZa2E {
+  background-color: var(--background-secondary);
 }
 
 #app-mount .layers-OrUESM .avatarUploaderInnerSquareDisabled-3M9eJS {
@@ -469,6 +500,8 @@ html.theme-dark .theme-light .root-1CAIjD {
 }
 #app-mount .layers-OrUESM .auditLog-1NVAY0 {
   border-color: var(--background-secondary);
+}
+#app-mount .layers-OrUESM .auditLog-1NVAY0 .header-2pgFQm {
   background-color: var(--background-secondary);
 }
 #app-mount .layers-OrUESM .auditLog-1NVAY0 .headerExpanded-1-zwDr {
@@ -510,6 +543,9 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .layers-OrUESM .paymentPane-ut5qKZ {
   background-color: var(--background-secondary);
 }
+#app-mount .layers-OrUESM .paymentPane-ut5qKZ .expandedInfo-1W31i3 {
+  background-color: var(--background-primary);
+}
 #app-mount .layers-OrUESM .paymentPane-ut5qKZ .paginator-1eqD2g {
   background-color: var(--background-secondary);
 }
@@ -522,6 +558,10 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .layers-OrUESM .codeRedemptionRedirect-2hYMSQ {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
+}
+#app-mount .layers-OrUESM .preview-QJ3OG3 {
+  border-color: var(--background-secondary);
+  background-color: var(--background-primary) !important;
 }
 #app-mount .layers-OrUESM .notches-2w7UZJ.gray-3wP137 {
   color: var(--background-primary);
@@ -537,7 +577,7 @@ html.theme-dark .theme-light .root-1CAIjD {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .option-1QI4c9:not(.selected-18Wszc) {
+#app-mount .layers-OrUESM .option-1QI4c9:not(.selected-18Wszc, :hover) {
   background-color: var(--background-accent);
 }
 
