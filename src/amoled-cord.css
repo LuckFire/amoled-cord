@@ -1,4 +1,3 @@
-@import url("https://nyri4.github.io/Discolored/main.css");
 :root {
   /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
   --lightness-600-660: 0%;
@@ -193,6 +192,10 @@ html.theme-dark .theme-light .root-1CAIjD {
   --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%);
 }
 
+#app-mount .container-2RRFHK {
+  background-color: var(--background-primary);
+}
+
 .theme-light .base-2jDfDU::before {
   z-index: 101;
   position: relative;
@@ -245,6 +248,9 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--background-primary);
 }
 
+#app-mount .chat-2ZfjoI .form-3gdLxP .optionPill-2kmuZR {
+  background-color: var(--primary-730);
+}
 #app-mount .chat-2ZfjoI .form-3gdLxP .channelAttachmentArea-HwpkuQ .upload-vLbqu- {
   background-color: var(--background-primary);
 }
@@ -392,6 +398,13 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--background-primary);
 }
 
+#app-mount .nowPlayingColumn-1eCBCN .separator-2OaeRP {
+  background-color: var(--background-secondary);
+}
+#app-mount .nowPlayingColumn-1eCBCN .applicationStreamingPreviewWrapper-7j27t8 {
+  background-color: var(--background-secondary-alt);
+}
+
 #app-mount .directoryModal-YJsOMv {
   background-color: var(--background-primary);
 }
@@ -444,6 +457,13 @@ html.theme-dark .theme-light .root-1CAIjD {
   border: none;
   box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
   background-color: var(--background-tertiary);
+}
+
+#app-mount .streamPreview-I7itZ6 {
+  background-color: var(--background-secondary);
+}
+#app-mount .streamPreview-I7itZ6 .previewContainer-35LFgt {
+  background-color: var(--background-secondary-alt);
 }
 
 #app-mount .layer-2BGhQ8 .focused-2FU0YH {

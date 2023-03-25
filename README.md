@@ -1,22 +1,22 @@
-![banner](https://luckfire.github.io/amoled-cord/v4/assets/banner.png)
+![banner](https://luckfire.github.io/amoled-cord/assets/banner.png)
 ---
 # THESE DONT WORK YET, DO NOT TRY THEM
-### ![replugged](https://luckfire.github.io/amoled-cord/v4/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
+### ![replugged](https://luckfire.github.io/amoled-cord/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
 - [Direct Install]()
 
-### ![betterdiscord](https://luckfire.github.io/amoled-cord/v4/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
+### ![betterdiscord](https://luckfire.github.io/amoled-cord/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
 - [Direct Download]()
 - [Compiled Source]()
 
-### ![vencord](https://luckfire.github.io/amoled-cord/v4/assets/icons/vencord.gif) **[Vencord](https://github.com/Vendicated/Vencord)**
+### ![vencord](https://luckfire.github.io/amoled-cord/assets/icons/vencord.gif) **[Vencord](https://github.com/Vendicated/Vencord)**
 1. Go to user settings (CTRL + ,)
 2. Go to the "Vencord" category and select the "Themes" tab.
 3. In the input field under "THEMES," paste the following URL.
 ```
-https://luckfire.github.io/amoled-cord/v4/src/amoled-cord.css
+https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 ```
 
-### ![stylus](https://luckfire.github.io/amoled-cord/v4/assets/icons/stylus.png) **Stylus**
+### ![stylus](https://luckfire.github.io/amoled-cord/assets/icons/stylus.png) **Stylus**
 > **Warning**  
 > Firefox users must have "Patch CSP to allow style assets" enabled for the theme to work. This can be found in Stylus' settings under "Advanced"
 1. Install the broswer extensions for your repsective browser.
