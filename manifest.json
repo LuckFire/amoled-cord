@@ -5,12 +5,12 @@
     "author": {
       "name": "LuckFire",
       "discordID": "399416615742996480",
-      "github": "discord-extensions"
+      "github": "luckfire"
     },
     "version": "4.0.0",
     "updater": {
       "type": "github",
-      "id": "discord-extensions/amoled-cord"
+      "id": "luckfire/amoled-cord"
     },
     "license": "MIT",
     "type": "replugged-theme",
