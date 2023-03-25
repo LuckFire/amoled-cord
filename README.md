@@ -1,12 +1,10 @@
 ![banner](https://luckfire.github.io/amoled-cord/assets/banner.png)
 ---
-# THESE DONT WORK YET, DO NOT TRY THEM
 ### ![replugged](https://luckfire.github.io/amoled-cord/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
-- [Direct Install]()
+- [Direct Install](https://replugged.dev/install?identifier=luckfire/amoled-cord&source=github)
 
 ### ![betterdiscord](https://luckfire.github.io/amoled-cord/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
-- [Direct Download]()
-- [Compiled Source]()
+- [Direct Download](https://betterdiscord.app/Download?id=144)
 
 ### ![vencord](https://luckfire.github.io/amoled-cord/assets/icons/vencord.gif) **[Vencord](https://github.com/Vendicated/Vencord)**
 1. Go to user settings (CTRL + ,)
