@@ -8,6 +8,8 @@
  * @authorId 399416615742996480
 */
 
+@import url('https://luckfire.github.io/amoled-cord/src/amoled-cord.css');
+
 :root {
   /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
   --lightness-600-660: 0%;
@@ -304,7 +306,7 @@ html.theme-dark .theme-light .root-1CAIjD {
 }
 
 .messageListItem-ZZ7v6g:hover {
-  background-color: rgba(255, 255, 255, 0.025);
+  background-color: rgba(255, 255, 255, 0.015);
 }
 
 #app-mount .chat-2ZfjoI .container-2IKOsH,
