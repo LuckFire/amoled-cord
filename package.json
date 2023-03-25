@@ -4,10 +4,10 @@
   "description": "A customizable, pitch black theme for Discord. Lights out, baby!",
   "type": "module",
   "scripts": {
-    "dev": "bd-scss dev",
-    "bd:build": "bd-scss build",
-    "replugged:build": "replugged build theme",
-    "bundle": "replugged bundle theme"
+    "dev:bd": "bd-scss dev",
+    "build:bd": "bd-scss build",
+    "dev:replugged": "replugged build theme --watch",
+    "build:replugged": "replugged build theme"
   },
   "dependencies": {
     "bd-scss": "^2.0.12"
