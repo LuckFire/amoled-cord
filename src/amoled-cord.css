@@ -61,7 +61,8 @@
 }
 
 .theme-dark,
-html.theme-dark .theme-light .root-1CAIjD {
+html.theme-dark .theme-light .root-1CAIjD,
+.theme-light.popout-15UxD6 {
   --activity-card-background: var(--primary-830);
   --android-navigation-bar-background: var(--primary-830);
   --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
