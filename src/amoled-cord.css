@@ -320,6 +320,10 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--background-modifier-hover);
 }
 
+#app-mount .chat-2ZfjoI .wrapper-1gVUIN.minimum-fXpVNc {
+  background-color: var(--background-primary);
+}
+
 #app-mount .button-1EGGcP.buttonColor-3bP3fX, #app-mount .button-1EGGcP .buttonColor-3bP3fX {
   background-color: var(--button-secondary-background);
 }
@@ -456,6 +460,17 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--background-tertiary);
 }
 
+#app-mount .contentWarningPopout-WKdbDG {
+  background-color: var(--background-floating);
+}
+#app-mount .contentWarningPopout-WKdbDG .footer-2aeMle {
+  background-color: var(--background-tertiary);
+}
+
+#app-mount .phoneFieldPopout-uW3DlO {
+  background-color: var(--background-floating);
+}
+
 #app-mount .drawerSizingWrapper-1txdWG .emptyHintCard-2A7Tng {
   background-color: var(--background-primary);
 }
@@ -473,6 +488,10 @@ html.theme-dark .theme-light .root-1CAIjD {
   border: none;
   box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
   background-color: var(--background-tertiary);
+}
+
+#app-mount .quickSelectPopout-2F0PXw {
+  background-color: var(--background-floating);
 }
 
 #app-mount .streamPreview-I7itZ6 {
