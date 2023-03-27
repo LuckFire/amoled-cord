@@ -394,6 +394,13 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--modal-footer-background);
 }
 
+#app-mount .root-1CAIjD .cardPrimary-pAe8Ed {
+  background-color: var(--background-secondary);
+}
+#app-mount .root-1CAIjD .default-1Tkeeg {
+  background-color: var(--background-primary);
+}
+
 #app-mount .root-1CAIjD .previewDark-3Xp3UB {
   background-color: var(--background-primary);
 }
