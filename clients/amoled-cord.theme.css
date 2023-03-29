@@ -503,6 +503,13 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-tertiary);
 }
 
+#app-mount .overflowRolesPopout-1Puiuq {
+  background-color: var(--background-floating);
+}
+#app-mount .overflowRolesPopout-1Puiuq .overflowRolesPopoutArrow-2R7g3K {
+  background-color: var(--background-floating);
+}
+
 #app-mount .quickSelectPopout-2F0PXw {
   background-color: var(--background-floating);
 }
