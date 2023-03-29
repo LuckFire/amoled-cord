@@ -1,3 +1,13 @@
-.messageListItem-ZZ7v6g:hover {
-    background-color: rgba(255, 255, 255, 0.015);
+#app-mount {
+    // Message Items
+    .messageListItem-ZZ7v6g:hover {
+        background-color: rgba(255, 255, 255, 0.015);
+    }
+    // Gifts
+    .tile-2mmK5T {
+        background-color: var(--background-secondary);
+        .invalidPoop--w1123 {
+            background-color: var(--background-secondary-alt);
+        }
+    }
 }

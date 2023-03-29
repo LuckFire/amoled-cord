@@ -306,8 +306,14 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-tertiary);
 }
 
-.messageListItem-ZZ7v6g:hover {
+#app-mount .messageListItem-ZZ7v6g:hover {
   background-color: rgba(255, 255, 255, 0.015);
+}
+#app-mount .tile-2mmK5T {
+  background-color: var(--background-secondary);
+}
+#app-mount .tile-2mmK5T .invalidPoop--w1123 {
+  background-color: var(--background-secondary-alt);
 }
 
 #app-mount .chat-2ZfjoI .container-2IKOsH,
