@@ -9,7 +9,7 @@
 ### ![vencord](https://luckfire.github.io/amoled-cord/assets/icons/vencord.gif) **[Vencord](https://github.com/Vendicated/Vencord)**
 1. Go to user settings (CTRL + ,)
 2. Go to the "Vencord" category and select the "Themes" tab.
-3. In the input field under "THEMES," paste the following URL.
+3. In the input field under "THEMES" paste the following URL.
 ```
 https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 ```
