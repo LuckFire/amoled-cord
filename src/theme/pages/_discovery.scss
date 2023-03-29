@@ -1,6 +1,17 @@
-#app-mount .pageWrapper-2PwDoS {
-    background-color: var(--background-primary);
-    .searchBox-pyIJJj:not(.searchBox-31Zv9h) {
-        background-color: var(--background-secondary);
+#app-mount .content-1SgpWY {
+    .pageWrapper-2PwDoS {
+        background-color: var(--background-primary);
+    }
+    .searchBox-pyIJJj {
+        background-color: var(--input-background);
+        input {
+            color: var(--primary-260);
+            &::placeholder {
+                color: var(--primary-400);
+            }
+        }
+        .searchIcon-3X4BYL, .closeIcon-BMGxx0 {
+            color: var(--interactive-normal);
+        }
     }
 }

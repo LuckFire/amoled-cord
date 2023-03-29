@@ -1,0 +1,15 @@
+#app-mount .container-ZMc96U {
+    &.themed-Hp1KC_ {
+        background: var(--background-primary);
+    }
+    .children-3xh0VB::after {
+        background: linear-gradient(90deg, var(--background-primary) 0, var(--background-primary)) !important;
+    }
+    [class*="searchBar"] {
+        background-color: var(--background-secondary);
+        .searchAnswer-23w-CH,
+        .searchFilter-2UfsDk {
+            background-color: var(--background-primary);
+        }
+    }
+}

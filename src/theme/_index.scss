@@ -1,8 +1,10 @@
 @forward 'app';
-
 @forward 'chat';
-@forward 'guild';
+@forward 'inputs';
+@forward 'guilds';
+@forward 'members';
 @forward 'modals';
 @forward 'pages';
 @forward 'popouts';
+@forward 'settings';
 @forward 'sidebar';

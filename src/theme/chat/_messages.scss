@@ -1,31 +1,13 @@
 #app-mount {
-    // messages
+    // Message Items
     .messageListItem-ZZ7v6g:hover {
-        background-color: rgba(255, 255, 255, 0.03);
+        background-color: rgba(255, 255, 255, 0.015);
     }
-    // playing bar -- no, this is not what causes it to break sometimes. that's actually discord.
-    .wrapperAudio-1Bzv_Z {
-        .mediaBarWrapper-33h1oY,
-        .mediaBarWrapper-33h1oY:after,
-        .mediaBarWrapper-33h1oY:before {
-            background-color: var(--background-secondary);
-        }
-        .buffer-3eVqKK,
-        .buffer-3eVqKK:after,
-        .buffer-3eVqKK:before {
-            background-color: #3a3a3a !important;
-        }
-    }
-    // server
-    .guildIconImage-74OdmM {
+    // Gifts
+    .tile-2mmK5T {
         background-color: var(--background-secondary);
-    }
-    // message actions
-    .wrapper-2vIMkT {
-        background-color: var(--background-secondary);
-    }
-    // attachments
-    .upload-vLbqu- {
-        background-color: var(--background-secondary-alt);
+        .invalidPoop--w1123 {
+            background-color: var(--background-secondary-alt);
+        }
     }
 }

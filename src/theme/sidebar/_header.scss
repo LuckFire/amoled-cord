@@ -1,0 +1,11 @@
+#app-mount .sidebar-1tnWFu {
+    .container-1-ERn5:not(.hasBanner-2IrYih) .header-3OsQeK {
+        background-color: var(--background-primary);
+        &:hover {
+            background-color: var(--background-secondary);
+        }
+    }
+    .hasBanner-2IrYih [class*="scroller-"] {
+        background-color: transparent;
+    }
+}

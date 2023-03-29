@@ -1,0 +1,70 @@
+#app-mount .layers-OrUESM {
+    // Authorized Apps
+    .cardPrimary-pAe8Ed.outline-3kFzf8 {
+        background-color: var(--background-secondary);
+    }
+    // Connections
+    .connectContainer-1hylYM {
+        background-color: var(--background-secondary);
+        .wrapper-1xW8FI:hover {
+            background-color: var(--background-modifier-hover);
+        }
+    }
+    .integration-1qC-fv {
+        background-color: var(--background-primary);
+    }
+    // Nitro
+    .feature-2IUcBI {
+        background-color: var(--background-secondary);
+    }
+    // Server Boost
+    .guildHeader-1EPPBS {
+        background-color: var(--background-secondary-alt);
+    }
+    // Billing
+    .paymentPane-ut5qKZ {
+        background-color: var(--background-secondary);
+        .expandedInfo-1W31i3 {
+            background-color: var(--background-primary);
+        }
+        .paginator-1eqD2g {
+            background-color: var(--background-secondary);
+            .payment-2bOh4k {
+                background-color: var(--background-secondary);
+            }
+        }
+        .bottomDivider-ZmTm-j {
+            border-bottom-color: var(--background-modifier-accent);
+        }
+    }
+    .codeRedemptionRedirect-2hYMSQ {
+        border-color: var(--background-tertiary);
+        background-color: var(--background-secondary);
+    }
+    // Appearance
+    .preview-QJ3OG3 {
+        border-color: var(--background-secondary);
+        background-color: var(--background-primary) !important;
+    }
+    // Voice & Video
+    .notches-2w7UZJ.gray-3wP137 {
+        color: var(--background-primary);
+    }
+    // Keybinds
+    .container-30qY7E {
+        background-color: var(--input-background);
+    }
+    // Registered Games
+    .game-2f2vPC {
+        box-shadow: none;
+        border-bottom: 1px solid var(--background-modifier-accent);
+        .gameNameInput-2wbDJ9:is(:hover, :focus) {
+            border-color: var(--background-tertiary);
+            background-color: var(--background-secondary);
+        }
+    }
+    // Game Overlay
+    .option-1QI4c9:not(.selected-18Wszc, :hover) {
+        background-color: var(--background-accent);
+    }
+}
