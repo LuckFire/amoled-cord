@@ -5,7 +5,7 @@ export default {
 	meta: {
         name: 'AMOLED-Cord',
         author: 'LuckFire',
-        version: '4.0.0',
+        version: '4.0.1',
         description: 'A basically pitch black theme for Discord. Lights out, baby!',
         source: 'https://github.com/LuckFire/amoled-cord',
         invite: 'vYdXbEzqDs',

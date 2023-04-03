@@ -1,7 +1,7 @@
 /**
  * @name AMOLED-Cord
  * @author LuckFire
- * @version 4.0.0
+ * @version 4.0.1
  * @description A basically pitch black theme for Discord. Lights out, baby!
  * @source https://github.com/LuckFire/amoled-cord
  * @invite vYdXbEzqDs
@@ -72,9 +72,9 @@
   --primary-900-hsl: 0 calc(var(--saturation-factor, 1)*0%) calc(var(--lightness-900, 0) + 0.8%);
 }
 
-.theme-dark,
-html.theme-dark .theme-light .root-1CAIjD,
-.theme-light.popout-15UxD6 {
+.theme-dark:root,
+html.theme-dark .theme-light .root-1CAIjD:root,
+.theme-light.popout-15UxD6:root {
   --activity-card-background: var(--primary-830);
   --android-navigation-bar-background: var(--primary-830);
   --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
@@ -203,6 +203,7 @@ html.theme-dark .theme-light .root-1CAIjD,
   --profile-role-pill-border-color: var(--interactive-normal);
   --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%);
   --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%);
+  --home-background: var(--primary-900);
 }
 
 #app-mount .container-2RRFHK {
@@ -466,6 +467,16 @@ html.theme-dark .theme-light .root-1CAIjD,
 }
 #app-mount .perksModal-CLcR1c .perk-19D_HN {
   background-color: var(--background-secondary-alt);
+}
+
+#app-mount .row--LCpto {
+  background-color: var(--background-tertiary);
+}
+#app-mount .row--LCpto:hover {
+  background-color: var(--background-modifier-hover);
+}
+#app-mount .sidebarCardWrapper-34oCuK {
+  background-color: var(--background-tertiary);
 }
 
 #app-mount .addGamePopout-2SKNIV {
