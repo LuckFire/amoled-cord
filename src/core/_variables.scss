@@ -198,4 +198,8 @@ html.theme-dark .theme-light .root-1CAIjD,
     --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;
 
     --home-background: var(--primary-900) !important;
+
+    --dark-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
+    --dark-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
+    --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
 }

@@ -1,0 +1,155 @@
+// https://discord.com/developers
+body {
+    background: var(--background-primary) !important;
+
+    // Misc Stuff
+    .colorLight-1o6rnK {
+        background-color: var(--background-tertiary);
+    }
+    .borderPrimary-1l1Cvj {
+        border-color: var(--background-secondary);
+    }
+    .divider-_0um2u {
+        background-color: var(--background-modifier-accent);
+    }
+    .hasBorder-17PTeu {
+        border-bottom-color: var(--background-modifier-accent);
+    }
+    .searchContainer-2duiLS:is(:hover) button {
+        border-color: var(--background-secondary);
+        background-color: var(--input-background);
+    }
+    .h6-3NIpOq {
+        background: var(--background-primary);
+    }
+
+    // Content Scrollers
+    .scrollbar-1NUwvY .thumb-3r19ww {
+        background-color: var(--background-secondary-alt) !important;
+    }
+    
+    // Dropdowns
+    [class$="control"] {
+        border-color: var(--background-secondary);
+        &:hover {
+            border-color: var(--background-secondary-alt);
+        }
+    }
+    .css-1129voj-menu {
+        border-color: var(--background-secondary);
+        box-shadow: var(--background-secondary) 0px 1px 5px 0px;
+        background-color: var(--background-floating);
+    }
+    .css-lbnt4y-option {
+        background-color: var(--background-modifier-selected);
+    }
+    .css-1jrkz9i-option {
+        background-color: var(--background-modifier-hover);
+    }
+
+    // Modals
+    .modalContent-31OOYM {
+        box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
+        background-color: var(--modal-background);
+        .modalFooter-3193QM {
+            border: none;
+            box-shadow: inset 0 1px 0 hsl(var(--primary-900-hsl)/.6);
+            background-color: var(--modal-footer-background);
+        }
+    }
+    
+    // Inputs
+    .input-2g-os5, .inputWrapper-3a4ywb {
+        border-color: var(--background-secondary);
+        background-color: var(--input-background);
+    }
+    .multiInputBlur-2Gn0-C {
+        border-color: var(--background-secondary);
+        background-color: var(--input-background);
+    }
+
+    // Grids
+    .grid-2a45cj {
+        .header-1JzP0t {
+            background-color: var(--background-tertiary);
+        }
+        .rowWrapper-2RxnWO {
+            background-color: var(--background-secondary);
+            &:hover::before {
+                background-color: var(--background-secondary-alt);
+            }
+            &::after {
+                border-color: var(--background-secondary-alt) !important;
+            }
+        }
+    }
+    // Paginator
+    .disabled-29cfPA, .disabled-29cfPA:hover {
+        border-color: var(--background-secondary);
+        background-color: var(--background-tertiary);
+    }
+    .disabled-29cfPA + .pageButtonNext-2_bbdk,
+    .disabled-29cfPA + .pageCount-17vMJm,
+    .disabled-29cfPA:hover + .pageButtonNext-2_bbdk,
+    .disabled-29cfPA:hover + .pageCount-17vMJm,
+    .pageButtonNext-2_bbdk,
+    .pageCount-17vMJm,
+    .pageButtonNext-2_bbdk,
+    .pageButtonPrev-3q9rh8 {
+        border-color: var(--background-secondary) !important;
+        background-color: var(--background-tertiary);
+    }
+    .pageButtonNext-2_bbdk:hover,
+    .pageButtonPrev-3q9rh8:hover {
+        border-color: var(--background-secondary-alt) !important;
+        background-color: var(--background-secondary);
+    }
+
+    // Sidebar
+    .wrapper-28jGDw {
+        background-color: var(--background-tertiary);
+        .scrollbar-1NUwvY {
+            background-color: var(--background-tertiary) !important;
+            .pad-1eAWXq {
+                background-color: var(--background-tertiary) !important;
+            }
+        }
+    }
+
+    // Content
+    .contentWrapper-3RqEiS {
+        background-color: var(--background-primary);
+        .scrollbar-1NUwvY {
+            background-color: var(--background-primary) !important;
+        }
+        .pad-1eAWXq {
+            background-color: var(--background-primary) !important;
+        }
+        .cardOptionTile-30nXFk:hover {
+            background-color: var(--background-modifier-hover);
+        }
+        .cardOptionTileSelected-wkswQf {
+            background-color: var(--background-modifier-active);
+        }
+        
+        // Applications
+        .cardLink-H6gvNe {
+            background-color: var(--background-secondary);
+            &:hover {
+                background-color: var(--background-secondary-alt);
+            }
+            .cardImagePlaceholder-EjWnzT {
+                background-color: var(--background-primary);
+            }
+        }
+        // Applications - General
+        .avatarUploaderInner-yEhTv5 {
+            background-color: var(--background-primary);
+        }
+
+        // Server Insights - Partner
+        .accordionContainer-vSTU_l {
+            background-color: var(--background-tertiary);
+        }
+    }
+}
