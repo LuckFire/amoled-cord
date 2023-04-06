@@ -368,6 +368,10 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-primary);
 }
 
+#app-mount .root-1CAIjD .contentWrapper-3oy4Xo {
+  background: var(--modal-background);
+}
+
 #app-mount .root-1CAIjD .authBox-1HR6Ha {
   background-color: transparent;
 }
