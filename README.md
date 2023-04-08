@@ -14,7 +14,7 @@
 https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 ```
 
-### ![stylus](https://luckfire.github.io/amoled-cord/assets/icons/stylus.png) **Stylus**
+### ![stylus](https://discord-extensions.github.io/assets/icons/stylus.png) **Stylus**
 > **Warning**  
 > Firefox users must have "Patch CSP to allow style assets" enabled for the theme to work. This can be found in Stylus' settings under "Advanced"
 1. Install the broswer extensions for your repsective browser.
