@@ -22,6 +22,6 @@
     "@parcel/transformer-sass": "^2.8.3",
     "@types/node": "^18.11.15",
     "prettier": "^2.8.5",
-    "replugged": "^4.2.2"
+    "replugged": "^4.3.0"
   }
 }

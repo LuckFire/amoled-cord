@@ -9,8 +9,8 @@
     },
     "version": "4.0.3",
     "updater": {
-      "type": "github",
-      "id": "luckfire/amoled-cord"
+      "type": "store",
+      "id": "dev.LuckFire.AMOLEDCord"
     },
     "license": "MIT",
     "type": "replugged-theme",

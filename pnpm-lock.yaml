@@ -22,8 +22,8 @@ devDependencies:
     specifier: ^2.8.5
     version: 2.8.7
   replugged:
-    specifier: ^4.2.2
-    version: 4.2.3(@codemirror/view@6.9.3)(@lezer/common@1.0.2)(postcss@8.4.21)
+    specifier: ^4.3.0
+    version: 4.3.0(@codemirror/view@6.9.3)(@lezer/common@1.0.2)(postcss@8.4.21)
 
 packages:
 
@@ -2629,9 +2629,9 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /replugged@4.2.3(@codemirror/view@6.9.3)(@lezer/common@1.0.2)(postcss@8.4.21):
-    resolution: {integrity: sha512-11X9a07lf1CqEqEbM6Clw7I+jMnSkH1v1ZEVtM7XBFbyFNqThCKiSTuN4VaG7MoFi0smyxsfozL5wzCvL8a61w==}
-    engines: {node: '>=14.0.0'}
+  /replugged@4.3.0(@codemirror/view@6.9.3)(@lezer/common@1.0.2)(postcss@8.4.21):
+    resolution: {integrity: sha512-Sa9O+hA5N2J7Cez2qegqW+HV8ekXxpXK1lZDCSXrp4slqHvBfUBVgySXrCvTXh2JQfl4JR6FfOf9SqfKabnb/Q==}
+    engines: {node: '>=18.0.0', pnpm: '>=8.0.0'}
     hasBin: true
     dependencies:
       '@codemirror/lang-css': 6.1.1(@codemirror/view@6.9.3)(@lezer/common@1.0.2)
@@ -2650,11 +2650,13 @@ packages:
       node-fetch: 3.3.1
       standalone-electron-types: 1.0.0
       update-notifier: 6.0.2
+      ws: 8.13.0
       yargs: 17.7.1
       zod: 3.21.4
     transitivePeerDependencies:
       - '@codemirror/view'
       - '@lezer/common'
+      - bufferutil
       - cssnano
       - encoding
       - postcss
@@ -2663,6 +2665,7 @@ packages:
       - srcset
       - terser
       - uncss
+      - utf-8-validate
     dev: true
 
   /require-directory@2.1.1:
@@ -2987,6 +2990,19 @@ packages:
       is-typedarray: 1.0.0
       signal-exit: 3.0.7
       typedarray-to-buffer: 3.1.5
+    dev: true
+
+  /ws@8.13.0:
+    resolution: {integrity: sha512-x9vcZYTrFPC7aSIbj7sRCYo7L/Xb8Iy+pW0ng0wt2vCJv7M9HOMy0UoN3rr+IFC7hb7vXoqS+P9ktyLLLhO+LA==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
     dev: true
 
   /xdg-basedir@5.1.0:

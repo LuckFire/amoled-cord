@@ -1,7 +1,7 @@
 ![banner](https://discord-extensions.github.io/assets/banners/amoled-cord.png)
 ---
 ### ![replugged](https://discord-extensions.github.io/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
-- [Direct Install](https://replugged.dev/install?identifier=luckfire/amoled-cord&source=github)
+- [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.AMOLEDCord)
 
 ### ![betterdiscord](https://discord-extensions.github.io/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
 - [Direct Download](https://betterdiscord.app/Download?id=144)
@@ -15,7 +15,7 @@ https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 ```
 
 ### ![stylus](https://discord-extensions.github.io/assets/icons/stylus.png) **Stylus**
-> **Warning**  
+> **Warning**
 > Firefox users must have "Patch CSP to allow style assets" enabled for the theme to work. This can be found in Stylus' settings under "Advanced"
 1. Install the broswer extensions for your repsective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
