@@ -14,14 +14,14 @@
     "bundle": "replugged bundle theme"
   },
   "dependencies": {
-    "bd-scss": "^2.0.12"
+    "bd-scss": "^2.0.14"
   },
   "devDependencies": {
-    "@parcel/config-default": "^2.8.3",
-    "@parcel/core": "^2.8.3",
-    "@parcel/transformer-sass": "^2.8.3",
-    "@types/node": "^18.11.15",
-    "prettier": "^2.8.5",
-    "replugged": "^4.3.1"
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/core": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "@types/node": "^18.15.11",
+    "prettier": "^2.8.8",
+    "replugged": "^4.5.1"
   }
 }

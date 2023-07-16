@@ -7,25 +7,27 @@
         .loadingCard-3pIp9h {
             background-color: var(--background-tertiary);
         }
-        .descriptionContainer-2ylKGk {
-            background-color: var(--background-secondary);
-        }
         .container-1PloNW {
-            background-color: var(--background-tertiary);
             &:hover {
                 background-color: var(--background-modifier-hover);
             }
-            &:is(.isOpen-O7ANQc, :active) {
+            &:active {
                 background-color: var(--background-modifier-active);
+            }
+            &.isOpen-O7ANQc {
+                background-color: var(--background-modifier-selected);
             }
             .textContentFooter-2JnNv8 {
                 background: transparent;
             }
         }
-        .container-2qVG6q {
+        .container-q2_DnH {
             background-color: var(--background-tertiary);
-            &:is(.isOpen-2OXbFs, :active) {
+            &:active {
                 background-color: var(--background-modifier-active);
+            }
+            &.isOpen-2Gyel_ {
+                background-color: var(--background-modifier-selected);
             }
         }
         .container-2_J666 {
