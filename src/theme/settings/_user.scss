@@ -31,6 +31,9 @@
             background-color: var(--background-secondary);
             .payment-2bOh4k {
                 background-color: var(--background-secondary);
+                &.hoverablePayment-lE1s4t:hover {
+                    background-color: var(--background-modifier-hover);
+                }
             }
         }
         .bottomDivider-ZmTm-j {
@@ -66,5 +69,8 @@
     // Game Overlay
     .option-1QI4c9:not(.selected-18Wszc, :hover) {
         background-color: var(--background-accent);
+    }
+    .disabled-35mc5w:not(.selected-18Wszc, :hover) {
+        color: var(--background-accent);
     }
 }

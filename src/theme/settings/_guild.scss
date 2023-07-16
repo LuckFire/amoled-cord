@@ -21,14 +21,11 @@
     // Automod
     .iconWrapper-2_MXbk {
         background: var(--button-secondary-background);
-        &:hover {
+        .icon-2TbMdT:hover {
             background: var(--button-secondary-background-hover);
-        }
-        &:active {
-            background: var(--button-secondary-background-active);
-        }
-        &.disabled-2gUzwG {
-            background: var(--button-secondary-background-disabled);
+            &.disabled-2gUzwG {
+                background: var(--button-secondary-background-disabled);
+            }
         }
     }
     // Audit Log
