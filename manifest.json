@@ -14,5 +14,7 @@
     },
     "license": "MIT",
     "type": "replugged-theme",
-    "main": "src/source.scss"
+    "main": "src/source.scss",
+    "source": "https://github.com/LuckFire/amoled-cord",
+    "image": "https://cdn.discordapp.com/attachments/1142305515439923260/1142306014528544788/amoled-cord.png"
 }
