@@ -11,7 +11,8 @@
     "build:bd": "bd-scss build",
     "dev:replugged": "replugged build theme --watch",
     "build:replugged": "replugged build theme",
-    "bundle": "replugged bundle theme"
+    "bundle": "replugged bundle theme",
+    "release": "replugged release"
   },
   "dependencies": {
     "bd-scss": "^2.0.14"
@@ -22,6 +23,6 @@
     "@parcel/transformer-sass": "^2.9.3",
     "@types/node": "^18.15.11",
     "prettier": "^2.8.8",
-    "replugged": "^4.5.1"
+    "replugged": "^4.6.0"
   }
 }
