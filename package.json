@@ -1,6 +1,6 @@
 {
   "name": "amoled-cord",
-  "version": "4.0.0",
+  "version": "4.0.6",
   "description": "A customizable, pitch black theme for Discord. Lights out, baby!",
   "type": "module",
   "engines": {
