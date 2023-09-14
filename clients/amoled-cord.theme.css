@@ -615,6 +615,13 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   color: var(--interactive-normal);
 }
 
+#app-mount .container-2qjEOK .mainTableContainer-3Nxvkd {
+  background-color: var(--background-tertiary);
+}
+#app-mount .container-2qjEOK .container-2oNtJn {
+  background-color: var(--background-secondary);
+}
+
 #app-mount .row--LCpto {
   background-color: var(--background-tertiary);
 }
