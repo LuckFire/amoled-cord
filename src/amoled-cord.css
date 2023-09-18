@@ -245,10 +245,10 @@ html.theme-dark .theme-light .root-1CAIjD,
 #app-mount .chat-2ZfjoI .container-3wLKDe {
   background-color: var(--background-primary);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3arpDl {
+#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, #app-mount .chat-2ZfjoI .container-3wLKDe .increasedActivityMainCard-2ry6hI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3arpDl, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2_J666 {
   background-color: var(--background-tertiary);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .loadingCard-3pIp9h {
+#app-mount .chat-2ZfjoI .container-3wLKDe .loadingCard-3pIp9h, #app-mount .chat-2ZfjoI .container-3wLKDe .card-3BPR1O {
   background-color: var(--background-tertiary);
 }
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:hover {
@@ -263,17 +263,11 @@ html.theme-dark .theme-light .root-1CAIjD,
 #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
   background: transparent;
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH {
-  background-color: var(--background-tertiary);
-}
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH:active {
+#app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH:active, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY:active {
   background-color: var(--background-modifier-active);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2Gyel_ {
+#app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2Gyel_, #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2ldXbM, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2Gyel_, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2ldXbM {
   background-color: var(--background-modifier-selected);
-}
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-2_J666 {
-  background-color: var(--background-tertiary);
 }
 
 #app-mount .messageListItem-ZZ7v6g:hover {
