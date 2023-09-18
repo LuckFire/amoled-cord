@@ -1,6 +1,7 @@
 ![banner](https://discord-extensions.github.io/assets/banners/amoled-cord.png)
 ---
 ### ![replugged](https://discord-extensions.github.io/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
+- [Maintained by Saltssaumure](https://github.com/MiniDiscordThemes/amoled-cord) -- please report Replugged issues to them!
 - [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.AMOLEDCord)
 
 ### ![betterdiscord](https://discord-extensions.github.io/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**

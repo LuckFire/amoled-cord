@@ -8,21 +8,9 @@
   },
   "scripts": {
     "dev:bd": "bd-scss dev",
-    "build:bd": "bd-scss build",
-    "dev:replugged": "replugged build theme --watch",
-    "build:replugged": "replugged build theme",
-    "bundle": "replugged bundle theme",
-    "release": "replugged release"
-  },
-  "dependencies": {
-    "bd-scss": "^2.0.14"
+    "build:bd": "bd-scss build"
   },
   "devDependencies": {
-    "@parcel/config-default": "^2.9.3",
-    "@parcel/core": "^2.9.3",
-    "@parcel/transformer-sass": "^2.9.3",
-    "@types/node": "^18.15.11",
-    "prettier": "^2.8.8",
-    "replugged": "^4.6.0"
+    "bd-scss": "^2.0.14"
   }
 }
