@@ -1,4 +1,4 @@
-#app-mount {
+:is(.theme-dark, .theme-amoled) #app-mount {
     .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
         background-color: var(--button-secondary-background);
         &:hover {

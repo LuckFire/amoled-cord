@@ -1,4 +1,4 @@
-#app-mount {
+:is(.theme-dark, .theme-amoled) #app-mount {
     .row--LCpto {
         background-color: var(--background-tertiary);
         &:hover {
