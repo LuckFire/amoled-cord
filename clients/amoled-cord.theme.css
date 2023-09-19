@@ -1,7 +1,7 @@
 /**
  * @name AMOLED-Cord
  * @author LuckFire
- * @version 4.0.6
+ * @version 4.0.8
  * @description A basically pitch black theme for Discord. Lights out, baby!
  * @source https://github.com/LuckFire/amoled-cord
  * @invite vYdXbEzqDs
@@ -209,11 +209,11 @@ html.theme-dark .theme-light .root-1CAIjD,
   --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
 }
 
-#app-mount .container-2RRFHK {
+:is(.theme-dark, .theme-amoled) #app-mount .container-2RRFHK {
   background-color: var(--background-primary);
 }
 
-:is(.scroller-kQBbkU,
+:is(.theme-dark, .theme-amoled) :is(.scroller-kQBbkU,
 .auto-2K3UW5,
 .thin-RnSY0a,
 .peopleColumn-1wMU14,
@@ -222,218 +222,218 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-secondary-alt);
 }
 
-#app-mount .bar-2H7Q9u {
+:is(.theme-dark, .theme-amoled) #app-mount .bar-2H7Q9u {
   background-color: var(--background-accent);
 }
-#app-mount .markDash-1ATsxA {
+:is(.theme-dark, .theme-amoled) #app-mount .markDash-1ATsxA {
   background: var(--background-accent);
 }
 
-#app-mount .container-ZMc96U.themed-Hp1KC_ {
+:is(.theme-dark, .theme-amoled) #app-mount .container-ZMc96U.themed-Hp1KC_ {
   background: var(--background-primary);
 }
-#app-mount .container-ZMc96U .children-3xh0VB::after {
+:is(.theme-dark, .theme-amoled) #app-mount .container-ZMc96U .children-3xh0VB::after {
   background: linear-gradient(90deg, var(--background-primary) 0, var(--background-primary)) !important;
 }
-#app-mount .container-ZMc96U [class*=searchBar] {
+:is(.theme-dark, .theme-amoled) #app-mount .container-ZMc96U [class*=searchBar] {
   background-color: var(--background-secondary);
 }
-#app-mount .container-ZMc96U [class*=searchBar] .searchAnswer-23w-CH,
-#app-mount .container-ZMc96U [class*=searchBar] .searchFilter-2UfsDk {
+:is(.theme-dark, .theme-amoled) #app-mount .container-ZMc96U [class*=searchBar] .searchAnswer-23w-CH,
+:is(.theme-dark, .theme-amoled) #app-mount .container-ZMc96U [class*=searchBar] .searchFilter-2UfsDk {
   background-color: var(--background-primary);
 }
 
-#app-mount .chat-2ZfjoI .form-3gdLxP .optionPill-2kmuZR, .container-3XgAHv .form-3gdLxP .optionPill-2kmuZR {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .form-3gdLxP .optionPill-2kmuZR, .container-3XgAHv .form-3gdLxP .optionPill-2kmuZR {
   background-color: var(--primary-730);
 }
-#app-mount .chat-2ZfjoI .form-3gdLxP .channelAttachmentArea-HwpkuQ .upload-vLbqu-, .container-3XgAHv .form-3gdLxP .channelAttachmentArea-HwpkuQ .upload-vLbqu- {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .form-3gdLxP .channelAttachmentArea-HwpkuQ .upload-vLbqu-, .container-3XgAHv .form-3gdLxP .channelAttachmentArea-HwpkuQ .upload-vLbqu- {
   background-color: var(--background-primary);
 }
 
-#app-mount .chat-2ZfjoI .wrapper-2vIMkT {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .wrapper-2vIMkT {
   background-color: var(--background-tertiary);
 }
 
-#app-mount .chat-2ZfjoI .container-3wLKDe {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe {
   background-color: var(--background-primary);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, #app-mount .chat-2ZfjoI .container-3wLKDe .increasedActivityMainCard-2ry6hI, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3arpDl, #app-mount .chat-2ZfjoI .container-3wLKDe .container-2_J666 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .increasedActivityMainCard-2ry6hI, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3arpDl, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-2_J666 {
   background-color: var(--background-tertiary);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .loadingCard-3pIp9h, #app-mount .chat-2ZfjoI .container-3wLKDe .card-3BPR1O {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .loadingCard-3pIp9h, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .card-3BPR1O {
   background-color: var(--background-tertiary);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:hover {
   background-color: var(--background-modifier-hover);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:active {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:active {
   background-color: var(--background-modifier-active);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW.isOpen-O7ANQc {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW.isOpen-O7ANQc {
   background-color: var(--background-modifier-selected);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
   background: transparent;
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH:active, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY:active {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH:active, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY:active {
   background-color: var(--background-modifier-active);
 }
-#app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2Gyel_, #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2ldXbM, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2Gyel_, #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2ldXbM {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2Gyel_, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2ldXbM, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2Gyel_, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2ldXbM {
   background-color: var(--background-modifier-selected);
 }
 
-#app-mount .messageListItem-ZZ7v6g:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .messageListItem-ZZ7v6g:hover {
   background-color: rgba(255, 255, 255, 0.015);
 }
-#app-mount .tile-2mmK5T {
+:is(.theme-dark, .theme-amoled) #app-mount .tile-2mmK5T {
   background-color: var(--background-secondary);
 }
-#app-mount .tile-2mmK5T .invalidPoop--w1123 {
+:is(.theme-dark, .theme-amoled) #app-mount .tile-2mmK5T .invalidPoop--w1123 {
   background-color: var(--background-secondary-alt);
 }
 
-#app-mount .chat-2ZfjoI .container-2IKOsH,
-#app-mount .chat-2ZfjoI .container-1um7CU,
-#app-mount .chat-2ZfjoI .header-3xB4vB,
-#app-mount .chat-2ZfjoI .scrollerContainer-y16Rs9,
-#app-mount .chat-2ZfjoI .emptyPage-2TGR7j {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-2IKOsH,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-1um7CU,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .header-3xB4vB,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .scrollerContainer-y16Rs9,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .emptyPage-2TGR7j {
   background-color: transparent;
 }
-#app-mount .chat-2ZfjoI .prompt-1sE27N {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .prompt-1sE27N {
   background-color: var(--background-tertiary);
 }
-#app-mount .chat-2ZfjoI .prompt-1sE27N .selected-KQBgNS {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .prompt-1sE27N .selected-KQBgNS {
   background-color: var(--background-modifier-active);
 }
-#app-mount .chat-2ZfjoI .profileCard-2gVmvm {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .profileCard-2gVmvm {
   background-color: var(--background-tertiary);
 }
-#app-mount .chat-2ZfjoI .channelRow-4X_3fi {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .channelRow-4X_3fi {
   background-color: var(--background-tertiary);
 }
-#app-mount .chat-2ZfjoI .channelRow-4X_3fi:not(.disabled-3cfocy):hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .channelRow-4X_3fi:not(.disabled-3cfocy):hover {
   background-color: var(--background-modifier-hover);
 }
 
-#app-mount .chat-2ZfjoI .wrapper-1gVUIN.minimum-fXpVNc {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .wrapper-1gVUIN.minimum-fXpVNc {
   background-color: var(--background-primary);
 }
-#app-mount .chat-2ZfjoI .iconBackground-3qSXiM {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .iconBackground-3qSXiM {
   background-color: var(--background-secondary-alt);
 }
-#app-mount .chat-2ZfjoI .container-1IyjjY:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-1IyjjY:hover {
   background-color: var(--background-modifier-hover);
 }
 
-#app-mount .button-1EGGcP.buttonColor-3bP3fX, #app-mount .button-1EGGcP .buttonColor-3bP3fX {
+:is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP.buttonColor-3bP3fX, :is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP .buttonColor-3bP3fX {
   background-color: var(--button-secondary-background);
 }
-#app-mount .button-1EGGcP.buttonColor-3bP3fX:hover, #app-mount .button-1EGGcP .buttonColor-3bP3fX:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP.buttonColor-3bP3fX:hover, :is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP .buttonColor-3bP3fX:hover {
   background-color: var(--button-secondary-background-hover);
 }
-#app-mount .button-1EGGcP.buttonColor-3bP3fX:active, #app-mount .button-1EGGcP .buttonColor-3bP3fX:active {
+:is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP.buttonColor-3bP3fX:active, :is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP .buttonColor-3bP3fX:active {
   background-color: var(--button-secondary-background-active);
 }
 
-#app-mount .key-RP8gj3 {
+:is(.theme-dark, .theme-amoled) #app-mount .key-RP8gj3 {
   box-shadow: inset 0 -4px 0 var(--primary-760);
   background-color: var(--primary-660);
 }
 
-.folder-241Joy.hover-3m7-WT {
+:is(.theme-dark, .theme-amoled) .folder-241Joy.hover-3m7-WT {
   background-color: var(--background-secondary-alt);
 }
 
-#app-mount [class=wrapper-3kah-n] .childWrapper-1j_1ub,
-#app-mount [class=circleIconButton-1VxDrg] {
+:is(.theme-dark, .theme-amoled) #app-mount [class=wrapper-3kah-n] .childWrapper-1j_1ub,
+:is(.theme-dark, .theme-amoled) #app-mount [class=circleIconButton-1VxDrg] {
   background-color: var(--background-secondary-alt);
 }
 
-.container-2o3qEW {
+:is(.theme-dark, .theme-amoled) .container-2o3qEW {
   background-color: var(--background-primary);
 }
 
-#app-mount .member-48YF_l,
-#app-mount .members-3WRCEx {
+:is(.theme-dark, .theme-amoled) #app-mount .member-48YF_l,
+:is(.theme-dark, .theme-amoled) #app-mount .members-3WRCEx {
   background-color: var(--background-primary);
 }
 
-#app-mount .root-1CAIjD .contentWrapper-3oy4Xo {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .contentWrapper-3oy4Xo {
   background: var(--modal-background);
 }
 
-#app-mount .root-1CAIjD .authBox-1HR6Ha {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .authBox-1HR6Ha {
   background-color: transparent;
 }
-#app-mount .root-1CAIjD .navRow-dG-XX8 {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .navRow-dG-XX8 {
   background-color: var(--modal-footer-background);
 }
 
-.theme-light .root-1CAIjD {
+:is(.theme-dark, .theme-amoled) .theme-light .root-1CAIjD {
   color: var(--primary-300);
 }
 
-#app-mount .root-1CAIjD .message-G6O-Wv {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .message-G6O-Wv {
   background-color: var(--background-primary);
 }
 
-#app-mount .root-1CAIjD.rootWithShadow-2hdL2J {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD.rootWithShadow-2hdL2J {
   box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
 }
-#app-mount .root-1CAIjD .footerSeparator-3U8YsT {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .footerSeparator-3U8YsT {
   box-shadow: inset 0 1px 0 var(--modal-footer-background);
 }
 
-#app-mount .root-1CAIjD .container-2oNtJn {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .container-2oNtJn {
   background-color: var(--input-background);
 }
-#app-mount .root-1CAIjD .footer-Ql9fbL {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .footer-Ql9fbL {
   background-color: var(--modal-footer-background);
 }
 
-#app-mount .root-1CAIjD .keyboardShortcutsModal-2CRmCm {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .keyboardShortcutsModal-2CRmCm {
   background-color: var(--modal-background);
 }
 
-#app-mount .modal-2RG0j2 .verifiedRoleHasRole-2CPTNi {
+:is(.theme-dark, .theme-amoled) #app-mount .modal-2RG0j2 .verifiedRoleHasRole-2CPTNi {
   background-color: var(--background-secondary);
   border-color: var(--background-secondary);
 }
 
-#app-mount .root-1CAIjD.uploadModal-2ie9O_ {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD.uploadModal-2ie9O_ {
   background-color: var(--modal-background);
 }
-#app-mount .root-1CAIjD.uploadModal-2ie9O_ .footer-VCsJQY {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD.uploadModal-2ie9O_ .footer-VCsJQY {
   box-shadow: inset 0 1px 0 hsl(var(--primary-900-hsl)/0.6);
   background-color: var(--modal-footer-background);
 }
 
-#app-mount .root-1CAIjD .cardPrimary-pAe8Ed {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .cardPrimary-pAe8Ed {
   background-color: var(--background-secondary);
 }
-#app-mount .root-1CAIjD .default-1Tkeeg {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .default-1Tkeeg {
   background-color: var(--background-primary);
 }
 
-#app-mount .promptContent-1KG8jv .optionButtonWrapper-2lbogO.selected-KQBgNS {
+:is(.theme-dark, .theme-amoled) #app-mount .promptContent-1KG8jv .optionButtonWrapper-2lbogO.selected-KQBgNS {
   background-color: var(--background-secondary);
 }
-#app-mount .promptContent-1KG8jv .overlay-1wSZ6w {
+:is(.theme-dark, .theme-amoled) #app-mount .promptContent-1KG8jv .overlay-1wSZ6w {
   background: none !important;
 }
 
-#app-mount .root-1CAIjD .previewDark-3Xp3UB {
+:is(.theme-dark, .theme-amoled) #app-mount .root-1CAIjD .previewDark-3Xp3UB {
   background-color: var(--background-primary);
 }
 
-#app-mount .nowPlayingColumn-1eCBCN .separator-2OaeRP {
+:is(.theme-dark, .theme-amoled) #app-mount .nowPlayingColumn-1eCBCN .separator-2OaeRP {
   background-color: var(--background-secondary);
 }
-#app-mount .nowPlayingColumn-1eCBCN .applicationStreamingPreviewWrapper-7j27t8 {
+:is(.theme-dark, .theme-amoled) #app-mount .nowPlayingColumn-1eCBCN .applicationStreamingPreviewWrapper-7j27t8 {
   background-color: var(--background-secondary-alt);
 }
 
-#app-mount .directoryContainer-z-0pgp {
+:is(.theme-dark, .theme-amoled) #app-mount .directoryContainer-z-0pgp {
   background-color: var(--background-primary);
 }
 
@@ -568,294 +568,294 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: var(--background-tertiary);
 }
 
-#app-mount .content-1SgpWY .pageWrapper-2PwDoS {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .pageWrapper-2PwDoS {
   background-color: var(--background-primary);
 }
-#app-mount .content-1SgpWY .searchBox-pyIJJj {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj {
   background-color: var(--input-background);
 }
-#app-mount .content-1SgpWY .searchBox-pyIJJj input {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input {
   color: var(--primary-260);
 }
-#app-mount .content-1SgpWY .searchBox-pyIJJj input::-moz-placeholder {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input::-moz-placeholder {
   color: var(--primary-400);
 }
-#app-mount .content-1SgpWY .searchBox-pyIJJj input::placeholder {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input::placeholder {
   color: var(--primary-400);
 }
-#app-mount .content-1SgpWY .searchBox-pyIJJj .searchIcon-3X4BYL, #app-mount .content-1SgpWY .searchBox-pyIJJj .closeIcon-BMGxx0 {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj .searchIcon-3X4BYL, :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj .closeIcon-BMGxx0 {
   color: var(--interactive-normal);
 }
 
-#app-mount .container-2qjEOK .mainTableContainer-3Nxvkd {
+:is(.theme-dark, .theme-amoled) #app-mount .container-2qjEOK .mainTableContainer-3Nxvkd {
   background-color: var(--background-tertiary);
 }
-#app-mount .container-2qjEOK .container-2oNtJn {
+:is(.theme-dark, .theme-amoled) #app-mount .container-2qjEOK .container-2oNtJn {
   background-color: var(--background-secondary);
 }
 
-#app-mount .row--LCpto {
+:is(.theme-dark, .theme-amoled) #app-mount .row--LCpto {
   background-color: var(--background-tertiary);
 }
-#app-mount .row--LCpto:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .row--LCpto:hover {
   background-color: var(--background-modifier-hover);
 }
-#app-mount .clickableAction-2q3H52:hover .action-3oG-si {
+:is(.theme-dark, .theme-amoled) #app-mount .clickableAction-2q3H52:hover .action-3oG-si {
   background-color: var(--background-modifier-hover);
 }
-#app-mount .action-3oG-si {
+:is(.theme-dark, .theme-amoled) #app-mount .action-3oG-si {
   background-color: var(--background-tertiary);
 }
-#app-mount .sidebarCardWrapper-34oCuK {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebarCardWrapper-34oCuK {
   background-color: var(--background-tertiary);
 }
-#app-mount .headerIcon-3Q7cOC {
+:is(.theme-dark, .theme-amoled) #app-mount .headerIcon-3Q7cOC {
   background-color: var(--background-tertiary);
   border-color: var(--background-tertiary);
 }
 
-#app-mount .addGamePopout-2SKNIV {
+:is(.theme-dark, .theme-amoled) #app-mount .addGamePopout-2SKNIV {
   background-color: var(--background-primary);
 }
 
-#app-mount .container-1S70rv .header-3i_Csh, #app-mount .container-1S70rv .autocompleteArrow-jJE9TQ {
+:is(.theme-dark, .theme-amoled) #app-mount .container-1S70rv .header-3i_Csh, :is(.theme-dark, .theme-amoled) #app-mount .container-1S70rv .autocompleteArrow-jJE9TQ {
   background-color: var(--background-tertiary);
 }
-#app-mount .container-1S70rv .sectionTag-28mLyE {
+:is(.theme-dark, .theme-amoled) #app-mount .container-1S70rv .sectionTag-28mLyE {
   background-color: var(--background-secondary);
 }
 
-#app-mount .autocomplete-3NRXG8 {
+:is(.theme-dark, .theme-amoled) #app-mount .autocomplete-3NRXG8 {
   background-color: var(--background-tertiary);
 }
-#app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
+:is(.theme-dark, .theme-amoled) #app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
   background-color: var(--background-tertiary);
 }
 
-#app-mount .contentWarningPopout-WKdbDG {
+:is(.theme-dark, .theme-amoled) #app-mount .contentWarningPopout-WKdbDG {
   background-color: var(--background-floating);
 }
-#app-mount .contentWarningPopout-WKdbDG .footer-2aeMle {
+:is(.theme-dark, .theme-amoled) #app-mount .contentWarningPopout-WKdbDG .footer-2aeMle {
   background-color: var(--background-tertiary);
 }
 
-#app-mount .phoneFieldPopout-uW3DlO {
+:is(.theme-dark, .theme-amoled) #app-mount .phoneFieldPopout-uW3DlO {
   background-color: var(--background-floating);
 }
 
-#app-mount .drawerSizingWrapper-1txdWG .emptyHintCard-2A7Tng {
+:is(.theme-dark, .theme-amoled) #app-mount .drawerSizingWrapper-1txdWG .emptyHintCard-2A7Tng {
   background-color: var(--background-primary);
 }
-#app-mount .drawerSizingWrapper-1txdWG .imageLoading-2uloYN {
+:is(.theme-dark, .theme-amoled) #app-mount .drawerSizingWrapper-1txdWG .imageLoading-2uloYN {
   border-radius: 35%;
   background-color: var(--background-secondary-alt);
   background-image: none;
 }
 
-#app-mount .container-2kTWmC {
+:is(.theme-dark, .theme-amoled) #app-mount .container-2kTWmC {
   background-color: var(--background-secondary);
 }
 
-#app-mount .customColorPicker-C_jddW {
+:is(.theme-dark, .theme-amoled) #app-mount .customColorPicker-C_jddW {
   border: none;
   box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
   background-color: var(--background-tertiary);
 }
 
-#app-mount .overflowRolesPopout-1Puiuq {
+:is(.theme-dark, .theme-amoled) #app-mount .overflowRolesPopout-1Puiuq {
   background-color: var(--background-floating);
 }
-#app-mount .overflowRolesPopout-1Puiuq .overflowRolesPopoutArrow-2R7g3K {
-  background-color: var(--background-floating);
-}
-
-#app-mount .quickSelectPopout-2F0PXw {
+:is(.theme-dark, .theme-amoled) #app-mount .overflowRolesPopout-1Puiuq .overflowRolesPopoutArrow-2R7g3K {
   background-color: var(--background-floating);
 }
 
-#app-mount .streamPreview-I7itZ6 {
+:is(.theme-dark, .theme-amoled) #app-mount .quickSelectPopout-2F0PXw {
+  background-color: var(--background-floating);
+}
+
+:is(.theme-dark, .theme-amoled) #app-mount .streamPreview-I7itZ6 {
   background-color: var(--background-secondary);
 }
-#app-mount .streamPreview-I7itZ6 .previewContainer-35LFgt {
+:is(.theme-dark, .theme-amoled) #app-mount .streamPreview-I7itZ6 .previewContainer-35LFgt {
   background-color: var(--background-secondary-alt);
 }
 
-#app-mount .layer-2BGhQ8 .focused-2FU0YH {
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .focused-2FU0YH {
   background-color: var(--background-secondary);
 }
-#app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker {
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker {
   background-color: var(--background-secondary);
 }
-#app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__header {
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__header {
   background-color: var(--background-secondary);
 }
-#app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__navigation,
-#app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__navigation {
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__navigation,
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__navigation {
   background-color: var(--background-secondary);
 }
-#app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__current-month {
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__current-month {
   background-color: var(--background-secondary);
 }
-#app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
-#app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__day--disabled {
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
+:is(.theme-dark, .theme-amoled) #app-mount .layer-2BGhQ8 .calendarPicker-sDhzdi .react-datepicker__day--disabled {
   background-color: var(--background-tertiary);
 }
 
-#app-mount .picker-20lcBA .soundButton-2P2Ua2 {
+:is(.theme-dark, .theme-amoled) #app-mount .picker-20lcBA .soundButton-2P2Ua2 {
   background-color: var(--background-primary);
 }
-#app-mount .picker-20lcBA .keybindHint-2zIIxQ {
+:is(.theme-dark, .theme-amoled) #app-mount .picker-20lcBA .keybindHint-2zIIxQ {
   background-color: var(--background-primary);
 }
 
-#app-mount .body-2EZa2E {
+:is(.theme-dark, .theme-amoled) #app-mount .body-2EZa2E {
   background-color: var(--background-secondary);
 }
 
-#app-mount .layers-OrUESM .default-1Tkeeg {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .default-1Tkeeg {
   background-color: var(--background-primary);
 }
 
-#app-mount .layers-OrUESM .avatarUploaderInnerSquareDisabled-3M9eJS {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .avatarUploaderInnerSquareDisabled-3M9eJS {
   background-color: var(--background-secondary-alt);
 }
-#app-mount .layers-OrUESM .tierHeaderContent-2SPBAA {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .tierHeaderContent-2SPBAA {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .prefixInput-w72mM6 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .prefixInput-w72mM6 {
   background-color: var(--input-background);
 }
-#app-mount .layers-OrUESM .backgroundContainer-gUNEZU {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .backgroundContainer-gUNEZU {
   background-color: var(--background-secondary-alt);
 }
-#app-mount .layers-OrUESM .containerFooter-3BSQ3U {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .containerFooter-3BSQ3U {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .iconWrapper-2_MXbk {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .iconWrapper-2_MXbk {
   background: var(--button-secondary-background);
 }
-#app-mount .layers-OrUESM .iconWrapper-2_MXbk .icon-2TbMdT:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .iconWrapper-2_MXbk .icon-2TbMdT:hover {
   background: var(--button-secondary-background-hover);
 }
-#app-mount .layers-OrUESM .iconWrapper-2_MXbk .icon-2TbMdT:hover.disabled-2gUzwG {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .iconWrapper-2_MXbk .icon-2TbMdT:hover.disabled-2gUzwG {
   background: var(--button-secondary-background-disabled);
 }
-#app-mount .layers-OrUESM .auditLog-1NVAY0 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .auditLog-1NVAY0 {
   border-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .auditLog-1NVAY0 .header-2pgFQm {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .auditLog-1NVAY0 .header-2pgFQm {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .auditLog-1NVAY0 .headerExpanded-1-zwDr {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .auditLog-1NVAY0 .headerExpanded-1-zwDr {
   background-color: var(--background-secondary-alt);
 }
-#app-mount .layers-OrUESM .auditLog-1NVAY0 .divider-M3saWq {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .auditLog-1NVAY0 .divider-M3saWq {
   background-color: var(--background-modifier-accent);
 }
-#app-mount .layers-OrUESM .auditLog-1NVAY0 .changeDetails-1kMZqI {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .auditLog-1NVAY0 .changeDetails-1kMZqI {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .tierBody-1d3UiS {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .tierBody-1d3UiS {
   background-color: var(--background-secondary-alt);
 }
 
-#app-mount .layers-OrUESM .sidebarRegion-1VBisG,
-#app-mount .layers-OrUESM .sidebarRegionScroller-FXiQOh {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .sidebarRegion-1VBisG,
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .sidebarRegionScroller-FXiQOh {
   background-color: var(--background-primary);
 }
 
-#app-mount .layers-OrUESM .cardPrimary-pAe8Ed.outline-3kFzf8 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .cardPrimary-pAe8Ed.outline-3kFzf8 {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .connectContainer-1hylYM {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .connectContainer-1hylYM {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .connectContainer-1hylYM .wrapper-1xW8FI:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .connectContainer-1hylYM .wrapper-1xW8FI:hover {
   background-color: var(--background-modifier-hover);
 }
-#app-mount .layers-OrUESM .integration-1qC-fv {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .integration-1qC-fv {
   background-color: var(--background-primary);
 }
-#app-mount .layers-OrUESM .feature-2IUcBI {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .feature-2IUcBI {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .guildHeader-1EPPBS {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .guildHeader-1EPPBS {
   background-color: var(--background-secondary-alt);
 }
-#app-mount .layers-OrUESM .paymentPane-ut5qKZ {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .paymentPane-ut5qKZ {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .paymentPane-ut5qKZ .expandedInfo-1W31i3 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .paymentPane-ut5qKZ .expandedInfo-1W31i3 {
   background-color: var(--background-primary);
 }
-#app-mount .layers-OrUESM .paymentPane-ut5qKZ .paginator-1eqD2g {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .paymentPane-ut5qKZ .paginator-1eqD2g {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .paymentPane-ut5qKZ .paginator-1eqD2g .payment-2bOh4k {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .paymentPane-ut5qKZ .paginator-1eqD2g .payment-2bOh4k {
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .paymentPane-ut5qKZ .paginator-1eqD2g .payment-2bOh4k.hoverablePayment-lE1s4t:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .paymentPane-ut5qKZ .paginator-1eqD2g .payment-2bOh4k.hoverablePayment-lE1s4t:hover {
   background-color: var(--background-modifier-hover);
 }
-#app-mount .layers-OrUESM .paymentPane-ut5qKZ .bottomDivider-ZmTm-j {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .paymentPane-ut5qKZ .bottomDivider-ZmTm-j {
   border-bottom-color: var(--background-modifier-accent);
 }
-#app-mount .layers-OrUESM .codeRedemptionRedirect-2hYMSQ {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .codeRedemptionRedirect-2hYMSQ {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .preview-QJ3OG3 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .preview-QJ3OG3 {
   border-color: var(--background-secondary);
   background-color: var(--background-primary) !important;
 }
-#app-mount .layers-OrUESM .notches-2w7UZJ.gray-3wP137 {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .notches-2w7UZJ.gray-3wP137 {
   color: var(--background-primary);
 }
-#app-mount .layers-OrUESM .container-30qY7E {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .container-30qY7E {
   background-color: var(--input-background);
 }
-#app-mount .layers-OrUESM .game-2f2vPC {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .game-2f2vPC {
   box-shadow: none;
   border-bottom: 1px solid var(--background-modifier-accent);
 }
-#app-mount .layers-OrUESM .game-2f2vPC .gameNameInput-2wbDJ9:is(:hover, :focus) {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .game-2f2vPC .gameNameInput-2wbDJ9:is(:hover, :focus) {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
 }
-#app-mount .layers-OrUESM .option-1QI4c9:not(.selected-18Wszc, :hover) {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .option-1QI4c9:not(.selected-18Wszc, :hover) {
   background-color: var(--background-accent);
 }
-#app-mount .layers-OrUESM .disabled-35mc5w:not(.selected-18Wszc, :hover) {
+:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM .disabled-35mc5w:not(.selected-18Wszc, :hover) {
   color: var(--background-accent);
 }
 
-#app-mount .sidebar-1tnWFu nav {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebar-1tnWFu nav {
   background-color: var(--background-primary);
 }
-#app-mount .sidebar-1tnWFu [class*=scroller] {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebar-1tnWFu [class*=scroller] {
   background-color: var(--background-primary);
 }
-#app-mount .sidebar-1tnWFu [class*=scroller].fade-27X6bG {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebar-1tnWFu [class*=scroller].fade-27X6bG {
   background-color: transparent;
 }
 
-.sidebar-1tnWFu .searchBar-3TnChZ {
+:is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .searchBar-3TnChZ {
   background-color: var(--background-primary);
 }
-.sidebar-1tnWFu .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+:is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .searchBar-3TnChZ .searchBarComponent-3N7dCG {
   background-color: var(--background-secondary);
 }
 
-#app-mount .sidebar-1tnWFu .container-1-ERn5:not(.hasBanner-2IrYih) .header-3OsQeK {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebar-1tnWFu .container-1-ERn5:not(.hasBanner-2IrYih) .header-3OsQeK {
   background-color: var(--background-primary);
 }
-#app-mount .sidebar-1tnWFu .container-1-ERn5:not(.hasBanner-2IrYih) .header-3OsQeK:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebar-1tnWFu .container-1-ERn5:not(.hasBanner-2IrYih) .header-3OsQeK:hover {
   background-color: var(--background-secondary);
 }
-#app-mount .sidebar-1tnWFu .hasBanner-2IrYih [class*=scroller-] {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebar-1tnWFu .hasBanner-2IrYih [class*=scroller-] {
   background-color: transparent;
 }
 
-.sidebar-1tnWFu .panels-3wFtMD .container-YkUktl, .sidebar-1tnWFu .panels-3wFtMD .panel-2ZFCRb, .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB > div {
+:is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .container-YkUktl, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .panel-2ZFCRb, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB > div {
   background-color: var(--background-primary);
 }
