@@ -89,7 +89,7 @@ html.theme-dark .theme-light .root-1CAIjD,
   --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
   --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;
   --background-nested-floating: var(--primary-830) !important;
-  --background-primary: var(--primary-900) !important;
+  --background-primary: #000000 !important;
   --background-secondary: var(--primary-830) !important;
   --background-secondary-alt: var(--primary-800) !important;
   --background-tertiary: var(--primary-860) !important;
@@ -243,42 +243,42 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .form-3gdLxP .optionPill-2kmuZR, .container-3XgAHv .form-3gdLxP .optionPill-2kmuZR {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .form-3qe0Ni .optionPill-2kmuZR, .container-3s2w-i .form-3qe0Ni .optionPill-2kmuZR {
   background-color: var(--primary-730);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .form-3gdLxP .channelAttachmentArea-HwpkuQ .upload-vLbqu-, .container-3XgAHv .form-3gdLxP .channelAttachmentArea-HwpkuQ .upload-vLbqu- {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .form-3qe0Ni .channelAttachmentArea-HwpkuQ .upload-vLbqu-, .container-3s2w-i .form-3qe0Ni .channelAttachmentArea-HwpkuQ .upload-vLbqu- {
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .wrapper-2vIMkT {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .wrapper-2vIMkT {
   background-color: var(--background-tertiary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .mainCard-3KBsBI, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-2nXUah, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .increasedActivityMainCard-2ry6hI, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3arpDl, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-2_J666 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .mainCard-3KBsBI, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-2nXUah, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .increasedActivityMainCard-2ry6hI, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-3arpDl, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-2_J666 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .loadingCard-3pIp9h, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .card-3BPR1O {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .loadingCard-3pIp9h, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .card-3BPR1O {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-1PloNW:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW:active {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-1PloNW:active {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW.isOpen-O7ANQc {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-1PloNW.isOpen-O7ANQc {
   background-color: var(--background-modifier-selected);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
   background: transparent;
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH:active, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY:active {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-q2_DnH:active, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-3wvkMY:active {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2Gyel_, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-q2_DnH.isOpen-2ldXbM, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2Gyel_, :is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-3wLKDe .container-3wvkMY.isOpen-2ldXbM {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-q2_DnH.isOpen-2Gyel_, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-q2_DnH.isOpen-2ldXbM, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-3wvkMY.isOpen-2Gyel_, :is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-3wLKDe .container-3wvkMY.isOpen-2ldXbM {
   background-color: var(--background-modifier-selected);
 }
 
@@ -292,46 +292,46 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-secondary-alt);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-2IKOsH,
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-1um7CU,
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .header-3xB4vB,
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .scrollerContainer-y16Rs9,
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .emptyPage-2TGR7j {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-2IKOsH,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-1um7CU,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .header-3xB4vB,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .scrollerContainer-y16Rs9,
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .emptyPage-2TGR7j {
   background-color: transparent;
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .prompt-1sE27N {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .prompt-1sE27N {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .prompt-1sE27N .selected-KQBgNS {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .prompt-1sE27N .selected-KQBgNS {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .profileCard-2gVmvm {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .profileCard-2gVmvm {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .channelRow-4X_3fi {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .channelRow-4X_3fi {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .channelRow-4X_3fi:not(.disabled-3cfocy):hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .channelRow-4X_3fi:not(.disabled-3cfocy):hover {
   background-color: var(--background-modifier-hover);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .wrapper-1gVUIN.minimum-fXpVNc {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .wrapper-1gVUIN.minimum-fXpVNc {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .iconBackground-3qSXiM {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .iconBackground-3qSXiM {
   background-color: var(--background-secondary-alt);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat-2ZfjoI .container-1IyjjY:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj .container-1IyjjY:hover {
   background-color: var(--background-modifier-hover);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP.buttonColor-3bP3fX, :is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP .buttonColor-3bP3fX {
+:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-1PCuWq, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-1PCuWq {
   background-color: var(--button-secondary-background);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP.buttonColor-3bP3fX:hover, :is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP .buttonColor-3bP3fX:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-1PCuWq:hover, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-1PCuWq:hover {
   background-color: var(--button-secondary-background-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP.buttonColor-3bP3fX:active, :is(.theme-dark, .theme-amoled) #app-mount .button-1EGGcP .buttonColor-3bP3fX:active {
+:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-1PCuWq:active, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-1PCuWq:active {
   background-color: var(--button-secondary-background-active);
 }
 
@@ -349,12 +349,12 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-secondary-alt);
 }
 
-:is(.theme-dark, .theme-amoled) .container-2o3qEW {
+:is(.theme-dark, .theme-amoled) .container-2vWgD2 {
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .member-48YF_l,
-:is(.theme-dark, .theme-amoled) #app-mount .members-3WRCEx {
+:is(.theme-dark, .theme-amoled) #app-mount .member-2gU6Ar,
+:is(.theme-dark, .theme-amoled) #app-mount .members-2y1nVj {
   background-color: var(--background-primary);
 }
 
@@ -856,6 +856,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: transparent;
 }
 
-:is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .container-YkUktl, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .panel-2ZFCRb, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB > div {
+:is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .container-1CH86i, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .panel-ufc1-o, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .wrapper-VSquwh > div {
   background-color: var(--background-primary);
 }
