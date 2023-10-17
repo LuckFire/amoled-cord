@@ -77,7 +77,7 @@ html.theme-dark .theme-light .root-1CAIjD,
   --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
   --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;
   --background-nested-floating: var(--primary-830) !important;
-  --background-primary: var(--primary-900) !important;
+  --background-primary: #000000 !important;
   --background-secondary: var(--primary-830) !important;
   --background-secondary-alt: var(--primary-800) !important;
   --background-tertiary: var(--primary-860) !important;
@@ -313,13 +313,13 @@ html.theme-dark .theme-light .root-1CAIjD,
   background-color: var(--background-modifier-hover);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-3bP3fX, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-3bP3fX {
+:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-1PCuWq, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-1PCuWq {
   background-color: var(--button-secondary-background);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-3bP3fX:hover, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-3bP3fX:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-1PCuWq:hover, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-1PCuWq:hover {
   background-color: var(--button-secondary-background-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-3bP3fX:active, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-3bP3fX:active {
+:is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9.buttonColor-1PCuWq:active, :is(.theme-dark, .theme-amoled) #app-mount .button-2gNyE9 .buttonColor-1PCuWq:active {
   background-color: var(--button-secondary-background-active);
 }
 
@@ -844,6 +844,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: transparent;
 }
 
-:is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .container-1CH86i, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .panel-ufc1-o, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .wrapper-3Hk9OB > div {
+:is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .container-1CH86i, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .panel-ufc1-o, :is(.theme-dark, .theme-amoled) .sidebar-1tnWFu .panels-3wFtMD .wrapper-VSquwh > div {
   background-color: var(--background-primary);
 }
