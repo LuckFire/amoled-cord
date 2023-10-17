@@ -556,7 +556,7 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: var(--background-tertiary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .pageWrapper-2PwDoS {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .pageWrapper-eg3-6i {
   background-color: var(--background-primary);
 }
 :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj {
@@ -571,7 +571,7 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input::placeholder {
   color: var(--primary-400);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj .searchIcon-3X4BYL, :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj .closeIcon-BMGxx0 {
+:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj .searchIcon-237w7n, :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj .closeIcon-3XLsFw {
   color: var(--interactive-normal);
 }
 
