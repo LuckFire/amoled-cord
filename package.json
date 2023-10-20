@@ -7,10 +7,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "dev:bd": "bd-scss dev",
-    "build:bd": "bd-scss build"
-  },
-  "devDependencies": {
-    "bd-scss": "^2.0.14"
+    "dev": "theme-scss dev",
+    "build": "theme-scss build"
   }
 }
