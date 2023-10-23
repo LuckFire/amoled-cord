@@ -1,5 +1,9 @@
 {
     "name": "AMOLED-Cord",
+    "metas": {
+        "betterdiscord": "clients/metas/betterdiscord.json",
+        "userstyle": "clients/metas/userstyle.json"
+    },
     "dist": {
         "output": "src/amoled-cord.css",
         "clients": {
