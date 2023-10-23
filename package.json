@@ -10,5 +10,8 @@
   "scripts": {
     "dev": "theme-scss dev",
     "build": "theme-scss build"
+  },
+  "dependencies": {
+    "theme-scss": "^1.1.0"
   }
 }

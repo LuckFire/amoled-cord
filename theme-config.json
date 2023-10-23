@@ -1,23 +1,13 @@
 {
-    "meta": {
-        "name": "AMOLED-Cord",
-        "betterdiscord": {
-            "invite": "vYdXbEzqDs",
-            "authorId": "399416615742996480",
-            "source": "https://github.com/LuckFire/amoled-cord",
-            "updateUrl": "https://github.com/LuckFire/amoled-cord/blob/main/clients/amoled-cord.theme.css"
-        },
-        "userstyle": {
-            "namespace": "https://github.com/discord-extensions/amoled-cord",
-            "license": "MIT"
-        }
-    },
+    "name": "AMOLED-Cord",
     "dist": {
-        "output": {
-            "file": "amoled-cord.css"
+        "output": "src/amoled-cord.css",
+        "clients": {
+            "compileFor": ["betterdiscord", "userstyle"]
         }
     },
     "dev": {
-        "mode": "vencord"
+        "mod": "vencord",
+        "target": "src/dev.scss"
     }
 }
