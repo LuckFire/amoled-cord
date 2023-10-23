@@ -1,14 +1,15 @@
 /**
  * @name AMOLED-Cord
  * @author LuckFire
- * @version 4.0.9
- * @description A basically pitch black theme for Discord. Lights out, baby!
- * @source https://github.com/LuckFire/amoled-cord
+ * @description A customizable, pitch black theme for Discord. Lights out, baby!
+ * @version 4.0.10
  * @invite vYdXbEzqDs
  * @authorId 399416615742996480
+ * @source https://github.com/LuckFire/amoled-cord
+ * @updateUrl https://github.com/LuckFire/amoled-cord/blob/main/clients/amoled-cord.theme.css
 */
 
-@import url('https://luckfire.github.io/amoled-cord/src/amoled-cord.css');
+@import url("https://luckfire.github.io/amoled-cord/src/amoled-cord.css");
 
 :root {
   /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
@@ -209,7 +210,7 @@ html.theme-dark .theme-light .root-1CAIjD,
   --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .container-2RRFHK {
+:is(.theme-dark, .theme-amoled) #app-mount .container-VXcBeg {
   background-color: var(--background-primary);
 }
 
@@ -576,9 +577,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 }
 :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input {
   color: var(--primary-260);
-}
-:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input::-moz-placeholder {
-  color: var(--primary-400);
 }
 :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input::placeholder {
   color: var(--primary-400);

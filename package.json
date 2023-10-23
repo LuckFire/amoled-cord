@@ -1,6 +1,6 @@
 {
   "name": "amoled-cord",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "description": "A customizable, pitch black theme for Discord. Lights out, baby!",
   "author": "LuckFire",
   "type": "module",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "theme-scss dev",
-    "build": "theme-scss build"
+    "build": "theme-scss build",
+    "bump": "pnpm version --commit-hooks false --git-tag-version false patch"
   },
   "dependencies": {
     "theme-scss": "^1.1.2"

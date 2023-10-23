@@ -197,7 +197,7 @@ html.theme-dark .theme-light .root-1CAIjD,
   --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .container-2RRFHK {
+:is(.theme-dark, .theme-amoled) #app-mount .container-VXcBeg {
   background-color: var(--background-primary);
 }
 
@@ -564,9 +564,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 }
 :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input {
   color: var(--primary-260);
-}
-:is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input::-moz-placeholder {
-  color: var(--primary-400);
 }
 :is(.theme-dark, .theme-amoled) #app-mount .content-1SgpWY .searchBox-pyIJJj input::placeholder {
   color: var(--primary-400);
