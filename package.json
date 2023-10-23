@@ -12,6 +12,6 @@
     "build": "theme-scss build"
   },
   "dependencies": {
-    "theme-scss": "^1.1.1"
+    "theme-scss": "^1.1.2"
   }
 }
