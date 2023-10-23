@@ -1,5 +1,7 @@
 ![banner](https://discord-extensions.github.io/assets/banners/amoled-cord.png)
+
 ---
+
 ### ![replugged](https://discord-extensions.github.io/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
 - [Maintained by Saltssaumure](https://github.com/MiniDiscordThemes/amoled-cord) -- please report Replugged issues to them!
 - [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.AMOLEDCord)
@@ -14,6 +16,11 @@
 ```
 https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 ```
+
+Alternatively, if you want to use the BetterDiscord `.theme.css` file, you can:
+1. [Download the theme from BetterDiscord's website]((https://betterdiscord.app/Download?id=144))
+2. Open your themes folder by going to the "Vencord" category and select the "Themes" tab and press the "Open Themes Folder" button.
+3. Drag the file into that folder.
 
 ### ![stylus](https://discord-extensions.github.io/assets/icons/stylus.png) **Stylus**
 > **Warning**
