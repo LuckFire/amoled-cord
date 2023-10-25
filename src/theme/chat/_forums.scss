@@ -1,23 +1,23 @@
 :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 {
-    .container-3wLKDe {
+    .container_b181b6 {
         background-color: var(--background-primary);
-        .mainCard-3KBsBI, .container-2nXUah, .increasedActivityMainCard-2ry6hI, .container-3arpDl, .container-2_J666 {
+        .mainCard__8a660, .container__4abd7, .increasedActivityMainCard__916ed, .container__1b27a, .container_a4e239 {
             background-color: var(--background-tertiary);
         }
-        .loadingCard-3pIp9h, .card-3BPR1O {
+        .loadingCard_a6aa0a, .card__2c1e2 {
             background-color: var(--background-tertiary);
         }
-        .container-1PloNW {
+        .container_c24cbd {
             &:hover {
                 background-color: var(--background-modifier-hover);
             }
             &:active {
                 background-color: var(--background-modifier-active);
             }
-            &.isOpen-O7ANQc {
+            &.isOpen_d88bb6 {
                 background-color: var(--background-modifier-selected);
             }
-            .textContentFooter-2JnNv8 {
+            .textContentFooter__5a630 {
                 background: transparent;
             }
         }
