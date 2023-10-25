@@ -27,7 +27,7 @@ body {
     .scrollbar-1NUwvY .thumb-3r19ww {
         background-color: var(--background-secondary-alt) !important;
     }
-    
+
     // Dropdowns
     [class$="control"] {
         border-color: var(--background-secondary);
@@ -57,9 +57,9 @@ body {
             background-color: var(--modal-footer-background);
         }
     }
-    
+
     // Inputs
-    .input-2g-os5, .inputWrapper_b7205b {
+    .input-2g-os5, .inputWrapper-3a4ywb {
         border-color: var(--background-secondary);
         background-color: var(--input-background);
     }
@@ -84,23 +84,23 @@ body {
         }
     }
     // Paginator
-    .disabled__238bc, .disabled__238bc:hover {
+    .disabled-29cfPA, .disabled-29cfPA:hover {
         border-color: var(--background-secondary);
         background-color: var(--background-tertiary);
     }
-    .disabled__238bc + .pageButtonNext_b6c1ca,
-    .disabled__238bc + .pageCount-17vMJm,
-    .disabled__238bc:hover + .pageButtonNext_b6c1ca,
-    .disabled__238bc:hover + .pageCount-17vMJm,
-    .pageButtonNext_b6c1ca,
+    .disabled-29cfPA + .pageButtonNext-2_bbdk,
+    .disabled-29cfPA + .pageCount-17vMJm,
+    .disabled-29cfPA:hover + .pageButtonNext-2_bbdk,
+    .disabled-29cfPA:hover + .pageCount-17vMJm,
+    .pageButtonNext-2_bbdk,
     .pageCount-17vMJm,
-    .pageButtonNext_b6c1ca,
-    .pageButtonPrev__9ee28 {
+    .pageButtonNext-2_bbdk,
+    .pageButtonPrev-3q9rh8 {
         border-color: var(--background-secondary) !important;
         background-color: var(--background-tertiary);
     }
-    .pageButtonNext_b6c1ca:hover,
-    .pageButtonPrev__9ee28:hover {
+    .pageButtonNext-2_bbdk:hover,
+    .pageButtonPrev-3q9rh8:hover {
         border-color: var(--background-secondary-alt) !important;
         background-color: var(--background-secondary);
     }
@@ -131,7 +131,7 @@ body {
         .cardOptionTileSelected-wkswQf {
             background-color: var(--background-modifier-active);
         }
-        
+
         // Applications
         .cardLink-H6gvNe {
             background-color: var(--background-secondary);

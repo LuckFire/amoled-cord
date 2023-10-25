@@ -215,7 +215,7 @@ html.theme-dark .theme-light .root_a28985,
 }
 
 :is(.theme-dark, .theme-amoled) :is(.scroller__1f96e,
-.auto-2K3UW5,
+.auto_a48086,
 .thin_b1c063,
 .peopleColumn__51df3,
 .contentRegionScroller__86c79,
@@ -255,31 +255,31 @@ html.theme-dark .theme-light .root_a28985,
   background-color: var(--background-tertiary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .mainCard-3KBsBI, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-2nXUah, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .increasedActivityMainCard-2ry6hI, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-3arpDl, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-2_J666 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .mainCard__8a660, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__4abd7, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .increasedActivityMainCard__916ed, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__1b27a, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container_a4e239 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .loadingCard-3pIp9h, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .card-3BPR1O {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .loadingCard_a6aa0a, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .card__2c1e2 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW:hover {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container_c24cbd:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW:active {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container_c24cbd:active {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW.isOpen-O7ANQc {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container_c24cbd.isOpen_d88bb6 {
   background-color: var(--background-modifier-selected);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container-1PloNW .textContentFooter-2JnNv8 {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container_c24cbd .textContentFooter__5a630 {
   background: transparent;
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__99b06:active, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__15ddf:active {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__99b06:active, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__15ddf:active {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__99b06.isOpen__8593d, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__99b06.isOpen__036bf, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__15ddf.isOpen__8593d, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container-3wLKDe .container__15ddf.isOpen__036bf {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__99b06.isOpen__8593d, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__99b06.isOpen__036bf, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__15ddf.isOpen__8593d, :is(.theme-dark, .theme-amoled) #app-mount .chat__52833 .container_b181b6 .container__15ddf.isOpen__036bf {
   background-color: var(--background-modifier-selected);
 }
 
@@ -345,8 +345,8 @@ html.theme-dark .theme-light .root_a28985,
   background-color: var(--background-secondary-alt);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount [class=wrapper_d281dd] .childWrapper__01b9c,
-:is(.theme-dark, .theme-amoled) #app-mount [class=circleIconButton_d8df29] {
+:is(.theme-dark, .theme-amoled) #app-mount .wrapper_d281dd .childWrapper__01b9c,
+:is(.theme-dark, .theme-amoled) #app-mount .circleIconButton_d8df29 {
   background-color: var(--background-secondary-alt);
 }
 
@@ -366,7 +366,7 @@ html.theme-dark .theme-light .root_a28985,
 :is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .authBox__7196a {
   background-color: transparent;
 }
-:is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .navRow-dG-XX8 {
+:is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .navRow_bb8efc {
   background-color: var(--modal-footer-background);
 }
 
@@ -388,7 +388,7 @@ html.theme-dark .theme-light .root_a28985,
 :is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .container__7712a {
   background-color: var(--input-background);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .footer-Ql9fbL {
+:is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .footer__13977 {
   background-color: var(--modal-footer-background);
 }
 
@@ -396,7 +396,7 @@ html.theme-dark .theme-light .root_a28985,
   background-color: var(--modal-background);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .modal-2RG0j2 .verifiedRoleHasRole-2CPTNi {
+:is(.theme-dark, .theme-amoled) #app-mount .modal_c01034 .verifiedRoleHasRole__86f1d {
   background-color: var(--background-secondary);
   border-color: var(--background-secondary);
 }
@@ -423,7 +423,7 @@ html.theme-dark .theme-light .root_a28985,
   background: none !important;
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .previewDark-3Xp3UB {
+:is(.theme-dark, .theme-amoled) #app-mount .root_a28985 .previewDark__016ac {
   background-color: var(--background-primary);
 }
 
@@ -489,7 +489,7 @@ body .modalContent-31OOYM .modalFooter-3193QM {
   box-shadow: inset 0 1px 0 hsl(var(--primary-900-hsl)/0.6);
   background-color: var(--modal-footer-background);
 }
-body .input-2g-os5, body .inputWrapper_b7205b {
+body .input-2g-os5, body .inputWrapper-3a4ywb {
   border-color: var(--background-secondary);
   background-color: var(--input-background);
 }
@@ -509,23 +509,23 @@ body .grid-2a45cj .rowWrapper-2RxnWO:hover::before {
 body .grid-2a45cj .rowWrapper-2RxnWO::after {
   border-color: var(--background-secondary-alt) !important;
 }
-body .disabled__238bc, body .disabled__238bc:hover {
+body .disabled-29cfPA, body .disabled-29cfPA:hover {
   border-color: var(--background-secondary);
   background-color: var(--background-tertiary);
 }
-body .disabled__238bc + .pageButtonNext_b6c1ca,
-body .disabled__238bc + .pageCount-17vMJm,
-body .disabled__238bc:hover + .pageButtonNext_b6c1ca,
-body .disabled__238bc:hover + .pageCount-17vMJm,
-body .pageButtonNext_b6c1ca,
+body .disabled-29cfPA + .pageButtonNext-2_bbdk,
+body .disabled-29cfPA + .pageCount-17vMJm,
+body .disabled-29cfPA:hover + .pageButtonNext-2_bbdk,
+body .disabled-29cfPA:hover + .pageCount-17vMJm,
+body .pageButtonNext-2_bbdk,
 body .pageCount-17vMJm,
-body .pageButtonNext_b6c1ca,
-body .pageButtonPrev__9ee28 {
+body .pageButtonNext-2_bbdk,
+body .pageButtonPrev-3q9rh8 {
   border-color: var(--background-secondary) !important;
   background-color: var(--background-tertiary);
 }
-body .pageButtonNext_b6c1ca:hover,
-body .pageButtonPrev__9ee28:hover {
+body .pageButtonNext-2_bbdk:hover,
+body .pageButtonPrev-3q9rh8:hover {
   border-color: var(--background-secondary-alt) !important;
   background-color: var(--background-secondary);
 }
@@ -616,10 +616,10 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .header-PfVfAO, :is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .autocompleteArrow-2CRgr2 {
+:is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .header__02652, :is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .autocompleteArrow__353a5 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .sectionTag-euh3ZW {
+:is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .sectionTag_b0df68 {
   background-color: var(--background-secondary);
 }
 
@@ -774,9 +774,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 :is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .integration_d2f026 {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .feature-2IUcBI {
-  background-color: var(--background-secondary);
-}
 :is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .guildHeader__30707 {
   background-color: var(--background-secondary-alt);
 }
@@ -809,7 +806,7 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 :is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .notches__065e9.gray__4fb3f {
   color: var(--background-primary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .container-30qY7E {
+:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .container__0c807 {
   background-color: var(--input-background);
 }
 :is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .game__19f4b {
