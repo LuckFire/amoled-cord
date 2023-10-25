@@ -59,7 +59,7 @@ body {
     }
     
     // Inputs
-    .input-2g-os5, .inputWrapper-3a4ywb {
+    .input-2g-os5, .inputWrapper_b7205b {
         border-color: var(--background-secondary);
         background-color: var(--input-background);
     }
@@ -84,23 +84,23 @@ body {
         }
     }
     // Paginator
-    .disabled-29cfPA, .disabled-29cfPA:hover {
+    .disabled__238bc, .disabled__238bc:hover {
         border-color: var(--background-secondary);
         background-color: var(--background-tertiary);
     }
-    .disabled-29cfPA + .pageButtonNext-2_bbdk,
-    .disabled-29cfPA + .pageCount-17vMJm,
-    .disabled-29cfPA:hover + .pageButtonNext-2_bbdk,
-    .disabled-29cfPA:hover + .pageCount-17vMJm,
-    .pageButtonNext-2_bbdk,
+    .disabled__238bc + .pageButtonNext_b6c1ca,
+    .disabled__238bc + .pageCount-17vMJm,
+    .disabled__238bc:hover + .pageButtonNext_b6c1ca,
+    .disabled__238bc:hover + .pageCount-17vMJm,
+    .pageButtonNext_b6c1ca,
     .pageCount-17vMJm,
-    .pageButtonNext-2_bbdk,
-    .pageButtonPrev-3q9rh8 {
+    .pageButtonNext_b6c1ca,
+    .pageButtonPrev__9ee28 {
         border-color: var(--background-secondary) !important;
         background-color: var(--background-tertiary);
     }
-    .pageButtonNext-2_bbdk:hover,
-    .pageButtonPrev-3q9rh8:hover {
+    .pageButtonNext_b6c1ca:hover,
+    .pageButtonPrev__9ee28:hover {
         border-color: var(--background-secondary-alt) !important;
         background-color: var(--background-secondary);
     }
