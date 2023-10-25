@@ -1,14 +1,14 @@
-:is(.theme-dark, .theme-amoled) #app-mount .container-ZMc96U {
-    &.themed-Hp1KC_ {
+:is(.theme-dark, .theme-amoled) #app-mount .container__11d72 {
+    &.themed_b152d4 {
         background: var(--background-primary);
     }
-    .children-3xh0VB::after {
+    .children__32014::after {
         background: linear-gradient(90deg, var(--background-primary) 0, var(--background-primary)) !important;
     }
     [class*="searchBar"] {
         background-color: var(--background-secondary);
-        .searchAnswer-23w-CH,
-        .searchFilter-2UfsDk {
+        .searchAnswer_b452e7,
+        .searchFilter__118cb {
             background-color: var(--background-primary);
         }
     }

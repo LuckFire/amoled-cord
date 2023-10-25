@@ -1,11 +1,11 @@
-:is(.theme-dark, .theme-amoled) #app-mount .sidebar-1tnWFu {
-    .container-1-ERn5:not(.hasBanner-2IrYih) .header-3OsQeK {
+:is(.theme-dark, .theme-amoled) #app-mount .sidebar_ded4b5 {
+    .container__7c79d:not(.hasBanner_e78601) .header__104ca {
         background-color: var(--background-primary);
         &:hover {
             background-color: var(--background-secondary);
         }
     }
-    .hasBanner-2IrYih [class*="scroller-"] {
+    .hasBanner_e78601 [class*="scroller-"] {
         background-color: transparent;
     }
 }

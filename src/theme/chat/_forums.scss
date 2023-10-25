@@ -1,4 +1,4 @@
-:is(.theme-dark, .theme-amoled) #app-mount .chat-9g_3Xj {
+:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 {
     .container-3wLKDe {
         background-color: var(--background-primary);
         .mainCard-3KBsBI, .container-2nXUah, .increasedActivityMainCard-2ry6hI, .container-3arpDl, .container-2_J666 {
@@ -21,11 +21,11 @@
                 background: transparent;
             }
         }
-        .container-q2_DnH, .container-3wvkMY {
+        .container__99b06, .container__15ddf {
             &:active {
                 background-color: var(--background-modifier-active);
             }
-            &.isOpen-2Gyel_, &.isOpen-2ldXbM {
+            &.isOpen__8593d, &.isOpen__036bf {
                 background-color: var(--background-modifier-selected);
             }
         }

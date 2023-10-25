@@ -1,51 +1,51 @@
-:is(.theme-dark, .theme-amoled) #app-mount .layers-OrUESM {
+:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 {
     // Overview
-    .avatarUploaderInnerSquareDisabled-3M9eJS {
+    .avatarUploaderInnerSquareDisabled__3cfd1 {
         background-color: var(--background-secondary-alt);
     }
     // Stickers
-    .tierHeaderContent-2SPBAA {
+    .tierHeaderContent__27033 {
         background-color: var(--background-secondary);
     }
     // Custom Invite Link
-    .prefixInput-w72mM6 {
+    .prefixInput__38dcc {
         background-color: var(--input-background);
     }
     // Rules Screening
-    .backgroundContainer-gUNEZU {
+    .backgroundContainer__06189 {
         background-color: var(--background-secondary-alt);
     }
-    .containerFooter-3BSQ3U {
+    .containerFooter_c8da8a {
         background-color: var(--background-secondary);
     }
     // Automod
-    .iconWrapper-2_MXbk {
+    .iconWrapper__9caa9 {
         background: var(--button-secondary-background);
-        .icon-2TbMdT:hover {
+        .icon_ae3492:hover {
             background: var(--button-secondary-background-hover);
-            &.disabled-2gUzwG {
+            &.disabled_d58a9f {
                 background: var(--button-secondary-background-disabled);
             }
         }
     }
     // Audit Log
-    .auditLog-1NVAY0 {
+    .auditLog__6c805 {
         border-color: var(--background-secondary);
-        .header-2pgFQm {
+        .header_e08fd2 {
             background-color: var(--background-secondary);
         }
-        .headerExpanded-1-zwDr {
+        .headerExpanded__03c29 {
             background-color: var(--background-secondary-alt);
         }
-        .divider-M3saWq {
+        .divider__1505d {
             background-color: var(--background-modifier-accent);
         }
-        .changeDetails-1kMZqI {
+        .changeDetails_ecd760 {
             background-color: var(--background-secondary);
         }
     }
     // Server Boost Status
-    .tierBody-1d3UiS {
+    .tierBody__615a1 {
         background-color: var(--background-secondary-alt);
     }
 }
