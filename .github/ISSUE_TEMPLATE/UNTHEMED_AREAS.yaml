@@ -1,0 +1,25 @@
+name: Report Unthemed Area(s)
+description: Create a report for areas aren't themed properly or at all. If you have multiple include it in one report.
+title: "[UNTHEMED]: x is not themed"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: media
+    attributes:
+      label: Please provide screenshots of the unthemed areas.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before Submitting
+      description: Please check the boxes below before submitting.
+      options:
+        - label: I checked for similar reports of this issue.
+          required: true
+        - label: I am on the latest stable Discord version.
+          required: true
+        - label: I am on the latest version of the theme.
+          required: true
+        - label: I have reinstalled the theme.
+          required: true
