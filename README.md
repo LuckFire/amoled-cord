@@ -28,7 +28,7 @@ Alternatively, if you want to use the BetterDiscord `.theme.css` file, you can:
 1. Install the broswer extensions for your repsective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
-2. Once installed, open [this link](https://github.com/discord-extensions/amoled-cord/blob/main/clients/amoled-cord.user.css) in a new browser tab. This opens the page where you will install this userstyle.
+2. Once installed, open [this link](https://luckfire.github.io/amoled-cord/clients/amoled-cord.user.css) in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
 ---
 ### Licensing
