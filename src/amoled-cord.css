@@ -744,8 +744,8 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: var(--background-secondary-alt);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .sidebarRegion__60457,
-:is(.theme-dark, .theme-amoled) #app-mount .layers_a40797 .sidebarRegionScroller__1fa7e {
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .sidebarRegion__60457,
+:is(.theme-dark, .theme-amoled) #app-mount .layers__1c917 .sidebarRegionScroller__1fa7e {
   background-color: var(--background-primary);
 }
 
