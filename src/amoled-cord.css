@@ -607,10 +607,10 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .header__02652, :is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .autocompleteArrow__353a5 {
+:is(.theme-dark, .theme-amoled) #app-mount .container_e84cda .header__02652, :is(.theme-dark, .theme-amoled) #app-mount .container_e84cda .autocompleteArrow__353a5 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-amoled) #app-mount .container-1YVRxo .sectionTag_b0df68 {
+:is(.theme-dark, .theme-amoled) #app-mount .container_e84cda .sectionTag_b0df68 {
   background-color: var(--background-secondary);
 }
 
