@@ -3,6 +3,14 @@ description: Create a report for areas aren't themed properly or at all. If you 
 title: "[UNTHEMED]: x is not themed"
 labels: ["bug"]
 body:
+  - type: input
+    id: mod
+    attributes:
+      label: Client Mod
+      description: What client mod do you use?
+      placeholder: ex. Vencord, BetterDiscord, Replugged
+    validations:
+      required: true
   - type: textarea
     id: media
     attributes:
