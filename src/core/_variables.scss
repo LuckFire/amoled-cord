@@ -78,7 +78,7 @@ html.theme-dark .theme-light .root_a28985,
     --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
     --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;
     --background-nested-floating: var(--primary-830) !important;
-    --background-primary: #000000 !important;
+    --background-primary: var(--black-500) !important;
     --background-secondary: var(--primary-830) !important;
     --background-secondary-alt: var(--primary-800) !important;
     --background-tertiary: var(--primary-860) !important;
@@ -110,7 +110,7 @@ html.theme-dark .theme-light .root_a28985,
     --button-outline-primary-text: var(--white-500) !important;
     --button-outline-primary-text-active: var(--white-500) !important;
     --button-outline-primary-text-hover: var(--white-500) !important;
-    
+
     --button-secondary-background: var(--primary-700) !important;
     --button-secondary-background-active: var(--primary-600) !important;
     --button-secondary-background-disabled: var(--primary-700) !important;
@@ -126,7 +126,7 @@ html.theme-dark .theme-light .root_a28985,
     --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;
     --deprecated-quickswitcher-input-background: var(--primary-400) !important;
     --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3) !important;
-    --deprecated-store-bg: var(--primary-600) !important;
+    --deprecated-store-bg: var(--black-500) !important;
     --deprecated-text-input-bg: var(--primary-700) !important;
     --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3) !important;
     --deprecated-text-input-border-disabled: var(--primary-700) !important;
@@ -137,7 +137,7 @@ html.theme-dark .theme-light .root_a28985,
     --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
     --header-primary: var(--primary-130) !important;
     --header-secondary: var(--primary-345) !important;
-    --home-background: var(--primary-760) !important;
+    --home-background: var(--black-500) !important;
     --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
     --info-danger-text: var(--white-500) !important;
     --info-help-text: var(--white-500) !important;
@@ -177,6 +177,7 @@ html.theme-dark .theme-light .root_a28985,
     --text-normal: var(--primary-300) !important;
     --textbox-markdown-syntax: var(--primary-360) !important;
     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
+
     --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;
     --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
     --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.16) !important;
@@ -197,9 +198,7 @@ html.theme-dark .theme-light .root_a28985,
     --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%) !important;
     --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;
 
-    --home-background: var(--primary-900) !important;
-
-    --dark-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
-    --dark-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
-    --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
+    --legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
+    --legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
+    --legacy-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
 }

@@ -90,7 +90,7 @@ html.theme-dark .theme-light .root_a28985,
   --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
   --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;
   --background-nested-floating: var(--primary-830) !important;
-  --background-primary: #000000 !important;
+  --background-primary: var(--black-500) !important;
   --background-secondary: var(--primary-830) !important;
   --background-secondary-alt: var(--primary-800) !important;
   --background-tertiary: var(--primary-860) !important;
@@ -136,7 +136,7 @@ html.theme-dark .theme-light .root_a28985,
   --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;
   --deprecated-quickswitcher-input-background: var(--primary-400) !important;
   --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3) !important;
-  --deprecated-store-bg: var(--primary-600) !important;
+  --deprecated-store-bg: var(--black-500) !important;
   --deprecated-text-input-bg: var(--primary-700) !important;
   --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3) !important;
   --deprecated-text-input-border-disabled: var(--primary-700) !important;
@@ -147,7 +147,7 @@ html.theme-dark .theme-light .root_a28985,
   --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
   --header-primary: var(--primary-130) !important;
   --header-secondary: var(--primary-345) !important;
-  --home-background: var(--primary-760) !important;
+  --home-background: var(--black-500) !important;
   --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
   --info-danger-text: var(--white-500) !important;
   --info-help-text: var(--white-500) !important;
@@ -204,10 +204,9 @@ html.theme-dark .theme-light .root_a28985,
   --profile-role-pill-border-color: var(--interactive-normal);
   --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%) !important;
   --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;
-  --home-background: var(--primary-900) !important;
-  --dark-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
-  --dark-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
-  --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
+  --legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
+  --legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
+  --legacy-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
 }
 
 :is(.theme-dark, .theme-midnight) #app-mount .container__4bde3 {
@@ -230,12 +229,6 @@ html.theme-dark .theme-light .root_a28985,
   background: var(--background-accent);
 }
 
-:is(.theme-dark, .theme-midnight) #app-mount .container__11d72.themed_b152d4 {
-  background: var(--background-primary);
-}
-:is(.theme-dark, .theme-midnight) #app-mount .container__11d72 .children__32014::after {
-  background: linear-gradient(90deg, var(--background-primary) 0, var(--background-primary)) !important;
-}
 :is(.theme-dark, .theme-midnight) #app-mount .container__11d72 [class*=searchBar] {
   background-color: var(--background-secondary);
 }
@@ -255,31 +248,28 @@ html.theme-dark .theme-light .root_a28985,
   background-color: var(--background-tertiary);
 }
 
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 {
-  background-color: var(--background-primary);
-}
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .mainCard__8a660, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__4abd7, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .increasedActivityMainCard__916ed, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__1b27a, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container_a4e239 {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .mainCard__8a660, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__4abd7, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .increasedActivityMainCard__916ed, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__1b27a, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container_a4e239 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .loadingCard_a6aa0a, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .card__2c1e2 {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .loadingCard_a6aa0a, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .card__2c1e2 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container_c24cbd:hover {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container_c24cbd:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container_c24cbd:active {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container_c24cbd:active {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container_c24cbd.isOpen_d88bb6 {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container_c24cbd.isOpen_d88bb6 {
   background-color: var(--background-modifier-selected);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container_c24cbd .textContentFooter__5a630 {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container_c24cbd .textContentFooter__5a630 {
   background: transparent;
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__99b06:active, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__15ddf:active {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__99b06:active, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__15ddf:active {
   background-color: var(--background-modifier-active);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__99b06.isOpen__8593d, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__99b06.isOpen__036bf, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__15ddf.isOpen__8593d, :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container_b181b6 .container__15ddf.isOpen__036bf {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__99b06.isOpen__8593d, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__99b06.isOpen__036bf, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__15ddf.isOpen__8593d, :is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 .container__15ddf.isOpen__036bf {
   background-color: var(--background-modifier-selected);
 }
 
@@ -585,10 +575,10 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   color: var(--interactive-normal);
 }
 
-:is(.theme-dark, .theme-midnight) #app-mount .container_df3aa0 .mainTableContainer__5ffe0 {
+:is(.theme-dark, .theme-midnight) #app-mount .page__0b66e .mainTableContainer__5ffe0 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .container_df3aa0 .container__7712a {
+:is(.theme-dark, .theme-midnight) #app-mount .page__0b66e .container__7712a {
   background-color: var(--background-secondary);
 }
 
