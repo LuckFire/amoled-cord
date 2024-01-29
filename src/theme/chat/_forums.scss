@@ -1,33 +1,30 @@
-:is(.theme-dark, .theme-amoled) #app-mount .chat__52833 {
-    .container_b181b6 {
-        background-color: var(--background-primary);
-        .mainCard__8a660, .container__4abd7, .increasedActivityMainCard__916ed, .container__1b27a, .container_a4e239 {
-            background-color: var(--background-tertiary);
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 {
+    .mainCard__8a660, .container__4abd7, .increasedActivityMainCard__916ed, .container__1b27a, .container_a4e239 {
+        background-color: var(--background-tertiary);
+    }
+    .loadingCard_a6aa0a, .card__2c1e2 {
+        background-color: var(--background-tertiary);
+    }
+    .container_c24cbd {
+        &:hover {
+            background-color: var(--background-modifier-hover);
         }
-        .loadingCard_a6aa0a, .card__2c1e2 {
-            background-color: var(--background-tertiary);
+        &:active {
+            background-color: var(--background-modifier-active);
         }
-        .container_c24cbd {
-            &:hover {
-                background-color: var(--background-modifier-hover);
-            }
-            &:active {
-                background-color: var(--background-modifier-active);
-            }
-            &.isOpen_d88bb6 {
-                background-color: var(--background-modifier-selected);
-            }
-            .textContentFooter__5a630 {
-                background: transparent;
-            }
+        &.isOpen_d88bb6 {
+            background-color: var(--background-modifier-selected);
         }
-        .container__99b06, .container__15ddf {
-            &:active {
-                background-color: var(--background-modifier-active);
-            }
-            &.isOpen__8593d, &.isOpen__036bf {
-                background-color: var(--background-modifier-selected);
-            }
+        .textContentFooter__5a630 {
+            background: transparent;
+        }
+    }
+    .container__99b06, .container__15ddf {
+        &:active {
+            background-color: var(--background-modifier-active);
+        }
+        &.isOpen__8593d, &.isOpen__036bf {
+            background-color: var(--background-modifier-selected);
         }
     }
 }
