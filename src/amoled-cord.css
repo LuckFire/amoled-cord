@@ -752,9 +752,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 :is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .connectContainer__8050b .wrapper__03d5e:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .integration_d2f026 {
-  background-color: var(--background-primary);
-}
 :is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 .guildHeader__30707 {
   background-color: var(--background-secondary-alt);
 }
