@@ -10,7 +10,7 @@
 ### ![vencord](https://discord-extensions.github.io/assets/icons/vencord.gif) **[Vencord](https://github.com/Vendicated/Vencord)**
 #### From URL
 1. Go to user settings (CTRL + ,)
-2. Go to the "Vencord" category in user settings (CTRL + ,),, select the "Themes" tab, then select "Online Themes".
+2. Go to the "Vencord" category in user settings (CTRL + ,), select the "Themes" tab, then select "Online Themes".
 3. In the input field under "ONLINE THEMES" paste the following URL (if you have some here already, add a comma before the url).
 ```
 https://luckfire.github.io/amoled-cord/src/amoled-cord.css
@@ -28,7 +28,7 @@ https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 3. Press the `Install Style` button.
 
 ### ![replugged](https://discord-extensions.github.io/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
-This version of the theme is [maintained by Saltssaumure](https://github.com/MiniDiscordThemes/amoled-cord), please report any issues to *their* repository and not this one.
+This version of the theme is [maintained by FedeIlLeone](https://github.com/FedeIlLeone/amoled-cord), please report any issues to *their* repository and not this one.
 - [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.AMOLEDCord)
 
 ---
