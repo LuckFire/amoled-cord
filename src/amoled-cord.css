@@ -393,6 +393,10 @@ html.theme-dark .theme-light .root_a28985,
 :is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .sectionContent_fb280b {
   background-color: var(--background-secondary);
 }
+:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .channels_d0410f {
+  border-color: var(--background-secondary-alt);
+  background-color: var(--background-secondary);
+}
 :is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .cardPrimary_cb7a0e {
   background-color: var(--background-secondary);
 }
