@@ -1,4 +1,13 @@
 :is(.theme-dark, .theme-midnight) #app-mount .root_a28985 {
+    .header_f37948 {
+        box-shadow: none;
+        background-color: var(--modal-background);
+    }
+
+    .sectionContent_fb280b {
+        background-color: var(--background-secondary);
+    }
+
     .cardPrimary_cb7a0e {
         background-color: var(--background-secondary);
     }
