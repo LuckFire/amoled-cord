@@ -2,7 +2,7 @@
  * @name AMOLED-Cord
  * @author LuckFire
  * @description A basically pitch black theme for Discord. Lights out, baby!
- * @version 4.0.15
+ * @version 4.0.16
  * @invite vYdXbEzqDs
  * @authorId 399416615742996480
  * @source https://github.com/LuckFire/amoled-cord
@@ -399,6 +399,13 @@ html.theme-dark .theme-light .root_a28985,
   background-color: var(--modal-footer-background);
 }
 
+:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .header_f37948 {
+  box-shadow: none;
+  background-color: var(--modal-background);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .sectionContent_fb280b {
+  background-color: var(--background-secondary);
+}
 :is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .cardPrimary_cb7a0e {
   background-color: var(--background-secondary);
 }
