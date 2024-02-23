@@ -269,6 +269,10 @@ html.theme-dark .theme-light .root_a28985,
 :is(.theme-dark, .theme-midnight) #app-mount .tile_ebc93b .invalidPoop__03aa3 {
   background-color: var(--background-secondary-alt);
 }
+:is(.theme-dark, .theme-midnight) #app-mount .invite__2a93b {
+  border-color: var(--background-secondary-alt);
+  background-color: var(--background-secondary);
+}
 
 :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container__10dc7,
 :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container__7590f,
@@ -846,6 +850,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 :is(.theme-dark, .theme-midnight) .sidebar_ded4b5 .panels__58331 {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .theme-midnight) .sidebar_ded4b5 .panels__58331 .container_ca50b9, :is(.theme-dark, .theme-midnight) .sidebar_ded4b5 .panels__58331 .panel_bd8c76, :is(.theme-dark, .theme-midnight) .sidebar_ded4b5 .panels__58331 .wrapper__0ed4a > div {
-  background-color: var(--background-primary);
+:is(.theme-dark, .theme-midnight) .sidebar_ded4b5 .panels__58331 > div, :is(.theme-dark, .theme-midnight) .sidebar_ded4b5 .panels__58331 .wrapper__0ed4a > div {
+  background: var(--background-primary) !important;
 }
