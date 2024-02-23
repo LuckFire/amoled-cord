@@ -1,10 +1,7 @@
 :is(.theme-dark, .theme-midnight) .sidebar_ded4b5 {
     .panels__58331 {
         background-color: var(--background-primary);
-        > .wrapper__0ed4a > div {
-            background: var(--background-primary) !important;
-        }
-        > div {
+        > .wrapper__0ed4a > div, > div {
             background: var(--background-primary) !important;
         }
     }
