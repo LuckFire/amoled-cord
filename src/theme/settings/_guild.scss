@@ -1,51 +1,51 @@
 :is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 {
     // Overview
-    .avatarUploaderInnerSquareDisabled__3cfd1 {
+    .avatarUploaderInnerSquareDisabled__2abd0 {
         background-color: var(--background-secondary-alt);
     }
     // Stickers
-    .tierHeaderContent__27033 {
+    .tierHeaderContent__3351e {
         background-color: var(--background-secondary);
     }
     // Custom Invite Link
-    .prefixInput__38dcc {
+    .prefixInput_e78a57 {
         background-color: var(--input-background);
     }
     // Rules Screening
-    .backgroundContainer__06189 {
+    .backgroundContainer__8f24a {
         background-color: var(--background-secondary-alt);
     }
-    .containerFooter_c8da8a {
+    .containerFooter__2f30f {
         background-color: var(--background-secondary);
     }
     // Automod
-    .iconWrapper__9caa9 {
+    .iconWrapper__0d13e {
         background: var(--button-secondary-background);
-        .icon_ae3492:hover {
+        .icon_bb7288:hover {
             background: var(--button-secondary-background-hover);
-            &.disabled_d58a9f {
+            &.disabled_f8a046 {
                 background: var(--button-secondary-background-disabled);
             }
         }
     }
     // Audit Log
-    .auditLog__6c805 {
+    .auditLog__9228d {
         border-color: var(--background-secondary);
-        .header_e08fd2 {
+        .header__8cacc {
             background-color: var(--background-secondary);
         }
-        .headerExpanded__03c29 {
+        .headerExpanded__05a35 {
             background-color: var(--background-secondary-alt);
         }
-        .divider__1505d {
+        .divider__1ee1f {
             background-color: var(--background-modifier-accent);
         }
-        .changeDetails_ecd760 {
+        .changeDetails_c0aa16 {
             background-color: var(--background-secondary);
         }
     }
     // Server Boost Status
-    .tierBody__615a1 {
+    .tierBody_fd5f94 {
         background-color: var(--background-secondary-alt);
     }
 }
