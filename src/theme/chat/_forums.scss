@@ -1,11 +1,11 @@
-:is(.theme-dark, .theme-midnight) #app-mount .container_b92032 {
-    .mainCard__0ec2c, .container__50cdd, .increasedActivityMainCard_e53744, .container__852f7, .container__7afce {
+:is(.theme-dark, .theme-midnight) #app-mount .container_b181b6 {
+    .mainCard__8a660, .container__4abd7, .increasedActivityMainCard__916ed, .container__1b27a, .container_a4e239 {
         background-color: var(--background-tertiary);
     }
-    .loadingCard_ecb256, .card__2c1e2 {
+    .loadingCard_a6aa0a, .card__2c1e2 {
         background-color: var(--background-tertiary);
     }
-    .container__7d004 {
+    .container_c24cbd {
         &:hover {
             background-color: var(--background-modifier-hover);
         }
@@ -15,11 +15,11 @@
         &.isOpen_d88bb6 {
             background-color: var(--background-modifier-selected);
         }
-        .textContentFooter_e03480 {
+        .textContentFooter__5a630 {
             background: transparent;
         }
     }
-    .container_de2a56, .container__5130c {
+    .container__99b06, .container__15ddf {
         &:active {
             background-color: var(--background-modifier-active);
         }
