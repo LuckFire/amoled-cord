@@ -82,6 +82,8 @@ html.theme-dark .theme-light .root_a28985,
   --background-secondary-alt: var(--primary-800) !important;
   --background-tertiary: var(--primary-860) !important;
   --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6) !important;
+  --scrollbar-auto-scrollbar-color-track: var(--primary-860) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--background-secondary-alt) !important;
   --button-outline-brand-background: hsl(var(--white-500-hsl)/0) !important;
   --button-outline-brand-text: var(--white-500) !important;
   --button-outline-brand-text-active: var(--white-500) !important;
