@@ -2,7 +2,7 @@
  * @name AMOLED-Cord
  * @author LuckFire
  * @description A basically pitch black theme for Discord. Lights out, baby!
- * @version 4.0.19
+ * @version 4.0.20
  * @invite vYdXbEzqDs
  * @authorId 399416615742996480
  * @source https://github.com/LuckFire/amoled-cord
@@ -96,7 +96,11 @@ html.theme-dark .theme-light .root_a28985,
   --background-tertiary: var(--primary-860) !important;
   --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6) !important;
   --scrollbar-auto-scrollbar-color-track: var(--primary-860) !important;
-  --scrollbar-auto-scrollbar-color-thumb: var(--background-secondary-alt) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--primary-800) !important;
+  --scrollbar-auto-thumb: var(--primary-800) !important;
+  --scrollbar-auto-track: var(--primary-860) !important;
+  --scrollbar-thin-thumb: var(--primary-800) !important;
+  --scrollbar-thin-track: #000 !important;
   --button-outline-brand-background: hsl(var(--white-500-hsl)/0) !important;
   --button-outline-brand-text: var(--white-500) !important;
   --button-outline-brand-text-active: var(--white-500) !important;
@@ -174,12 +178,6 @@ html.theme-dark .theme-light .root_a28985,
   --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5) !important;
   --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2) !important;
   --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45) !important;
-  --scrollbar-auto-scrollbar-color-thumb: var(--primary-700) !important;
-  --scrollbar-auto-scrollbar-color-track: var(--primary-630) !important;
-  --scrollbar-auto-thumb: var(--primary-600) !important;
-  --scrollbar-auto-track: var(--primary-860) !important;
-  --scrollbar-thin-thumb: var(--primary-700) !important;
-  --scrollbar-thin-track: hsl(var(--black-500-hsl)/0) !important;
   --spoiler-hidden-background: var(--primary-700) !important;
   --spoiler-revealed-background: var(--primary-660) !important;
   --status-danger-text: var(--white-500) !important;
@@ -213,15 +211,6 @@ html.theme-dark .theme-light .root_a28985,
 
 :is(.theme-dark, .theme-midnight) #app-mount .container__4bde3 {
   background-color: var(--background-primary);
-}
-
-:is(.theme-dark, .theme-midnight) :is(.scroller__1f96e,
-.auto_a48086,
-.thin_b1c063,
-.peopleColumn__51df3,
-.contentRegionScroller__86c79,
-.scrollerBase_dc3aa9)::-webkit-scrollbar-thumb {
-  background-color: var(--background-secondary-alt);
 }
 
 :is(.theme-dark, .theme-midnight) #app-mount .bar_e58961 {
