@@ -1,12 +1,12 @@
 :is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 {
     // Authorized Apps
-    .cardPrimary_cb7a0e.outline_cb0aed {
+    .cardPrimary__1ee6a.outline__16075 {
         background-color: var(--background-secondary);
     }
     // Connections
-    .connectContainer__8050b {
+    .connectContainer_e331e3 {
         background-color: var(--background-secondary);
-        .wrapper__03d5e:hover {
+        .wrapper__5780f:hover {
             background-color: var(--background-modifier-hover);
         }
     }
@@ -15,55 +15,55 @@
         background-color: var(--background-secondary-alt);
     }
     // Billing
-    .paymentPane__9cf01 {
+    .paymentPane__541d7 {
         background-color: var(--background-secondary);
-        .expandedInfo__47bad {
+        .expandedInfo_efc786 {
             background-color: var(--background-primary);
         }
-        .paginator_e620d3 {
+        .paginator__28ba5 {
             background-color: var(--background-secondary);
-            .payment__7d702 {
+            .payment_f27ac6 {
                 background-color: var(--background-secondary);
-                &.hoverablePayment__3ea24:hover {
+                &.hoverablePayment__4ff3b:hover {
                     background-color: var(--background-modifier-hover);
                 }
             }
         }
-        .bottomDivider_a59d97 {
+        .bottomDivider_c85b47 {
             border-bottom-color: var(--background-modifier-accent);
         }
     }
-    .codeRedemptionRedirect_bc7f36 {
+    .codeRedemptionRedirect_b3eca7 {
         border-color: var(--background-tertiary);
         background-color: var(--background-secondary);
     }
     // Appearance
-    .preview_f42b5d {
+    .preview__30ef4 {
         border-color: var(--background-secondary);
         background-color: var(--background-primary) !important;
     }
     // Voice & Video
-    .notches__065e9.gray__4fb3f {
+    .notches__5406c.gray__211f0 {
         color: var(--background-primary);
     }
     // Keybinds
-    .container__0c807 {
+    .container__8267c {
         background-color: var(--input-background);
     }
     // Registered Games
     .game__19f4b {
         box-shadow: none;
         border-bottom: 1px solid var(--background-modifier-accent);
-        .gameNameInput_e25dd8:is(:hover, :focus) {
+        .gameNameInput__3e1e4:is(:hover, :focus) {
             border-color: var(--background-tertiary);
             background-color: var(--background-secondary);
         }
     }
     // Game Overlay
-    .option_a0c054:not(.selected_ea51d6, :hover) {
+    .option__1d8de:not(.selected__4e154, :hover) {
         background-color: var(--background-accent);
     }
-    .disabled_ab18dc:not(.selected_ea51d6, :hover) {
+    .disabled__586d3:not(.selected__4e154, :hover) {
         color: var(--background-accent);
     }
 }

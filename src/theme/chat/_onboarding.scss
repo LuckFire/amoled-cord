@@ -1,25 +1,25 @@
 :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 {
     // Roles
-    .container__10dc7,
-    .container__7590f,
-    .header__60bef,
-    .scrollerContainer_bf5dbd,
-    .emptyPage__3e15d {
+    .container__03ec9,
+    .container__6b2e5,
+    .header__71942,
+    .scrollerContainer_dda72c,
+    .emptyPage_feb902 {
         background-color: transparent;
     }
     .prompt__1b100 {
         background-color: var(--background-tertiary);
-        .selected__90dd8 {
+        .selected__31118 {
             background-color: var(--background-modifier-active);
         }
     }
-    .profileCard_bd55ee {
+    .profileCard__1d74b {
         background-color: var(--background-tertiary);
     }
     // Channels
-    .channelRow__96673 {
+    .channelRow__538ef {
         background-color: var(--background-tertiary);
-        &:not(.disabled__583e7):hover {
+        &:not(.disabled__556e5):hover {
             background-color: var(--background-modifier-hover);
         }
     }
