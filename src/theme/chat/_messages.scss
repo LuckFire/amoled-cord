@@ -15,4 +15,20 @@
         border-color: var(--background-secondary-alt);
         background-color: var(--background-secondary);
     }
+    // Polls -- scuffed but it works
+    .container__0bd59 {
+        background-color: var(--background-secondary);
+
+        .enabled_d1cac4[aria-checked="false"] .answerInner_b97752:hover {
+            outline-color: var(--background-secondary-alt);
+        }
+
+        .answerInner_b97752 {
+            background-color: var(--background-primary);
+        }
+
+        .normalStylesDefault__1c2f5 .votePercentageBar_ba9103 {
+            background-color: var(--background-secondary-alt);
+        }
+    }
 }
