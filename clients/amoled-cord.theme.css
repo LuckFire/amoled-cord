@@ -2,7 +2,7 @@
  * @name AMOLED-Cord
  * @author LuckFire
  * @description A basically pitch black theme for Discord. Lights out, baby!
- * @version 4.0.22
+ * @version 4.0.23
  * @invite vYdXbEzqDs
  * @authorId 399416615742996480
  * @source https://github.com/LuckFire/amoled-cord
@@ -277,6 +277,18 @@ html.theme-dark .theme-light .root_a28985,
   border-color: var(--background-secondary-alt);
   background-color: var(--background-secondary);
 }
+:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 {
+  background-color: var(--background-secondary);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 .enabled_d1cac4[aria-checked=false] .answerInner_b97752:hover {
+  outline-color: var(--background-secondary-alt);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 .answerInner_b97752 {
+  background-color: var(--background-primary);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .container__0bd59 .normalStylesDefault__1c2f5 .votePercentageBar_ba9103 {
+  background-color: var(--background-secondary-alt);
+}
 
 :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container__03ec9,
 :is(.theme-dark, .theme-midnight) #app-mount .chat__52833 .container__6b2e5,
@@ -417,6 +429,13 @@ html.theme-dark .theme-light .root_a28985,
 }
 :is(.theme-dark, .theme-midnight) #app-mount .promptContent__129f0 .overlay_a15774 {
   background: none !important;
+}
+
+:is(.theme-dark, .theme-midnight) #app-mount .container_f5b15d {
+  background-color: var(--modal-background);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .container_f5b15d .footer__95d9e {
+  background-color: var(--modal-footer-background);
 }
 
 :is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .previewDark__9ce54 {
