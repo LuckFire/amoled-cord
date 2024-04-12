@@ -437,6 +437,13 @@
 	  background-color: var(--modal-footer-background);
 	}
 	
+	:is(.theme-dark, .theme-midnight) #app-mount .modal_daea9e .body_af7d3b {
+	  background-color: var(--modal-background);
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .modal_daea9e .container_ccc120, :is(.theme-dark, .theme-midnight) #app-mount .modal_daea9e .roleTag_d5379a {
+	  background-color: var(--background-primary);
+	}
+	
 	:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .previewDark__9ce54 {
 	  background-color: var(--background-primary);
 	}
@@ -627,6 +634,13 @@
 	:is(.theme-dark, .theme-midnight) #app-mount .headerIcon_f56272 {
 	  background-color: var(--background-tertiary);
 	  border-color: var(--background-tertiary);
+	}
+	
+	:is(.theme-dark, .theme-midnight) #app-mount .container_cfe93d {
+	  background-color: var(--background-primary);
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .container_cfe93d .opaqueBackground__45978 {
+	  background-color: var(--background-secondary-alt);
 	}
 	
 	:is(.theme-dark, .theme-midnight) #app-mount .shop_b31ed2 {
