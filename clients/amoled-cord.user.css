@@ -190,22 +190,27 @@
 	  --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
 	  --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.16) !important;
 	  --elevation-high: 0 8px 16px hsl(var(--black-500-hsl)/0.24) !important;
-	  --profile-gradient-primary-color: var(--background-floating);
-	  --profile-gradient-secondary-color: var(--background-floating);
-	  --profile-gradient-overlay-color: transparent;
-	  --profile-gradient-button-color: var(--button-secondary-background);
-	  --profile-avatar-border-color: var(--background-floating);
-	  --profile-message-input-border-color: var(--background-modifier-accent);
-	  --profile-body-background-color: var(--background-primary);
-	  --profile-body-background-hover: var(--background-modifier-hover);
-	  --profile-body-divider-color: var(--background-modifier-accent);
-	  --profile-role-pill-background-color: var(--background-floating);
-	  --profile-role-pill-border-color: var(--interactive-normal);
 	  --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%) !important;
 	  --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;
 	  --legacy-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
 	  --legacy-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
 	  --legacy-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
+	}
+	
+	.theme-dark:not(.custom-profile-theme) {
+	  --profile-gradient-primary-color: var(--background-floating) !important;
+	  --profile-gradient-secondary-color: var(--background-floating) !important;
+	  --profile-gradient-overlay-color: transparent !important;
+	  --profile-gradient-button-color: var(--button-secondary-background) !important;
+	  --profile-avatar-border-color: var(--background-floating) !important;
+	  --profile-body-background-color: var(--background-primary) !important;
+	  --profile-body-background-hover: var(--background-modifier-hover) !important;
+	  --profile-body-divider-color: var(--background-modifier-accent) !important;
+	  --profile-body-border-color: var(--border-faint) !important;
+	  --profile-message-input-border-color: var(--background-modifier-accent) !important;
+	  --profile-note-background-color: var(--background-tertiary) !important;
+	  --profile-role-pill-background-color: var(--background-floating) !important;
+	  --profile-role-pill-border-color: var(--interactive-normal) !important;
 	}
 	
 	:is(.theme-dark, .theme-midnight) #app-mount .container__827e6 {
@@ -364,10 +369,6 @@
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .navRow_bb8efc {
 	  background-color: var(--modal-footer-background);
-	}
-	
-	:is(.theme-dark, .theme-midnight) .theme-light .root_a28985 {
-	  color: var(--primary-300);
 	}
 	
 	:is(.theme-dark, .theme-midnight) #app-mount .root_a28985 .message_ff43e6 {
