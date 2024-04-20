@@ -1,0 +1,15 @@
+:is(.theme-dark, .platform-overlay) {
+    .themePrimary_c433ae {
+        &.container__5c54e {
+            background-color: var(--background-primary);
+            &:hover {
+                background-color: var(--background-secondary);
+            }
+        }
+
+        .dismissButton_aad284 {
+            box-shadow: none;
+            background-color: var(--background-secondary-alt);
+        }
+    }
+}

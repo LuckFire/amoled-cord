@@ -1,0 +1,8 @@
+:is(.theme-dark, .platform-overlay) {
+    .option__1d8de:not(.selected__4e154, :hover) {
+        background-color: var(--primary-600);
+    }
+    .disabled__586d3:not(.selected__4e154, :hover) {
+        color: var(--primary-600);
+    }
+}

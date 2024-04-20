@@ -1,0 +1,27 @@
+:is(.theme-dark, .platform-overlay) {
+    :is(.contained__6398e, .wrapper_f8616a:not(:has(.locked__51092))) {
+        .headerContainer_c6e0ea,
+        .footer__20fac {
+            background-color: var(--background-primary) !important;
+        }
+    
+        .messagesContainer__8cac7 {
+            background-color: var(--background-primary) !important;
+        }
+    }
+
+    .opacityHeader__60a91 {
+        background-color: var(--background-primary);
+    }
+
+    .wrapper_f8616a:has(.default_afb52e) {
+        .footer__20fac,
+        .headerContainer_c6e0ea {
+            border-radius: 0px;
+        }
+    }
+
+    .background-opacity-high .scrollableContainer_ff917f {
+        background-color: var(--channeltextarea-background);
+    }
+}
