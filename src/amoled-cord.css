@@ -1,3 +1,36 @@
+/* These are stolen from the vencord css-snippets channel. - https://discord.gg/vencord */
+
+/* Credit to seasw.
+Rounded Embed Borders
+Inspired by the Opera GX Theme */
+#app-mount .embedFull__14919 {
+    border: 3px solid;
+    border-radius: 15px;
+  }
+
+/* Credit to computing_cat
+Changes the emoji in the chat bar into Shiggy */
+.sprite__294b3.spriteColored__9a869 {
+  background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+  background-size: 24px;
+}
+.sprite__294b3.spriteGreyscale__750f4 {
+  mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
+  mask-size: 24px;
+}
+
+/* Credit to refact0r 
+This enlarges the gifs browser */
+[class^="positionContainer_"] {
+  height: calc(100vh - 180px);
+}
+
+/* Credit to idk 
+Hides the gift icon in the chatbar */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+
 :root {
   /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
   --lightness-600-660: 0%;
