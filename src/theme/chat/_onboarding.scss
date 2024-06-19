@@ -1,25 +1,25 @@
-:is(.theme-dark, .theme-midnight) #app-mount .chat__52833 {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e {
     // Roles
-    .container__03ec9,
-    .container__6b2e5,
-    .header__71942,
-    .scrollerContainer_dda72c,
-    .emptyPage_feb902 {
+    .container_f1fd9c,
+    .container_c2efea,
+    .header_f1fd9c,
+    .scrollerContainer_c6b11b,
+    .emptyPage_c6b11b {
         background-color: transparent;
     }
-    .prompt__1b100 {
+    .prompt_c6b11b {
         background-color: var(--background-tertiary);
-        .selected__31118 {
+        .selected_bd5e1f {
             background-color: var(--background-modifier-active);
         }
     }
-    .profileCard__1d74b {
+    .profileCard_c6b11b {
         background-color: var(--background-tertiary);
     }
     // Channels
-    .channelRow__538ef {
+    .channelRow_f04d06 {
         background-color: var(--background-tertiary);
-        &:not(.disabled__556e5):hover {
+        &:not(.disabled_f04d06):hover {
             background-color: var(--background-modifier-hover);
         }
     }
