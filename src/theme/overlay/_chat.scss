@@ -1,27 +1,27 @@
 :is(.theme-dark, .platform-overlay) {
-    :is(.contained__6398e, .wrapper_f8616a:not(:has(.locked__51092))) {
-        .headerContainer_c6e0ea,
-        .footer__20fac {
+    :is(.contained_ac9afa, .wrapper_c199cc:not(:has(.locked_ac9afa))) {
+        .headerContainer_c6d3b6,
+        .footer_ac9afa {
             background-color: var(--background-primary) !important;
         }
     
-        .messagesContainer__8cac7 {
+        .messagesContainer_ac9afa {
             background-color: var(--background-primary) !important;
         }
     }
 
-    .opacityHeader__60a91 {
+    .opacityHeader_c6d3b6 {
         background-color: var(--background-primary);
     }
 
-    .wrapper_f8616a:has(.default_afb52e) {
-        .footer__20fac,
-        .headerContainer_c6e0ea {
+    .wrapper_c199cc:has(.default_eb6bd1) {
+        .footer_ac9afa,
+        .headerContainer_c6d3b6 {
             border-radius: 0px;
         }
     }
 
-    .background-opacity-high .scrollableContainer_ff917f {
+    .background-opacity-high .scrollableContainer_d0696b {
         background-color: var(--channeltextarea-background);
     }
 }

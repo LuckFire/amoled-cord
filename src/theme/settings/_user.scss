@@ -1,69 +1,65 @@
-:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 {
+:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 {
     // Authorized Apps
-    .cardPrimary__1ee6a.outline__16075 {
+    .cardPrimary_a298b8.outline_a298b8 {
         background-color: var(--background-secondary);
     }
     // Connections
-    .connectContainer_e331e3 {
+    .connectContainer_e2a436 {
         background-color: var(--background-secondary);
-        .wrapper__5780f:hover {
+        .wrapper_c36ce4:hover {
             background-color: var(--background-modifier-hover);
         }
     }
-    // Server Boost
-    .guildHeader__30707 {
-        background-color: var(--background-secondary-alt);
-    }
     // Billing
-    .paymentPane__541d7 {
+    .paymentPane_f66684 {
         background-color: var(--background-secondary);
-        .expandedInfo_efc786 {
+        .expandedInfo_a28a08 {
             background-color: var(--background-primary);
         }
-        .paginator__28ba5 {
+        .paginator_f66684 {
             background-color: var(--background-secondary);
-            .payment_f27ac6 {
+            .payment_a28a08 {
                 background-color: var(--background-secondary);
-                &.hoverablePayment__4ff3b:hover {
+                &.hoverablePayment_a28a08:hover {
                     background-color: var(--background-modifier-hover);
                 }
             }
         }
-        .bottomDivider_c85b47 {
+        .bottomDivider_f66684 {
             border-bottom-color: var(--background-modifier-accent);
         }
     }
-    .codeRedemptionRedirect_b3eca7 {
+    .codeRedemptionRedirect_cb70f4 {
         border-color: var(--background-tertiary);
         background-color: var(--background-secondary);
     }
     // Appearance
-    .preview__30ef4 {
+    .preview_a614a7 {
         border-color: var(--background-secondary);
         background-color: var(--background-primary) !important;
     }
     // Voice & Video
-    .notches__5406c.gray__211f0 {
+    .notches_e5cdf3.gray_e5cdf3 {
         color: var(--background-primary);
     }
     // Keybinds
-    .container__8267c {
+    .container_c67e31 {
         background-color: var(--input-background);
     }
     // Registered Games
-    .game__19f4b {
+    .game_fd966d {
         box-shadow: none;
         border-bottom: 1px solid var(--background-modifier-accent);
-        .gameNameInput__3e1e4:is(:hover, :focus) {
+        .gameNameInput_fd966d:is(:hover, :focus) {
             border-color: var(--background-tertiary);
             background-color: var(--background-secondary);
         }
     }
     // Game Overlay
-    .option__1d8de:not(.selected__4e154, :hover) {
+    .option_d2da9c:not(.selected_d2da9c, :hover) {
         background-color: var(--background-accent);
     }
-    .disabled__586d3:not(.selected__4e154, :hover) {
+    .disabled_d2da9c:not(.selected_d2da9c, :hover) {
         color: var(--background-accent);
     }
 }
