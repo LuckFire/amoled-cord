@@ -1,17 +1,17 @@
-:is(.theme-dark, .platform-overlay) .sidebar__398fc {
+:is(.theme-dark, .platform-overlay) .sidebar_d86933 {
     background-color: var(--background-primary);
 
-    .header__0d02e,
-    .scroller__89969 {
+    .header_d86933,
+    .scroller_c47fa9 {
         background-color: transparent !important;
     }
 
-    .searchBar__107ca {
+    .searchBar_ec7a6d {
         box-shadow: none !important;
     }
 
-    .panels__1458f, .panels__1458f > div,
-    .panels_f8dc5f, .panels_f8dc5f > div {
+    .panels_c0cc4b, .panels_c0cc4b > div,
+    .panels_ec7a6d, .panels_ec7a6d > div {
         background-color: var(--background-primary) !important;
     }
 }

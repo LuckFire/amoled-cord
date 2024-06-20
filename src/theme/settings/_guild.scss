@@ -1,51 +1,51 @@
-:is(.theme-dark, .theme-midnight) #app-mount .layers__1c917 {
+:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 {
     // Overview
-    .avatarUploaderInnerSquareDisabled__2abd0 {
+    .avatarUploaderInnerSquareDisabled_e9b3be {
         background-color: var(--background-secondary-alt);
     }
     // Stickers
-    .tierHeaderContent__3351e {
+    .tierHeaderContent_da77bd {
         background-color: var(--background-secondary);
     }
     // Custom Invite Link
-    .prefixInput_e78a57 {
+    .prefixInput_c29b00 {
         background-color: var(--input-background);
     }
     // Rules Screening
-    .backgroundContainer__8f24a {
+    .backgroundContainer_ceff93 {
         background-color: var(--background-secondary-alt);
     }
-    .containerFooter__2f30f {
+    .containerFooter_ceff93 {
         background-color: var(--background-secondary);
     }
     // Automod
-    .iconWrapper__0d13e {
+    .iconWrapper_cc6793 {
         background: var(--button-secondary-background);
-        .icon_bb7288:hover {
+        .icon_cc6793:hover {
             background: var(--button-secondary-background-hover);
-            &.disabled_f8a046 {
+            &.disabled_cc6793 {
                 background: var(--button-secondary-background-disabled);
             }
         }
     }
     // Audit Log
-    .auditLog__9228d {
+    .auditLog_eebd33 {
         border-color: var(--background-secondary);
-        .header__8cacc {
+        .header_eebd33 {
             background-color: var(--background-secondary);
         }
-        .headerExpanded__05a35 {
+        .headerExpanded_eebd33 {
             background-color: var(--background-secondary-alt);
         }
-        .divider__1ee1f {
+        .divider_eebd33 {
             background-color: var(--background-modifier-accent);
         }
-        .changeDetails_c0aa16 {
+        .changeDetails_eebd33 {
             background-color: var(--background-secondary);
         }
     }
     // Server Boost Status
-    .tierBody_fd5f94 {
+    .tierBody_da77bd {
         background-color: var(--background-secondary-alt);
     }
 }
