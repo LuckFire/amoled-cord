@@ -65,60 +65,33 @@
 html.theme-dark .theme-light .root_f9a4c9,
 .theme-light.popout_f6639d {
     --activity-card-background: var(--primary-830) !important;
-    --android-navigation-bar-background: var(--primary-830) !important;
-    --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5) !important;
-    --android-ripple: hsl(var(--white-500-hsl)/0.07) !important;
+    --autocomplete-bg: var(--primary-860) !important;
     --background-accent: var(--primary-760) !important;
     --background-floating: var(--primary-830) !important;
-    --background-message-hover: hsl(var(--primary-900-hsl)/0.06) !important;
-    --background-mobile-primary: var(--black-500) !important;
+    --background-message-hover: hsl(var(--white-hsl)/0.015) !important;
+    --background-mobile-primary: var(--black) !important;
     --background-mobile-secondary: var(--primary-860) !important;
     --background-modifier-accent: hsl(var(--primary-760-hsl)/0.48) !important;
     --background-modifier-active: hsl(var(--primary-760-hsl)/0.48) !important;
     --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
     --background-modifier-selected: hsl(var(--primary-760-hsl)/0.6) !important;
     --background-nested-floating: var(--primary-830) !important;
-    --background-primary: var(--black-500) !important;
+    --background-primary: var(--black) !important;
     --background-secondary: var(--primary-830) !important;
     --background-secondary-alt: var(--primary-800) !important;
     --background-tertiary: var(--primary-860) !important;
-    --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6) !important;
-
-    --scrollbar-auto-scrollbar-color-track: var(--primary-860) !important;
-    --scrollbar-auto-scrollbar-color-thumb: var(--primary-800) !important;
-    --scrollbar-auto-thumb: var(--primary-800) !important;
-    --scrollbar-auto-track: var(--primary-860) !important;
-    --scrollbar-thin-thumb: var(--primary-800) !important;
-    --scrollbar-thin-track: transparent !important;
-
-    --button-outline-brand-background: hsl(var(--white-500-hsl)/0) !important;
-    --button-outline-brand-text: var(--white-500) !important;
-    --button-outline-brand-text-active: var(--white-500) !important;
-    --button-outline-brand-text-hover: var(--white-500) !important;
-    --button-outline-danger-background: hsl(var(--white-500-hsl)/0) !important;
-    --button-outline-danger-background-active: var(--red-460) !important;
-    --button-outline-danger-background-hover: var(--red-430) !important;
-    --button-outline-danger-border: var(--red-400) !important;
-    --button-outline-danger-border-active: var(--red-430) !important;
-    --button-outline-danger-border-hover: var(--red-430) !important;
-    --button-outline-danger-text: var(--white-500) !important;
-    --button-outline-danger-text-active: var(--white-500) !important;
-    --button-outline-danger-text-hover: var(--white-500) !important;
-    --button-outline-positive-background: hsl(var(--white-500-hsl)/0) !important;
-    --button-outline-positive-text: var(--white-500) !important;
-    --button-outline-positive-text-active: var(--white-500) !important;
-    --button-outline-positive-text-hover: var(--white-500) !important;
-
+    --bg-mod-faint: hsl(var(--black-hsl)) !important;
+    --bg-surface-overlay: var(--primary-830) !important;
+    --bg-surface-raised: var(--primary-700) !important;
     --button-outline-primary-background: var(--primary-700) !important;
     --button-outline-primary-background-active: var(--primary-600) !important;
     --button-outline-primary-background-hover: var(--primary-630) !important;
     --button-outline-primary-border: var(--primary-700) !important;
     --button-outline-primary-border-active: var(--primary-600) !important;
     --button-outline-primary-border-hover: var(--primary-630) !important;
-    --button-outline-primary-text: var(--white-500) !important;
-    --button-outline-primary-text-active: var(--white-500) !important;
-    --button-outline-primary-text-hover: var(--white-500) !important;
-
+    --button-outline-primary-text: var(--white) !important;
+    --button-outline-primary-text-active: var(--white) !important;
+    --button-outline-primary-text-hover: var(--white) !important;
     --button-secondary-background: var(--primary-700) !important;
     --button-secondary-background-active: var(--primary-600) !important;
     --button-secondary-background-disabled: var(--primary-700) !important;
@@ -127,59 +100,42 @@ html.theme-dark .theme-light .root_f9a4c9,
     --channel-text-area-placeholder: var(--primary-400) !important;
     --channels-default: var(--primary-360) !important;
     --channeltextarea-background: var(--primary-830) !important;
-    --chat-background: var(--black-500) !important;
+    --chat-background: var(--black) !important;
     --chat-border: var(--primary-700) !important;
     --chat-input-container-background: var(--primary-600) !important;
     --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6) !important;
     --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;
     --deprecated-quickswitcher-input-background: var(--primary-400) !important;
-    --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3) !important;
-    --deprecated-store-bg: var(--black-500) !important;
+    --deprecated-quickswitcher-input-placeholder: hsl(var(--white-hsl) / 0.3) !important;
+    --deprecated-store-bg: var(--black) !important;
     --deprecated-text-input-bg: var(--primary-700) !important;
-    --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3) !important;
+    --deprecated-text-input-border: hsl(var(--black-hsl)/0.3) !important;
     --deprecated-text-input-border-disabled: var(--primary-700) !important;
     --deprecated-text-input-border-hover: var(--primary-900) !important;
     --deprecated-text-input-prefix: var(--primary-200) !important;
-    --display-banner-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
-    --forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl)/0.8) !important;
-    --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
     --header-primary: var(--primary-130) !important;
     --header-secondary: var(--primary-345) !important;
-    --home-background: var(--black-500) !important;
+    --home-background: var(--black) !important;
     --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
-    --info-danger-text: var(--white-500) !important;
-    --info-help-text: var(--white-500) !important;
-    --info-positive-text: var(--white-500) !important;
-    --info-warning-text: var(--white-500) !important;
     --input-background: var(--primary-800) !important;
     --input-placeholder-text: var(--input-placeholder-text-dark) !important;
     --interactive-active: var(--primary-130) !important;
     --interactive-hover: var(--primary-230) !important;
     --interactive-muted: var(--primary-500) !important;
     --interactive-normal: var(--primary-345) !important;
-    --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6) !important;
-    --logo-primary: var(--white-500) !important;
-    --mention-background: hsl(var(--brand-500-hsl)/0.3) !important;
     --modal-background: var(--primary-860) !important;
     --modal-footer-background: var(--primary-900) !important;
-    --profile-gradient-message-input-border: hsl(var(--primary-500-hsl)/0.48) !important;
-    --profile-gradient-note-background: hsl(var(--black-500-hsl)/0.3) !important;
-    --profile-gradient-overlay: hsl(var(--black-500-hsl)/0.6) !important;
-    --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl)/0.8) !important;
-    --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl)/0.16) !important;
-    --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5) !important;
-    --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2) !important;
-    --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45) !important;
-
+    --scrollbar-auto-scrollbar-color-track: var(--primary-860) !important;
+    --scrollbar-auto-scrollbar-color-thumb: var(--primary-800) !important;
+    --scrollbar-auto-thumb: var(--primary-800) !important;
+    --scrollbar-auto-track: var(--primary-860) !important;
+    --scrollbar-thin-thumb: var(--primary-800) !important;
+    --scrollbar-thin-track: transparent !important;
     --spoiler-hidden-background: var(--primary-700) !important;
     --spoiler-revealed-background: var(--primary-660) !important;
-    --status-danger-text: var(--white-500) !important;
-    --status-positive-text: var(--white-500) !important;
-    --status-warning-text: var(--black-500) !important;
     --text-muted: var(--primary-345) !important;
     --text-normal: var(--primary-300) !important;
     --textbox-markdown-syntax: var(--primary-360) !important;
-    --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
 
     --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;
     --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
@@ -208,4 +164,239 @@ html.theme-dark .theme-light .root_f9a4c9,
     --profile-note-background-color: var(--background-tertiary) !important;
     --profile-role-pill-background-color: var(--background-floating) !important;
     --profile-role-pill-border-color: var(--interactive-normal) !important;
+}
+
+@supports (color: color-mix(in lch, red, blue)) and (top: var(--f)) {
+    .theme-dark {
+        --activity-card-background: color-mix(
+            in oklab,
+            var(--primary-830) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --autocomplete-bg: color-mix(
+            in oklab,
+            var(--primary-860) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-accent: color-mix(
+            in oklab,
+            var(--primary-760) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-floating: color-mix(
+            in oklab,
+            var(--primary-830) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-message-hover: color-mix(
+            in oklab,
+            hsl(var(--white-hsl) / 0.015) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-mobile-primary: color-mix(
+            in oklab,
+            var(--black) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-mobile-secondary: color-mix(
+            in oklab,
+            var(--primary-860) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-modifier-accent: color-mix(
+            in oklab,
+            hsl(var(--primary-760-hsl) / 0.48) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-modifier-active: color-mix(
+            in oklab,
+            hsl(var(--primary-760-hsl) / 0.48) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-modifier-hover: color-mix(
+            in oklab,
+            hsl(var(--primary-760-hsl) / 0.4) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.4) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-modifier-selected: color-mix(
+            in oklab,
+            hsl(var(--primary-760-hsl) / 0.6) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.6) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-nested-floating: color-mix(
+            in oklab,
+            var(--primary-830) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-primary: color-mix(
+            in oklab,
+            var(--black) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-secondary: color-mix(
+            in oklab,
+            var(--primary-830) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-secondary-alt: color-mix(
+            in oklab,
+            var(--primary-800) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-tertiary: color-mix(
+            in oklab,
+            var(--primary-860) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --bg-mod-faint: color-mix(
+            in oklab,
+            hsl(var(--black-hsl)) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.08) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --bg-surface-overlay: color-mix(
+			in oklab,
+			var(--primary-830) 100%,
+			var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+		) !important;
+        --bg-surface-raised: color-mix(
+			in oklab,
+			var(--primary-700) 100%,
+			var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+		) !important;
+        --channeltextarea-background: color-mix(
+            in oklab,
+            var(--primary-830) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --chat-background: color-mix(
+            in oklab,
+            var(--black) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --chat-border: color-mix(
+            in oklab,
+            var(--primary-700) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --chat-input-container-background: color-mix(
+            in oklab,
+            var(--primary-600) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-card-bg: color-mix(
+            in oklab,
+            hsl(var(--primary-700-hsl) / 0.6) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.6) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-card-editable-bg: color-mix(
+            in oklab,
+            hsl(var(--primary-700-hsl) / 0.3) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-quickswitcher-input-background: color-mix(
+            in oklab,
+            var(--primary-400) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-quickswitcher-input-placeholder: color-mix(
+            in oklab,
+            hsl(var(--white-hsl) / 0.3) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-store-bg: color-mix(
+            in oklab,
+            var(--black) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-text-input-bg: color-mix(
+            in oklab,
+            var(--primary-700) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-text-input-border: color-mix(
+            in oklab,
+            hsl(var(--black-hsl) / 0.3) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-text-input-border-disabled: color-mix(
+            in oklab,
+            var(--primary-700) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-text-input-border-hover: color-mix(
+            in oklab,
+            var(--primary-900) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --deprecated-text-input-prefix: color-mix(
+            in oklab,
+            var(--primary-200) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --home-background: color-mix(
+            in oklab,
+            var(--black) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --home-card-resting-border: color-mix(
+            in oklab,
+            hsl(var(--transparent-hsl) / 0) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --input-background: color-mix(
+            in oklab,
+            var(--primary-800) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --modal-background: color-mix(
+            in oklab,
+            var(--primary-860) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --modal-footer-background: color-mix(
+            in oklab,
+            var(--primary-900) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-auto-scrollbar-color-thumb: color-mix(
+            in oklab,
+            var(--primary-800) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-auto-scrollbar-color-track: color-mix(
+            in oklab,
+            var(--primary-860) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-auto-thumb: color-mix(
+            in oklab,
+            var(--primary-800) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-auto-track: color-mix(
+            in oklab,
+            var(--primary-860) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-thin-thumb: color-mix(
+            in oklab,
+            var(--primary-800) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-thin-track: color-mix(
+            in oklab,
+            transparent,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --spoiler-hidden-background: color-mix(
+            in oklab,
+            var(--primary-700) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --spoiler-revealed-background: color-mix(
+            in oklab,
+            var(--primary-660) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        ) !important;
+    }
 }
