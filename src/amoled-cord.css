@@ -250,14 +250,14 @@ html.theme-dark .theme-light .root_f9a4c9,
         hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.08) var(--theme-base-color-amount, 0%)
     ) !important;
     --bg-surface-overlay: color-mix(
-    	in oklab,
-    	var(--primary-830) 100%,
-    	var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        in oklab,
+        var(--primary-830) 100%,
+        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
     --bg-surface-raised: color-mix(
-    	in oklab,
-    	var(--primary-700) 100%,
-    	var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        in oklab,
+        var(--primary-700) 100%,
+        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
     --channeltextarea-background: color-mix(
         in oklab,
