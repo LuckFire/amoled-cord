@@ -118,7 +118,7 @@ html.theme-dark .theme-light .root_f9a4c9,
   --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6) !important;
   --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;
   --deprecated-quickswitcher-input-background: var(--primary-400) !important;
-  --deprecated-quickswitcher-input-placeholder: hsl(var(--white-hsl) / 0.3) !important;
+  --deprecated-quickswitcher-input-placeholder: hsl(var(--white-hsl)/0.3) !important;
   --deprecated-store-bg: var(--black) !important;
   --deprecated-text-input-bg: var(--primary-700) !important;
   --deprecated-text-input-border: hsl(var(--black-hsl)/0.3) !important;
