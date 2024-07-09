@@ -1,5 +1,6 @@
 @forward 'accept-invite';
 @forward 'account-switcher';
+@forward 'create-poll';
 @forward 'delete';
 @forward 'generic';
 @forward 'invite';
@@ -8,7 +9,7 @@
 @forward 'modify-attachment';
 @forward 'notification-settings';
 @forward 'onboarding';
-@forward 'polls';
+@forward 'poll-votes';
 @forward 'server-shop-product';
 @forward 'stickers';
 @forward 'tab-tips';
