@@ -1,11 +1,10 @@
 :is(.theme-dark, .theme-midnight) #app-mount {
-    // Message Items
-    .messageListItem_d5deea:hover {
-        background-color: rgba(255, 255, 255, 0.015);
-    }
     // Gifts
     .tile_ab47a1 {
         background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
         .invalidPoop_ff31dd {
             background-color: var(--background-secondary-alt);
         }
@@ -21,10 +20,6 @@
 
         .enabled_b97e9a[aria-checked="false"] .answerInner_cf2c85:hover {
             outline-color: var(--background-secondary-alt);
-        }
-
-        .answerInner_cf2c85 {
-            background-color: var(--background-primary);
         }
 
         .normalStylesDefault_b5cb3c .votePercentageBar_cf2c85 {
