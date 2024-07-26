@@ -1,15 +1,19 @@
 :is(.theme-dark, .platform-overlay) {
-    .themePrimary_b97933 {
-        &.container_b97933 {
-            background-color: var(--background-primary);
-            &:hover {
+    .themePrimary_f6b647 {
+        &.container_f6b647 {
+            background-color: hsl(var(--primary-900-hsl)/0.95);
+            &.clickable_f6b647:hover {
                 background-color: var(--background-secondary);
             }
         }
 
-        .dismissButton_b97933 {
-            box-shadow: none;
+        .divider_f6b647 {
             background-color: var(--background-secondary-alt);
+        }
+
+        .dismissButton_f6b647 {
+            box-shadow: none;
+            background-color: var(--background-secondary);
         }
     }
 }

@@ -5,6 +5,9 @@
             background-color: var(--background-secondary);
         }
     }
+    .bannerImage_fd6364:before {
+        background: linear-gradient(to bottom, var(--primary-900), transparent 100%);
+    }
     .hasBanner_fd6364 [class*="scroller-"] {
         background-color: transparent;
     }

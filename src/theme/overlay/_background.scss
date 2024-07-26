@@ -1,9 +1,11 @@
-:is(.theme-dark, .platform-overlay)  {
-    .overlayActive_e17343 {
-        background-color: hsl(var(--primary-900-hsl)/.75);
+:is(.theme-dark, .platform-overlay) {
+    .overlayActive_e17343, .invalidContainer_e17343 {
+        background-color: hsl(var(--primary-900-hsl)/0.8);
     }
-
-    .layoutUnlocked_e17343 .widget_eb6bd1.default_eb6bd1 {
+    .inactiveContainer_e17343 {
         background-color: var(--background-primary);
+    }
+    .previewingInGameHeader_e17343 {
+        background-color: hsl(var(--primary-900-hsl)/0.9);
     }
 }
