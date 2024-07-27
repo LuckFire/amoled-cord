@@ -1171,7 +1171,10 @@
 	:is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 {
 	  background-color: var(--background-primary);
 	}
-	:is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 > div, :is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 .wrapper_adcaac > div {
-	  background: var(--background-primary) !important;
+	:is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 .wrapper_c721cc,
+	:is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 .panel_bf1a22,
+	:is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 .container_adcaac,
+	:is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 .container_b2ca13 {
+	  background-color: var(--background-primary);
 	}
 }

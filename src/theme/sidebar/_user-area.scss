@@ -1,8 +1,12 @@
 :is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 {
     .panels_a4d4d9 {
         background-color: var(--background-primary);
-        > div, .wrapper_adcaac > div {
-            background: var(--background-primary) !important;
+        // Quest Bar -> Activity Panel -> RTC Connection -> Account
+        .wrapper_c721cc,
+        .panel_bf1a22,
+        .container_adcaac,
+        .container_b2ca13 {
+            background-color: var(--background-primary);
         }
     }
 }
