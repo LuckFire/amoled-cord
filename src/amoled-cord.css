@@ -1,5 +1,10 @@
 /* These are stolen from the vencord css-snippets channel. - https://discord.gg/vencord */
 
+/* Credit to me */
+#vc-spotify-player {
+  background-color: var(--background-primary);
+}
+
 /* Credit to refact0r 
 This enlarges the gifs browser */
 [class^="positionContainer_"] {
