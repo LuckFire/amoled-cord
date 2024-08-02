@@ -1,22 +1,10 @@
 /* These are stolen from the vencord css-snippets channel. - https://discord.gg/vencord */
 
-/* Credit to seasw.
-Rounded Embed Borders
-Inspired by the Opera GX Theme */
-#app-mount .embedFull__14919 {
-    border: 3px solid;
-    border-radius: 15px;
-  }
-
-/* Credit to computing_cat
-Changes the emoji in the chat bar into Shiggy */
-.sprite__294b3.spriteColored__9a869 {
-  background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-  background-size: 24px;
-}
-.sprite__294b3.spriteGreyscale__750f4 {
-  mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
-  mask-size: 24px;
+/* Credit to Colyn (https://discord.com/users/355057144363614208)
+Match Activity Buttons Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=activityBiteSizePopout_] button,
+.custom-profile-theme [class^=activitySimplifiedProfile_] button {
+  background-color: var(--profile-gradient-button-color)!important;
 }
 
 /* Credit to refact0r 
