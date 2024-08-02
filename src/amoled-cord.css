@@ -1,12 +1,5 @@
 /* These are stolen from the vencord css-snippets channel. - https://discord.gg/vencord */
 
-/* Credit to Colyn (https://discord.com/users/355057144363614208)
-Match Activity Buttons Color with Profile Button Color for Custom Profiles */
-.custom-profile-theme [class^=activityBiteSizePopout_] button,
-.custom-profile-theme [class^=activitySimplifiedProfile_] button {
-  background-color: var(--profile-gradient-button-color)!important;
-}
-
 /* Credit to refact0r 
 This enlarges the gifs browser */
 [class^="positionContainer_"] {
