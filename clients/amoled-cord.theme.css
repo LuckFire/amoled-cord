@@ -428,7 +428,7 @@ html.theme-dark .theme-light .root_f9a4c9,
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .wrapper_ef319f {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .wrapper_f7e168 {
   background-color: var(--background-tertiary);
 }
 
@@ -660,22 +660,22 @@ html.theme-dark .theme-light .root_f9a4c9,
   background-color: hsl(var(--primary-900-hsl)/0.9);
 }
 
-:is(.theme-dark, .platform-overlay) .widget_eb6bd1.default_eb6bd1 {
+:is(.theme-dark, .platform-overlay) .widget_cbf964.default_cbf964 {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .platform-overlay) .widget_eb6bd1.unpinned_eb6bd1 {
+:is(.theme-dark, .platform-overlay) .widget_cbf964.unpinned_cbf964 {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .platform-overlay) .bar_eb6bd1 {
+:is(.theme-dark, .platform-overlay) .bar_cbf964 {
   background-color: hsl(var(--primary-900-hsl)/0.85);
 }
-:is(.theme-dark, .platform-overlay) .bar_eb6bd1.default_eb6bd1, :is(.theme-dark, .platform-overlay) .bar_eb6bd1.unpinned_eb6bd1 {
+:is(.theme-dark, .platform-overlay) .bar_cbf964.default_cbf964, :is(.theme-dark, .platform-overlay) .bar_cbf964.unpinned_cbf964 {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .platform-overlay) .body_eb6bd1.default_eb6bd1, :is(.theme-dark, .platform-overlay) .body_eb6bd1.unpinned_eb6bd1 {
+:is(.theme-dark, .platform-overlay) .body_cbf964.default_cbf964, :is(.theme-dark, .platform-overlay) .body_cbf964.unpinned_cbf964 {
   background-color: var(--background-primary);
 }
-:is(.theme-dark, .platform-overlay) .body_eb6bd1.pinned_eb6bd1 {
+:is(.theme-dark, .platform-overlay) .body_cbf964.pinned_cbf964 {
   background-color: hsl(var(--primary-900-hsl)/0.75);
 }
 
@@ -712,10 +712,10 @@ html.theme-dark .theme-light .root_f9a4c9,
   background-color: var(--background-secondary);
 }
 
-:is(.theme-dark, .platform-overlay) .option_d2da9c:not(.selected_d2da9c, :hover) {
+:is(.theme-dark, .platform-overlay) .option_b877fa:not(.selected_b877fa, :hover) {
   background-color: var(--primary-600);
 }
-:is(.theme-dark, .platform-overlay) .disabled_d2da9c:not(.selected_d2da9c, :hover) {
+:is(.theme-dark, .platform-overlay) .disabled_b877fa:not(.selected_b877fa, :hover) {
   color: var(--primary-600);
 }
 
@@ -1034,7 +1034,7 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 :is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .tierHeaderContent_da77bd {
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .background_a4fd01 {
+:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .background_bfac79 {
   color: var(--background-secondary-alt);
 }
 :is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .prefixInput_a6236d {
@@ -1114,7 +1114,7 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   border-color: var(--background-secondary);
   background-color: var(--background-primary) !important;
 }
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .notches_e5cdf3.gray_e5cdf3 {
+:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .notches_a1107d.gray_a1107d {
   color: var(--background-primary);
 }
 :is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .container_c67e31 {
@@ -1128,10 +1128,10 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .option_d2da9c:not(.selected_d2da9c, :hover) {
+:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .option_b877fa:not(.selected_b877fa, :hover) {
   background-color: var(--background-accent);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .disabled_d2da9c:not(.selected_d2da9c, :hover) {
+:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .disabled_b877fa:not(.selected_b877fa, :hover) {
   color: var(--background-accent);
 }
 
@@ -1163,10 +1163,6 @@ body .contentWrapper-3RqEiS .accordionContainer-vSTU_l {
 }
 :is(.theme-dark, .theme-midnight) #app-mount .sidebar_a4d4d9 .hasBanner_fd6364 [class*=scroller-] {
   background-color: transparent;
-}
-
-#app-mount .sidebarContianer_d2194f :is(.theme-dark, .theme-midnight) .topRow_d936aa, #app-mount .sidebarContianer_d2194f :is(.theme-dark, .theme-midnight) .bottomRowAction_d936aa, #app-mount .sidebarContianer_d2194f :is(.theme-dark, .theme-midnight) .header_f51af4, #app-mount .sidebarContianer_d2194f :is(.theme-dark, .theme-midnight) .container_f51af4 {
-  background-color: hsl(var(--black-hsl)/0.8) !important;
 }
 
 :is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .panels_a4d4d9 {

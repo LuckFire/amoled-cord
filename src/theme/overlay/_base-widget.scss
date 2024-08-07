@@ -1,24 +1,24 @@
 :is(.theme-dark, .platform-overlay) {
-    .widget_eb6bd1 {
-        &.default_eb6bd1 {
+    .widget_cbf964 {
+        &.default_cbf964 {
             background-color: var(--background-primary);
         }
-        &.unpinned_eb6bd1 {
+        &.unpinned_cbf964 {
             background-color: var(--background-tertiary);
         }
     }
 
-    .bar_eb6bd1 {
+    .bar_cbf964 {
         background-color: hsl(var(--primary-900-hsl)/0.85);
-        &.default_eb6bd1, &.unpinned_eb6bd1 {
+        &.default_cbf964, &.unpinned_cbf964 {
             background-color: var(--background-primary);
         }
     }
-    .body_eb6bd1 {
-        &.default_eb6bd1, &.unpinned_eb6bd1 {
+    .body_cbf964 {
+        &.default_cbf964, &.unpinned_cbf964 {
             background-color: var(--background-primary);
         }
-        &.pinned_eb6bd1 {
+        &.pinned_cbf964 {
             background-color: hsl(var(--primary-900-hsl)/0.75);
         }
     }
