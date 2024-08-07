@@ -39,7 +39,7 @@
         background-color: var(--background-primary) !important;
     }
     // Voice & Video
-    .notches_e5cdf3.gray_e5cdf3 {
+    .notches_a1107d.gray_a1107d {
         color: var(--background-primary);
     }
     // Keybinds
@@ -56,10 +56,10 @@
         }
     }
     // Game Overlay
-    .option_d2da9c:not(.selected_d2da9c, :hover) {
+    .option_b877fa:not(.selected_b877fa, :hover) {
         background-color: var(--background-accent);
     }
-    .disabled_d2da9c:not(.selected_d2da9c, :hover) {
+    .disabled_b877fa:not(.selected_b877fa, :hover) {
         color: var(--background-accent);
     }
 }
