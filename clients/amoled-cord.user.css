@@ -3,7 +3,7 @@
 	@name AMOLED-Cord
 	@author LuckFire
 	@description A basically pitch black theme for Discord. Lights out, baby!
-	@version 4.1.4
+	@version 4.1.5
 	@namespace https://github.com/discord-extensions/amoled-cord
 	@license MIT
 	==/UserStyle== */
@@ -81,7 +81,7 @@
 	  --background-floating: var(--primary-830) !important;
 	  --background-message-hover: hsl(var(--white-hsl)/0.015) !important;
 	  --background-mobile-primary: var(--black) !important;
-	  --background-mobile-secondary: var(--primary-860) !important;
+	  --background-mobile-secondary: var(--primary-830) !important;
 	  --background-modifier-accent: hsl(var(--primary-760-hsl)/0.48) !important;
 	  --background-modifier-active: hsl(var(--primary-760-hsl)/0.48) !important;
 	  --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
@@ -91,9 +91,12 @@
 	  --background-secondary: var(--primary-830) !important;
 	  --background-secondary-alt: var(--primary-800) !important;
 	  --background-tertiary: var(--primary-860) !important;
+	  --bg-base-primary: var(--black) !important;
+	  --bg-base-secondary: var(--primary-830) !important;
+	  --bg-base-tertiary: var(--primary-860) !important;
 	  --bg-mod-faint: var(--black) !important;
 	  --bg-surface-overlay: var(--primary-830) !important;
-	  --bg-surface-raised: var(--primary-700) !important;
+	  --bg-surface-raised: var(--black) !important;
 	  --button-outline-primary-background: var(--primary-700) !important;
 	  --button-outline-primary-background-active: var(--primary-600) !important;
 	  --button-outline-primary-background-hover: var(--primary-630) !important;
@@ -208,7 +211,7 @@
 	    ) !important;
 	    --background-mobile-secondary: color-mix(
 	        in oklab,
-	        var(--primary-860) 100%,
+	        var(--primary-830) 100%,
 	        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
 	    ) !important;
 	    --background-modifier-accent: color-mix(
@@ -256,6 +259,21 @@
 	        var(--primary-860) 100%,
 	        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
 	    ) !important;
+	    --bg-base-primary: color-mix(
+	        in oklab,
+	        var(--black) 100%,
+	        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+	    );
+	    --bg-base-secondary: color-mix(
+	        in oklab,
+	        var(--primary-830) 100%,
+	        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+	    );
+	    --bg-base-tertiary: color-mix(
+	        in oklab,
+	        var(--primary-860) 100%,
+	        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+	    );
 	    --bg-mod-faint: color-mix(
 	        in oklab,
 	        var(--black) 100%,
@@ -268,7 +286,7 @@
 	    ) !important;
 	    --bg-surface-raised: color-mix(
 	        in oklab,
-	        var(--primary-700) 100%,
+	        var(--black) 100%,
 	        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
 	    ) !important;
 	    --channeltextarea-background: color-mix(
@@ -892,6 +910,15 @@
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .searchIcon_f69601, :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .closeIcon_f69601 {
 	  color: var(--interactive-normal);
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .container_a56260, :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .bannerImage_fc867b {
+	  background-color: var(--background-primary) !important;
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .contentContainer_a56260 {
+	  background: linear-gradient(180deg, hsla(var(--black-hsl)/0.5) 0%, var(--background-primary) 257px) !important;
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .darkThemeGradient_f2bc91 {
+	  background: linear-gradient(0deg, var(--background-secondary-alt) 0%, hsla(var(--primary-800-hsl)/0.95) 20.31%, hsla(var(--primary-800-hsl)/0) 100%);
 	}
 	
 	:is(.theme-dark, .theme-midnight) #app-mount .page_d20375 {

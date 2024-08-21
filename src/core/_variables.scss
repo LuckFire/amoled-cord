@@ -70,7 +70,7 @@ html.theme-dark .theme-light .root_f9a4c9,
     --background-floating: var(--primary-830) !important;
     --background-message-hover: hsl(var(--white-hsl)/0.015) !important;
     --background-mobile-primary: var(--black) !important;
-    --background-mobile-secondary: var(--primary-860) !important;
+    --background-mobile-secondary: var(--primary-830) !important;
     --background-modifier-accent: hsl(var(--primary-760-hsl)/0.48) !important;
     --background-modifier-active: hsl(var(--primary-760-hsl)/0.48) !important;
     --background-modifier-hover: hsl(var(--primary-760-hsl)/0.4) !important;
@@ -80,9 +80,12 @@ html.theme-dark .theme-light .root_f9a4c9,
     --background-secondary: var(--primary-830) !important;
     --background-secondary-alt: var(--primary-800) !important;
     --background-tertiary: var(--primary-860) !important;
+    --bg-base-primary: var(--black) !important;
+    --bg-base-secondary: var(--primary-830) !important;
+    --bg-base-tertiary: var(--primary-860) !important;
     --bg-mod-faint: var(--black) !important;
     --bg-surface-overlay: var(--primary-830) !important;
-    --bg-surface-raised: var(--primary-700) !important;
+    --bg-surface-raised: var(--black) !important;
     --button-outline-primary-background: var(--primary-700) !important;
     --button-outline-primary-background-active: var(--primary-600) !important;
     --button-outline-primary-background-hover: var(--primary-630) !important;
@@ -200,7 +203,7 @@ html.theme-dark .theme-light .root_f9a4c9,
         ) !important;
         --background-mobile-secondary: color-mix(
             in oklab,
-            var(--primary-860) 100%,
+            var(--primary-830) 100%,
             var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
         ) !important;
         --background-modifier-accent: color-mix(
@@ -248,6 +251,21 @@ html.theme-dark .theme-light .root_f9a4c9,
             var(--primary-860) 100%,
             var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
         ) !important;
+        --bg-base-primary: color-mix(
+            in oklab,
+            var(--black) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        );
+        --bg-base-secondary: color-mix(
+            in oklab,
+            var(--primary-830) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        );
+        --bg-base-tertiary: color-mix(
+            in oklab,
+            var(--primary-860) 100%,
+            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        );
         --bg-mod-faint: color-mix(
             in oklab,
             var(--black) 100%,
@@ -260,7 +278,7 @@ html.theme-dark .theme-light .root_f9a4c9,
         ) !important;
         --bg-surface-raised: color-mix(
             in oklab,
-            var(--primary-700) 100%,
+            var(--black) 100%,
             var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
         ) !important;
         --channeltextarea-background: color-mix(
