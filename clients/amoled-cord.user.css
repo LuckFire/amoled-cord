@@ -911,6 +911,15 @@
 	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .searchIcon_f69601, :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .closeIcon_f69601 {
 	  color: var(--interactive-normal);
 	}
+	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .container_a56260, :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .bannerImage_fc867b {
+	  background-color: var(--background-primary) !important;
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .contentContainer_a56260 {
+	  background: linear-gradient(180deg, hsla(var(--black-hsl)/0.5) 0%, var(--background-primary) 257px) !important;
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .darkThemeGradient_f2bc91 {
+	  background: linear-gradient(0deg, var(--background-secondary-alt) 0%, hsla(var(--primary-800-hsl)/0.95) 20.31%, hsla(var(--primary-800-hsl)/0) 100%);
+	}
 	
 	:is(.theme-dark, .theme-midnight) #app-mount .page_d20375 {
 	  background-color: var(--background-primary) !important;
