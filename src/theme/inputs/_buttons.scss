@@ -1,5 +1,6 @@
 :is(.theme-dark, .theme-midnight) #app-mount {
-    .button_adcaac.buttonColor_adcaac, .button_adcaac .buttonColor_adcaac {
+    .button_adcaac.buttonColor_adcaac:not(.buttonActive_adcaac),
+    .button_adcaac .buttonColor_adcaac:not(.buttonActive_adcaac) {
         background-color: var(--button-secondary-background);
         &:hover {
             background-color: var(--button-secondary-background-hover);

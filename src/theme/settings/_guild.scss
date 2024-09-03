@@ -4,15 +4,12 @@
         background-color: var(--background-secondary-alt);
     }
     // Stickers
-    .tierHeaderContent_da77bd {
-        background-color: var(--background-secondary);
-    }
     .background_bfac79 {
         color: var(--background-secondary-alt);
     }
     // Custom Invite Link
     .prefixInput_a6236d {
-        background-color: var(--input-background);
+        background-color: hsl(var(--primary-700-hsl)/0.2);
     }
     // Safety Setup
     .backgroundContainer_ceff93 {
@@ -33,17 +30,18 @@
     // Audit Log
     .auditLog_eebd33 {
         border-color: var(--background-secondary);
-        .header_eebd33 {
-            background-color: var(--background-secondary);
+        .headerDefault_eebd33,
+        .headerClickable_eebd33 {
+            background-color: hsl(var(--primary-660-hsl)/0.3);
         }
         .headerExpanded_eebd33 {
-            background-color: var(--background-secondary-alt);
+            background-color: hsl(var(--primary-660-hsl)/0.5);
         }
         .divider_eebd33 {
             background-color: var(--background-modifier-accent);
         }
         .changeDetails_eebd33 {
-            background-color: var(--background-secondary);
+            background-color: hsl(var(--primary-660-hsl)/0.3);
         }
     }
     // Server Boost Status

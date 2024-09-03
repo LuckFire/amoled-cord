@@ -5,10 +5,8 @@
             background-color: var(--background-modifier-hover);
         }
     }
-    .clickableAction_e3f878 {
-        &:hover .action_e3f878 {
-            background-color: var(--background-modifier-hover);
-        }
+    .clickableAction_e3f878:hover .action_e3f878 {
+        background-color: var(--background-modifier-hover);
     }
     .action_e3f878 {
         background-color: var(--background-tertiary);

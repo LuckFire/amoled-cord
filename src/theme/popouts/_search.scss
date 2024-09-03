@@ -9,17 +9,14 @@
         .react-datepicker__header {
             background-color: var(--background-secondary);
         }
-        .react-datepicker__navigation,
-        .react-datepicker__navigation {
-            background-color: var(--background-secondary);
-        }
         .react-datepicker__current-month {
-            background-color: var(--background-secondary);
+            border-bottom-color: var(--background-modifier-accent);
         }
-        .react-datepicker__day--outside-month,
-        .react-datepicker__day--disabled {
-            background-color: var(--background-tertiary);
+        .react-datepicker__day {
+            &.react-datepicker__day--disabled,
+            &.react-datepicker__day--disabled:hover {
+                background-color: var(--background-tertiary);
+            }
         }
-        //  .react-datepicker__day--disabled,  .react-datepicker__day--outside-month, .react-datepicker__day.react-datepicker__day--disabled, .react-datepicker__day.react-datepicker__day--disabled:hover
     }
 }

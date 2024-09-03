@@ -6,23 +6,21 @@
             background-color: var(--background-modifier-hover);
         }
         .invalidPoop_ff31dd {
-            background-color: var(--background-secondary-alt);
+            background-color: hsl(var(--primary-700-hsl)/0.3);
         }
     }
     // Activity Invites
     .invite_f61cb8 {
-        border-color: var(--background-secondary-alt);
-        background-color: var(--background-secondary);
+        border-color: hsl(var(--primary-800-hsl)/0.9);
+        background-color: hsl(var(--primary-830-hsl)/0.6);
     }
-    // Polls -- scuffed but it works
+    // Polls
     .container_a1531c {
-        background-color: var(--background-secondary);
-
-        .enabled_b97e9a[aria-checked="false"] .answerInner_cf2c85:hover {
+        .answer_cf2c85:hover .answerInner_cf2c85.currentlyVoting_cf2c85:not(.selected_cf2c85) {
             outline-color: var(--background-secondary-alt);
         }
 
-        .normalStylesDefault_b5cb3c .votePercentageBar_cf2c85 {
+        .votePercentageBar_cf2c85 {
             background-color: var(--background-secondary-alt);
         }
     }

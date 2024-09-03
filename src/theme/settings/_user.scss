@@ -3,27 +3,13 @@
     .cardPrimary_a298b8.outline_a298b8 {
         background-color: var(--background-secondary);
     }
-    // Connections
-    .connectContainer_e2a436 {
-        background-color: var(--background-secondary);
-        .wrapper_c36ce4:hover {
-            background-color: var(--background-modifier-hover);
-        }
-    }
     // Billing
     .paymentPane_f66684 {
-        background-color: var(--background-secondary);
         .expandedInfo_a28a08 {
             background-color: var(--background-primary);
         }
-        .paginator_f66684 {
-            background-color: var(--background-secondary);
-            .payment_a28a08 {
-                background-color: var(--background-secondary);
-                &.hoverablePayment_a28a08:hover {
-                    background-color: var(--background-modifier-hover);
-                }
-            }
+        .hoverablePayment_a28a08:hover {
+            background-color: var(--background-modifier-hover);
         }
         .bottomDivider_f66684 {
             border-bottom-color: var(--background-modifier-accent);
@@ -31,7 +17,6 @@
     }
     .codeRedemptionRedirect_cb70f4 {
         border-color: var(--background-tertiary);
-        background-color: var(--background-secondary);
     }
     // Appearance
     .preview_a614a7 {
@@ -44,14 +29,17 @@
     }
     // Keybinds
     .container_c67e31 {
-        background-color: var(--input-background);
+        background-color: hsl(var(--primary-800-hsl)/0.6);
+        &:not(:hover, :focus-within) {
+            border-color: hsl(var(--primary-800-hsl)/0.8);
+        }
     }
     // Registered Games
     .game_fd966d {
         box-shadow: none;
         border-bottom: 1px solid var(--background-modifier-accent);
         .gameNameInput_fd966d:is(:hover, :focus) {
-            border-color: var(--background-tertiary);
+            border-color: hsl(var(--primary-800-hsl)/0.6);
             background-color: var(--background-secondary);
         }
     }

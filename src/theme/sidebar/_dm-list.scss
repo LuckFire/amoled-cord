@@ -1,8 +1,5 @@
 :is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 {
-    .searchBar_f0963d {
-        background-color: var(--background-primary);
-        .searchBarComponent_f0963d {
-            background-color: var(--background-secondary);
-        }
+    .searchBarComponent_f0963d {
+        background-color: var(--background-secondary);
     }
 }

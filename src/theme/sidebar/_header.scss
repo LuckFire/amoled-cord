@@ -1,14 +1,5 @@
 :is(.theme-dark, .theme-midnight) #app-mount .sidebar_a4d4d9 {
-    .container_fd6364:not(.hasBanner_fd6364) .header_fd6364 {
-        background-color: var(--background-primary);
-        &:hover {
-            background-color: var(--background-secondary);
-        }
-    }
     .bannerImage_fd6364:before {
         background: linear-gradient(to bottom, var(--primary-900), transparent 100%);
-    }
-    .hasBanner_fd6364 [class*="scroller-"] {
-        background-color: transparent;
     }
 }

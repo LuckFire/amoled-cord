@@ -1,11 +1,8 @@
-:is(.theme-dark, .theme-midnight) #app-mount .sidebar_a4d4d9 {
-    nav {
+:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 {
+    .sidebar_a4d4d9,
+    .container_ee69e0,
+    .sidebarContainer_a3a4ce,
+    .privateChannels_f0963d {
         background-color: var(--background-primary);
-    }
-    [class*="scroller"] {
-        background-color: var(--background-primary);
-        &.fade_eed6a8 {
-            background-color: transparent;
-        }
     }
 }
