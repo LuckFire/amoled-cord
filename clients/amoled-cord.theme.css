@@ -204,9 +204,9 @@ html.theme-dark .theme-light .root_f9a4c9,
         hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%)
     ) !important;
     --background-modifier-accent-2: color-mix(
-    	in oklab,
-    	hsl(var(--primary-760-hsl) / 0.48) 100%,
-    	hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%)
+        in oklab,
+        hsl(var(--primary-760-hsl) / 0.48) 100%,
+        hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%)
     ) !important;
     --background-modifier-active: color-mix(
         in oklab,
@@ -339,14 +339,14 @@ html.theme-dark .theme-light .root_f9a4c9,
         var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
     --deprecated-text-input-bg: color-mix(
-    	in oklab,
-    	var(--primary-800) 100%,
-    	var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        in oklab,
+        var(--primary-800) 100%,
+        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
     --deprecated-text-input-border-disabled: color-mix(
-    	in oklab,
-    	var(--primary-800) 100%,
-    	var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
+        in oklab,
+        var(--primary-800) 100%,
+        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
     --home-background: color-mix(
         in oklab,
@@ -404,9 +404,9 @@ html.theme-dark .theme-light .root_f9a4c9,
         var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
     --scrollbar-thin-track: color-mix(
-    	in oklab,
-    	hsl(var(--black-hsl) / 0) 100%,
-    	hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0) var(--theme-base-color-amount, 0%)
+        in oklab,
+        hsl(var(--black-hsl) / 0) 100%,
+        hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0) var(--theme-base-color-amount, 0%)
     ) !important;
     --text-muted: color-mix(
         in oklab,
