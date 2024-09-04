@@ -443,7 +443,7 @@ html.theme-dark .theme-light .root_f9a4c9,
 :is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .loadingCard_a6d69a {
   background-color: var(--background-tertiary);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .sortDropdown_a6d69a, :is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .tag_a6d69a, :is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .tagsButton_a6d69a {
+:is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .sortDropdown_a6d69a, :is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .tag_a6d69a:not(.selected_c993da), :is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .tagsButton_a6d69a {
   background-color: var(--background-secondary);
 }
 :is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a .pill_c993da.clickable_c993da:not(.disabled_c993da):hover {
