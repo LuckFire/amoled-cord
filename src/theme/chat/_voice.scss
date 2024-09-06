@@ -8,4 +8,10 @@
     .container_dc3fc4:hover {
         background-color: var(--background-modifier-hover);
     }
+    .colorable_ef18ee.primaryDark_ef18ee {
+        background-color: var(--background-secondary-alt);
+        &.active_ef18ee, &:hover {
+            background-color: var(--background-modifier-hover);
+        }
+    }
 }

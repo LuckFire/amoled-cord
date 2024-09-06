@@ -1,5 +1,12 @@
 :is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a {
-    .mainCard_a6d69a, .container_a03b48, .container_ddbb27, .container_a039eb {
+    // Theme cards and ignore hovers/active/open states on list/gallery views
+    .mainCard_a6d69a:not(
+            .container_a57509:is(.isOpen_a57509, :hover, :active),
+            .container_d331f1:is(.isOpen_d331f1, :active)
+        ),
+    .container_a03b48,
+    .container_ddbb27,
+    .container_a039eb {
         background-color: var(--background-tertiary);
     }
     .matchingPostsRow_a6d69a {
@@ -8,26 +15,16 @@
     .loadingCard_a6d69a {
         background-color: var(--background-tertiary);
     }
-    .container_a57509 {
-        &:hover {
-            background-color: var(--background-modifier-hover);
-        }
-        &:active {
-            background-color: var(--background-modifier-active);
-        }
-        &.isOpen_a57509 {
-            background-color: var(--background-modifier-selected);
-        }
-        .textContentFooter_a57509 {
-            background: transparent;
-        }
+    .sortDropdown_a6d69a, .tag_a6d69a:not(.selected_c993da), .tagsButton_a6d69a {
+        background-color: var(--background-secondary);
     }
-    .container_d331f1 {
-        &:active {
-            background-color: var(--background-modifier-active);
-        }
-        &.isOpen_d331f1 {
-            background-color: var(--background-modifier-selected);
+    .pill_c993da.clickable_c993da:not(.disabled_c993da):hover {
+        background-color: var(--background-secondary);
+    }
+    .textContentFooter_a57509 {
+        background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0.97) 36px, hsl(var(--black-hsl)/0.4));
+        &.noTags_a57509 {
+            background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0));
         }
     }
 }

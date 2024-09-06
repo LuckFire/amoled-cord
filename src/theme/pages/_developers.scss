@@ -1,14 +1,8 @@
 // https://discord.com/developers
-body {
-    // Misc Stuff
-    .colorLight-1o6rnK {
-        background-color: var(--background-tertiary);
-    }
-    .borderPrimary-1l1Cvj {
-        border-color: var(--background-secondary);
-    }
-    .divider-_0um2u {
-        background-color: var(--background-modifier-accent);
+.theme-dark body {
+    // Sidebar
+    .wrapper-28jGDw {
+        background-color: var(--background-primary);
     }
     .hasBorder-17PTeu {
         border-bottom-color: var(--background-modifier-accent);
@@ -17,72 +11,89 @@ body {
         border-color: var(--background-secondary);
         background-color: var(--input-background);
     }
-    .h6-3NIpOq {
-        background: var(--background-primary);
+
+    // Documentation
+    .contentWrapper-1Cwe5m hr {
+        background-color: hsl(var(--primary-760-hsl) / 0.6);
+    }
+    .pre-398F0p {
+        background-color: var(--background-tertiary);
+    }
+    .mdxCard-iv9u29:hover {
+        background-color: var(--card-secondary-pressed-bg);
     }
 
-    // Content Scrollers
-    .scrollbar-1NUwvY .thumb-3r19ww {
-        background-color: var(--background-secondary-alt) !important;
+    // Panel
+    .colorDark-311Rq5,
+    .colorLight-1o6rnK {
+        background-color: var(--background-tertiary);
+    }
+    .borderPrimary-1l1Cvj {
+        border-color: var(--background-secondary);
     }
 
-    // Dropdowns
-    [class$="control"] {
+    // Tooltips
+    .tooltip-2YjxAH {
+        background-color: var(--background-floating);
+    }
+    .top-3SkhL3:after {
+        border-top-color: var(--background-floating);
+    }
+    .bottom-1VilIE:after {
+        border-bottom-color: var(--background-floating);
+    }
+    .left-3N6_YX:after {
+        border-left-color: var(--background-floating);
+    }
+    .right-2v0SN-:after {
+        border-right-color: var(--background-floating);
+    }
+    .grey-IHse8x {
+        background-color: var(--background-secondary-alt);
+        &:after {
+            border-top-color: var(--background-secondary-alt) !important;
+        }
+    }
+
+    // Forms
+    .divider-_0um2u {
+        background-color: var(--background-modifier-accent);
+    }
+
+    // Selects
+    [class$="-control"] {
         border-color: var(--background-secondary);
         &:hover {
             border-color: var(--background-secondary-alt);
         }
     }
-    .css-1129voj-menu {
+    .css-gqriav-menu {
         border-color: var(--background-secondary);
         box-shadow: var(--background-secondary) 0px 1px 5px 0px;
         background-color: var(--background-floating);
     }
-    .css-lbnt4y-option {
+    .css-17vfzgn-option {
         background-color: var(--background-modifier-selected);
     }
-    .css-1jrkz9i-option {
+    .css-ic7iun-option {
         background-color: var(--background-modifier-hover);
     }
 
     // Modals
     .modalContent-31OOYM {
-        box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
         background-color: var(--modal-background);
         .modalFooter-3193QM {
             border: none;
-            box-shadow: inset 0 1px 0 hsl(var(--primary-900-hsl)/.6);
             background-color: var(--modal-footer-background);
         }
-    }
-
-    // Inputs
-    .input-2g-os5, .inputWrapper-3a4ywb {
-        border-color: var(--background-secondary);
-        background-color: var(--input-background);
-    }
-    .multiInputBlur-2Gn0-C {
-        border-color: var(--background-secondary);
-        background-color: var(--input-background);
-    }
-
-    // Grids
-    .grid-2a45cj {
-        .header-1JzP0t {
-            background-color: var(--background-tertiary);
-        }
-        .rowWrapper-2RxnWO {
-            background-color: var(--background-secondary);
-            &:hover::before {
-                background-color: var(--background-secondary-alt);
-            }
-            &::after {
-                border-color: var(--background-secondary-alt) !important;
-            }
+        .divider-Qljx2k {
+            background-color: var(--background-modifier-accent);
         }
     }
+
     // Paginator
-    .disabled-29cfPA, .disabled-29cfPA:hover {
+    .disabled-29cfPA,
+    .disabled-29cfPA:hover {
         border-color: var(--background-secondary);
         background-color: var(--background-tertiary);
     }
@@ -103,36 +114,10 @@ body {
         background-color: var(--background-secondary);
     }
 
-    // Sidebar
-    .wrapper-28jGDw {
-        background-color: var(--background-tertiary);
-        .scrollbar-1NUwvY {
-            background-color: var(--background-tertiary) !important;
-            .pad-1eAWXq {
-                background-color: var(--background-tertiary) !important;
-            }
-        }
-    }
-
     // Content
     .contentWrapper-3RqEiS {
-        background-color: var(--background-primary);
-        .scrollbar-1NUwvY {
-            background-color: var(--background-primary) !important;
-        }
-        .pad-1eAWXq {
-            background-color: var(--background-primary) !important;
-        }
-        .cardOptionTile-30nXFk:hover {
-            background-color: var(--background-modifier-hover);
-        }
-        .cardOptionTileSelected-wkswQf {
-            background-color: var(--background-modifier-active);
-        }
-
         // Applications
         .cardLink-H6gvNe {
-            background-color: var(--background-secondary);
             &:hover {
                 background-color: var(--background-secondary-alt);
             }
@@ -144,10 +129,9 @@ body {
         .avatarUploaderInner-yEhTv5 {
             background-color: var(--background-primary);
         }
-
-        // Server Insights - Partner
-        .accordionContainer-vSTU_l {
-            background-color: var(--background-tertiary);
+        // Applications - Rich Presence
+        .invite-1J5PX7 {
+            border-color: var(--background-modifier-accent);
         }
     }
 }

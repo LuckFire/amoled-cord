@@ -1,7 +1,4 @@
 :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 {
-    .pageWrapper_a3a4ce {
-        background-color: var(--background-primary);
-    }
     .searchBox_d83b4d {
         background-color: var(--input-background);
         input {
@@ -15,7 +12,7 @@
         }
     }
     // Quests
-    .container_a56260, .bannerImage_fc867b {
+    .container_a56260 {
         background-color: var(--background-primary) !important;
     }
     .contentContainer_a56260 {
