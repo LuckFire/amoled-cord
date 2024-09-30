@@ -614,7 +614,7 @@
 	:is(.theme-dark, .theme-midnight) #app-mount .root_f9a4c9 .header_da6bd8 {
 	  background-color: var(--modal-background);
 	}
-	:is(.theme-dark, .theme-midnight) #app-mount .root_f9a4c9 .default_a467ac:not(:hover) {
+	:is(.theme-dark, .theme-midnight) #app-mount .root_f9a4c9 .default_a467ac {
 	  background-color: var(--background-primary);
 	}
 	
@@ -861,11 +861,8 @@
 	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .searchIcon_f69601, :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .closeIcon_f69601 {
 	  color: var(--interactive-normal);
 	}
-	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .container_a56260 {
-	  background-color: var(--background-primary) !important;
-	}
-	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .contentContainer_a56260 {
-	  background: linear-gradient(180deg, hsla(var(--black-hsl)/0.5) 0%, var(--background-primary) 257px) !important;
+	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .backdrop_accde0 {
+	  background-color: var(--background-primary);
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .darkThemeGradient_f2bc91 {
 	  background: linear-gradient(0deg, var(--background-secondary-alt) 0%, hsla(var(--primary-800-hsl)/0.95) 20.31%, hsla(var(--primary-800-hsl)/0) 100%);
@@ -903,6 +900,10 @@
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .container_cac32e .opaqueBackground_eb6c38 {
 	  background-color: hsl(var(--primary-800-hsl)/0.85);
+	}
+	
+	:is(.theme-dark, .theme-midnight) #app-mount .shop_e77fa3 .headerBarTransparentDarkBackground_d8354c {
+	  background-color: hsl(var(--black-hsl)/0.8) !important;
 	}
 	
 	:is(.theme-dark, .theme-midnight) #app-mount .popout_a35965 .interactionsContainerHeader_a35965 {
@@ -995,7 +996,7 @@
 	  background-color: var(--background-primary);
 	}
 	
-	:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .default_a467ac:not(:hover) {
+	:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .default_a467ac {
 	  background-color: var(--background-primary);
 	}
 	
