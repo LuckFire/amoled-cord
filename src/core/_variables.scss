@@ -61,14 +61,12 @@
     --primary-900-hsl: 0 calc(var(--saturation-factor, 1)*0%) calc(var(--lightness-900, 0) + 0.8%);
 }
 
-.theme-dark,
-html.theme-dark .theme-light .root_f9a4c9,
-.theme-light.popout_f6639d {
+.theme-dark {
     --activity-card-background: var(--primary-830) !important;
     --autocomplete-bg: var(--primary-860) !important;
     --background-accent: var(--primary-760) !important;
     --background-floating: var(--primary-830) !important;
-    --background-message-hover: hsl(var(--white-hsl)/0.015) !important;
+    --background-message-hover: hsl(var(--primary-530-hsl)/0.06) !important;
     --background-mobile-primary: var(--black) !important;
     --background-mobile-secondary: var(--primary-830) !important;
     --background-modifier-accent: hsl(var(--primary-760-hsl)/0.48) !important;
@@ -103,17 +101,23 @@ html.theme-dark .theme-light .root_f9a4c9,
     --card-primary-pressed-bg: var(--primary-860) !important;
     --card-secondary-bg: var(--primary-830) !important;
     --card-secondary-pressed-bg: var(--primary-860) !important;
-    --channel-text-area-placeholder: var(--primary-400) !important;
+    --channel-icon: var(--plum-10) !important;
+    --channel-text-area-placeholder: var(--plum-11) !important;
+    --channels-default: var(--plum-9) !important;
     --channeltextarea-background: var(--primary-830) !important;
     --chat-background: var(--black) !important;
     --chat-border: var(--primary-700) !important;
-    --chat-input-container-background: var(--primary-600) !important;
     --deprecated-store-bg: var(--black) !important;
     --deprecated-text-input-bg: var(--primary-800) !important;
     --deprecated-text-input-border-disabled: var(--primary-800) !important;
+    --embed-title: var(--plum-2) !important;
+    --header-muted: var(--plum-10) !important;
+    --header-primary: var(--plum-2) !important;
+    --header-secondary: var(--plum-8) !important;
     --home-background: var(--black) !important;
     --input-background: var(--primary-800) !important;
     --input-focused-border: hsl(var(--white-hsl)/0.03) !important;
+    --input-placeholder-text: var(--plum-9) !important;
     --live-stage-tile-border: hsl(var(--primary-860-hsl)/0.6) !important;
     --modal-background: var(--primary-860) !important;
     --modal-footer-background: var(--primary-900) !important;
@@ -123,8 +127,13 @@ html.theme-dark .theme-light .root_f9a4c9,
     --scrollbar-auto-track: var(--primary-860) !important;
     --scrollbar-thin-thumb: var(--primary-800) !important;
     --scrollbar-thin-track: hsl(var(--black-hsl)/0) !important;
-    --text-muted: var(--primary-345) !important;
-    --text-normal: var(--primary-300) !important;
+    --text-low-contrast: var(--plum-12) !important;
+    --text-message-preview-low-sat: var(--plum-9) !important;
+    --text-muted: var(--plum-10) !important;
+    --text-normal: var(--plum-4) !important;
+    --text-primary: var(--plum-4) !important;
+    --text-secondary: var(--plum-8) !important;
+    --textbox-markdown-syntax: var(--plum-9) !important;
 
     --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;
     --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
@@ -175,7 +184,7 @@ html.theme-dark .theme-light .root_f9a4c9,
         ) !important;
         --background-message-hover: color-mix(
             in oklab,
-            hsl(var(--white-hsl) / 0.015) 100%,
+            hsl(var(--primary-530-hsl) / 0.06) 100%,
             hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%)
         ) !important;
         --background-mobile-primary: color-mix(
@@ -300,7 +309,22 @@ html.theme-dark .theme-light .root_f9a4c9,
         ) !important;
         --channel-text-area-placeholder: color-mix(
             in oklab,
-            var(--primary-400) 100%,
+            var(--plum-11) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --channel-icon: color-mix(
+            in oklab,
+            var(--plum-10) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --channel-text-area-placeholder: color-mix(
+            in oklab,
+            var(--plum-11) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --channels-default: color-mix(
+            in oklab,
+            var(--plum-9) 100%,
             var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
         ) !important;
         --channeltextarea-background: color-mix(
@@ -318,11 +342,6 @@ html.theme-dark .theme-light .root_f9a4c9,
             var(--primary-700) 100%,
             var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
         ) !important;
-        --chat-input-container-background: color-mix(
-            in oklab,
-            var(--primary-600) 100%,
-            var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
-        ) !important;
         --deprecated-store-bg: color-mix(
             in oklab,
             var(--black) 100%,
@@ -338,6 +357,26 @@ html.theme-dark .theme-light .root_f9a4c9,
             var(--primary-800) 100%,
             var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
         ) !important;
+        --embed-title: color-mix(
+            in oklab,
+            var(--plum-2) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --header-muted: color-mix(
+            in oklab,
+            var(--plum-10) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --header-primary: color-mix(
+            in oklab,
+            var(--plum-2) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --header-secondary: color-mix(
+            in oklab,
+            var(--plum-8) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
         --home-background: color-mix(
             in oklab,
             var(--black) 100%,
@@ -352,6 +391,11 @@ html.theme-dark .theme-light .root_f9a4c9,
             in oklab,
             hsl(var(--white-hsl) / 0.03) 100%,
             hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.03) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --input-placeholder-text: color-mix(
+            in oklab,
+            var(--plum-9) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
         ) !important;
         --live-stage-tile-border: color-mix(
             in oklab,
@@ -398,14 +442,39 @@ html.theme-dark .theme-light .root_f9a4c9,
             hsl(var(--black-hsl) / 0) 100%,
             hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0) var(--theme-base-color-amount, 0%)
         ) !important;
+        --text-low-contrast: color-mix(
+            in oklab,
+            var(--plum-12) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --text-message-preview-low-sat: color-mix(
+            in oklab,
+            var(--plum-9) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
         --text-muted: color-mix(
             in oklab,
-            var(--primary-345) 100%,
+            var(--plum-10) 100%,
             var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
         ) !important;
         --text-normal: color-mix(
             in oklab,
-            var(--primary-300) 100%,
+            var(--plum-4) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --text-primary: color-mix(
+            in oklab,
+            var(--plum-4) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --text-secondary: color-mix(
+            in oklab,
+            var(--plum-8) 100%,
+            var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+        ) !important;
+        --textbox-markdown-syntax: color-mix(
+            in oklab,
+            var(--plum-9) 100%,
             var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
         ) !important;
     }

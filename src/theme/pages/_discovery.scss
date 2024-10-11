@@ -1,17 +1,4 @@
 :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 {
-    .searchBox_d83b4d {
-        background-color: var(--input-background);
-        input {
-            color: var(--primary-260);
-            &::placeholder {
-                color: var(--primary-400);
-            }
-        }
-        .searchIcon_f69601, .closeIcon_f69601 {
-            color: var(--interactive-normal);
-        }
-    }
-    // Quests
     .backdrop_accde0 {
         background-color: var(--background-primary);
     }
