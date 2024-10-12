@@ -605,7 +605,7 @@
 :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .container_dc3fc4:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .videoWrapper_ba4b17, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .streamHidden_e145d9 {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .videoWrapper_ba4b17, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .streamHidden_e145d9, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .streamPreview_ba4b17 {
   background-color: var(--background-secondary);
 }
 :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .cta_cdef0d {
