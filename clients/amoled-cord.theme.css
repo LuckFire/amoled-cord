@@ -2,7 +2,7 @@
  * @name AMOLED-Cord
  * @author LuckFire
  * @description A basically pitch black theme for Discord. Lights out, baby!
- * @version 4.1.6
+ * @version 4.1.7
  * @invite vYdXbEzqDs
  * @authorId 399416615742996480
  * @source https://github.com/LuckFire/amoled-cord
@@ -73,14 +73,12 @@
   --primary-900-hsl: 0 calc(var(--saturation-factor, 1)*0%) calc(var(--lightness-900, 0) + 0.8%);
 }
 
-.theme-dark,
-html.theme-dark .theme-light .root_f9a4c9,
-.theme-light.popout_f6639d {
+.theme-dark {
   --activity-card-background: var(--primary-830) !important;
   --autocomplete-bg: var(--primary-860) !important;
   --background-accent: var(--primary-760) !important;
   --background-floating: var(--primary-830) !important;
-  --background-message-hover: hsl(var(--white-hsl)/0.015) !important;
+  --background-message-hover: hsl(var(--primary-530-hsl)/0.06) !important;
   --background-mobile-primary: var(--black) !important;
   --background-mobile-secondary: var(--primary-830) !important;
   --background-modifier-accent: hsl(var(--primary-760-hsl)/0.48) !important;
@@ -115,17 +113,23 @@ html.theme-dark .theme-light .root_f9a4c9,
   --card-primary-pressed-bg: var(--primary-860) !important;
   --card-secondary-bg: var(--primary-830) !important;
   --card-secondary-pressed-bg: var(--primary-860) !important;
-  --channel-text-area-placeholder: var(--primary-400) !important;
+  --channel-icon: var(--plum-10) !important;
+  --channel-text-area-placeholder: var(--plum-11) !important;
+  --channels-default: var(--plum-9) !important;
   --channeltextarea-background: var(--primary-830) !important;
   --chat-background: var(--black) !important;
   --chat-border: var(--primary-700) !important;
-  --chat-input-container-background: var(--primary-600) !important;
   --deprecated-store-bg: var(--black) !important;
   --deprecated-text-input-bg: var(--primary-800) !important;
   --deprecated-text-input-border-disabled: var(--primary-800) !important;
+  --embed-title: var(--plum-2) !important;
+  --header-muted: var(--plum-10) !important;
+  --header-primary: var(--plum-2) !important;
+  --header-secondary: var(--plum-8) !important;
   --home-background: var(--black) !important;
   --input-background: var(--primary-800) !important;
   --input-focused-border: hsl(var(--white-hsl)/0.03) !important;
+  --input-placeholder-text: var(--plum-9) !important;
   --live-stage-tile-border: hsl(var(--primary-860-hsl)/0.6) !important;
   --modal-background: var(--primary-860) !important;
   --modal-footer-background: var(--primary-900) !important;
@@ -135,8 +139,13 @@ html.theme-dark .theme-light .root_f9a4c9,
   --scrollbar-auto-track: var(--primary-860) !important;
   --scrollbar-thin-thumb: var(--primary-800) !important;
   --scrollbar-thin-track: hsl(var(--black-hsl)/0) !important;
-  --text-muted: var(--primary-345) !important;
-  --text-normal: var(--primary-300) !important;
+  --text-low-contrast: var(--plum-12) !important;
+  --text-message-preview-low-sat: var(--plum-9) !important;
+  --text-muted: var(--plum-10) !important;
+  --text-normal: var(--plum-4) !important;
+  --text-primary: var(--plum-4) !important;
+  --text-secondary: var(--plum-8) !important;
+  --textbox-markdown-syntax: var(--plum-9) !important;
   --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;
   --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
   --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.16) !important;
@@ -185,7 +194,7 @@ html.theme-dark .theme-light .root_f9a4c9,
     ) !important;
     --background-message-hover: color-mix(
         in oklab,
-        hsl(var(--white-hsl) / 0.015) 100%,
+        hsl(var(--primary-530-hsl) / 0.06) 100%,
         hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.06) var(--theme-base-color-amount, 0%)
     ) !important;
     --background-mobile-primary: color-mix(
@@ -310,7 +319,22 @@ html.theme-dark .theme-light .root_f9a4c9,
     ) !important;
     --channel-text-area-placeholder: color-mix(
         in oklab,
-        var(--primary-400) 100%,
+        var(--plum-11) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --channel-icon: color-mix(
+        in oklab,
+        var(--plum-10) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --channel-text-area-placeholder: color-mix(
+        in oklab,
+        var(--plum-11) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --channels-default: color-mix(
+        in oklab,
+        var(--plum-9) 100%,
         var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
     ) !important;
     --channeltextarea-background: color-mix(
@@ -328,11 +352,6 @@ html.theme-dark .theme-light .root_f9a4c9,
         var(--primary-700) 100%,
         var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
-    --chat-input-container-background: color-mix(
-        in oklab,
-        var(--primary-600) 100%,
-        var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
-    ) !important;
     --deprecated-store-bg: color-mix(
         in oklab,
         var(--black) 100%,
@@ -348,6 +367,26 @@ html.theme-dark .theme-light .root_f9a4c9,
         var(--primary-800) 100%,
         var(--theme-base-color, black) var(--theme-base-color-amount, 0%)
     ) !important;
+    --embed-title: color-mix(
+        in oklab,
+        var(--plum-2) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --header-muted: color-mix(
+        in oklab,
+        var(--plum-10) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --header-primary: color-mix(
+        in oklab,
+        var(--plum-2) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --header-secondary: color-mix(
+        in oklab,
+        var(--plum-8) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
     --home-background: color-mix(
         in oklab,
         var(--black) 100%,
@@ -362,6 +401,11 @@ html.theme-dark .theme-light .root_f9a4c9,
         in oklab,
         hsl(var(--white-hsl) / 0.03) 100%,
         hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.03) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --input-placeholder-text: color-mix(
+        in oklab,
+        var(--plum-9) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
     ) !important;
     --live-stage-tile-border: color-mix(
         in oklab,
@@ -408,14 +452,39 @@ html.theme-dark .theme-light .root_f9a4c9,
         hsl(var(--black-hsl) / 0) 100%,
         hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0) var(--theme-base-color-amount, 0%)
     ) !important;
+    --text-low-contrast: color-mix(
+        in oklab,
+        var(--plum-12) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --text-message-preview-low-sat: color-mix(
+        in oklab,
+        var(--plum-9) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
     --text-muted: color-mix(
         in oklab,
-        var(--primary-345) 100%,
+        var(--plum-10) 100%,
         var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
     ) !important;
     --text-normal: color-mix(
         in oklab,
-        var(--primary-300) 100%,
+        var(--plum-4) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --text-primary: color-mix(
+        in oklab,
+        var(--plum-4) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --text-secondary: color-mix(
+        in oklab,
+        var(--plum-8) 100%,
+        var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
+    ) !important;
+    --textbox-markdown-syntax: color-mix(
+        in oklab,
+        var(--plum-9) 100%,
         var(--theme-text-color, black) var(--theme-text-color-amount, 0%)
     ) !important;
   }
@@ -469,6 +538,28 @@ html.theme-dark .theme-light .root_f9a4c9,
   background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0));
 }
 
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .headerContent_d33b18 .searchBox_d33b18 {
+  background-color: var(--input-background);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .headerContent_d33b18 .searchBox_d33b18 .searchBoxInput_d33b18 {
+  color: var(--primary-260);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .headerContent_d33b18 .searchBox_d33b18 .searchBoxInput_d33b18::placeholder {
+  color: hsl(var(--white-500-hsl)/0.3);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .headerContent_d33b18 .searchBox_d33b18 .searchIcon_d33b18 {
+  color: hsl(var(--white-500-hsl)/0.3);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .headerContent_d33b18 .searchBox_d33b18 .closeIcon_d33b18 {
+  color: var(--interactive-normal);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .headerContent_d33b18 .searchBox_d33b18 .closeIcon_d33b18:hover {
+  color: var(--interactive-hover);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .headerContent_d33b18 .searchBox_d33b18 .closeIcon_d33b18:focus {
+  color: var(--interactive-active);
+}
+
 :is(.theme-dark, .theme-midnight) #app-mount .tile_ab47a1 {
   background-color: var(--background-secondary);
 }
@@ -514,19 +605,37 @@ html.theme-dark .theme-light .root_f9a4c9,
 :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .container_dc3fc4:hover {
   background-color: var(--background-modifier-hover);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .colorable_ef18ee.primaryDark_ef18ee {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .videoWrapper_ba4b17, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .streamHidden_e145d9, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .streamPreview_ba4b17 {
+  background-color: var(--background-secondary);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .cta_cdef0d {
+  background-color: var(--button-secondary-background);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .cta_cdef0d:hover {
+  background-color: var(--button-secondary-background-hover);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .participantsButton_b83b18, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .buttonColor_d4af21 {
   background-color: var(--background-secondary-alt);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .colorable_ef18ee.primaryDark_ef18ee.active_ef18ee, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .colorable_ef18ee.primaryDark_ef18ee:hover {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .participantsButton_b83b18:hover, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .buttonColor_d4af21:hover {
+  background-color: var(--background-secondary);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .colorable_ef18ee.primaryDark_ef18ee, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .primaryButtonColor_e12b21 {
+  background-color: var(--background-secondary-alt);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .colorable_ef18ee.primaryDark_ef18ee.active_ef18ee, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .colorable_ef18ee.primaryDark_ef18ee.active_e12b21, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .colorable_ef18ee.primaryDark_ef18ee:hover, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .primaryButtonColor_e12b21.active_ef18ee, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .primaryButtonColor_e12b21.active_e12b21, :is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .primaryButtonColor_e12b21:hover {
   background-color: var(--background-modifier-hover);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e .raisedHandButtonIconActive_e12b21 {
+  color: var(--background-secondary);
 }
 
 :is(.theme-dark, .theme-midnight) .folder_bc7085.hover_bc7085 {
   background-color: var(--background-secondary-alt);
 }
 
-:is(.theme-dark, .theme-midnight) #app-mount [class=wrapper_f90abb] .childWrapper_f90abb,
-:is(.theme-dark, .theme-midnight) #app-mount [class=circleIconButton_db6521] {
+:is(.theme-dark, .theme-midnight) #app-mount .wrapper_f90abb:not(.selected_f90abb) .childWrapperNoHoverBg_f90abb,
+:is(.theme-dark, .theme-midnight) #app-mount .circleIconButton_db6521:not(.selected_db6521) {
   background-color: var(--background-secondary-alt);
 }
 
@@ -541,6 +650,9 @@ html.theme-dark .theme-light .root_f9a4c9,
 :is(.theme-dark, .theme-midnight) #app-mount .button_adcaac.buttonColor_adcaac:not(.buttonActive_adcaac):active,
 :is(.theme-dark, .theme-midnight) #app-mount .button_adcaac .buttonColor_adcaac:not(.buttonActive_adcaac):active {
   background-color: var(--button-secondary-background-active);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .default_a467ac {
+  background-color: var(--background-primary);
 }
 
 :is(.theme-dark, .theme-midnight) #app-mount .key_c90023:not(.keyComboInner_f51af4, .keyComboInner_c11c02) {
@@ -614,9 +726,6 @@ html.theme-dark .theme-light .root_f9a4c9,
 
 :is(.theme-dark, .theme-midnight) #app-mount .root_f9a4c9 .header_da6bd8 {
   background-color: var(--modal-background);
-}
-:is(.theme-dark, .theme-midnight) #app-mount .root_f9a4c9 .default_a467ac {
-  background-color: var(--background-primary);
 }
 
 :is(.theme-dark, .theme-midnight) #app-mount .promptContent_cd377c .optionButtonWrapper_bd5e1f.selected_bd5e1f {
@@ -850,18 +959,6 @@ html.theme-dark .theme-light .root_f9a4c9,
   border-color: var(--background-modifier-accent);
 }
 
-:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d {
-  background-color: var(--input-background);
-}
-:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d input {
-  color: var(--primary-260);
-}
-:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d input::placeholder {
-  color: var(--primary-400);
-}
-:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .searchIcon_f69601, :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .searchBox_d83b4d .closeIcon_f69601 {
-  color: var(--interactive-normal);
-}
 :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .backdrop_accde0 {
   background-color: var(--background-primary);
 }
@@ -997,10 +1094,6 @@ html.theme-dark .theme-light .root_f9a4c9,
   background-color: var(--background-primary);
 }
 
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .default_a467ac {
-  background-color: var(--background-primary);
-}
-
 :is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .avatarUploaderInnerSquareDisabled_e9b3be {
   background-color: var(--background-secondary-alt);
 }
@@ -1094,9 +1187,18 @@ html.theme-dark .theme-light .root_f9a4c9,
 
 :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .sidebar_a4d4d9,
 :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .container_ee69e0,
-:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .sidebarContainer_a3a4ce,
+:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .container_e462a4,
 :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .privateChannels_f0963d {
   background-color: var(--background-primary);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .users_a5bc92 {
+  background-color: var(--background-tertiary);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .total_a5bc92 {
+  background-color: var(--background-secondary);
+}
+:is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 .total_a5bc92::after {
+  border-right-color: var(--background-secondary);
 }
 
 :is(.theme-dark, .theme-midnight) .sidebar_a4d4d9 .searchBarComponent_f0963d {

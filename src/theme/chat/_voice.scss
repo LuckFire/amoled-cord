@@ -8,10 +8,29 @@
     .container_dc3fc4:hover {
         background-color: var(--background-modifier-hover);
     }
-    .colorable_ef18ee.primaryDark_ef18ee {
+    .videoWrapper_ba4b17, .streamHidden_e145d9, .streamPreview_ba4b17 {
+        background-color: var(--background-secondary);
+    }
+    .cta_cdef0d {
+        background-color: var(--button-secondary-background);
+        &:hover {
+            background-color: var(--button-secondary-background-hover);
+        }
+    }
+    .participantsButton_b83b18, .buttonColor_d4af21 {
         background-color: var(--background-secondary-alt);
-        &.active_ef18ee, &:hover {
+        &:hover {
+            background-color: var(--background-secondary);
+        }
+    }
+    .colorable_ef18ee.primaryDark_ef18ee, .primaryButtonColor_e12b21 {
+        background-color: var(--background-secondary-alt);
+        &.active_ef18ee, &.active_e12b21,
+        &:hover {
             background-color: var(--background-modifier-hover);
         }
+    }
+    .raisedHandButtonIconActive_e12b21 {
+        color: var(--background-secondary);
     }
 }

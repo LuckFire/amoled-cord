@@ -1,6 +1,6 @@
 :is(.theme-dark, .theme-midnight) #app-mount {
-    [class="wrapper_f90abb"] .childWrapper_f90abb,
-    [class="circleIconButton_db6521"] {
+    .wrapper_f90abb:not(.selected_f90abb) .childWrapperNoHoverBg_f90abb,
+    .circleIconButton_db6521:not(.selected_db6521) {
         background-color: var(--background-secondary-alt);
     }
 }

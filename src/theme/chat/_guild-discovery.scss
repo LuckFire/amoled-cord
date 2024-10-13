@@ -1,0 +1,23 @@
+:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e {
+    .headerContent_d33b18 .searchBox_d33b18 {
+        background-color: var(--input-background);
+        .searchBoxInput_d33b18 {
+            color: var(--primary-260);
+            &::placeholder {
+                color: hsl(var(--white-500-hsl)/0.3);
+            }
+        }
+        .searchIcon_d33b18 {
+            color: hsl(var(--white-500-hsl)/0.3);
+        }
+        .closeIcon_d33b18 {
+            color: var(--interactive-normal);
+            &:hover {
+                color: var(--interactive-hover);
+            }
+            &:focus {
+                color: var(--interactive-active);
+            }
+        }
+    }
+}

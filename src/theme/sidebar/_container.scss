@@ -1,8 +1,18 @@
 :is(.theme-dark, .theme-midnight) #app-mount .content_a4d4d9 {
     .sidebar_a4d4d9,
     .container_ee69e0,
-    .sidebarContainer_a3a4ce,
+    .container_e462a4,
     .privateChannels_f0963d {
         background-color: var(--background-primary);
+    }
+    // VC User Limit
+    .users_a5bc92 {
+        background-color: var(--background-tertiary);
+    }
+    .total_a5bc92 {
+        background-color: var(--background-secondary);
+        &::after {
+            border-right-color: var(--background-secondary);
+        }
     }
 }
