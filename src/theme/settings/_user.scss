@@ -27,6 +27,12 @@
     .notches_a1107d.gray_a1107d {
         color: var(--background-primary);
     }
+    .progress_a1107d {
+        background-color: var(--primary-700);
+    }
+    .sliderBar_b6e3f3:not(.speaking_b6e3f3) {
+        background-color: var(--primary-700);
+    }
     // Keybinds
     .container_c67e31 {
         background-color: hsl(var(--primary-800-hsl)/0.6);
