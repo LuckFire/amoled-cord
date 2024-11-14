@@ -659,7 +659,7 @@
 	  background-color: var(--primary-660);
 	}
 	
-	:is(.theme-dark, .theme-midnight) #app-mount .bar_c7a159 {
+	:is(.theme-dark, .theme-midnight) #app-mount .bar_c7a159:not(.microphone_b6e3f3) {
 	  background-color: var(--background-accent);
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .markDash_c7a159 {
@@ -686,10 +686,6 @@
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .root_f9a4c9 .navRow_be9398 {
 	  background-color: var(--modal-footer-background);
-	}
-	
-	:is(.theme-dark, .theme-midnight) #app-mount .root_f9a4c9 .textArea_a42405 {
-	  background-color: var(--input-background);
 	}
 	
 	:is(.theme-dark, .theme-midnight) #app-mount .container_f24a96 {
@@ -1162,6 +1158,12 @@
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .notches_a1107d.gray_a1107d {
 	  color: var(--background-primary);
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .progress_a1107d {
+	  background-color: var(--primary-700);
+	}
+	:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .sliderBar_b6e3f3:not(.speaking_b6e3f3) {
+	  background-color: var(--primary-700);
 	}
 	:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .container_c67e31 {
 	  background-color: hsl(var(--primary-800-hsl)/0.6);
