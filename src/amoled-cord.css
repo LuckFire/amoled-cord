@@ -1150,7 +1150,7 @@
 :is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .progress_a1107d {
   background-color: var(--primary-700);
 }
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .sliderBar_b6e3f3:not(.speaking_b6e3f3) {
+:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .sliderBar_b6e3f3:not(.speaking_b6e3f3, .microphone_b6e3f3) {
   background-color: var(--primary-700);
 }
 :is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 .container_c67e31 {
