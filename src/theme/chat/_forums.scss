@@ -1,29 +1,29 @@
-:is(.theme-dark, .theme-midnight) #app-mount .container_a6d69a {
+:is(.theme-dark, .theme-midnight) #app-mount .container_f369db {
     // Theme cards and ignore hovers/active/open states on list/gallery views
-    .mainCard_a6d69a:not(
-            .container_a57509:is(.isOpen_a57509, :hover, :active),
-            .container_d331f1:is(.isOpen_d331f1, :active)
+    .mainCard_f369db:not(
+            .container__9a337:is(.isOpen__9a337, :hover, :active),
+            .container_faa96b:is(.isOpen_faa96b, :active)
         ),
-    .container_a03b48,
-    .container_ddbb27,
-    .container_a039eb {
+    .container__93db4,
+    .container_ca49a1,
+    .container_a68543 {
         background-color: var(--background-tertiary);
     }
-    .matchingPostsRow_a6d69a {
+    .matchingPostsRow_f369db {
         background-color: var(--background-secondary);
     }
-    .loadingCard_a6d69a {
+    .loadingCard_f369db {
         background-color: var(--background-tertiary);
     }
-    .sortDropdown_a6d69a, .tag_a6d69a:not(.selected_c993da), .tagsButton_a6d69a {
+    .sortDropdown_f369db, .tag_f369db:not(.selected_a2c9e8), .tagsButton_f369db {
         background-color: var(--background-secondary);
     }
-    .pill_c993da.clickable_c993da:not(.disabled_c993da):hover {
+    .pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
         background-color: var(--background-secondary);
     }
-    .textContentFooter_a57509 {
+    .textContentFooter__9a337 {
         background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0.97) 36px, hsl(var(--black-hsl)/0.4));
-        &.noTags_a57509 {
+        &.noTags__9a337 {
             background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0));
         }
     }

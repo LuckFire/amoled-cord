@@ -1,24 +1,24 @@
 :is(.theme-dark, .platform-overlay) {
-    .widget_cbf964 {
-        &.default_cbf964 {
+    .widget__777cc {
+        &.default__777cc {
             background-color: var(--background-primary);
         }
-        &.unpinned_cbf964 {
+        &.unpinned__777cc {
             background-color: var(--background-tertiary);
         }
     }
 
-    .bar_cbf964 {
+    .bar__777cc {
         background-color: hsl(var(--primary-900-hsl)/0.85);
-        &.default_cbf964, &.unpinned_cbf964 {
+        &.default__777cc, &.unpinned__777cc {
             background-color: var(--background-primary);
         }
     }
-    .body_cbf964 {
-        &.default_cbf964, &.unpinned_cbf964 {
+    .body__777cc {
+        &.default__777cc, &.unpinned__777cc {
             background-color: var(--background-primary);
         }
-        &.pinned_cbf964 {
+        &.pinned__777cc {
             background-color: hsl(var(--primary-900-hsl)/0.75);
         }
     }

@@ -1,17 +1,17 @@
 :is(.theme-dark, .platform-overlay) {
-    .themePrimary_f6b647 {
-        &.container_f6b647 {
+    .themePrimary__350af {
+        &.container__350af {
             background-color: hsl(var(--primary-900-hsl)/0.95);
-            &.clickable_f6b647:hover {
+            &.clickable__350af:hover {
                 background-color: var(--background-secondary);
             }
         }
 
-        .divider_f6b647 {
+        .divider__350af {
             background-color: var(--background-secondary-alt);
         }
 
-        .dismissButton_f6b647 {
+        .dismissButton__350af {
             box-shadow: none;
             background-color: var(--background-secondary);
         }

@@ -1,26 +1,26 @@
 :is(.theme-dark, .theme-midnight) #app-mount {
     // Gifts
-    .tile_ab47a1 {
+    .tile__72090 {
         background-color: var(--background-secondary);
         &:hover {
             background-color: var(--background-modifier-hover);
         }
-        .invalidPoop_ff31dd {
+        .invalidPoop__857bf {
             background-color: hsl(var(--primary-700-hsl)/0.3);
         }
     }
     // Activity Invites
-    .invite_f61cb8 {
+    .invite__4d3fa {
         border-color: hsl(var(--primary-800-hsl)/0.9);
         background-color: hsl(var(--primary-830-hsl)/0.6);
     }
     // Polls
-    .container_a1531c {
-        .answer_cf2c85:hover .answerInner_cf2c85.currentlyVoting_cf2c85:not(.selected_cf2c85) {
+    .container__0be77 {
+        .answer__4c520:hover .answerInner__4c520.currentlyVoting__4c520:not(.selected__4c520) {
             outline-color: var(--background-secondary-alt);
         }
 
-        .votePercentageBar_cf2c85 {
+        .votePercentageBar__4c520 {
             background-color: var(--background-secondary-alt);
         }
     }

@@ -1,18 +1,18 @@
-:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_f75fb0 {
     // Roles
-    .prompt_c6b11b {
+    .prompt__5d7c9 {
         background-color: var(--background-tertiary);
-        .selected_bd5e1f {
+        .selected__270d7 {
             background-color: var(--background-modifier-active);
         }
     }
-    .profileCard_c6b11b {
+    .profileCard__5d7c9 {
         background-color: var(--background-tertiary);
     }
     // Channels
-    .channelRow_f04d06 {
+    .channelRow_e4503a {
         background-color: var(--background-tertiary);
-        &:not(.disabled_f04d06):hover {
+        &:not(.disabled_e4503a):hover {
             background-color: var(--background-modifier-hover);
         }
     }

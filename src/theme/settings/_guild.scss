@@ -1,51 +1,51 @@
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 {
+:is(.theme-dark, .theme-midnight) #app-mount .layers__960e4 {
     // Overview
-    .avatarUploaderInnerSquareDisabled_e9b3be {
+    .avatarUploaderInnerSquareDisabled_e04502 {
         background-color: var(--background-secondary-alt);
     }
     // Stickers
-    .background_bfac79 {
+    .background_c44edb {
         color: var(--background-secondary-alt);
     }
     // Custom Invite Link
-    .prefixInput_a6236d {
+    .prefixInput__9d137 {
         background-color: hsl(var(--primary-700-hsl)/0.2);
     }
     // Safety Setup
-    .backgroundContainer_ceff93 {
+    .backgroundContainer_eaaeee {
         background-color: var(--background-secondary-alt);
     }
-    .containerFooter_ceff93 {
+    .containerFooter_eaaeee {
         background-color: var(--background-secondary);
     }
-    .iconWrapper_cc6793 {
+    .iconWrapper__96f95 {
         background: var(--button-secondary-background);
-        .icon_cc6793:hover {
+        .icon__96f95:hover {
             background: var(--button-secondary-background-hover);
-            &.disabled_cc6793 {
+            &.disabled__96f95 {
                 background: var(--button-secondary-background-disabled);
             }
         }
     }
     // Audit Log
-    .auditLog_eebd33 {
+    .auditLog__43dab {
         border-color: var(--background-secondary);
-        .headerDefault_eebd33,
-        .headerClickable_eebd33 {
+        .headerDefault__43dab,
+        .headerClickable__43dab {
             background-color: hsl(var(--primary-660-hsl)/0.3);
         }
-        .headerExpanded_eebd33 {
+        .headerExpanded__43dab {
             background-color: hsl(var(--primary-660-hsl)/0.5);
         }
-        .divider_eebd33 {
+        .divider__43dab {
             background-color: var(--background-modifier-accent);
         }
-        .changeDetails_eebd33 {
+        .changeDetails__43dab {
             background-color: hsl(var(--primary-660-hsl)/0.3);
         }
     }
     // Server Boost Status
-    .tierBody_da77bd {
+    .tierBody_f15dca {
         background-color: var(--background-secondary-alt);
     }
 }

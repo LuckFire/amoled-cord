@@ -1,6 +1,6 @@
 :is(.theme-dark, .theme-midnight) #app-mount {
-    .button_adcaac.buttonColor_adcaac:not(.buttonActive_adcaac),
-    .button_adcaac .buttonColor_adcaac:not(.buttonActive_adcaac) {
+    .button_e131a9.buttonColor_e131a9:not(.buttonActive_e131a9),
+    .button_e131a9 .buttonColor_e131a9:not(.buttonActive_e131a9) {
         background-color: var(--button-secondary-background);
         &:hover {
             background-color: var(--button-secondary-background-hover);
@@ -9,7 +9,7 @@
             background-color: var(--button-secondary-background-active);
         }
     }
-    .default_a467ac {
+    .default_e18686 {
         background-color: var(--background-primary);
     }
 }
