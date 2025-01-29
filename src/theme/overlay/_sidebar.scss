@@ -1,17 +1,17 @@
 :is(.theme-dark, .platform-overlay) {
-    .sidebar_d86933,
-    .scroller_c47fa9 {
+    .sidebar__9835e,
+    .scroller__99e7c {
         background-color: var(--background-primary);
     }
-    .header_d86933,
-    .base_aabd07 {
+    .header__9835e,
+    .base_e3f659 {
         background-color: var(--background-primary) !important;
     }
-    .searchBar_ec7a6d {
+    .searchBar_ee924e {
         box-shadow: none;
     }
-    .panels_c0cc4b, .panels_c0cc4b > div,
-    .panels_ec7a6d, .panels_ec7a6d > div {
+    .panels_b81b18, .panels_b81b18 > div,
+    .panels_ee924e, .panels_ee924e > div {
         background-color: var(--background-primary) !important;
     }
 }

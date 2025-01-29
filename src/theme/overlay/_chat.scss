@@ -1,9 +1,9 @@
 :is(.theme-dark, .platform-overlay) {
-    .contained_ac9afa {
+    .contained_ee4d7e {
         background-color: var(--background-primary);
     }
-    :is(.contained_ac9afa, .pinned_ac9afa:not(:has(.locked_ac9afa))) {
-        .headerDefault_ac9afa, .messagesContainer_ac9afa, .footerContent_ac9afa {
+    :is(.contained_ee4d7e, .pinned_ee4d7e:not(:has(.locked_ee4d7e))) {
+        .headerDefault_ee4d7e, .messagesContainer_ee4d7e, .footerContent_ee4d7e {
             &[style*='rgb(54, 57, 63)'] {
                 background-color: var(--background-primary) !important;
             }
@@ -16,7 +16,7 @@
         }
     }
 
-    .opacityHeader_c6d3b6 {
+    .opacityHeader__0aebc {
         background-color: var(--background-primary);
     }
 

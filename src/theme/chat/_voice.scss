@@ -1,36 +1,36 @@
-:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e {
-    .wrapper_d880dc.minimum_d880dc {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_f75fb0 {
+    .wrapper_cb9592.minimum_cb9592 {
         background-color: var(--background-primary);
     }
-    .iconBackground_e5ee5b {
+    .iconBackground__0b34e {
         background-color: var(--background-secondary-alt);
     }
-    .container_dc3fc4:hover {
+    .container__6b38f:hover {
         background-color: var(--background-modifier-hover);
     }
-    .videoWrapper_ba4b17, .streamHidden_e145d9, .streamPreview_ba4b17 {
+    .videoWrapper__2f4f7, .streamHidden_c30e20, .streamPreview__2f4f7 {
         background-color: var(--background-secondary);
     }
-    .cta_cdef0d {
+    .cta_a3a802 {
         background-color: var(--button-secondary-background);
         &:hover {
             background-color: var(--button-secondary-background-hover);
         }
     }
-    .participantsButton_b83b18, .buttonColor_d4af21 {
+    .participantsButton__211d1, .buttonColor__7b3e8 {
         background-color: var(--background-secondary-alt);
         &:hover {
             background-color: var(--background-secondary);
         }
     }
-    .colorable_ef18ee.primaryDark_ef18ee, .primaryButtonColor_e12b21 {
+    .colorable_f1ceac.primaryDark_f1ceac, .primaryButtonColor_fcb27c {
         background-color: var(--background-secondary-alt);
-        &.active_ef18ee, &.active_e12b21,
+        &.active_f1ceac, &.active_fcb27c,
         &:hover {
             background-color: var(--background-modifier-hover);
         }
     }
-    .raisedHandButtonIconActive_e12b21 {
+    .raisedHandButtonIconActive_fcb27c {
         color: var(--background-secondary);
     }
 }

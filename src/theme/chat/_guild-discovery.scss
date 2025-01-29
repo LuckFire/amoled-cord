@@ -1,16 +1,16 @@
-:is(.theme-dark, .theme-midnight) #app-mount .chat_a7d72e {
-    .headerContent_d33b18 .searchBox_d33b18 {
+:is(.theme-dark, .theme-midnight) #app-mount .chat_f75fb0 {
+    .headerContent_a7218d .searchBox_a7218d {
         background-color: var(--input-background);
-        .searchBoxInput_d33b18 {
+        .searchBoxInput_a7218d {
             color: var(--primary-260);
             &::placeholder {
                 color: hsl(var(--white-500-hsl)/0.3);
             }
         }
-        .searchIcon_d33b18 {
+        .searchIcon_a7218d {
             color: hsl(var(--white-500-hsl)/0.3);
         }
-        .closeIcon_d33b18 {
+        .closeIcon_a7218d {
             color: var(--interactive-normal);
             &:hover {
                 color: var(--interactive-hover);

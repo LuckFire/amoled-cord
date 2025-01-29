@@ -1,59 +1,59 @@
-:is(.theme-dark, .theme-midnight) #app-mount .layers_d4b6c5 {
+:is(.theme-dark, .theme-midnight) #app-mount .layers__960e4 {
     // Authorized Apps
-    .cardPrimary_a298b8.outline_a298b8 {
+    .cardPrimary__73069.outline__73069 {
         background-color: var(--background-secondary);
     }
     // Billing
-    .paymentPane_f66684 {
-        .expandedInfo_a28a08 {
+    .paymentPane__01014 {
+        .expandedInfo_e9cb00 {
             background-color: var(--background-primary);
         }
-        .hoverablePayment_a28a08:hover {
+        .hoverablePayment_e9cb00:hover {
             background-color: var(--background-modifier-hover);
         }
-        .bottomDivider_f66684 {
+        .bottomDivider__01014 {
             border-bottom-color: var(--background-modifier-accent);
         }
     }
-    .codeRedemptionRedirect_cb70f4 {
+    .codeRedemptionRedirect_a706ba {
         border-color: var(--background-tertiary);
     }
     // Appearance
-    .preview_a614a7 {
+    .preview__3e443 {
         border-color: var(--background-secondary);
         background-color: var(--background-primary) !important;
     }
     // Voice & Video
-    .notches_a1107d.gray_a1107d {
+    .notches__06283.gray__06283 {
         color: var(--background-primary);
     }
-    .progress_a1107d {
+    .progress__06283 {
         background-color: var(--primary-700);
     }
-    .sliderBar_b6e3f3:not(.speaking_b6e3f3, .microphone_b6e3f3) {
+    .sliderBar_ac7648:not(.speaking_ac7648, .microphone_ac7648) {
         background-color: var(--primary-700);
     }
     // Keybinds
-    .container_c67e31 {
+    .container_f89b2c {
         background-color: hsl(var(--primary-800-hsl)/0.6);
         &:not(:hover, :focus-within) {
             border-color: hsl(var(--primary-800-hsl)/0.8);
         }
     }
     // Registered Games
-    .game_fd966d {
+    .game_cc46f0 {
         box-shadow: none;
         border-bottom: 1px solid var(--background-modifier-accent);
-        .gameNameInput_fd966d:is(:hover, :focus) {
+        .gameNameInput_cc46f0:is(:hover, :focus) {
             border-color: hsl(var(--primary-800-hsl)/0.6);
             background-color: var(--background-secondary);
         }
     }
     // Game Overlay
-    .option_b877fa:not(.selected_b877fa, :hover) {
+    .option_e03935:not(.selected_e03935, :hover) {
         background-color: var(--background-accent);
     }
-    .disabled_b877fa:not(.selected_b877fa, :hover) {
+    .disabled_e03935:not(.selected_e03935, :hover) {
         color: var(--background-accent);
     }
 }
