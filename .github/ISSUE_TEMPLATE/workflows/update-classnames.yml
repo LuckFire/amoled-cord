@@ -1,0 +1,16 @@
+name: Update Discord Class Names
+on:
+    schedule:
+        - cron: "0 0 * * *" # Daily check
+    workflow_dispatch:
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Run Class Name Updater
+              uses: fedeericodl/discord-update-classnames@v1
+              with:
+                  files: "src/theme/"
