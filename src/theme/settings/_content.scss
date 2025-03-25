@@ -1,0 +1,127 @@
+/**
+ * I organize everything based on how I did stuff in order.
+ *
+ * It should be noted that some elements are used in other areas in settings,
+ * but I'm not sure which ones and I'm too lazy to really dig into it.
+*/
+
+.theme-midnight {
+    .contentRegion__23e6b,
+    .contentRegionScroller__23e6b {
+        background: var(--background-base-lowest);
+    }
+
+    // User Settings --> My Account
+    .accountProfileCard__1fed1 {
+        background: var(--background-base-low);
+
+        .background__1fed1 {
+            border: 1px solid var(--app-border-frame);
+            background-color: var(--background-base-lowest);
+            .fieldList__1fed1 {
+                background-color: transparent;
+            }
+        }
+    }
+
+    // User Settings --> Content & Social
+    .card__5cea9 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-lower);
+
+        .header__5cea9 {
+            background-color: var(--background-base-low);
+        }
+        
+        .usersList__5cea9 {
+            background-color: transparent;
+        }
+    }
+
+    // User Settings --> Family Center
+    .box_f8c98c {
+        border-color: var(--border-faint);
+        background-color: var(--background-base-lower);
+    }
+
+    // User Settings --> Connetions
+    .connectContainer_c7f964 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+        .accountButtonInner_c7f964 {
+            border: 1px solid var(--app-border-frame);
+            background-color: var(--background-base-lowest);
+        }
+    }
+    .connection_c7f964 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-lower);
+
+        .connectionHeader_c7f964 {
+            background-color: var(--background-base-low);
+        }
+
+        .metadataContainer_c7f964 {
+            border: 1px solid var(--app-border-frame);
+        }
+
+        .integrationWrapper_c7f964 {
+            border: 1px solid var(--app-border-frame);
+            background-color: var(--background-base-lowest);
+        }
+    }
+
+    // User Settings --> Nitro
+    .expandedProgressBarContainerSettingsPage_a61c56,
+    .giftCard_a45ed3, .giftCardPromotion_a45ed3 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+
+    // User Settings --> Server Boost
+    .appliedBoostContainer_ceb06a {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+
+        .boostContainerSeparator_ceb06a {
+            background-color: var(--border-subtle);
+        }
+
+        .boostContainer_ceb06a {
+            background-color: var(--background-base-lower);
+        }
+    }
+    .guildContainer__5dba5 {
+        background-color: var(--background-base-low);
+        &.recommendedServerCard__51537 {
+            border: 1px solid var(--border-faint);
+        }
+    }
+    .wrapper__5b98e {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+
+        .list__5b98e {
+            border-color: var(--border-subtle);
+        }
+        .listItem__5b98e {
+            border-color: var(--border-subtle);
+        }
+    }
+
+    // User Settings --> Subscriptions
+    .detailsBlock_e335a7 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .noItemsCard__70151 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+
+    // General --> Cards
+    .cardPrimary__73069 {
+        border-color: var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+}
