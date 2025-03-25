@@ -1,8 +1,0 @@
-:is(.theme-dark, .platform-overlay) {
-    .option_e03935:not(.selected_e03935, :hover) {
-        background-color: var(--primary-600);
-    }
-    .disabled_e03935:not(.selected_e03935, :hover) {
-        color: var(--primary-600);
-    }
-}
