@@ -3,8 +3,13 @@
         border: 1px solid var(--app-border-frame);
         background-color: var(--background-base-low); 
 
-        .header__45690 {
+        .header__45690,
+        .footer__45690  {
             background-color: var(--background-base-low); 
+        }
+
+        .footer__45690 {
+            border-top: 1px solid var(--app-border-frame);
         }
 
         .messageGroupWrapper__45690 {
