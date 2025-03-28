@@ -2,4 +2,49 @@
     .content_f75fb0 .chatContent_f75fb0 {
         background: var(--background-base-lowest);
     }
+
+    .members_c8ffbb {
+        background: var(--background-base-lowest);
+    }
+
+    .wrapper_f7ecac {
+        background-color: var(--background-surface-high);
+    }
+
+    .channelTextArea_f75fb0 {
+        background: var(--background-base-low);
+        .themedBackground__74017 {
+            background: var(--background-base-low);
+        }
+    }
+
+    .stackedBars__74017 {
+        background: var(--background-surface-high);
+    }
+
+    // automod
+    .content__44492 {
+        .messageContent__44492 {
+            margin-top: 5px;
+
+            border-radius: 5px 5px 0 0;
+            border-top: 1px solid;
+            border-right: 1px solid;
+            border-left: 1px solid;
+            border-color: var(--border-subtle);
+            background-color: var(--background-base-low);
+
+            .embedCard__44c9a {
+                background-color: transparent;
+            }
+        }
+        .footerContainer__44492 {
+            border-radius: 0 0 5px 5px;
+            border-right: 1px solid;
+            border-left: 1px solid;
+            border-bottom: 1px solid;
+            border-color: var(--border-subtle);
+            background-color: var(--background-base-lower);
+        }
+    }
 }
