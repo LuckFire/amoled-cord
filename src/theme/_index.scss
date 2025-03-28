@@ -1,4 +1,4 @@
-@use 'variables';
+@forward 'variables';
 
-@use 'content';
-@use 'settings';
+@forward 'content';
+@forward 'settings';

@@ -1,7 +1,7 @@
-@use 'chat';
-@use 'chatbox';
-@use 'discovery';
-@use 'members';
-@use 'messages';
-@use 'titlebar';
-@use 'user-area';
+@forward 'chat';
+@forward 'chatbox';
+@forward 'discovery';
+@forward 'members';
+@forward 'messages';
+@forward 'titlebar';
+@forward 'user-area';

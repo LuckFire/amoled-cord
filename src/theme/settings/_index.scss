@@ -1,2 +1,2 @@
-@use 'sidebar';
-@use 'content';
+@forward 'sidebar';
+@forward 'content';
