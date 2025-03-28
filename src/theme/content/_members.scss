@@ -1,0 +1,24 @@
+.theme-midnight {
+    .header_c791b2 {
+        border-left: 1px solid var(--app-border-frame);
+        background-color: transparent;
+    }
+    .page_c791b2 {
+        overflow: hidden;
+        background-color: transparent !important;
+
+        /**
+         * Everything below is a scuffed fix for the members page.
+         * When Discord fixes this themselves in the future, this can be removed (they likely will never fix it).
+         */
+        .content_f75fb0 {
+            height: 100%;
+        }
+        .thin_d125d2:has(.mainTableContainer__09a38) {
+            overflow: hidden !important;
+        }
+        .mainTableContainer__09a38 {
+            flex: unset;
+        }
+    }
+}
