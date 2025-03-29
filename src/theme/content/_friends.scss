@@ -1,0 +1,25 @@
+.theme-midnight {
+    .container__9293f {
+        border-left: 1px solid var(--app-border-frame);
+        background-color: var(--background-base-lowest);
+    }
+
+    .tabBody__133bf,
+    .container__7d20c {
+        background-color: var(--background-base-lowest);
+    }
+
+    .section__00943 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-base-lowest);
+    }
+
+    .addFriendInputWrapper__72ba7 {
+        /**
+         * the border is supposed to appear blue when the input is selected,
+         * but i forgot how to check that...
+         */
+        border-color: var(--input-border);
+        background: var(--input-background);
+    }    
+}

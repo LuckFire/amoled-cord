@@ -1,0 +1,40 @@
+.theme-midnight {
+    .headerBar__0920e {
+        border-left: 1px solid var(--app-border-frame);
+        background-color: transparent;
+    }
+
+    .mainPageScroller_ca1a02 {
+        border-left: 1px solid var(--app-border-frame);
+        background-color: var(--background-base-lowest);
+    }
+
+    .card_f8e6bf {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-surface-high);
+        .cardDescription__1f069 {
+            background-image: linear-gradient(180deg,
+                var(--background-base-lower) 50%,
+                color-mix(in hsl, var(--background-base-lower) 25%, var(--background-base-lower) 25%) 80%
+            );
+        }
+    }
+
+    .container_da4aee {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-surface-high);
+
+        .textContainer_da4aee {
+            background-image: linear-gradient(90deg,
+                var(--background-base-lower) 50%,
+                color-mix(in hsl, var(--background-surface-high) 25%, var(--background-surface-high) 25%) 80%
+            );
+        }
+    }
+
+    // see all perks
+    .allPerksScroller_ca1a02 .container_ca1a02 {
+        border-left: 1px solid var(--app-border-frame);
+        background-color: var(--background-base-lowest);
+    }
+}
