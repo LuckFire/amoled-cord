@@ -1,0 +1,25 @@
+.theme-midnight {
+    .container_f369db {
+        background-color: var(--background-base-lowest);
+    }
+
+    .mainCard_f369db {
+        background-color: var(--background-surface-high);
+
+        &:hover {
+            background-color: var(--background-surface-higher);
+        }
+
+        .contentPreview__9a337 {
+            background-color: var(--background-base-lowest);
+        }
+    }
+
+    .textContentFooter__9a337 {
+        background-image: linear-gradient(0deg,
+            hsl(var(--primary-900-hsl)/1),
+            hsl(var(--primary-900-hsl)/.97) 36px,
+            hsl(var(--primary-900-hsl)/.4)
+        )
+    }
+}
