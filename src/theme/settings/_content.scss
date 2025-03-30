@@ -30,6 +30,7 @@
         background-color: var(--background-base-lower);
 
         .header__5cea9 {
+            border-bottom: 1px solid var(--border-faint);
             background-color: var(--background-base-low);
         }
         
@@ -58,6 +59,7 @@
         background-color: var(--background-base-lower);
 
         .connectionHeader_c7f964 {
+            border-bottom: 1px solid var(--border-faint);
             background-color: var(--background-base-low);
         }
 
@@ -89,6 +91,10 @@
 
         .boostContainer_ceb06a {
             background-color: var(--background-base-lower);
+        }
+
+        .guildContainer__5dba5:not(.recommendedServerCard__51537) {
+            border-bottom: 1px solid var(--border-faint);
         }
     }
     .guildContainer__5dba5 {

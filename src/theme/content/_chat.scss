@@ -40,10 +40,7 @@
         }
         .footerContainer__44492 {
             border-radius: 0 0 5px 5px;
-            border-right: 1px solid;
-            border-left: 1px solid;
-            border-bottom: 1px solid;
-            border-color: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
             background-color: var(--background-base-low);
         }
     }
@@ -52,6 +49,7 @@
         border: 1px solid var(--border-subtle);
         background-color: var(--background-surface-high);
         .cardFooter_b99f57 {
+            border-top: 1px solid var(--border-subtle);
             background-color: var(--background-base-low);
         }
     }
