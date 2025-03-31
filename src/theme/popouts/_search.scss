@@ -1,0 +1,28 @@
+.theme-midnight {
+    .container__55c99 {
+        background-color: var(--background-base-low);
+    }
+    .queryContainer__55c99 {
+        background-color: var(--background-base-low);
+        border-bottom-color: var(--border-subtle);
+    }
+
+    .calendarPicker_d27f17 {
+        .react-datepicker,
+        .react-datepicker__header {
+            background-color: var(--background-base-low);
+        }
+        .react-datepicker__day {
+            &.react-datepicker__day--disabled,
+            &.react-datepicker__day--disabled:hover {
+                background-color: var(--background-base-low);
+            }
+        }
+    }
+
+    .option__56fec {
+        &:hover {
+            background-color: var(--bg-mod-subtle);
+        }
+    }
+}
