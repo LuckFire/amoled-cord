@@ -23,7 +23,9 @@
             }
         }
     }
-
+    .marker_d878e7 {
+        background-color: var(--background-base-lowest);
+    }
 
     // User Settings --> Content & Social
     .card__5cea9 {
@@ -124,6 +126,30 @@
     .noItemsCard__70151 {
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
+    }
+
+    // User Settings --> Billing
+    .paymentPane__01014 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+        .scrollerBase_d125d2 {
+            overflow: unset !important;
+        }
+        .paginator__01014 {
+            background: transparent;
+        }
+
+        .payment_e9cb00 {
+            background-color: var(--background-base-low);
+        }
+        .hoverablePayment_e9cb00:hover {
+            background-color: var(--background-surface-high);
+        }
+
+        .expandedInfo_e9cb00 {
+            border: 1px solid var(--border-subtle);
+            background-color: var(--background-base-lowest);
+        }
     }
 
     // General --> Cards
