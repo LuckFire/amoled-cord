@@ -5,6 +5,15 @@
 
     .members_c8ffbb {
         background: var(--background-base-lowest);
+
+        .member__5d473 {
+            &:hover .childContainer__91a9d {
+                background-color: var(--bg-mod-faint);
+            }
+            &:is(.selected__91a9d, :active) .childContainer__91a9d {
+                background-color: var(--bg-mod-subtle);
+            }
+        }
     }
 
     .wrapper_f7ecac {
