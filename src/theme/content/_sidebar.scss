@@ -1,37 +1,37 @@
 .theme-midnight {
     // Channels
     .wrapper__2ea32:hover .link__2ea32 {
-        background-color: var(--background-surface-high);
+        background-color: var(--bg-mod-faint);
     }
     .wrapper__2ea32:active,
     .modeSelected__2ea32,
     .modeSelected__2ea32:hover {
         .link__2ea32 {
-            background-color: var(--background-surface-higher);
+            background-color: var(--bg-mod-subtle);
         }
     }
 
     // Private Messages
     .interactive_bf202d {
         &:hover {
-            background: var(--background-surface-high);
+            background: var(--bg-mod-faint);
         }
 
         &:active,
         &.selected_bf202d {
-            background: var(--background-surface-higher);
+            background: var(--bg-mod-subtle);
         }
     }
 
     // Discovery
     .navItem__551b0 {
         &:hover {
-            background: var(--background-surface-high);
+            background: var(--bg-mod-faint);
         }
 
         &:active,
         &.selected__551b0 {
-            background: var(--background-surface-higher);
+            background: var(--bg-mod-subtle);
         }
     }
 }
