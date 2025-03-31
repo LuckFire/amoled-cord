@@ -24,10 +24,11 @@
         }
     }
 
+
     // User Settings --> Content & Social
     .card__5cea9 {
         border: 1px solid var(--border-faint);
-        background-color: var(--background-base-lower);
+        background-color: var(--background-base-low);
 
         .header__5cea9 {
             border-bottom: 1px solid var(--border-faint);
@@ -42,7 +43,7 @@
     // User Settings --> Family Center
     .box_f8c98c {
         border-color: var(--border-faint);
-        background-color: var(--background-base-lower);
+        background-color: var(--background-base-low);
     }
 
     // User Settings --> Connetions
@@ -56,7 +57,7 @@
     }
     .connection_c7f964 {
         border: 1px solid var(--border-faint);
-        background-color: var(--background-base-lower);
+        background-color: var(--background-base-low);
 
         .connectionHeader_c7f964 {
             border-bottom: 1px solid var(--border-faint);
@@ -90,7 +91,7 @@
         }
 
         .boostContainer_ceb06a {
-            background-color: var(--background-base-lower);
+            background-color: var(--background-base-low);
         }
 
         .guildContainer__5dba5:not(.recommendedServerCard__51537) {
@@ -127,7 +128,7 @@
 
     // General --> Cards
     .cardPrimary__73069 {
-        border-color: var(--border-faint);
-        background-color: var(--background-base-low);
+        // border-color: var(--border-faint);
+        // background-color: var(--background-base-low);
     }
 }
