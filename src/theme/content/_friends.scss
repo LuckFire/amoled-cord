@@ -21,5 +21,14 @@
          */
         border-color: var(--input-border);
         background: var(--input-background);
-    }    
+    }
+
+    // Active Now
+    .outer_bf1984 {
+        background-color: var(--background-base-low);
+
+        &:hover {
+            background-color: var(--background-surface-high);
+        }
+    }
 }
