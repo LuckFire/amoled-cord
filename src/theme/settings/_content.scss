@@ -14,6 +14,7 @@
     // User Settings --> My Account
     .accountProfileCard__1fed1 {
         background: var(--background-base-low);
+        border: 1px solid var(--border-subtle);
 
         .background__1fed1 {
             border: 1px solid var(--border-subtle);
@@ -30,7 +31,7 @@
     // User Settings --> Content & Social
     .card__5cea9 {
         border: 1px solid var(--border-faint);
-        background-color: var(--background-base-low);
+        background-color: var(--background-base-lower);
 
         .header__5cea9 {
             border-bottom: 1px solid var(--border-faint);
@@ -55,11 +56,14 @@
         .accountButtonInner_c7f964 {
             border: 1px solid var(--app-border-frame);
             background-color: var(--background-base-lowest);
+            &:hover {
+                background-color: var(--background-surface-high);
+            }
         }
     }
     .connection_c7f964 {
         border: 1px solid var(--border-faint);
-        background-color: var(--background-base-low);
+        background-color: var(--background-base-lower);
 
         .connectionHeader_c7f964 {
             border-bottom: 1px solid var(--border-faint);
@@ -123,10 +127,6 @@
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
     }
-    .noItemsCard__70151 {
-        border: 1px solid var(--border-faint);
-        background-color: var(--background-base-low);
-    }
 
     // User Settings --> Billing
     .paymentPane__01014 {
@@ -151,10 +151,37 @@
             background-color: var(--background-base-lowest);
         }
     }
+    
+    // User Settings --> Appearance
+    .preview__3e443 {
+        background-color: var(--background-base-lowest);
+    }
 
-    // General --> Cards
-    .cardPrimary__73069 {
-        // border-color: var(--border-faint);
-        // background-color: var(--background-base-low);
+    // User Settings --> Accessibility
+    .preview__5d148 {
+        background-color: var(--background-base-lowest);
+    }
+
+    // User Settings --> Voice & Video
+    .notches__06283.gray__06283 {
+        color: var(--background-base-lowest);
+    }
+    .progress__06283 {
+        background-color: var(--background-surface-highest);
+    }
+    .sliderBar_ac7648 {
+        background-color: var(--background-surface-highest);
+    }
+    .slider_a562c8 .bar_a562c8 {
+        background-color: var(--background-surface-highest);
+    }
+
+    // User Settings --> Registered Games
+    .game_cc46f0 {
+        box-shadow: 0 1px 0 0 var(--border-subtle);
+        &::before {
+            border-color: var(--border-subtle);
+            background-color: var(--background-base-low);
+        }
     }
 }
