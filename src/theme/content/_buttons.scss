@@ -1,0 +1,10 @@
+.theme-midnight {
+    // Connection Buttons
+    .wrapper__02fc8 button {
+        border: 1px solid var(--app-border-frame);
+        background-color: var(--background-base-lowest);
+        &:hover {
+            background-color: var(--background-surface-high);
+        }
+    }
+}
