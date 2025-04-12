@@ -179,12 +179,131 @@
         background-color: var(--background-surface-highest);
     }
 
-    // User Settings --> Registered Games
-    .game_cc46f0 {
+    // Guild Settings --> Server Profile
+    .container__86ab2 {
+        border-color: var(--border-subtle);
+        background-color: var(--background-base-low);
+    }
+
+    // Guild Settings --> Boost Perks
+    .avatarUploaderInnerSquareDisabled_e04502 {
+        background-color: var(--background-surface-high);
+    }
+
+    // Guild Settings --> Stickers
+    .tier_f15dca:has([class]) {
+        /**
+         * Some weird bug that Discord has with headers.
+         */
+        .tierHeaderWithoutCardBody_f15dca {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+    .tier_f15dca {
+        background: var(--background-base-lower);
+    }
+    .tierHeader_f15dca {
+        background-color: var(--background-base-low);
+    }
+    .tierBody_f15dca {
+        background-color: transparent;
+    }
+
+    // Guild Settings --> Roles
+    .titleContainer_e29cd7 {
+        background-color: var(--background-base-lowest);
+    }
+    .previewContainer__981c8 .theme-midnight .messageContainer__981c8 {
+        background-color: var(--background-base-lowest);
+    }
+
+    // Guild Settings --> Access
+    .joinOptions__959cb {
+        background-color: var(--background-base-low);
+        .joinOptionContent__959cb {
+            &:hover {
+                background: var(--bg-mod-faint);
+            }
+            &:is(.active__959cb, :active) {
+                background: var(--bg-mod-subtle);
+            }
+        }
+    }
+
+    // Guild Settings --> Integrations
+    .cardHeader_b44011 {
+        border-radius: var(--radius-sm) var(--radius-sm) 0 0; 
+        border-bottom: 1px solid var(--border-subtle);
+        background-color: var(--background-base-low);
+    }
+
+    // Guild Settings --> Automod
+    .actionContainer__6446f,
+    .mentionLimitContainer_ed9c90 {
+        background-color: var(--background-surface-high); 
+    }
+    .actionContainer_bc4513 {
+        background-color: var(--background-surface-highest);
+    }
+    .iconWrapper__96f95 {
+        border-radius: var(--radius-xs);
+        background-color: var(--background-surface-highest);
+    }
+    .keywordListContainer__09e76 {
+        background-color: var(--background-surface-highest);
+    }
+
+    // Guild Settings --> Onboarding
+    .content_a9b452 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-base-lower);
+        .review_a9b452 {
+            margin-top: 0;
+            border-bottom: 1px solid var(--border-subtle);
+            background-color: var(--background-base-low);
+        }
+        .onboardingStepContainer__28e57 {
+            background-color: transparent;   
+        }
+    }
+    .container__5d756 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-base-lower);
+    }
+
+    // Guild Settings --> Enable Monetization
+    .howItWorksContainer_dd30dc {
+        background-color: var(--background-surface-high);
+    }
+    .creatorBenefitCard__02e4c {
+        border: 1px solid var(--border-faint);
+        background-color: var(--card-primary-bg);
+    }
+    .guildCard__2485e {
+        border: 1px solid var(--border-faint);
+        background-color: var(--card-primary-bg);
+    }
+
+    // General --> Cards
+    .card_b846e5 {
         box-shadow: 0 1px 0 0 var(--border-subtle);
         &::before {
             border-color: var(--border-subtle);
             background-color: var(--background-base-low);
         }
+    }
+    .editCard_a25a68 {
+        background-color: var(--card-primary-bg)
+    }
+    
+    .valuePill__5dac8 {
+        background-color: var(--background-surface-highest);
+    }
+
+    // General --> Other Inputs
+    .inputDefault__0f084 {
+        border: 1px solid var(--input-border);
+        background-color: var(--input-background);
     }
 }
