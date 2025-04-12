@@ -169,10 +169,13 @@
     .progress__06283 {
         background-color: var(--background-surface-highest);
     }
-    .sliderBar_ac7648 {
+    .sliderBar_ac7648:not(.speaking_ac7648) {
         background-color: var(--background-surface-highest);
     }
     .slider_a562c8 .bar_a562c8 {
+        background-color: var(--background-surface-highest);
+    }
+    .markDash_a562c8 {
         background-color: var(--background-surface-highest);
     }
 
