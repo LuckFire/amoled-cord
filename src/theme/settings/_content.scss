@@ -238,7 +238,7 @@
         background-color: var(--background-base-low);
     }
 
-    // Guild Settings --> Automod
+    // Guild Settings --> Safety Setup
     .actionContainer__6446f,
     .mentionLimitContainer_ed9c90 {
         background-color: var(--background-surface-high); 
@@ -252,6 +252,14 @@
     }
     .keywordListContainer__09e76 {
         background-color: var(--background-surface-highest);
+    }
+
+    // Guild Settings --> Bans
+    .bannedUser_cdb2b0 {
+        background-color: var(--bg-mod-faint);
+        &:hover {
+            background-color: var(--bg-mod-subtle);
+        }
     }
 
     // Guild Settings --> Onboarding
