@@ -54,11 +54,11 @@
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
     }
-    .accountAddInner_c7f964 {
-        border: 1px solid var(--app-border-frame);
-        background-color: var(--background-base-lowest);
+    .accountAddWrapper_c7f964 .accountAddInner_c7f964 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-base-lower);
         &:hover {
-            background-color: var(--background-surface-high);
+            background-color: var(--bg-mod-subtle);
         }
     }
     .connection_c7f964 {
