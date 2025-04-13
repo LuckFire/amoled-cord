@@ -6,4 +6,12 @@
     --scrollbar-auto-scrollbar-color-thumb: var(--background-surface-highest);
     --scrollbar-auto-thumb: var(--background-surface-highest);
     --scrollbar-thin-thumb: var(--background-surface-highest);
+
+    /**
+     * These are some old variables Discord used.
+     * They're still used in some areas, still would prefer to update areas to use the new ones if possible.
+     */
+    --background-primary: var(--background-base-lowest);
+    --background-secondary: var(--background-base-lower);
+    --background-tertiary: var(--background-base-low);
 }
