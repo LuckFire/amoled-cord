@@ -10,6 +10,18 @@
             background-color: var(--bg-mod-subtle);
         }
     }
+    .wrapper__260e1 {
+        border-color: var(--background-base-low);
+        .users__260e1 {
+            background-color: var(--background-base-low);
+        }
+        .total__260e1 {
+            background-color: var(--background-surface-high);
+            &::after {
+                border-right-color: var(--background-surface-high);
+            }
+        }
+    }
 
     // Private Messages
     .interactive_bf202d {
