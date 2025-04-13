@@ -1,9 +1,9 @@
 .theme-midnight {
-    .title_f75fb0 {
-        background: var(--background-base-lowest);
-    }
-
     .container__9293f {
         --__header-bar-background: var(--background-base-lowest);
+
+        &.themed__9293f {
+            background-color: var(--background-base-lowest);
+        }
     }
 }

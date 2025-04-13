@@ -1,7 +1,9 @@
 .theme-midnight {
-    .container__9293f {
+    .container__133bf {
         border-left: 1px solid var(--app-border-frame);
-        background-color: var(--background-base-lowest);
+        .tabBody__133bf {
+            border-left: unset;
+        }
     }
 
     .tabBody__133bf,
