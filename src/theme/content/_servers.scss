@@ -1,0 +1,21 @@
+.theme-midnight {
+    .circleIconButton__5bc7e,
+    .childWrapperNoHoverBg__6e9f8 {
+        background-color: var(--background-base-low);
+    }
+    .wrapper__48112 .childWrapperNoHoverBg__6e9f8:not(:hover) {
+        background-color: var(--background-surface-high);
+    }
+    .folder__48112 {
+        .expandedFolderIconWrapper__48112 {
+            background-color: var(--background-base-low);
+        }
+
+        &.hover__48112 .expandedFolderIconWrapper__48112 {
+            background-color: var(--background-mod-subtle);
+        }
+    }
+    .expandedFolderBackground__48112 {
+        background-color: var(--background-base-low);
+    }
+}
