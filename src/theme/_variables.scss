@@ -1,4 +1,4 @@
-.theme-midnight:root {
+.theme-midnight {
     --card-primary-bg: var(--background-base-low) !important;
     --background-message-hover: var(--opacity-8) !important;
     --custom-channel-members-bg: var(--background-base-lowest) !important;
@@ -15,6 +15,7 @@
     --background-secondary: var(--background-base-lower) !important;
     --background-secondary-alt: var(--background-base-low) !important;
     --background-tertiary: var(--background-base-low) !important;
+
     --modal-background: var(--background-base-lowest) !important;
     --modal-footer-background: var(--background-base-lowest) !important;
 }
