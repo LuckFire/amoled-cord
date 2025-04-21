@@ -1,4 +1,5 @@
 .theme-midnight {
+    // Browse Channels
     .header__0b563 {
         border-left: 1px solid var(--app-border-frame);
         background-color: transparent !important;
@@ -8,5 +9,14 @@
     }
     .container__0b563 {
         background: var(--background-base-lowest) !important;
+    }
+
+    // Channels & Roles
+    .prompt__5d7c9 {
+        border-color: var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .profileCard__5d7c9 {
+        background-color: var(--background-base-low);
     }
 }
