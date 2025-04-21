@@ -1,20 +1,20 @@
 .theme-midnight:root {
-    --card-primary-bg: var(--background-base-low);
-    --background-message-hover: var(--opacity-8);
-    --custom-channel-members-bg: var(--background-base-lowest);
+    --card-primary-bg: var(--background-base-low) !important;
+    --background-message-hover: var(--opacity-8) !important;
+    --custom-channel-members-bg: var(--background-base-lowest) !important;
 
-    --scrollbar-auto-scrollbar-color-thumb: var(--background-surface-highest);
-    --scrollbar-auto-thumb: var(--background-surface-highest);
-    --scrollbar-thin-thumb: var(--background-surface-highest);
+    --scrollbar-auto-scrollbar-color-thumb: var(--background-surface-highest) !important;
+    --scrollbar-auto-thumb: var(--background-surface-highest) !important;
+    --scrollbar-thin-thumb: var(--background-surface-highest) !important;
 
     /**
      * These are some old variables Discord used.
      * They're still used in some areas, still would prefer to update areas to use the new ones if possible.
      */
-    --background-primary: var(--background-base-lowest);
-    --background-secondary: var(--background-base-lower);
-    --background-secondary-alt: var(--background-base-low);
-    --background-tertiary: var(--background-base-low);
-    --modal-background: var(--background-base-lowest);
-    --modal-footer-background: var(--background-base-lowest);
+    --background-primary: var(--background-base-lowest) !important;
+    --background-secondary: var(--background-base-lower) !important;
+    --background-secondary-alt: var(--background-base-low) !important;
+    --background-tertiary: var(--background-base-low) !important;
+    --modal-background: var(--background-base-lowest) !important;
+    --modal-footer-background: var(--background-base-lowest) !important;
 }
