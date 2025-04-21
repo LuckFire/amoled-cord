@@ -15,6 +15,11 @@
     --background-secondary: var(--background-base-lower) !important;
     --background-secondary-alt: var(--background-base-low) !important;
     --background-tertiary: var(--background-base-low) !important;
+    
+    --background-modifier-hover: var(--background-mod-faint) !important;
+    --background-modifier-selected: var(--background-mod-subtle) !important;
+    --background-modifier-active: var(--background-mod-normal) !important;
+    --background-modifier-accent: var(--background-mod-strong) !important;
 
     --modal-background: var(--background-base-lowest) !important;
     --modal-footer-background: var(--background-base-lowest) !important;
