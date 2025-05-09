@@ -17,11 +17,10 @@
     }
 
     .addFriendInputWrapper__72ba7 {
-        /**
-         * the border is supposed to appear blue when the input is selected,
-         * but i forgot how to check that...
-         */
-        border-color: var(--input-border);
+        // thank you fede
+        &:not(:focus-within) {
+            border-color: var(--input-border);
+        }
         background: var(--input-background);
     }
 
