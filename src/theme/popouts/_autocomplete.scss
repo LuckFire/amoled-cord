@@ -17,8 +17,11 @@
             background-color: var(--background-base-lower);
         }
 
-        .base__13533:hover {
-            background-color: var(--background-surface-high);
+        .clickable__13533 .base__13533 {
+            background-color: transparent;
+            &:hover {
+                background-color: var(--background-surface-high);
+            }
         }
     }
 }
