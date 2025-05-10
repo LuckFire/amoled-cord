@@ -14,7 +14,7 @@
      */
     --background-primary: var(--background-base-lowest) !important;
     --background-secondary: var(--background-base-lower) !important;
-    --background-secondary-alt: var(--background-surface-high) !important;
+    --background-secondary-alt: var(--neutral-88) !important;
     --background-tertiary: var(--background-base-low) !important;
 
     --modal-background: var(--background-base-lowest) !important;
@@ -40,7 +40,7 @@
         ) !important;
         --background-secondary-alt: color-mix(
             in oklab,
-            var(--background-surface-high) 100%,
+            var(--neutral-88) 100%,
             var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
         ) !important;
         --background-tertiary: color-mix(
