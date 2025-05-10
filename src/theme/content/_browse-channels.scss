@@ -2,21 +2,24 @@
     // Browse Channels
     .header__0b563 {
         border-left: 1px solid var(--app-border-frame);
-        background-color: transparent !important;
+        background-color: var(--background-base-lowest) !important;
     }
     .pageBody__41ed7 {
-        background: var(--background-base-lowest);
+        background-color: var(--background-base-lowest);
     }
     .container__0b563 {
-        background: var(--background-base-lowest) !important;
+        background-color: var(--background-base-lowest) !important;
     }
 
-    // Channels & Roles
+    // Customize
     .prompt__5d7c9 {
         border-color: var(--border-faint);
         background-color: var(--background-base-low);
     }
     .profileCard__5d7c9 {
         background-color: var(--background-base-low);
+    }
+    .emptyPage__5d7c9 {
+        background-color: var(--background-base-lowest);
     }
 }
