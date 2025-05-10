@@ -53,16 +53,16 @@
         background-color: var(--background-base-low);
     }
 
-    // User Settings --> Connetions
+    // User Settings --> Connections
     .connectContainer_c7f964 {
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
     }
-    .accountAddWrapper_c7f964 .accountAddInner_c7f964 {
+    .accountButtonInner_c7f964,
+    .accountAddInner_c7f964 {
         border: 1px solid var(--border-subtle);
-        background-color: var(--background-base-lower);
-        &:hover {
-            background-color: var(--bg-mod-subtle);
+        &:not(:hover) {
+            background-color: var(--background-base-lower);
         }
     }
     .connection_c7f964 {
@@ -174,12 +174,6 @@
         background-color: var(--background-surface-highest);
     }
     .sliderBar_ac7648:not(.speaking_ac7648) {
-        background-color: var(--background-surface-highest);
-    }
-    .slider_a562c8 .bar_a562c8 {
-        background-color: var(--background-surface-highest);
-    }
-    .markDash_a562c8 {
         background-color: var(--background-surface-highest);
     }
 
