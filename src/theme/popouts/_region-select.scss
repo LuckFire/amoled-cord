@@ -4,7 +4,7 @@
         background-color: var(--background-surface-high);
     }
     .quickSelectPopoutOption_ebaca5 {
-        &:is(:hover, :active) {
+        &:hover {
             background-color: var(--bg-mod-faint);
         }
         &:focus {
