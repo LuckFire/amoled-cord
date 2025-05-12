@@ -3,12 +3,15 @@
         border-color: var(--border-faint);
     }
 
-    .callContainer_cb9592 {
-        border-bottom: 1px solid var(--app-border-frame);
+    // DM call resize dragger
+    .resizeHandle__4b144:after {
+        background: var(--app-border-frame);
+        content: "";
+        display: block;
+        height: 1px;
     }
 
-    // for stages.
-    // i dont care, i consider these "voice"
+    // Stages
     .container__722ff {
         border-left: 1px solid var(--app-border-frame);
     }
