@@ -1,7 +1,11 @@
 .theme-midnight {
+    .content__99f8c,
     .scroller__23746,
     .headerBar__8a7fc {
         border-left: 1px solid var(--app-border-frame);
+    }
+    .relative__8a7fc {
+        border-bottom: 1px solid var(--app-border-frame);
     }
     .scroller__23746 {
         background: var(--background-base-lowest);
