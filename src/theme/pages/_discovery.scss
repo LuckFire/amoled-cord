@@ -1,6 +1,9 @@
 .theme-midnight {
-    .scroller__23746 {
+    .scroller__23746,
+    .headerBar__8a7fc {
         border-left: 1px solid var(--app-border-frame);
+    }
+    .scroller__23746 {
         background: var(--background-base-lowest);
     }
 }

@@ -1,18 +1,10 @@
 .theme-midnight {
-    .container__133bf {
-        border-left: 1px solid var(--app-border-frame);
-        .tabBody__133bf {
-            border-left: unset;
-        }
-    }
-
-    .tabBody__133bf,
-    .container__7d20c {
+    .tabBody__133bf {
         background-color: var(--background-base-lowest);
     }
 
     .section__00943 {
-        border: 1px solid var(--border-subtle);
+        border-color: var(--border-subtle);
         background-color: var(--background-base-lowest);
     }
 
