@@ -1,10 +1,23 @@
 .theme-midnight {
-    .homeContainer__7449f,
-    .forumOrHome__49676 {
+    .background__7449f .auto_d125d2.scrollerBase_d125d2 {
         border-left: 1px solid var(--app-border-frame);
     }
 
     .background__7449f {
         background-color: var(--background-base-lowest);
+    }
+
+    .channelIconContainer_c66e86,
+    .rulesIconContainer_c66e86,
+    .tagIconContainer_c66e86 {
+        background-color: var(--background-base-lowest);
+    }
+
+    .resourceChannel__7449f:hover {
+        background-color: var(--background-modifier-hover);
+    }
+
+    .headerBarInner__7449f:after {
+        background: linear-gradient(to bottom, rgba(50, 52, 58, 0) 0, var(--background-base-lowest) 100%);
     }
 }
