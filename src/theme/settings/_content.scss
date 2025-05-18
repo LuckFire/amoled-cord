@@ -6,14 +6,12 @@
 */
 
 .theme-midnight {
-    .contentRegion__23e6b,
     .contentRegionScroller__23e6b {
         background: var(--background-base-lowest);
     }
 
     // User Settings --> My Account
     .accountProfileCard__1fed1 {
-        background: var(--background-base-low);
         border: 1px solid var(--border-subtle);
 
         .background__1fed1 {
@@ -24,26 +22,18 @@
             }
         }
     }
-    .marker_d878e7 {
-        background-color: var(--background-base-lowest);
-    }
 
     // User Settings --> Content & Social
     .emptyContainer_de8069 {
         border: 1px solid var(--border-faint);
-        background-color: var(--background-base-lower);
+        background-color: var(--background-base-low);
     }
     .card__5cea9 {
         border: 1px solid var(--border-faint);
-        background-color: var(--background-base-lower);
 
         .header__5cea9 {
             border-bottom: 1px solid var(--border-faint);
             background-color: var(--background-base-low);
-        }
-        
-        .usersList__5cea9 {
-            background-color: transparent;
         }
     }
 
@@ -51,6 +41,19 @@
     .box_f8c98c {
         border-color: var(--border-faint);
         background-color: var(--background-base-low);
+    }
+    .row__0624f {
+        background-color: var(--background-base-lowest);
+    }
+
+    // User Settings --> Authorized Apps
+    .headerV2__50a54 {
+        border-bottom: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .authedAppV2__50a54 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-lower);
     }
 
     // User Settings --> Connections
@@ -86,9 +89,16 @@
 
     // User Settings --> Nitro
     .expandedProgressBarContainerSettingsPage_a61c56,
-    .giftCard_a45ed3, .giftCardPromotion_a45ed3 {
+    .giftCard_a45ed3 {
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
+    }
+    .perkCard_b62c4e {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .rowBottomBorder_e4ef5c {
+        border-color: var(--background-modifier-accent);
     }
 
     // User Settings --> Server Boost
@@ -131,16 +141,25 @@
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
     }
+    .accountCreditsContainer__94f72 {
+        border-bottom: 1px solid var(--border-faint);
+    }
+    .fractionalPremiumAccountCredit__94f72,
+    .premiumSubscriptionAccountCredit__94f72 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .fractionalTimeRemainingRow__94f72 {
+        background-color: var(--background-base-lower);
+    }
 
     // User Settings --> Billing
     .paymentPane__01014 {
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
-        .scrollerBase_d125d2 {
-            overflow: unset !important;
-        }
+
         .paginator__01014 {
-            background: transparent;
+            background-color: var(--background-base-low);
         }
 
         .payment_e9cb00 {
@@ -150,12 +169,16 @@
             background-color: var(--background-surface-high);
         }
 
+        .bottomDivider__01014 {
+            border-bottom-color: var(--background-modifier-accent);
+        }
+
         .expandedInfo_e9cb00 {
             border: 1px solid var(--border-subtle);
             background-color: var(--background-base-lowest);
         }
     }
-    
+
     // User Settings --> Appearance
     .preview__3e443 {
         background-color: var(--background-base-lowest);
@@ -167,22 +190,19 @@
     }
 
     // User Settings --> Voice & Video
-    .notches__06283.gray__06283 {
-        color: var(--background-base-lowest);
-    }
     .progress__06283 {
         background-color: var(--background-surface-highest);
     }
     .sliderBar_ac7648:not(.speaking_ac7648) {
         background-color: var(--background-surface-highest);
     }
-
-    // Guild Settings --> Server Profile
-    .container__86ab2 {
-        border-color: var(--border-subtle);
+    .backgroundOptionInner__53965 {
         background-color: var(--background-base-low);
     }
-    .avatarWrapper__86ab2 {
+
+    // Guild Settings --> Server Profile
+    .avatarWrapper__86ab2,
+    .container__86ab2 {
         background-color: var(--background-base-low);
     }
 
@@ -192,37 +212,16 @@
     }
 
     // Guild Settings --> Stickers
-    .tier_f15dca:has([class]) {
-        /**
-         * Some weird bug that Discord has with headers.
-         */
-        .tierHeaderWithoutCardBody_f15dca {
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
-        }
-    }
-    .tier_f15dca {
-        background: var(--background-base-lower);
-    }
-    .tierHeader_f15dca {
-        background-color: var(--background-base-low);
-    }
-    .tierBody_f15dca {
-        background-color: transparent;
-    }
     .wrapper__83b1d {
         background-color: var(--background-base-low);
+        &:focus-within,
         &:hover {
             background-color: var(--bg-mod-subtle);
         }
     }
 
     // Guild Settings --> Roles
-    .titleContainer_e29cd7,
-    .header_c6bf1b {
-        background-color: var(--background-base-lowest);
-    }
-    .previewContainer__981c8 .theme-midnight .messageContainer__981c8 {
+    .roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) .circleButton__5f97b {
         background-color: var(--background-base-lowest);
     }
 
@@ -230,99 +229,68 @@
     .joinOptions__959cb {
         background-color: var(--background-base-low);
         .joinOptionContent__959cb {
-            &:hover {
-                background: var(--bg-mod-faint);
+            &.uninteractive__959cb:hover {
+                background-color: var(--background-base-low);
             }
-            &:is(.active__959cb, :active) {
-                background: var(--bg-mod-subtle);
+            &.active__959cb {
+                background-color: var(--background-surface-high);
             }
         }
     }
-
-    // Guild Settings --> Integrations
-    .cardHeader_b44011 {
-        border-radius: var(--radius-sm) var(--radius-sm) 0 0; 
-        border-bottom: 1px solid var(--border-subtle);
+    .header__812a7 {
         background-color: var(--background-base-low);
+        border-bottom: 1px solid var(--border-faint);
+    }
+    .container__812a7 {
+        background-color: var(--background-base-lower);
     }
 
     // Guild Settings --> Safety Setup
     .actionContainer__6446f,
     .mentionLimitContainer_ed9c90 {
-        background-color: var(--background-surface-high); 
+        background-color: var(--background-surface-higher);
     }
     .actionContainer_bc4513 {
         background-color: var(--background-surface-highest);
     }
     .iconWrapper__96f95 {
-        border-radius: var(--radius-xs);
         background-color: var(--background-surface-highest);
     }
-    .keywordListContainer__09e76 {
-        background-color: var(--background-surface-highest);
+    .editCard_a25a68 {
+        background-color: var(--background-base-low);
     }
     .collapseable__217b7 {
-        background-color: var(--background-surface-high); 
+        background-color: var(--background-surface-high);
     }
 
     // Guild Settings --> Bans
-    .bannedUser_cdb2b0 {
-        background-color: var(--bg-mod-faint);
-        &:hover {
-            background-color: var(--bg-mod-subtle);
-        }
+    .bannedUser_cdb2b0:not(:hover) {
+        background-color: var(--background-surface-higher);
     }
 
     // Guild Settings --> Onboarding
-    .content_a9b452 {
-        margin-top: 24px;
+    .review_a9b452 {
         border: 1px solid var(--border-subtle);
-        background-color: var(--background-base-lower);
-        .review_a9b452 {
-            margin-top: 0;
+    }
+    .onboardingStepContainer__28e57 {
+        border-left: 1px solid var(--border-subtle);
+        border-right: 1px solid var(--border-subtle);
+        &:last-child {
             border-bottom: 1px solid var(--border-subtle);
-            background-color: var(--background-base-low);
-        }
-        .onboardingStepContainer__28e57 {
-            background-color: transparent;   
         }
     }
     .container__5d756 {
         border: 1px solid var(--border-subtle);
-        background-color: var(--background-base-lower);
+    }
+    .example__5d756 {
+        background-color: var(--background-surface-high);
     }
 
     // Guild Settings --> Enable Monetization
-    .howItWorksContainer_dd30dc {
-        background-color: var(--background-surface-high);
-    }
-    .creatorBenefitCard__02e4c {
-        border: 1px solid var(--border-faint);
-        background-color: var(--card-primary-bg);
-    }
+    .howItWorksContainer_dd30dc,
+    .creatorBenefitCard__02e4c,
     .guildCard__2485e {
         border: 1px solid var(--border-faint);
-        background-color: var(--card-primary-bg);
-    }
-
-    // General --> Cards
-    .card_b846e5 {
-        box-shadow: 0 1px 0 0 var(--border-subtle);
-        &::before {
-            border-color: var(--border-subtle);
-            background-color: var(--background-base-low);
-        }
-    }
-    .editCard_a25a68 {
-        background-color: var(--card-primary-bg);
-    }
-
-    .valuePill__5dac8 {
-        background-color: var(--background-surface-highest);
-    }
-
-    // Channel Settings
-    .scroller__53543 {
-        background-color: var(--background-base-lowest);
+        background-color: var(--background-surface-high);
     }
 }
