@@ -12,6 +12,8 @@
     .container__9293f {
         border-left: 1px solid var(--app-border-frame);
     }
+    // Unset border-left on HeaderBar if its parent already has a border-left,
+    // or if the bar is resized, to avoid double borders
     .subtitleContainer_f75fb0,
     .subtitleContainer__49508,
     .container__722ff,
