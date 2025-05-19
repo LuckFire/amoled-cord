@@ -1,0 +1,918 @@
+/**
+ * @name AMOLED-Cord
+ * @author LuckFire
+ * @description A basically pitch black theme for Discord. Lights out, baby!
+ * @version 5.0.0
+ * @invite vYdXbEzqDs
+ * @authorId 399416615742996480
+ * @source https://github.com/LuckFire/amoled-cord
+ * @updateUrl https://github.com/LuckFire/amoled-cord/blob/main/clients/amoled-cord.theme.css
+*/
+
+@import url("https://luckfire.github.io/amoled-cord/src/amoled-cord.css");
+
+.theme-midnight {
+  --background-message-hover: var(--opacity-8) !important;
+  --card-primary-bg: var(--background-base-low) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--background-surface-highest) !important;
+  --scrollbar-auto-thumb: var(--background-surface-highest) !important;
+  --scrollbar-thin-thumb: var(--background-surface-highest) !important;
+  --custom-channel-members-bg: var(--background-base-lowest) !important;
+  /**
+   * These are some old variables Discord used.
+   * They're still used in some areas, still would prefer to update areas to use the new ones if possible.
+   */
+  --background-primary: var(--background-base-lowest) !important;
+  --background-secondary: var(--background-base-lower) !important;
+  --background-secondary-alt: var(--neutral-88) !important;
+  --background-tertiary: var(--background-base-low) !important;
+  --modal-background: var(--background-base-lowest) !important;
+  --modal-footer-background: var(--background-base-lowest) !important;
+}
+
+@supports (color: color-mix(in lch, red, blue)) {
+  .theme-midnight {
+    --background-message-hover: color-mix(
+        in oklab,
+        var(--opacity-8) 100%,
+        hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.0784313725490196) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --background-primary: color-mix(
+        in oklab,
+        var(--background-base-lowest) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --background-secondary: color-mix(
+        in oklab,
+        var(--background-base-lower) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --background-secondary-alt: color-mix(
+        in oklab,
+        var(--neutral-88) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --background-tertiary: color-mix(
+        in oklab,
+        var(--background-base-low) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --card-primary-bg: color-mix(
+        in oklab,
+        var(--background-base-low) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --modal-background: color-mix(
+        in oklab,
+        var(--background-base-lowest) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --modal-footer-background: color-mix(
+        in oklab,
+        var(--background-base-lowest) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --scrollbar-auto-scrollbar-color-thumb: color-mix(
+        in oklab,
+        var(--background-surface-highest) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --scrollbar-auto-thumb: color-mix(
+        in oklab,
+        var(--background-surface-highest) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+    --scrollbar-thin-thumb: color-mix(
+        in oklab,
+        var(--background-surface-highest) 100%,
+        var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+    ) !important;
+  }
+}
+.theme-midnight .header__0b563 {
+  background-color: var(--background-base-lowest) !important;
+}
+.theme-midnight .pageBody__41ed7 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .container__0b563 {
+  background-color: var(--background-base-lowest) !important;
+}
+.theme-midnight .prompt__5d7c9 {
+  border-color: var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .profileCard__5d7c9 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .emptyPage__5d7c9 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .wrapper_fc8177,
+.theme-midnight .wrapper_d852db {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .chatContent_f75fb0,
+.theme-midnight .container__34c2c {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .clickable__91a9d:hover .childContainer__91a9d {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .clickable__91a9d:active .childContainer__91a9d {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .selected__91a9d .childContainer__91a9d {
+  background-color: var(--opacity-16);
+}
+.theme-midnight .emptyState__7641b {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .wrapper_f7ecac {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .channelTextArea_f75fb0 {
+  background: var(--background-base-low);
+}
+.theme-midnight .channelTextArea_f75fb0 .themedBackground__74017,
+.theme-midnight .channelTextArea_f75fb0 .appLauncherCircleMask_e6e74f {
+  background: var(--background-base-low);
+}
+.theme-midnight .optionPill__1464f {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .optionPill__1464f .optionPillKey__1464f {
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .stackedBars__74017 {
+  background: var(--background-surface-high);
+}
+.theme-midnight .content__44492 .messageContent__44492 {
+  border: 1px solid var(--border-subtle);
+  border-bottom: none;
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .content__44492 .messageContent__44492 .embedCard__44c9a {
+  background-color: transparent;
+}
+.theme-midnight .content__44492 .footerContainer__44492 {
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .embedCard_b99f57 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .embedCard_b99f57 .cardFooter_b99f57 {
+  border-top: 1px solid var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .container_f369db {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .container__93db4,
+.theme-midnight .loadingCard_f369db {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .previewForm_d9be46 {
+  background-color: var(--background-base-lower);
+  border-color: var(--border-faint);
+}
+.theme-midnight .matchingPostsRow_f369db {
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .descriptionContainer_ca49a1 {
+  background-color: var(--background-base-lowest);
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .linkContainer_ca49a1 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .gradient_ca49a1 {
+  background: linear-gradient(to top, var(--background-base-lowest), transparent);
+}
+.theme-midnight .textContentFooter__9a337 {
+  background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0.97) 36px, hsl(var(--black-hsl)/0.4));
+}
+.theme-midnight .textContentFooter__9a337.noTags__9a337 {
+  background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0));
+}
+
+.theme-midnight .container__9293f,
+.theme-midnight .chatHeaderBar_a53846,
+.theme-midnight .forumOrHome__49676 {
+  --__header-bar-background: var(--background-base-lowest);
+}
+.theme-midnight .backdrop__8a7fc {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .container__9293f {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .subtitleContainer_f75fb0 .container__9293f,
+.theme-midnight .subtitleContainer__49508 .container__9293f,
+.theme-midnight .container__722ff .container__9293f,
+.theme-midnight .container__01ae2 .container__9293f {
+  border-left: unset;
+}
+
+.theme-midnight .page_c791b2 {
+  background-color: var(--background-base-lowest) !important;
+}
+.theme-midnight .page_c791b2 > div.thin_d125d2.scrollerBase_d125d2 {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .page_c791b2 .content_f75fb0 {
+  border-left: unset;
+}
+
+.theme-midnight .searchResult__02a39 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .contentContainer__89463 {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .sidebarContainer__89463 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .background__7449f .auto_d125d2.scrollerBase_d125d2 {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .background__7449f {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .channelIconContainer_c66e86,
+.theme-midnight .rulesIconContainer_c66e86,
+.theme-midnight .tagIconContainer_c66e86 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .resourceChannel__7449f:hover {
+  background-color: var(--background-modifier-hover);
+}
+.theme-midnight .headerBarInner__7449f:after {
+  background: linear-gradient(to bottom, rgba(50, 52, 58, 0) 0, var(--background-base-lowest) 100%);
+}
+
+.theme-midnight .content__49668 {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .opaqueBackground__79d38 {
+  background: hsl(var(--primary-800-hsl)/0.85);
+}
+
+.theme-midnight .circleIconButton__5bc7e:not(.selected__5bc7e),
+.theme-midnight .childWrapperNoHoverBg__6e9f8,
+.theme-midnight .pendingFolderButtonIcon__93fc9:not(:hover) {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .wrapper__2ea32:hover .link__2ea32 {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .wrapper__2ea32:active .link__2ea32 {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .modeSelected__2ea32 .link__2ea32,
+.theme-midnight .modeSelected__2ea32:hover .link__2ea32 {
+  background-color: var(--opacity-16);
+}
+.theme-midnight .wrapper__260e1 {
+  border-color: var(--border-faint);
+}
+.theme-midnight .wrapper__260e1 .total__260e1 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .wrapper__260e1 .total__260e1:after {
+  border-right-color: var(--background-surface-high);
+}
+.theme-midnight .interactive_bf202d:focus-within, .theme-midnight .interactive_bf202d:hover {
+  background: var(--bg-mod-faint);
+}
+.theme-midnight .interactive_bf202d:active {
+  background: var(--bg-mod-subtle);
+}
+.theme-midnight .interactive_bf202d.selected_bf202d {
+  background: var(--opacity-16);
+}
+.theme-midnight .navItem__551b0:focus-within, .theme-midnight .navItem__551b0:hover {
+  background: var(--bg-mod-faint);
+}
+.theme-midnight .navItem__551b0:active, .theme-midnight .navItem__551b0.selected__551b0 {
+  background: var(--bg-mod-subtle);
+}
+
+.theme-midnight .mini_a562c8 .bar_a562c8,
+.theme-midnight .slider_a562c8 .bar_a562c8 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .markDash_a562c8 {
+  background-color: var(--background-surface-highest);
+}
+
+.theme-midnight .pageContainer__09fde {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight {
+  /*
+      We need to use raw tokens here because they override the default theme to dark
+      --neutral-95 is --background-base-low
+      --opacity-12 is --background-modifier-hover
+      --opacity-24 is --border-subtle
+  */
+}
+.theme-midnight .buttonSection__1405b {
+  border-color: var(--border-faint);
+}
+.theme-midnight .videoWrapper__2f4f7:not(.wrapper__48b20),
+.theme-midnight .streamHidden_c30e20,
+.theme-midnight .streamPreview__2f4f7 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .cta_a3a802 {
+  background-color: var(--button-secondary-background);
+}
+.theme-midnight .cta_a3a802:hover {
+  background-color: var(--button-secondary-background-hover);
+}
+.theme-midnight .participantsButton__211d1,
+.theme-midnight .buttonColor__7b3e8 {
+  background-color: var(--background-surface-higher);
+}
+.theme-midnight .participantsButton__211d1:hover,
+.theme-midnight .buttonColor__7b3e8:hover {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .resizeHandle__4b144:after {
+  background: var(--app-border-frame);
+  content: "";
+  display: block;
+  height: 1px;
+}
+.theme-midnight .container__722ff {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .container__6b38f.pulse__6b38f {
+  background-color: var(--neutral-95);
+  border: 1px solid var(--opacity-24);
+}
+.theme-midnight .container__6b38f.pulse__6b38f:hover {
+  background-color: var(--opacity-12);
+}
+.theme-midnight .tileContainer__71eb2:hover {
+  background-color: var(--opacity-12);
+}
+
+.theme-midnight .editProfileContainer__42179 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .headerIconWrapper__42179 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .upsellContainer__88422 {
+  background-color: hsl(var(--neutral-35-hsl)/0.1);
+}
+
+.theme-midnight .accountBtnInner__750de,
+.theme-midnight .application__750de {
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .accountBtnInner__750de:not(:hover),
+.theme-midnight .application__750de:not(:hover) {
+  background-color: var(--background-base-lower);
+}
+
+.theme-midnight .footer_d97f89 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .modalHeader_ababa2,
+.theme-midnight .modalBody_ababa2,
+.theme-midnight .modalFooter_ababa2 {
+  background-color: var(--background-base-lowest) !important;
+}
+
+.theme-midnight .footer__67dba {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .keyboardShortcutsModal_f061f6 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .scroller_cc2dff {
+  border-right: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .main_c08b38:not(.fullBorderWithGradient_c08b38) {
+  border-top: 1px solid var(--app-border-frame);
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .prompt_fe70ca {
+  border: 1px solid var(--border-normal);
+}
+.theme-midnight .navButtons_fe70ca {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .termsFieldBody_fe70ca {
+  background-color: var(--background-base-low);
+  border: 1px solid var(--border-subtle);
+}
+
+.theme-midnight .scroller__01c8c {
+  border-right: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .sidebarContainer__1d6c7 {
+  border-right: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .previewDark__4e29d {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .container_cbd375,
+.theme-midnight .scroller__23746,
+.theme-midnight .headerBar__8a7fc {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .relative__8a7fc {
+  border-bottom: 1px solid var(--app-border-frame);
+}
+.theme-midnight .scroller__23746 {
+  background: var(--background-base-lowest);
+}
+
+.theme-midnight .page_c48ade .containerSidenav_dc2e0e {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .page_c48ade .contentPanel_dc2e0e {
+  border-left: 1px solid var(--app-border-frame);
+}
+
+.theme-midnight .tabBody__133bf {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .section__00943 {
+  border-color: var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .addFriendInputWrapper__72ba7 {
+  background: var(--input-background);
+}
+.theme-midnight .addFriendInputWrapper__72ba7:not(:focus-within) {
+  border-color: var(--input-border);
+}
+.theme-midnight .outer_bf1984 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .outer_bf1984:hover {
+  background-color: var(--background-surface-high);
+}
+
+.theme-midnight .page_c48ade:empty, .theme-midnight .page_c48ade:has(.loader_c48ade, > div:empty:only-child) {
+  border-top: 1px solid var(--app-border-frame);
+  border-left: 1px solid var(--app-border-frame);
+}
+
+.theme-midnight .container_ad5cdf {
+  border-top: 1px solid var(--app-border-frame);
+}
+.theme-midnight .scroller__4a84a,
+.theme-midnight .scroller_fb04e1 {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .installationPath_a6f654 {
+  box-shadow: 0 1px 0 0 var(--border-subtle);
+}
+
+.theme-midnight .container_f391e3 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .container_c880e8:not(.settingsContainer_c880e8),
+.theme-midnight .container_ca1a02 {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .card_b5493b {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .card_b5493b .cardDescription__1f069 {
+  background-image: linear-gradient(to bottom, var(--background-surface-high) 50%, hsl(var(--primary-800-hsl)/0.75) 80%);
+}
+.theme-midnight .container_da4aee {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .container_da4aee .textContainer_da4aee {
+  background-image: linear-gradient(to right, var(--background-surface-high), hsl(var(--primary-800-hsl)/40%) 90%, transparent);
+}
+
+.theme-midnight .headerBar__80679,
+.theme-midnight .shop__6db1d,
+.theme-midnight .shop__08415 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .shop__08415,
+.theme-midnight .pageWrapper__6db1d {
+  border-left: 1px solid var(--app-border-frame);
+}
+.theme-midnight .mainContent__08415,
+.theme-midnight .pageWrapper__6db1d {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .darkCardBackground_c3d04b {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .addGamePopout_cc46f0 {
+  box-shadow: 0 0 0 1px var(--border-subtle), var(--legacy-elevation-high);
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .container__5808f {
+  background-color: var(--background-surface-high);
+}
+
+.theme-midnight .autocomplete__13533 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .autocomplete__13533 .wrapper__14245 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .autocomplete__13533 .wrapper__4e6ce {
+  border-right: 1px solid var(--border-faint);
+  background-color: var(--background-base-lower);
+}
+
+.theme-midnight .contentWarningPopout_be95d0 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .footer_be95d0 {
+  background-color: var(--bg-mod-faint);
+}
+
+.theme-midnight .menu_c1e9c4 {
+  border-color: var(--border-faint);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .button_f563df {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .button_f563df:hover {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .button_f563df:active {
+  background-color: var(--bg-mod-strong);
+}
+
+.theme-midnight .popoutList__92efc {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .popout__3f413 {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .popoutContainer__0f481 {
+  background-color: color-mix(in oklab, var(--background-surface-high), transparent 10%);
+}
+.theme-midnight .guildSection_d5cd2d {
+  background-color: var(--background-base-low);
+  border-top: 1px solid var(--border-faint);
+}
+
+.theme-midnight .container__2692d,
+.theme-midnight .container_fc561d,
+.theme-midnight .container_f6bd5f,
+.theme-midnight .container__03885 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .channelHeader__35a7e,
+.theme-midnight .container__0f711 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .messageContainer__95796,
+.theme-midnight .messages__1ccd1 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .tutorial__2692d,
+.theme-midnight .upsellContainer__4a7f0,
+.theme-midnight .icon_d404a3 {
+  background-color: var(--background-surface-high);
+}
+
+.theme-midnight .messagesPopoutWrap__45690 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .header__45690 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .footer__45690 {
+  border-top: 1px solid var(--app-border-frame);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .messageGroupWrapper__45690 {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .quickSelectPopout_ebaca5 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .quickSelectPopoutOption_ebaca5:hover {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .quickSelectPopoutOption_ebaca5:focus {
+  background-color: var(--bg-mod-subtle);
+}
+
+.theme-midnight .container__55c99 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .queryContainer__55c99 {
+  border-bottom-color: var(--border-subtle);
+}
+.theme-midnight .focused__55c99 {
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .calendarPicker_d27f17 .react-datepicker,
+.theme-midnight .calendarPicker_d27f17 .react-datepicker__header {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .calendarPicker_d27f17 .react-datepicker__current-month {
+  border-bottom-color: var(--border-faint);
+}
+.theme-midnight .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled, .theme-midnight .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background-color: var(--background-base-low);
+}
+
+.theme-midnight .container_d9c882 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .container_d9c882 .header_d9c882 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .container_d9c882 .container__6764b {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .container_d9c882 .container__6764b:hover {
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .icon__1b24f {
+  background-color: var(--background-surface-high);
+}
+
+.theme-midnight .sidebarRegionScroller__23e6b {
+  border-right: 1px solid var(--app-border-frame);
+}
+
+/**
+ * I organize everything based on how I did stuff in order.
+ *
+ * It should be noted that some elements are used in other areas in settings,
+ * but I'm not sure which ones and I'm too lazy to really dig into it.
+*/
+.theme-midnight .contentRegionScroller__23e6b {
+  background: var(--background-base-lowest);
+}
+.theme-midnight .accountProfileCard__1fed1 {
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .accountProfileCard__1fed1 .background__1fed1 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .accountProfileCard__1fed1 .background__1fed1 .fieldList__1fed1 {
+  background-color: transparent;
+}
+.theme-midnight .emptyContainer_de8069 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .card__5cea9 {
+  border: 1px solid var(--border-faint);
+}
+.theme-midnight .card__5cea9 .header__5cea9 {
+  border-bottom: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .box_f8c98c {
+  border-color: var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .row__0624f {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .headerV2__50a54 {
+  border-bottom: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .authedAppV2__50a54 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .connectContainer_c7f964 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .accountButtonInner_c7f964,
+.theme-midnight .accountAddInner_c7f964 {
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .accountButtonInner_c7f964:not(:hover),
+.theme-midnight .accountAddInner_c7f964:not(:hover) {
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .connection_c7f964 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .connection_c7f964 .connectionHeader_c7f964 {
+  border-bottom: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .connection_c7f964 .metadataContainer_c7f964 {
+  border: 1px solid var(--app-border-frame);
+}
+.theme-midnight .connection_c7f964 .integrationWrapper_c7f964 {
+  border: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .expandedProgressBarContainerSettingsPage_a61c56,
+.theme-midnight .giftCard_a45ed3 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .perkCard_b62c4e {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .rowBottomBorder_e4ef5c {
+  border-color: var(--background-modifier-accent);
+}
+.theme-midnight .appliedBoostContainer_ceb06a {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .appliedBoostContainer_ceb06a .boostContainerSeparator_ceb06a {
+  background-color: var(--border-subtle);
+}
+.theme-midnight .appliedBoostContainer_ceb06a .boostContainer_ceb06a {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .appliedBoostContainer_ceb06a .guildContainer__5dba5:not(.recommendedServerCard__51537) {
+  border-bottom: 1px solid var(--border-faint);
+}
+.theme-midnight .guildContainer__5dba5 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .guildContainer__5dba5.recommendedServerCard__51537 {
+  border: 1px solid var(--border-faint);
+}
+.theme-midnight .wrapper__5b98e {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .wrapper__5b98e .list__5b98e {
+  border-color: var(--border-subtle);
+}
+.theme-midnight .wrapper__5b98e .listItem__5b98e {
+  border-color: var(--border-subtle);
+}
+.theme-midnight .detailsBlock_e335a7 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .accountCreditsContainer__94f72 {
+  border-bottom: 1px solid var(--border-faint);
+}
+.theme-midnight .fractionalPremiumAccountCredit__94f72,
+.theme-midnight .premiumSubscriptionAccountCredit__94f72 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .fractionalTimeRemainingRow__94f72 {
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .paymentPane__01014 {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .paymentPane__01014 .paginator__01014 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .paymentPane__01014 .payment_e9cb00 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .paymentPane__01014 .hoverablePayment_e9cb00:hover {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .paymentPane__01014 .bottomDivider__01014 {
+  border-bottom-color: var(--background-modifier-accent);
+}
+.theme-midnight .paymentPane__01014 .expandedInfo_e9cb00 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .preview__3e443 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .preview__5d148 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .progress__06283 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .sliderBar_ac7648:not(.speaking_ac7648) {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .backgroundOptionInner__53965 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .avatarWrapper__86ab2,
+.theme-midnight .container__86ab2 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .avatarUploaderInnerSquareDisabled_e04502 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .wrapper__83b1d {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .wrapper__83b1d:focus-within, .theme-midnight .wrapper__83b1d:hover {
+  background-color: var(--bg-mod-subtle);
+}
+.theme-midnight .roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) .circleButton__5f97b {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .joinOptions__959cb {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .joinOptions__959cb .joinOptionContent__959cb.uninteractive__959cb:hover {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .joinOptions__959cb .joinOptionContent__959cb.active__959cb {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .header__812a7 {
+  background-color: var(--background-base-low);
+  border-bottom: 1px solid var(--border-faint);
+}
+.theme-midnight .container__812a7 {
+  background-color: var(--background-base-lower);
+}
+.theme-midnight .actionContainer__6446f,
+.theme-midnight .mentionLimitContainer_ed9c90 {
+  background-color: var(--background-surface-higher);
+}
+.theme-midnight .actionContainer_bc4513 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .iconWrapper__96f95 {
+  background-color: var(--background-surface-highest);
+}
+.theme-midnight .editCard_a25a68 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .collapseable__217b7 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .bannedUser_cdb2b0:not(:hover) {
+  background-color: var(--background-surface-higher);
+}
+.theme-midnight .review_a9b452 {
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .onboardingStepContainer__28e57 {
+  border-left: 1px solid var(--border-subtle);
+  border-right: 1px solid var(--border-subtle);
+}
+.theme-midnight .onboardingStepContainer__28e57:last-child {
+  border-bottom: 1px solid var(--border-subtle);
+}
+.theme-midnight .container__5d756 {
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .example__5d756 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .howItWorksContainer_dd30dc,
+.theme-midnight .creatorBenefitCard__02e4c,
+.theme-midnight .guildCard__2485e {
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-surface-high);
+}
