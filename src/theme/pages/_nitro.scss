@@ -1,0 +1,34 @@
+.theme-midnight {
+    // TODO: Add a border during the loading state; this is tricky since only a spinner is present with margins
+    .container_c880e8:not(.settingsContainer_c880e8),
+    .container_ca1a02 {
+        border-left: 1px solid var(--app-border-frame);
+    }
+
+    .card_b5493b {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-surface-high);
+
+        .cardDescription__1f069 {
+            background-image: linear-gradient(
+                to bottom,
+                var(--background-surface-high) 50%,
+                hsl(var(--primary-800-hsl) / 0.75) 80%
+            );
+        }
+    }
+
+    .container_da4aee {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-surface-high);
+
+        .textContainer_da4aee {
+            background-image: linear-gradient(
+                to right,
+                var(--background-surface-high),
+                hsl(var(--primary-800-hsl) / 40%) 90%,
+                transparent
+            );
+        }
+    }
+}

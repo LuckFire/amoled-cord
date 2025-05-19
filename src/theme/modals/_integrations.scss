@@ -1,14 +1,7 @@
 .theme-midnight {
-    .cardHeader_b44011.inModal_b44011 {
-        padding-left: 10px;
-        padding-right: 10px;
-
-       /**
-        * This is just a temporary fix.
-        * I did something weird with the cards and I need to figure out how to handle that better.
-        */
-        ~ .divider__46c3b {
-            display: none;
-        }
+    .modalHeader_ababa2,
+    .modalBody_ababa2,
+    .modalFooter_ababa2 {
+        background-color: var(--background-base-lowest) !important;
     }
 }

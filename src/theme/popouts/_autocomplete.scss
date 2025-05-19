@@ -1,10 +1,4 @@
 .theme-midnight {
-    // Mentions
-    .autocomplete__6b0e0 {
-        border: 1px solid var(--border-faint);
-    }
-
-    // Slash Commands
     .autocomplete__13533 {
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
@@ -15,13 +9,6 @@
         .wrapper__4e6ce {
             border-right: 1px solid var(--border-faint);
             background-color: var(--background-base-lower);
-        }
-
-        .clickable__13533 .base__13533 {
-            background-color: transparent;
-            &:hover {
-                background-color: var(--background-surface-high);
-            }
         }
     }
 }

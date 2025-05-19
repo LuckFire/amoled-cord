@@ -5,34 +5,41 @@
         background: var(--background-base-lowest);
     }
 
-    .content_f75fb0 .chatContent_f75fb0 {
+    .chatContent_f75fb0,
+    .container__34c2c {
         background: var(--background-base-lowest);
     }
 
-    .members_c8ffbb {
-        background: var(--background-base-lowest);
-
-        .member__5d473 {
-            &:hover .childContainer__91a9d {
-                background-color: var(--bg-mod-faint);
-            }
-            &:is(.selected__91a9d, :active) .childContainer__91a9d {
-                background-color: var(--bg-mod-subtle);
-            }
+    .clickable__91a9d {
+        &:hover .childContainer__91a9d {
+            background-color: var(--bg-mod-faint);
         }
+        &:active .childContainer__91a9d {
+            background-color: var(--bg-mod-subtle);
+        }
+    }
+    .selected__91a9d .childContainer__91a9d {
+        // No variable uses this token; using it directly since --background-modifier-selected is too bright
+        background-color: var(--opacity-16);
+    }
+
+    .emptyState__7641b {
+        border-left: 1px solid var(--app-border-frame);
     }
 
     .wrapper_f7ecac {
         background-color: var(--background-surface-high);
     }
 
-    .channelTextArea__74017 {
+    .channelTextArea_f75fb0 {
         background: var(--background-base-low);
-        .themedBackground__74017 {
+        .themedBackground__74017,
+        .appLauncherCircleMask_e6e74f {
             background: var(--background-base-low);
         }
     }
-    // commands
+
+    // Commands
     .optionPill__1464f {
         border: 1px solid var(--border-faint);
         background-color: var(--background-surface-high);
@@ -45,16 +52,11 @@
         background: var(--background-surface-high);
     }
 
-    // automod
+    // AutoMod
     .content__44492 {
         .messageContent__44492 {
-            margin-top: 5px;
-
-            border-radius: 5px 5px 0 0;
-            border-top: 1px solid;
-            border-right: 1px solid;
-            border-left: 1px solid;
-            border-color: var(--border-subtle);
+            border: 1px solid var(--border-subtle);
+            border-bottom: none;
             background-color: var(--background-surface-high);
 
             .embedCard__44c9a {
@@ -62,9 +64,7 @@
             }
         }
         .footerContainer__44492 {
-            border-radius: 0 0 5px 5px;
             border: 1px solid var(--border-subtle);
-            background-color: var(--background-base-low);
         }
     }
 
@@ -75,10 +75,5 @@
             border-top: 1px solid var(--border-subtle);
             background-color: var(--background-base-low);
         }
-    }
-
-    // split chat
-    .chatContent_f75fb0 {
-        background-color: transparent;
     }
 }

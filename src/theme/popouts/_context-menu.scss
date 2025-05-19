@@ -5,13 +5,11 @@
     }
     .button_f563df {
         background-color: var(--bg-mod-faint);
-        &:is(:hover, :focus, .focused_f563df) {
+        &:hover {
             background-color: var(--bg-mod-subtle);
         }
-    }
-    .item_c1e9c4 {
-        &:is(:hover, :focus, .focused_c1e9c4) {
-            background-color: var(--bg-mod-faint);
+        &:active {
+            background-color: var(--bg-mod-strong);
         }
     }
 }

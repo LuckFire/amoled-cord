@@ -1,12 +1,17 @@
 .theme-midnight {
-    .headerBar__80679 {
-        border-left: 1px solid var(--app-border-frame);
+    .headerBar__80679,
+    .shop__6db1d,
+    .shop__08415 {
         background-color: var(--background-base-lowest);
+    }
+
+    .shop__08415,
+    .pageWrapper__6db1d {
+        border-left: 1px solid var(--app-border-frame);
     }
 
     .mainContent__08415,
     .pageWrapper__6db1d {
-        border-left: 1px solid var(--app-border-frame);
         background-color: var(--background-base-lowest);
     }
 
