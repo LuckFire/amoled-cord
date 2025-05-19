@@ -1,8 +1,16 @@
-:is(.theme-dark, .theme-midnight) #app-mount .promptContent_fe70ca {
-    .optionButtonWrapper__270d7.selected__270d7 {
-        background-color: var(--background-secondary);
+.theme-midnight {
+    .main_c08b38:not(.fullBorderWithGradient_c08b38) {
+        border-top: 1px solid var(--app-border-frame);
+        border-left: 1px solid var(--app-border-frame);
     }
-    .overlay_fe70ca {
-        background: linear-gradient(to top, hsl(var(--primary-860-hsl)), hsl(var(--primary-860-hsl)/0)) !important;
+    .prompt_fe70ca {
+        border: 1px solid var(--border-normal);
+    }
+    .navButtons_fe70ca {
+        background-color: var(--background-base-lowest);
+    }
+    .termsFieldBody_fe70ca {
+        background-color: var(--background-base-low);
+        border: 1px solid var(--border-subtle);
     }
 }

@@ -1,5 +1,5 @@
-:is(.theme-dark, .theme-midnight) #app-mount .layers__960e4 {
+.theme-midnight {
     .sidebarRegionScroller__23e6b {
-        background-color: var(--background-primary);
+        border-right: 1px solid var(--app-border-frame);
     }
 }

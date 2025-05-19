@@ -1,0 +1,296 @@
+/**
+ * I organize everything based on how I did stuff in order.
+ *
+ * It should be noted that some elements are used in other areas in settings,
+ * but I'm not sure which ones and I'm too lazy to really dig into it.
+*/
+
+.theme-midnight {
+    .contentRegionScroller__23e6b {
+        background: var(--background-base-lowest);
+    }
+
+    // User Settings --> My Account
+    .accountProfileCard__1fed1 {
+        border: 1px solid var(--border-subtle);
+
+        .background__1fed1 {
+            border: 1px solid var(--border-subtle);
+            background-color: var(--background-base-lowest);
+            .fieldList__1fed1 {
+                background-color: transparent;
+            }
+        }
+    }
+
+    // User Settings --> Content & Social
+    .emptyContainer_de8069 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .card__5cea9 {
+        border: 1px solid var(--border-faint);
+
+        .header__5cea9 {
+            border-bottom: 1px solid var(--border-faint);
+            background-color: var(--background-base-low);
+        }
+    }
+
+    // User Settings --> Family Center
+    .box_f8c98c {
+        border-color: var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .row__0624f {
+        background-color: var(--background-base-lowest);
+    }
+
+    // User Settings --> Authorized Apps
+    .headerV2__50a54 {
+        border-bottom: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .authedAppV2__50a54 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-lower);
+    }
+
+    // User Settings --> Connections
+    .connectContainer_c7f964 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .accountButtonInner_c7f964,
+    .accountAddInner_c7f964 {
+        border: 1px solid var(--border-subtle);
+        &:not(:hover) {
+            background-color: var(--background-base-lower);
+        }
+    }
+    .connection_c7f964 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-lower);
+
+        .connectionHeader_c7f964 {
+            border-bottom: 1px solid var(--border-faint);
+            background-color: var(--background-base-low);
+        }
+
+        .metadataContainer_c7f964 {
+            border: 1px solid var(--app-border-frame);
+        }
+
+        .integrationWrapper_c7f964 {
+            border: 1px solid var(--app-border-frame);
+            background-color: var(--background-base-lowest);
+        }
+    }
+
+    // User Settings --> Nitro
+    .expandedProgressBarContainerSettingsPage_a61c56,
+    .giftCard_a45ed3 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .perkCard_b62c4e {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .rowBottomBorder_e4ef5c {
+        border-color: var(--background-modifier-accent);
+    }
+
+    // User Settings --> Server Boost
+    .appliedBoostContainer_ceb06a {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+
+        .boostContainerSeparator_ceb06a {
+            background-color: var(--border-subtle);
+        }
+
+        .boostContainer_ceb06a {
+            background-color: var(--background-base-low);
+        }
+
+        .guildContainer__5dba5:not(.recommendedServerCard__51537) {
+            border-bottom: 1px solid var(--border-faint);
+        }
+    }
+    .guildContainer__5dba5 {
+        background-color: var(--background-base-low);
+        &.recommendedServerCard__51537 {
+            border: 1px solid var(--border-faint);
+        }
+    }
+    .wrapper__5b98e {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+
+        .list__5b98e {
+            border-color: var(--border-subtle);
+        }
+        .listItem__5b98e {
+            border-color: var(--border-subtle);
+        }
+    }
+
+    // User Settings --> Subscriptions
+    .detailsBlock_e335a7 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .accountCreditsContainer__94f72 {
+        border-bottom: 1px solid var(--border-faint);
+    }
+    .fractionalPremiumAccountCredit__94f72,
+    .premiumSubscriptionAccountCredit__94f72 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .fractionalTimeRemainingRow__94f72 {
+        background-color: var(--background-base-lower);
+    }
+
+    // User Settings --> Billing
+    .paymentPane__01014 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-base-low);
+
+        .paginator__01014 {
+            background-color: var(--background-base-low);
+        }
+
+        .payment_e9cb00 {
+            background-color: var(--background-base-low);
+        }
+        .hoverablePayment_e9cb00:hover {
+            background-color: var(--background-surface-high);
+        }
+
+        .bottomDivider__01014 {
+            border-bottom-color: var(--background-modifier-accent);
+        }
+
+        .expandedInfo_e9cb00 {
+            border: 1px solid var(--border-subtle);
+            background-color: var(--background-base-lowest);
+        }
+    }
+
+    // User Settings --> Appearance
+    .preview__3e443 {
+        background-color: var(--background-base-lowest);
+    }
+
+    // User Settings --> Accessibility
+    .preview__5d148 {
+        background-color: var(--background-base-lowest);
+    }
+
+    // User Settings --> Voice & Video
+    .progress__06283 {
+        background-color: var(--background-surface-highest);
+    }
+    .sliderBar_ac7648:not(.speaking_ac7648) {
+        background-color: var(--background-surface-highest);
+    }
+    .backgroundOptionInner__53965 {
+        background-color: var(--background-base-low);
+    }
+
+    // Guild Settings --> Server Profile
+    .avatarWrapper__86ab2,
+    .container__86ab2 {
+        background-color: var(--background-base-low);
+    }
+
+    // Guild Settings --> Boost Perks
+    .avatarUploaderInnerSquareDisabled_e04502 {
+        background-color: var(--background-surface-high);
+    }
+
+    // Guild Settings --> Stickers
+    .wrapper__83b1d {
+        background-color: var(--background-base-low);
+        &:focus-within,
+        &:hover {
+            background-color: var(--bg-mod-subtle);
+        }
+    }
+
+    // Guild Settings --> Roles
+    .roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) .circleButton__5f97b {
+        background-color: var(--background-base-lowest);
+    }
+
+    // Guild Settings --> Access
+    .joinOptions__959cb {
+        background-color: var(--background-base-low);
+        .joinOptionContent__959cb {
+            &.uninteractive__959cb:hover {
+                background-color: var(--background-base-low);
+            }
+            &.active__959cb {
+                background-color: var(--background-surface-high);
+            }
+        }
+    }
+    .header__812a7 {
+        background-color: var(--background-base-low);
+        border-bottom: 1px solid var(--border-faint);
+    }
+    .container__812a7 {
+        background-color: var(--background-base-lower);
+    }
+
+    // Guild Settings --> Safety Setup
+    .actionContainer__6446f,
+    .mentionLimitContainer_ed9c90 {
+        background-color: var(--background-surface-higher);
+    }
+    .actionContainer_bc4513 {
+        background-color: var(--background-surface-highest);
+    }
+    .iconWrapper__96f95 {
+        background-color: var(--background-surface-highest);
+    }
+    .editCard_a25a68 {
+        background-color: var(--background-base-low);
+    }
+    .collapseable__217b7 {
+        background-color: var(--background-surface-high);
+    }
+
+    // Guild Settings --> Bans
+    .bannedUser_cdb2b0:not(:hover) {
+        background-color: var(--background-surface-higher);
+    }
+
+    // Guild Settings --> Onboarding
+    .review_a9b452 {
+        border: 1px solid var(--border-subtle);
+    }
+    .onboardingStepContainer__28e57 {
+        border-left: 1px solid var(--border-subtle);
+        border-right: 1px solid var(--border-subtle);
+        &:last-child {
+            border-bottom: 1px solid var(--border-subtle);
+        }
+    }
+    .container__5d756 {
+        border: 1px solid var(--border-subtle);
+    }
+    .example__5d756 {
+        background-color: var(--background-surface-high);
+    }
+
+    // Guild Settings --> Enable Monetization
+    .howItWorksContainer_dd30dc,
+    .creatorBenefitCard__02e4c,
+    .guildCard__2485e {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-surface-high);
+    }
+}

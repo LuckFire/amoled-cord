@@ -1,0 +1,10 @@
+.theme-midnight {
+    // Add borders to loading lazy loaded pages
+    .page_c48ade {
+        &:empty,
+        &:has(.loader_c48ade, > div:empty:only-child) {
+            border-top: 1px solid var(--app-border-frame);
+            border-left: 1px solid var(--app-border-frame);
+        }
+    }
+}

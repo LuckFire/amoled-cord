@@ -1,0 +1,79 @@
+.theme-midnight {
+    // Content Loading
+    .wrapper_fc8177,
+    .wrapper_d852db {
+        background: var(--background-base-lowest);
+    }
+
+    .chatContent_f75fb0,
+    .container__34c2c {
+        background: var(--background-base-lowest);
+    }
+
+    .clickable__91a9d {
+        &:hover .childContainer__91a9d {
+            background-color: var(--bg-mod-faint);
+        }
+        &:active .childContainer__91a9d {
+            background-color: var(--bg-mod-subtle);
+        }
+    }
+    .selected__91a9d .childContainer__91a9d {
+        // No variable uses this token; using it directly since --background-modifier-selected is too bright
+        background-color: var(--opacity-16);
+    }
+
+    .emptyState__7641b {
+        border-left: 1px solid var(--app-border-frame);
+    }
+
+    .wrapper_f7ecac {
+        background-color: var(--background-surface-high);
+    }
+
+    .channelTextArea_f75fb0 {
+        background: var(--background-base-low);
+        .themedBackground__74017,
+        .appLauncherCircleMask_e6e74f {
+            background: var(--background-base-low);
+        }
+    }
+
+    // Commands
+    .optionPill__1464f {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-surface-high);
+        .optionPillKey__1464f {
+            background-color: var(--background-base-lower);
+        }
+    }
+
+    .stackedBars__74017 {
+        background: var(--background-surface-high);
+    }
+
+    // AutoMod
+    .content__44492 {
+        .messageContent__44492 {
+            border: 1px solid var(--border-subtle);
+            border-bottom: none;
+            background-color: var(--background-surface-high);
+
+            .embedCard__44c9a {
+                background-color: transparent;
+            }
+        }
+        .footerContainer__44492 {
+            border: 1px solid var(--border-subtle);
+        }
+    }
+
+    .embedCard_b99f57 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-surface-high);
+        .cardFooter_b99f57 {
+            border-top: 1px solid var(--border-subtle);
+            background-color: var(--background-base-low);
+        }
+    }
+}

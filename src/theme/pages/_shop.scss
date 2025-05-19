@@ -1,5 +1,21 @@
-:is(.theme-dark, .theme-midnight) #app-mount .shop__6db1d {
-    .headerBarTransparentDarkBackground__80679 {
-        background-color: hsl(var(--black-hsl)/0.8) !important;
+.theme-midnight {
+    .headerBar__80679,
+    .shop__6db1d,
+    .shop__08415 {
+        background-color: var(--background-base-lowest);
+    }
+
+    .shop__08415,
+    .pageWrapper__6db1d {
+        border-left: 1px solid var(--app-border-frame);
+    }
+
+    .mainContent__08415,
+    .pageWrapper__6db1d {
+        background-color: var(--background-base-lowest);
+    }
+
+    .darkCardBackground_c3d04b {
+        background-color: var(--background-base-low);
     }
 }

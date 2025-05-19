@@ -1,0 +1,21 @@
+.theme-midnight {
+    .container_d9c882 {
+        border: 1px solid var(--app-border-frame);
+        background-color: var(--background-base-low);
+
+        .header_d9c882 {
+            background-color: var(--background-base-low);
+        }
+
+        .container__6764b {
+            background-color: var(--background-base-lowest);
+            &:hover {
+                background-color: var(--background-base-lower);
+            }
+        }
+    }
+
+    .icon__1b24f {
+        background-color: var(--background-surface-high);
+    }
+}

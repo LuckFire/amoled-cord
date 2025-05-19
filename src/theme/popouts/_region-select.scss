@@ -1,0 +1,14 @@
+.theme-midnight {
+    .quickSelectPopout_ebaca5 {
+        border: 1px solid var(--border-faint);
+        background-color: var(--background-surface-high);
+    }
+    .quickSelectPopoutOption_ebaca5 {
+        &:hover {
+            background-color: var(--bg-mod-faint);
+        }
+        &:focus {
+            background-color: var(--bg-mod-subtle);
+        }
+    }
+}

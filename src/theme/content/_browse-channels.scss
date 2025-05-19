@@ -1,0 +1,24 @@
+.theme-midnight {
+    // Browse Channels
+    .header__0b563 {
+        background-color: var(--background-base-lowest) !important;
+    }
+    .pageBody__41ed7 {
+        background-color: var(--background-base-lowest);
+    }
+    .container__0b563 {
+        background-color: var(--background-base-lowest) !important;
+    }
+
+    // Customize
+    .prompt__5d7c9 {
+        border-color: var(--border-faint);
+        background-color: var(--background-base-low);
+    }
+    .profileCard__5d7c9 {
+        background-color: var(--background-base-low);
+    }
+    .emptyPage__5d7c9 {
+        background-color: var(--background-base-lowest);
+    }
+}

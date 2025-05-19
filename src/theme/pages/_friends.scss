@@ -1,0 +1,27 @@
+.theme-midnight {
+    .tabBody__133bf {
+        background-color: var(--background-base-lowest);
+    }
+
+    .section__00943 {
+        border-color: var(--border-subtle);
+        background-color: var(--background-base-lowest);
+    }
+
+    .addFriendInputWrapper__72ba7 {
+        // thank you fede
+        &:not(:focus-within) {
+            border-color: var(--input-border);
+        }
+        background: var(--input-background);
+    }
+
+    // Active Now
+    .outer_bf1984 {
+        background-color: var(--background-base-low);
+
+        &:hover {
+            background-color: var(--background-surface-high);
+        }
+    }
+}

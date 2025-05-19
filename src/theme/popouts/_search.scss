@@ -1,21 +1,26 @@
-:is(.theme-dark, .theme-midnight) #app-mount .layer_da8173 {
-    .focused__55c99 {
-        background-color: var(--background-secondary);
+.theme-midnight {
+    .container__55c99 {
+        background-color: var(--background-base-low);
     }
+    .queryContainer__55c99 {
+        border-bottom-color: var(--border-subtle);
+    }
+    .focused__55c99 {
+        background-color: var(--background-base-lower);
+    }
+
     .calendarPicker_d27f17 {
-        .react-datepicker {
-            background-color: var(--background-secondary);
-        }
+        .react-datepicker,
         .react-datepicker__header {
-            background-color: var(--background-secondary);
+            background-color: var(--background-base-low);
         }
         .react-datepicker__current-month {
-            border-bottom-color: var(--background-modifier-accent);
+            border-bottom-color: var(--border-faint);
         }
         .react-datepicker__day {
             &.react-datepicker__day--disabled,
             &.react-datepicker__day--disabled:hover {
-                background-color: var(--background-tertiary);
+                background-color: var(--background-base-low);
             }
         }
     }

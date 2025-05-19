@@ -1,0 +1,82 @@
+.theme-midnight {
+    --background-message-hover: var(--opacity-8) !important;
+    --card-primary-bg: var(--background-base-low) !important;
+
+    --scrollbar-auto-scrollbar-color-thumb: var(--background-surface-highest) !important;
+    --scrollbar-auto-thumb: var(--background-surface-highest) !important;
+    --scrollbar-thin-thumb: var(--background-surface-highest) !important;
+
+    --custom-channel-members-bg: var(--background-base-lowest) !important;
+
+    /**
+     * These are some old variables Discord used.
+     * They're still used in some areas, still would prefer to update areas to use the new ones if possible.
+     */
+    --background-primary: var(--background-base-lowest) !important;
+    --background-secondary: var(--background-base-lower) !important;
+    --background-secondary-alt: var(--neutral-88) !important;
+    --background-tertiary: var(--background-base-low) !important;
+
+    --modal-background: var(--background-base-lowest) !important;
+    --modal-footer-background: var(--background-base-lowest) !important;
+}
+
+@supports (color: color-mix(in lch, red, blue)) {
+    .theme-midnight {
+        --background-message-hover: color-mix(
+            in oklab,
+            var(--opacity-8) 100%,
+            hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.0784313725490196) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-primary: color-mix(
+            in oklab,
+            var(--background-base-lowest) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-secondary: color-mix(
+            in oklab,
+            var(--background-base-lower) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-secondary-alt: color-mix(
+            in oklab,
+            var(--neutral-88) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --background-tertiary: color-mix(
+            in oklab,
+            var(--background-base-low) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --card-primary-bg: color-mix(
+            in oklab,
+            var(--background-base-low) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --modal-background: color-mix(
+            in oklab,
+            var(--background-base-lowest) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --modal-footer-background: color-mix(
+            in oklab,
+            var(--background-base-lowest) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-auto-scrollbar-color-thumb: color-mix(
+            in oklab,
+            var(--background-surface-highest) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-auto-thumb: color-mix(
+            in oklab,
+            var(--background-surface-highest) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+        --scrollbar-thin-thumb: color-mix(
+            in oklab,
+            var(--background-surface-highest) 100%,
+            var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
+        ) !important;
+    }
+}

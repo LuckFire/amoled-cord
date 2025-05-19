@@ -11,7 +11,7 @@
 #### From URL
 1. Go to user settings (CTRL + ,)
 2. Go to the "Vencord" category in user settings (CTRL + ,), select the "Themes" tab, then select "Online Themes".
-3. In the input field under "ONLINE THEMES" paste the following URL (if you have some here already, add a comma before the url).
+3. In the input field under "Online Themes" paste the following URL (if you have some here already, add a comma before the url).
 ```
 https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 ```
@@ -21,14 +21,14 @@ https://luckfire.github.io/amoled-cord/src/amoled-cord.css
 3. Drag the file into that folder.
 
 ### ![stylus](https://discord-extensions.github.io/assets/icons/stylus.png) **Stylus**
-1. Install the broswer extensions for your repsective browser.
+1. Install the browser extensions for your respective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
 2. Once installed, open [this link](https://luckfire.github.io/amoled-cord/clients/amoled-cord.user.css) in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
 
 ### ![replugged](https://discord-extensions.github.io/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
-This version of the theme is [maintained by FedeIlLeone](https://github.com/FedeIlLeone/amoled-cord), please report any issues to *their* repository and not this one.
+This version of the theme is [maintained by fedeericodl](https://github.com/fedeericodl/amoled-cord), please report any issues to *their* repository and not this one.
 - [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.AMOLEDCord)
 
 ---

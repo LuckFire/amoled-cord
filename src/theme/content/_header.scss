@@ -1,0 +1,25 @@
+.theme-midnight {
+    .container__9293f,
+    .chatHeaderBar_a53846,
+    .forumOrHome__49676 {
+        --__header-bar-background: var(--background-base-lowest);
+    }
+
+    .backdrop__8a7fc {
+        background: var(--background-base-lowest);
+    }
+
+    .container__9293f {
+        border-left: 1px solid var(--app-border-frame);
+    }
+    // Unset border-left on HeaderBar if its parent already has a border-left,
+    // or if the bar is resized, to avoid double borders
+    .subtitleContainer_f75fb0,
+    .subtitleContainer__49508,
+    .container__722ff,
+    .container__01ae2 {
+        .container__9293f {
+            border-left: unset;
+        }
+    }
+}

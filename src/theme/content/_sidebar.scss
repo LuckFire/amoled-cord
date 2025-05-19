@@ -1,0 +1,57 @@
+.theme-midnight {
+    // Channels
+    .wrapper__2ea32 {
+        &:hover .link__2ea32 {
+            background-color: var(--bg-mod-faint);
+        }
+        &:active .link__2ea32 {
+            background-color: var(--bg-mod-subtle);
+        }
+    }
+    .modeSelected__2ea32,
+    .modeSelected__2ea32:hover {
+        .link__2ea32 {
+            // No variable uses this token; using it directly since --background-modifier-selected is too bright
+            background-color: var(--opacity-16);
+        }
+    }
+    .wrapper__260e1 {
+        border-color: var(--border-faint);
+        .total__260e1 {
+            background-color: var(--background-surface-high);
+            &:after {
+                border-right-color: var(--background-surface-high);
+            }
+        }
+    }
+
+    // Private Messages
+    .interactive_bf202d {
+        &:focus-within,
+        &:hover {
+            background: var(--bg-mod-faint);
+        }
+
+        &:active {
+            background: var(--bg-mod-subtle);
+        }
+
+        &.selected_bf202d {
+            // No variable uses this token; using it directly since --background-modifier-selected is too bright
+            background: var(--opacity-16);
+        }
+    }
+
+    // Discovery
+    .navItem__551b0 {
+        &:focus-within,
+        &:hover {
+            background: var(--bg-mod-faint);
+        }
+
+        &:active,
+        &.selected__551b0 {
+            background: var(--bg-mod-subtle);
+        }
+    }
+}
