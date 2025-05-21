@@ -31,3 +31,5 @@ body:
           required: true
         - label: I have reinstalled the theme.
           required: true
+        - label: I am using the Discord's Onyx theme.
+          required: true
