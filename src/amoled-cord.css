@@ -101,7 +101,8 @@
   background: var(--background-base-lowest);
 }
 .theme-midnight .chatContent_f75fb0,
-.theme-midnight .container__34c2c {
+.theme-midnight .container__34c2c,
+.theme-midnight .container_fb64c9 {
   background: var(--background-base-lowest);
 }
 .theme-midnight .clickable__91a9d:hover .childContainer__91a9d {
@@ -187,6 +188,9 @@
   background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0));
 }
 
+.theme-midnight {
+  /* Channel */
+}
 .theme-midnight .container__9293f,
 .theme-midnight .chatHeaderBar_a53846,
 .theme-midnight .forumOrHome__49676 {
@@ -201,7 +205,9 @@
 .theme-midnight .subtitleContainer_f75fb0 .container__9293f,
 .theme-midnight .subtitleContainer__49508 .container__9293f,
 .theme-midnight .container__722ff .container__9293f,
-.theme-midnight .container__01ae2 .container__9293f {
+.theme-midnight .container__01ae2 .container__9293f,
+.theme-midnight .noChannel__01d5c .container__9293f,
+.theme-midnight .container_db0ccb .container__9293f {
   border-left: unset;
 }
 
@@ -374,6 +380,7 @@
   background-color: var(--background-base-lower);
 }
 
+.theme-midnight .container_d97f89,
 .theme-midnight .footer_d97f89 {
   background-color: var(--background-base-lowest);
 }
@@ -465,7 +472,9 @@
   background-color: var(--background-surface-high);
 }
 
-.theme-midnight .page_c48ade:empty, .theme-midnight .page_c48ade:has(.loader_c48ade, > div:empty:only-child) {
+.theme-midnight .page_c48ade:empty,
+.theme-midnight .page_c48ade:has(.loader_c48ade, > div:empty:only-child),
+.theme-midnight .noChannel__01d5c {
   border-top: 1px solid var(--app-border-frame);
   border-left: 1px solid var(--app-border-frame);
 }
@@ -829,6 +838,9 @@
 }
 .theme-midnight .backgroundOptionInner__53965 {
   background-color: var(--background-base-low);
+}
+.theme-midnight .game_cc46f0 {
+  box-shadow: 0 1px 0 0 var(--border-subtle);
 }
 .theme-midnight .avatarWrapper__86ab2,
 .theme-midnight .container__86ab2 {
