@@ -17,10 +17,6 @@
 	  --scrollbar-auto-thumb: var(--background-surface-highest) !important;
 	  --scrollbar-thin-thumb: var(--background-surface-highest) !important;
 	  --custom-channel-members-bg: var(--background-base-lowest) !important;
-	  /**
-	   * These are some old variables Discord used.
-	   * They're still used in some areas, still would prefer to update areas to use the new ones if possible.
-	   */
 	  --background-primary: var(--background-base-lowest) !important;
 	  --background-secondary: var(--background-base-lower) !important;
 	  --background-secondary-alt: var(--neutral-88) !important;
@@ -200,9 +196,6 @@
 	  background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0));
 	}
 	
-	.theme-midnight {
-	  /* Channel */
-	}
 	.theme-midnight .container__9293f,
 	.theme-midnight .chatHeaderBar_a53846,
 	.theme-midnight .forumOrHome__49676 {
@@ -322,14 +315,6 @@
 	  background-color: var(--background-base-lowest);
 	}
 	
-	.theme-midnight {
-	  /*
-	      We need to use raw tokens here because they override the default theme to dark
-	      --neutral-95 is --background-base-low
-	      --opacity-12 is --background-modifier-hover
-	      --opacity-24 is --border-subtle
-	  */
-	}
 	.theme-midnight .buttonSection__1405b {
 	  border-color: var(--border-faint);
 	}
@@ -688,12 +673,6 @@
 	  border-right: 1px solid var(--app-border-frame);
 	}
 	
-	/**
-	 * I organize everything based on how I did stuff in order.
-	 *
-	 * It should be noted that some elements are used in other areas in settings,
-	 * but I'm not sure which ones and I'm too lazy to really dig into it.
-	*/
 	.theme-midnight .contentRegionScroller__23e6b {
 	  background: var(--background-base-lowest);
 	}
