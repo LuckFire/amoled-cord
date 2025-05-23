@@ -2,8 +2,8 @@
 
 ---
 
-> [!IMPORTANT]  
-> AMOLED-cord only works with Discord's Onyx theme enabled. You can enable it by going to user settings (CTRL + ,), selecting the "Themes" tab, then selecting "Onyx" under "Default Themes".
+> [!IMPORTANT]
+> AMOLED-cord only works with Discord's Onyx theme enabled. You can enable it by going to user settings (CTRL + ,), selecting the "Appearance" tab, then selecting "Onyx" under "Default Themes".
 
 ### ![betterdiscord](https://discord-extensions.github.io/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
 1. [Download the theme from BetterDiscord's website](https://betterdiscord.app/Download?id=144)

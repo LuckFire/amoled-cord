@@ -1,9 +1,6 @@
-/**
- * I organize everything based on how I did stuff in order.
- *
- * It should be noted that some elements are used in other areas in settings,
- * but I'm not sure which ones and I'm too lazy to really dig into it.
-*/
+// I organize everything based on how I did stuff in order.
+// It should be noted that some elements are used in other areas in settings,
+// but I'm not sure which ones and I'm too lazy to really dig into it.
 
 .theme-midnight {
     .contentRegionScroller__23e6b {
@@ -198,6 +195,11 @@
     }
     .backgroundOptionInner__53965 {
         background-color: var(--background-base-low);
+    }
+
+    // User Settings --> Registered Games
+    .game_cc46f0 {
+        box-shadow: 0 1px 0 0 var(--border-subtle);
     }
 
     // Guild Settings --> Server Profile

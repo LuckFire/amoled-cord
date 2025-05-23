@@ -35,12 +35,10 @@
         border-left: 1px solid var(--app-border-frame);
     }
 
-    /*
-        We need to use raw tokens here because they override the default theme to dark
-        --neutral-95 is --background-base-low
-        --opacity-12 is --background-modifier-hover
-        --opacity-24 is --border-subtle
-    */
+    // We need to use raw tokens here because they override the default theme to dark
+    // --neutral-95 is --background-base-low
+    // --opacity-12 is --background-modifier-hover
+    // --opacity-24 is --border-subtle
     .container__6b38f.pulse__6b38f {
         background-color: var(--neutral-95);
         border: 1px solid var(--opacity-24);

@@ -3,7 +3,7 @@
 	@name AMOLED-Cord
 	@author LuckFire
 	@description A basically pitch black theme for Discord. Lights out, baby!
-	@version 5.0.0
+	@version 5.0.1
 	@namespace https://github.com/discord-extensions/amoled-cord
 	@license MIT
 	==/UserStyle== */
@@ -17,10 +17,6 @@
 	  --scrollbar-auto-thumb: var(--background-surface-highest) !important;
 	  --scrollbar-thin-thumb: var(--background-surface-highest) !important;
 	  --custom-channel-members-bg: var(--background-base-lowest) !important;
-	  /**
-	   * These are some old variables Discord used.
-	   * They're still used in some areas, still would prefer to update areas to use the new ones if possible.
-	   */
 	  --background-primary: var(--background-base-lowest) !important;
 	  --background-secondary: var(--background-base-lower) !important;
 	  --background-secondary-alt: var(--neutral-88) !important;
@@ -113,7 +109,8 @@
 	  background: var(--background-base-lowest);
 	}
 	.theme-midnight .chatContent_f75fb0,
-	.theme-midnight .container__34c2c {
+	.theme-midnight .container__34c2c,
+	.theme-midnight .container_fb64c9 {
 	  background: var(--background-base-lowest);
 	}
 	.theme-midnight .clickable__91a9d:hover .childContainer__91a9d {
@@ -213,7 +210,9 @@
 	.theme-midnight .subtitleContainer_f75fb0 .container__9293f,
 	.theme-midnight .subtitleContainer__49508 .container__9293f,
 	.theme-midnight .container__722ff .container__9293f,
-	.theme-midnight .container__01ae2 .container__9293f {
+	.theme-midnight .container__01ae2 .container__9293f,
+	.theme-midnight .noChannel__01d5c .container__9293f,
+	.theme-midnight .container_db0ccb .container__9293f {
 	  border-left: unset;
 	}
 	
@@ -316,14 +315,6 @@
 	  background-color: var(--background-base-lowest);
 	}
 	
-	.theme-midnight {
-	  /*
-	      We need to use raw tokens here because they override the default theme to dark
-	      --neutral-95 is --background-base-low
-	      --opacity-12 is --background-modifier-hover
-	      --opacity-24 is --border-subtle
-	  */
-	}
 	.theme-midnight .buttonSection__1405b {
 	  border-color: var(--border-faint);
 	}
@@ -386,6 +377,7 @@
 	  background-color: var(--background-base-lower);
 	}
 	
+	.theme-midnight .container_d97f89,
 	.theme-midnight .footer_d97f89 {
 	  background-color: var(--background-base-lowest);
 	}
@@ -477,7 +469,9 @@
 	  background-color: var(--background-surface-high);
 	}
 	
-	.theme-midnight .page_c48ade:empty, .theme-midnight .page_c48ade:has(.loader_c48ade, > div:empty:only-child) {
+	.theme-midnight .page_c48ade:empty,
+	.theme-midnight .page_c48ade:has(.loader_c48ade, > div:empty:only-child),
+	.theme-midnight .noChannel__01d5c {
 	  border-top: 1px solid var(--app-border-frame);
 	  border-left: 1px solid var(--app-border-frame);
 	}
@@ -679,12 +673,6 @@
 	  border-right: 1px solid var(--app-border-frame);
 	}
 	
-	/**
-	 * I organize everything based on how I did stuff in order.
-	 *
-	 * It should be noted that some elements are used in other areas in settings,
-	 * but I'm not sure which ones and I'm too lazy to really dig into it.
-	*/
 	.theme-midnight .contentRegionScroller__23e6b {
 	  background: var(--background-base-lowest);
 	}
@@ -841,6 +829,9 @@
 	}
 	.theme-midnight .backgroundOptionInner__53965 {
 	  background-color: var(--background-base-low);
+	}
+	.theme-midnight .game_cc46f0 {
+	  box-shadow: 0 1px 0 0 var(--border-subtle);
 	}
 	.theme-midnight .avatarWrapper__86ab2,
 	.theme-midnight .container__86ab2 {
