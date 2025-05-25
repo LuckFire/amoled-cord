@@ -75,11 +75,12 @@
         }
 
         .metadataContainer_c7f964 {
-            border: 1px solid var(--app-border-frame);
+            border: 1px solid var(--border-faint);
+            background-color: var(--background-base-lowest);
         }
 
         .integrationWrapper_c7f964 {
-            border: 1px solid var(--app-border-frame);
+            border: 1px solid var(--border-faint);
             background-color: var(--background-base-lowest);
         }
     }
@@ -261,7 +262,7 @@
     .editCard_a25a68 {
         background-color: var(--background-base-low);
     }
-    .collapseable__217b7 {
+    .collapseable__217b7:is(.collapseable__4546e, .collapseable_fc46b1) {
         background-color: var(--background-surface-high);
     }
 
@@ -294,5 +295,22 @@
     .guildCard__2485e {
         border: 1px solid var(--border-faint);
         background-color: var(--background-surface-high);
+    }
+
+    // Guild Settings --> Server Template
+    .descriptionBox__981f7 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-base-low);
+    }
+
+    // Channel Settings --> Permissions
+    .settingCard__1a4ef {
+        border: 1px solid var(--border-subtle);
+        &.active__1a4ef {
+            background-color: var(--background-base-low);
+        }
+    }
+    .cardFolder__1a4ef:not(:empty) {
+        border-top: 1px solid var(--border-subtle);
     }
 }
