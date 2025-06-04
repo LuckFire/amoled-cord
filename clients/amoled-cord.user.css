@@ -344,11 +344,8 @@
 	.theme-midnight .buttonColor__7b3e8:hover {
 	  background-color: var(--background-surface-high);
 	}
-	.theme-midnight .resizeHandle__4b144:after {
-	  background: var(--app-border-frame);
-	  content: "";
-	  display: block;
-	  height: 1px;
+	.theme-midnight .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592 {
+	  border-bottom: 1px solid var(--border-subtle);
 	}
 	.theme-midnight .container__722ff {
 	  border-left: 1px solid var(--app-border-frame);

@@ -23,11 +23,8 @@
     }
 
     // DM call resize dragger
-    .resizeHandle__4b144:after {
-        background: var(--app-border-frame);
-        content: "";
-        display: block;
-        height: 1px;
+    .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592  {
+        border-bottom: 1px solid var(--border-subtle);
     }
 
     // Stages
