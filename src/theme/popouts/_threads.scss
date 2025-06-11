@@ -1,17 +1,23 @@
 .theme-midnight {
     .container_d9c882 {
-        border: 1px solid var(--app-border-frame);
         background-color: var(--background-base-low);
 
-        .header_d9c882 {
-            background-color: var(--background-base-low);
+        &:not(.browser__9a792) {
+            border: 1px solid var(--app-border-frame);
         }
+    }
+    .modal__9a792 {
+        background-color: var(--background-base-low) !important;
+    }
 
-        .container__6764b {
-            background-color: var(--background-base-lowest);
-            &:hover {
-                background-color: var(--background-base-lower);
-            }
+    .header_d9c882 {
+        background-color: var(--background-base-low);
+    }
+
+    .container__6764b {
+        background-color: var(--background-base-lowest);
+        &:hover {
+            background-color: var(--background-base-lower);
         }
     }
 

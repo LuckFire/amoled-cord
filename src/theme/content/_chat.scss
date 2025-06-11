@@ -34,10 +34,13 @@
 
     .channelTextArea_f75fb0 {
         background: var(--background-base-low);
-        .themedBackground__74017,
-        .appLauncherCircleMask_e6e74f {
-            background: var(--background-base-low);
-        }
+    }
+    .themedBackground__74017,
+    .appLauncherCircleMask_e6e74f {
+        background: var(--background-base-low);
+    }
+    .bannerContainer__362cd {
+        background: var(--background-base-low);
     }
 
     // Commands
@@ -76,5 +79,11 @@
             border-top: 1px solid var(--border-subtle);
             background-color: var(--background-base-low);
         }
+    }
+
+    // Channel Followers Publish CTA
+    .bumpBox_cacd02 {
+        background-color: var(--background-base-low);
+        border: 1px solid var(--border-faint);
     }
 }

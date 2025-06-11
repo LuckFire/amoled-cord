@@ -2,7 +2,7 @@
  * @name AMOLED-Cord
  * @author LuckFire
  * @description A basically pitch black theme for Discord. Lights out, baby!
- * @version 5.0.1
+ * @version 5.0.2
  * @invite vYdXbEzqDs
  * @authorId 399416615742996480
  * @source https://github.com/LuckFire/amoled-cord
@@ -95,7 +95,7 @@
   background-color: var(--background-base-lowest) !important;
 }
 .theme-midnight .prompt__5d7c9 {
-  border-color: var(--border-faint);
+  border-color: var(--border-subtle);
   background-color: var(--background-base-low);
 }
 .theme-midnight .profileCard__5d7c9 {
@@ -132,8 +132,11 @@
 .theme-midnight .channelTextArea_f75fb0 {
   background: var(--background-base-low);
 }
-.theme-midnight .channelTextArea_f75fb0 .themedBackground__74017,
-.theme-midnight .channelTextArea_f75fb0 .appLauncherCircleMask_e6e74f {
+.theme-midnight .themedBackground__74017,
+.theme-midnight .appLauncherCircleMask_e6e74f {
+  background: var(--background-base-low);
+}
+.theme-midnight .bannerContainer__362cd {
   background: var(--background-base-low);
 }
 .theme-midnight .optionPill__1464f {
@@ -164,6 +167,10 @@
 .theme-midnight .embedCard_b99f57 .cardFooter_b99f57 {
   border-top: 1px solid var(--border-subtle);
   background-color: var(--background-base-low);
+}
+.theme-midnight .bumpBox_cacd02 {
+  background-color: var(--background-base-low);
+  border: 1px solid var(--border-faint);
 }
 
 .theme-midnight .container_f369db {
@@ -338,11 +345,8 @@
 .theme-midnight .buttonColor__7b3e8:hover {
   background-color: var(--background-surface-high);
 }
-.theme-midnight .resizeHandle__4b144:after {
-  background: var(--app-border-frame);
-  content: "";
-  display: block;
-  height: 1px;
+.theme-midnight .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592 {
+  border-bottom: 1px solid var(--border-subtle);
 }
 .theme-midnight .container__722ff {
   border-left: 1px solid var(--app-border-frame);
@@ -383,6 +387,10 @@
   background-color: var(--background-base-lowest);
 }
 
+.theme-midnight .header_fed6d3 {
+  background-color: var(--background-base-lowest);
+}
+
 .theme-midnight .modalHeader_ababa2,
 .theme-midnight .modalBody_ababa2,
 .theme-midnight .modalFooter_ababa2 {
@@ -417,9 +425,28 @@
   border: 1px solid var(--border-subtle);
 }
 
+.theme-midnight .confirmation__1051d {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .iconWrapper__1051d {
+  background-color: var(--background-base-low);
+}
+
 .theme-midnight .scroller__01c8c {
   border-right: 1px solid var(--border-subtle);
   background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .modalRoot__5b400,
+.theme-midnight .footer__5b400 {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .targetList__5b400,
+.theme-midnight .connectionRowHeader__5b400 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .connectionRowHeaderError__5b400 {
+  background-color: hsl(var(--neutral-95-hsl)/0.7);
 }
 
 .theme-midnight .sidebarContainer__1d6c7 {
@@ -549,6 +576,20 @@
   background-color: var(--background-base-lower);
 }
 
+.theme-midnight .autocompleteArrow_d5ae15,
+.theme-midnight .header_d5ae15 {
+  background-color: var(--background-surface-high);
+}
+.theme-midnight .container_d5ae15 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .row_d5ae15:focus .rowInner_d5ae15, .theme-midnight .row_d5ae15:hover .rowInner_d5ae15 {
+  background-color: var(--bg-mod-faint);
+}
+.theme-midnight .row_d5ae15.selected_d5ae15 .rowInner_d5ae15 {
+  background-color: var(--opacity-16);
+}
+
 .theme-midnight .contentWarningPopout_be95d0 {
   background-color: var(--background-surface-high);
 }
@@ -654,16 +695,21 @@
 }
 
 .theme-midnight .container_d9c882 {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .container_d9c882:not(.browser__9a792) {
   border: 1px solid var(--app-border-frame);
+}
+.theme-midnight .modal__9a792 {
+  background-color: var(--background-base-low) !important;
+}
+.theme-midnight .header_d9c882 {
   background-color: var(--background-base-low);
 }
-.theme-midnight .container_d9c882 .header_d9c882 {
-  background-color: var(--background-base-low);
-}
-.theme-midnight .container_d9c882 .container__6764b {
+.theme-midnight .container__6764b {
   background-color: var(--background-base-lowest);
 }
-.theme-midnight .container_d9c882 .container__6764b:hover {
+.theme-midnight .container__6764b:hover {
   background-color: var(--background-base-lower);
 }
 .theme-midnight .icon__1b24f {
@@ -734,10 +780,11 @@
   background-color: var(--background-base-low);
 }
 .theme-midnight .connection_c7f964 .metadataContainer_c7f964 {
-  border: 1px solid var(--app-border-frame);
+  border: 1px solid var(--border-faint);
+  background-color: var(--background-base-lowest);
 }
 .theme-midnight .connection_c7f964 .integrationWrapper_c7f964 {
-  border: 1px solid var(--app-border-frame);
+  border: 1px solid var(--border-faint);
   background-color: var(--background-base-lowest);
 }
 .theme-midnight .expandedProgressBarContainerSettingsPage_a61c56,
@@ -879,7 +926,7 @@
 .theme-midnight .editCard_a25a68 {
   background-color: var(--background-base-low);
 }
-.theme-midnight .collapseable__217b7 {
+.theme-midnight .collapseable__217b7:is(.collapseable__4546e, .collapseable_fc46b1) {
   background-color: var(--background-surface-high);
 }
 .theme-midnight .bannedUser_cdb2b0:not(:hover) {
@@ -906,4 +953,17 @@
 .theme-midnight .guildCard__2485e {
   border: 1px solid var(--border-faint);
   background-color: var(--background-surface-high);
+}
+.theme-midnight .descriptionBox__981f7 {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--background-base-low);
+}
+.theme-midnight .settingCard__1a4ef {
+  border: 1px solid var(--border-subtle);
+}
+.theme-midnight .settingCard__1a4ef.active__1a4ef {
+  background-color: var(--background-base-low);
+}
+.theme-midnight .cardFolder__1a4ef:not(:empty) {
+  border-top: 1px solid var(--border-subtle);
 }
