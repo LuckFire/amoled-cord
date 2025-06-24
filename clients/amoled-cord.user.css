@@ -131,8 +131,7 @@
 	.theme-midnight .channelTextArea_f75fb0 {
 	  background: var(--background-base-low);
 	}
-	.theme-midnight .themedBackground__74017,
-	.theme-midnight .appLauncherCircleMask_e6e74f {
+	.theme-midnight .themedBackground__74017 {
 	  background: var(--background-base-low);
 	}
 	.theme-midnight .bannerContainer__362cd {
@@ -368,8 +367,12 @@
 	  background-color: var(--background-base-lowest);
 	}
 	
+	.theme-midnight .authBox__921c5 {
+	  background-color: var(--background-base-lowest);
+	}
+	
 	.theme-midnight .upsellContainer__88422 {
-	  background-color: hsl(var(--neutral-35-hsl)/0.1);
+	  background-color: var(--opacity-8);
 	}
 	
 	.theme-midnight .accountBtnInner__750de,
@@ -459,8 +462,12 @@
 	
 	.theme-midnight .container_cbd375,
 	.theme-midnight .scroller__23746,
-	.theme-midnight .headerBar__8a7fc {
+	.theme-midnight .backdrop__8a7fc,
+	.theme-midnight .headerBar__8a7fc.relative__8a7fc {
 	  border-left: 1px solid var(--app-border-frame);
+	}
+	.theme-midnight .headerBar__8a7fc.overlay__8a7fc {
+	  overflow: hidden;
 	}
 	.theme-midnight .relative__8a7fc {
 	  border-bottom: 1px solid var(--app-border-frame);
@@ -479,9 +486,18 @@
 	.theme-midnight .tabBody__133bf {
 	  background-color: var(--background-base-lowest);
 	}
-	.theme-midnight .section__00943 {
-	  border-color: var(--border-subtle);
+	.theme-midnight .body__00943 .section__00943 {
 	  background-color: var(--background-base-lowest);
+	  border: 1px solid var(--border-subtle);
+	}
+	.theme-midnight .body__00943 .section__00943:has(+ .separator__00943) {
+	  border-bottom: none;
+	}
+	.theme-midnight .body__00943 .wrapper__960df {
+	  border: 1px solid var(--border-subtle);
+	}
+	.theme-midnight .body__00943 .separator__00943 + .wrapper__960df {
+	  border-top: none;
 	}
 	.theme-midnight .addFriendInputWrapper__72ba7 {
 	  background: var(--input-background);
