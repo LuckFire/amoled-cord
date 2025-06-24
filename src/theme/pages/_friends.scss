@@ -3,9 +3,22 @@
         background-color: var(--background-base-lowest);
     }
 
-    .section__00943 {
-        border-color: var(--border-subtle);
-        background-color: var(--background-base-lowest);
+    .body__00943 {
+        .section__00943 {
+            background-color: var(--background-base-lowest);
+            border: 1px solid var(--border-subtle);
+
+            &:has(+ .separator__00943) {
+                border-bottom: none;
+            }
+        }
+
+        .wrapper__960df {
+            border: 1px solid var(--border-subtle);
+        }
+        .separator__00943 + .wrapper__960df {
+            border-top: none;
+        }
     }
 
     .addFriendInputWrapper__72ba7 {
