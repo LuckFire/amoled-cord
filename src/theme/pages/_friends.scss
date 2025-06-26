@@ -1,5 +1,7 @@
 .theme-midnight {
-    .tabBody__133bf {
+    .tabBody__133bf,
+    .nowPlayingColumn__133bf,
+    .container__7d20c {
         background-color: var(--background-base-lowest);
     }
 
@@ -14,6 +16,7 @@
         }
 
         .wrapper__960df {
+            background-color: var(--background-base-lowest);
             border: 1px solid var(--border-subtle);
         }
         .separator__00943 + .wrapper__960df {
@@ -33,8 +36,11 @@
     .outer_bf1984 {
         background-color: var(--background-base-low);
 
-        &:hover {
-            background-color: var(--background-surface-high);
+        &.active_bf1984,
+        &.interactive_bf1984 {
+            &:hover {
+                background-color: var(--background-surface-high);
+            }
         }
     }
 }
