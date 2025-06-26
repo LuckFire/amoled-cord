@@ -2,10 +2,10 @@
     // Channels
     .wrapper__2ea32 {
         &:hover .link__2ea32 {
-            background-color: var(--bg-mod-faint);
+            background-color: var(--background-mod-faint);
         }
         &:active .link__2ea32 {
-            background-color: var(--bg-mod-subtle);
+            background-color: var(--background-mod-subtle);
         }
     }
     .modeSelected__2ea32,
@@ -29,11 +29,11 @@
     .interactive_bf202d {
         &:focus-within,
         &:hover {
-            background: var(--bg-mod-faint);
+            background: var(--background-mod-faint);
         }
 
         &:active {
-            background: var(--bg-mod-subtle);
+            background: var(--background-mod-subtle);
         }
 
         &.selected_bf202d {
@@ -42,16 +42,16 @@
         }
     }
 
-    // Discovery
+    // // Discovery
     .navItem__551b0 {
         &:focus-within,
         &:hover {
-            background: var(--bg-mod-faint);
+            background: var(--background-mod-faint);
         }
 
         &:active,
         &.selected__551b0 {
-            background: var(--bg-mod-subtle);
+            background: var(--background-mod-subtle);
         }
     }
 }
