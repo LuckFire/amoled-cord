@@ -152,6 +152,13 @@
   border: 1px solid var(--border-faint);
 }
 
+.theme-midnight .container_db0ccb {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .sidebarContent_db0ccb {
+  border-color: var(--app-border-frame);
+}
+
 .theme-midnight .container_f369db {
   background-color: var(--background-base-lowest);
 }
@@ -194,7 +201,8 @@
 .theme-midnight .container__722ff .container__9293f,
 .theme-midnight .container__01ae2 .container__9293f,
 .theme-midnight .noChannel__01d5c .container__9293f,
-.theme-midnight .container_db0ccb .container__9293f {
+.theme-midnight .container_db0ccb .container__9293f,
+.theme-midnight .applicationStore_f07d62 .container__9293f {
   border-left: unset;
 }
 
@@ -330,11 +338,6 @@
   background-color: var(--background-base-lowest);
 }
 
-.theme-midnight .premiumBrandRefreshHeader_e50a4d,
-.theme-midnight .skuSelectModalContent_e50a4d.premiumBrandRefreshContent_e50a4d.premiumBrandRefreshContent_e50a4d {
-  background-color: var(--background-base-lowest);
-}
-
 .theme-midnight .modalHeader_ababa2,
 .theme-midnight .modalBody_ababa2 {
   background-color: var(--background-base-lowest) !important;
@@ -350,6 +353,11 @@
 
 .theme-midnight .scroller_cc2dff {
   border-right: 1px solid var(--border-subtle);
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight .premiumBrandRefreshHeader_e50a4d,
+.theme-midnight .skuSelectModalContent_e50a4d.premiumBrandRefreshContent_e50a4d.premiumBrandRefreshContent_e50a4d {
   background-color: var(--background-base-lowest);
 }
 
@@ -505,9 +513,9 @@
   background-color: var(--background-base-lowest);
 }
 
-.theme-midnight .container_c880e8:not(.settingsContainer_c880e8),
-.theme-midnight .container_ca1a02 {
+.theme-midnight .applicationStore_f07d62 {
   border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
 }
 .theme-midnight .scroller_c880e8 {
   background-color: var(--background-base-lowest);
