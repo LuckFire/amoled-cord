@@ -141,7 +141,7 @@
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
     }
-    .accountCreditsContainer__94f72 {
+    .accountCreditsContainer__94f72 .accountCreditRow__94f72:not(:last-child) {
         border-bottom: 1px solid var(--border-faint);
     }
     .fractionalPremiumAccountCredit__94f72,
@@ -190,6 +190,9 @@
     }
 
     // User Settings --> Voice & Video
+    .notches__06283.gray__06283 {
+        color: var(--background-base-lowest);
+    }
     .progress__06283 {
         background-color: var(--background-surface-highest);
     }
@@ -231,9 +234,6 @@
         background-color: var(--background-base-lowest);
     }
     .theme-midnight.messageWrapper__981c8 {
-        background-color: var(--background-base-lowest);
-    }
-    .roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) .circleButton__5f97b {
         background-color: var(--background-base-lowest);
     }
 
@@ -281,7 +281,9 @@
     }
 
     // Guild Settings --> Onboarding
+    .notice_a9b452,
     .review_a9b452 {
+        background-color: var(--background-base-low);
         border: 1px solid var(--border-subtle);
     }
     .onboardingStepContainer__28e57 {
@@ -296,6 +298,14 @@
     }
     .example__5d756 {
         background-color: var(--background-surface-high);
+    }
+    .channelCoverage_e34850 {
+        background-color: var(--background-base-low);
+    }
+    .actionItem_d2b0e4,
+    .resourceChannel_d2b0e4,
+    .suggestedChannels_d2b0e4 {
+        background-color: var(--background-base-low);
     }
 
     // Guild Settings --> Enable Monetization
