@@ -7,16 +7,4 @@
     .container_d5ae15 {
         background-color: var(--background-base-low);
     }
-
-    .row_d5ae15 {
-        &:focus .rowInner_d5ae15,
-        &:hover .rowInner_d5ae15 {
-            background-color: var(--bg-mod-faint);
-        }
-
-        &.selected_d5ae15 .rowInner_d5ae15 {
-            // No variable uses this token; using it directly since --background-modifier-selected is too bright
-            background-color: var(--opacity-16);
-        }
-    }
 }

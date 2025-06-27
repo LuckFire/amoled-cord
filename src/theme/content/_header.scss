@@ -1,7 +1,6 @@
 .theme-midnight {
     .container__9293f,
-    .chatHeaderBar_a53846,
-    .forumOrHome__49676 {
+    .chatHeaderBar_a53846 {
         --__header-bar-background: var(--background-base-lowest);
     }
 
@@ -26,7 +25,9 @@
     // EmptyChannel
     .noChannel__01d5c,
     // DevTools
-    .container_db0ccb {
+    .container_db0ccb,
+    // ApplicationStore
+    .applicationStore_f07d62 {
         .container__9293f {
             border-left: unset;
         }

@@ -12,13 +12,12 @@
 
     // Customize
     .prompt__5d7c9 {
-        border-color: var(--border-subtle);
-        background-color: var(--background-base-low);
-    }
-    .profileCard__5d7c9 {
         background-color: var(--background-base-low);
     }
     .emptyPage__5d7c9 {
         background-color: var(--background-base-lowest);
+    }
+    .profileCard__5d7c9 {
+        border: 1px solid var(--border-subtle);
     }
 }
