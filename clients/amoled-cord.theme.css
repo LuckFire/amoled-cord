@@ -297,6 +297,13 @@
 .theme-midnight .container__722ff {
   border-left: 1px solid var(--app-border-frame);
 }
+.theme-midnight .container__664ff {
+  border-left: 1px solid var(--app-border-frame);
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .background__506d9 {
+  background-color: var(--background-base-low);
+}
 .theme-midnight .container__6b38f.pulse__6b38f {
   background-color: var(--neutral-95);
   border: 1px solid var(--opacity-24);
