@@ -3,19 +3,21 @@
 // but I'm not sure which ones and I'm too lazy to really dig into it.
 
 .theme-midnight {
+    .contentRegion__23e6b,
     .contentRegionScroller__23e6b {
         background: var(--background-base-lowest);
     }
 
     // User Settings --> My Account
     .accountProfileCard__1fed1 {
+        background-color: var(--background-base-low);
         border: 1px solid var(--border-subtle);
 
         .background__1fed1 {
             border: 1px solid var(--border-subtle);
             background-color: var(--background-base-lowest);
             .fieldList__1fed1 {
-                background-color: transparent;
+                background-color: var(--background-base-lowest);
             }
         }
     }
@@ -38,9 +40,6 @@
     .box_f8c98c {
         border-color: var(--border-faint);
         background-color: var(--background-base-low);
-    }
-    .row__0624f {
-        background-color: var(--background-base-lowest);
     }
 
     // User Settings --> Authorized Apps
@@ -96,7 +95,7 @@
         background-color: var(--background-base-low);
     }
     .rowBottomBorder_e4ef5c {
-        border-color: var(--background-modifier-accent);
+        border-color: var(--border-subtle);
     }
 
     // User Settings --> Server Boost
@@ -115,6 +114,9 @@
         .guildContainer__5dba5:not(.recommendedServerCard__51537) {
             border-bottom: 1px solid var(--border-faint);
         }
+    }
+    .wave__8e08c {
+        fill: var(--background-base-lowest);
     }
     .guildContainer__5dba5 {
         background-color: var(--background-base-low);
@@ -139,7 +141,7 @@
         border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
     }
-    .accountCreditsContainer__94f72 {
+    .accountCreditsContainer__94f72 .accountCreditRow__94f72:not(:last-child) {
         border-bottom: 1px solid var(--border-faint);
     }
     .fractionalPremiumAccountCredit__94f72,
@@ -168,7 +170,7 @@
         }
 
         .bottomDivider__01014 {
-            border-bottom-color: var(--background-modifier-accent);
+            border-bottom-color: var(--border-subtle);
         }
 
         .expandedInfo_e9cb00 {
@@ -188,6 +190,9 @@
     }
 
     // User Settings --> Voice & Video
+    .notches__06283.gray__06283 {
+        color: var(--background-base-lowest);
+    }
     .progress__06283 {
         background-color: var(--background-surface-highest);
     }
@@ -216,15 +221,19 @@
 
     // Guild Settings --> Stickers
     .wrapper__83b1d {
-        background-color: var(--background-base-low);
+        background-color: var(--background-surface-high);
         &:focus-within,
         &:hover {
-            background-color: var(--bg-mod-subtle);
+            background-color: var(--background-mod-subtle);
         }
     }
 
     // Guild Settings --> Roles
-    .roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) .circleButton__5f97b {
+    .titleContainer_e29cd7,
+    .header_c6bf1b {
+        background-color: var(--background-base-lowest);
+    }
+    .theme-midnight.messageWrapper__981c8 {
         background-color: var(--background-base-lowest);
     }
 
@@ -272,7 +281,9 @@
     }
 
     // Guild Settings --> Onboarding
+    .notice_a9b452,
     .review_a9b452 {
+        background-color: var(--background-base-low);
         border: 1px solid var(--border-subtle);
     }
     .onboardingStepContainer__28e57 {
@@ -287,6 +298,14 @@
     }
     .example__5d756 {
         background-color: var(--background-surface-high);
+    }
+    .channelCoverage_e34850 {
+        background-color: var(--background-base-low);
+    }
+    .actionItem_d2b0e4,
+    .resourceChannel_d2b0e4,
+    .suggestedChannels_d2b0e4 {
+        background-color: var(--background-base-low);
     }
 
     // Guild Settings --> Enable Monetization
@@ -312,5 +331,8 @@
     }
     .cardFolder__1a4ef:not(:empty) {
         border-top: 1px solid var(--border-subtle);
+    }
+    .scroller__53543 {
+        background-color: var(--background-base-lowest);
     }
 }

@@ -32,6 +32,14 @@
         border-left: 1px solid var(--app-border-frame);
     }
 
+    .container__664ff {
+        border-left: 1px solid var(--app-border-frame);
+        background-color: var(--background-base-lowest);
+    }
+    .background__506d9 {
+        background-color: var(--background-base-low);
+    }
+
     // We need to use raw tokens here because they override the default theme to dark
     // --neutral-95 is --background-base-low
     // --opacity-12 is --background-modifier-hover

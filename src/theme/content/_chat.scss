@@ -11,19 +11,6 @@
         background: var(--background-base-lowest);
     }
 
-    .clickable__91a9d {
-        &:hover .childContainer__91a9d {
-            background-color: var(--bg-mod-faint);
-        }
-        &:active .childContainer__91a9d {
-            background-color: var(--bg-mod-subtle);
-        }
-    }
-    .selected__91a9d .childContainer__91a9d {
-        // No variable uses this token; using it directly since --background-modifier-selected is too bright
-        background-color: var(--opacity-16);
-    }
-
     .emptyState__7641b {
         border-left: 1px solid var(--app-border-frame);
     }

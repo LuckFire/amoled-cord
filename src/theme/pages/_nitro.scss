@@ -1,8 +1,11 @@
 .theme-midnight {
-    // TODO: Add a border during the loading state; this is tricky since only a spinner is present with margins
-    .container_c880e8:not(.settingsContainer_c880e8),
-    .container_ca1a02 {
+    .applicationStore_f07d62 {
         border-left: 1px solid var(--app-border-frame);
+        background-color: var(--background-base-lowest);
+    }
+
+    .scroller_c880e8 {
+        background-color: var(--background-base-lowest);
     }
 
     .card_b5493b {
