@@ -1,15 +1,14 @@
 @forward 'accept-invite';
 @forward 'auth-box';
+@forward 'captcha';
 @forward 'claim-reward';
 @forward 'connections';
-@forward 'create-poll';
 @forward 'edit-upload';
 @forward 'gif-picker';
-@forward 'integrations';
 @forward 'invite';
 @forward 'keyboard-shortcuts';
 @forward 'message-reactions';
-@forward 'nitro-plan';
+@forward 'mana';
 @forward 'nitro';
 @forward 'onboarding';
 @forward 'pending-application';
@@ -18,3 +17,4 @@
 @forward 'server-tag';
 @forward 'student-hub-email';
 @forward 'upload-stickers';
+@forward 'voice-channel-status';

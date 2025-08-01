@@ -1,8 +1,4 @@
 .theme-midnight {
-    .buttonSection__1405b {
-        border-color: var(--border-faint);
-    }
-
     .videoWrapper__2f4f7:not(.wrapper__48b20),
     .streamHidden_c30e20,
     .streamPreview__2f4f7 {
@@ -23,15 +19,11 @@
     }
 
     // DM call resize dragger
-    .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592  {
+    .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592 {
         border-bottom: 1px solid var(--border-subtle);
     }
 
     // Stages
-    .container__722ff {
-        border-left: 1px solid var(--app-border-frame);
-    }
-
     .container__664ff {
         border-left: 1px solid var(--app-border-frame);
         background-color: var(--background-base-lowest);

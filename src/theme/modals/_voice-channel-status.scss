@@ -1,0 +1,7 @@
+.theme-midnight {
+    .container__08bd2 {
+        background:
+            radial-gradient(100% 100% at 50% 100%, var(--background-base-lowest) 60%, var(--transparent) 100%),
+            linear-gradient(270deg, var(--expressive-gradient-purple-end) 0, var(--expressive-gradient-purple-start) 100%);
+    }
+}

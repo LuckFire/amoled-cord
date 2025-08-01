@@ -1,14 +1,4 @@
 .theme-midnight {
-    .container_cbd375,
-    .scroller__23746,
-    .backdrop__8a7fc,
-    .headerBar__8a7fc.relative__8a7fc {
-        border-left: 1px solid var(--app-border-frame);
-    }
-    // Prevent horizontal scrolling caused by the header bar's left border. Also hides the horizontal scrollbar on small screens.
-    .container_a592e1 {
-        overflow: hidden;
-    }
     .relative__8a7fc {
         border-bottom: 1px solid var(--app-border-frame);
     }

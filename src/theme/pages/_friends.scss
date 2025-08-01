@@ -1,7 +1,8 @@
 .theme-midnight {
     .tabBody__133bf,
     .nowPlayingColumn__133bf,
-    .container__7d20c {
+    .container__7d20c,
+    .emptyCard__7e549 {
         background-color: var(--background-base-lowest);
     }
 
@@ -19,8 +20,11 @@
             background-color: var(--background-base-lowest);
             border: 1px solid var(--border-subtle);
         }
-        .separator__00943 + .wrapper__960df {
-            border-top: none;
+        .separator__00943 {
+            + .section__00943,
+            + .wrapper__960df {
+                border-top: none;
+            }
         }
     }
 
