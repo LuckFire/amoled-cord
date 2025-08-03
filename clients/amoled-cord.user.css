@@ -491,7 +491,8 @@
 	.theme-midnight .shop__6db1d,
 	.theme-midnight .shop__08415,
 	.theme-midnight .page__1feb0,
-	.theme-midnight .shopScroll__1feb0 {
+	.theme-midnight .shopScroll__1feb0,
+	.theme-midnight .filterBar__1feb0 .filterBar__11877 {
 	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight .darkCardBackground_c3d04b {
