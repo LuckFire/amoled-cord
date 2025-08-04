@@ -1,10 +1,8 @@
 .theme-midnight {
-    .applicationStore_f07d62 {
-        border-left: 1px solid var(--app-border-frame);
-        background-color: var(--background-base-lowest);
-    }
-
-    .scroller_c880e8 {
+    .applicationStore_f07d62,
+    .mainPageScroller_ca1a02,
+    .scroller_c880e8,
+    .allPerksScroller_ca1a02 {
         background-color: var(--background-base-lowest);
     }
 
