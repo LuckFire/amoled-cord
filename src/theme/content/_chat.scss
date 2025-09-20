@@ -29,6 +29,27 @@
         background: var(--background-base-low);
     }
 
+    .formWithLoadedChatInput_f75fb0:before,
+    .chatGradient__36d07 {
+        background: linear-gradient(to bottom, transparent, var(--background-base-lowest) 100%);
+    }
+    .chatTypingGradientAtBottom__36d07 {
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--background-base-lowest) 8px,
+            var(--background-base-lowest) 100%
+        );
+    }
+    .chatTypingGradientNotAtBottom__36d07 {
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--background-base-lowest) 72px,
+            var(--background-base-lowest) 100%
+        );
+    }
+
     // Commands
     .optionPill__1464f {
         border: 1px solid var(--border-faint);
