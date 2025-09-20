@@ -3,7 +3,7 @@
 	@name AMOLED-Cord
 	@author LuckFire
 	@description A basically pitch black theme for Discord. Lights out, baby!
-	@version 5.0.5
+	@version 5.0.6
 	@namespace https://github.com/discord-extensions/amoled-cord
 	@license MIT
 	==/UserStyle== */
@@ -116,6 +116,16 @@
 	}
 	.theme-midnight .bannerContainer__362cd {
 	  background: var(--background-base-low);
+	}
+	.theme-midnight .formWithLoadedChatInput_f75fb0:before,
+	.theme-midnight .chatGradient__36d07 {
+	  background: linear-gradient(to bottom, transparent, var(--background-base-lowest) 100%);
+	}
+	.theme-midnight .chatTypingGradientAtBottom__36d07 {
+	  background: linear-gradient(to bottom, transparent, var(--background-base-lowest) 8px, var(--background-base-lowest) 100%);
+	}
+	.theme-midnight .chatTypingGradientNotAtBottom__36d07 {
+	  background: linear-gradient(to bottom, transparent, var(--background-base-lowest) 72px, var(--background-base-lowest) 100%);
 	}
 	.theme-midnight .optionPill__1464f {
 	  border: 1px solid var(--border-faint);
@@ -233,9 +243,6 @@
 	.theme-midnight .emptySearchWrapper__83bd4 {
 	  background-color: var(--background-base-lowest);
 	}
-	.theme-midnight .searchBox_d727b3 {
-	  border: 1px solid var(--input-border);
-	}
 	
 	.theme-midnight .videoWrapper__2f4f7:not(.wrapper__48b20),
 	.theme-midnight .streamHidden_c30e20,
@@ -298,6 +305,11 @@
 	  border: 1px solid var(--border-subtle);
 	}
 	
+	.theme-midnight .message__89466 {
+	  background-color: var(--background-base-lowest);
+	  border: 1px solid var(--border-subtle);
+	}
+	
 	.theme-midnight .uploadModal_dbca3c .footer_dbca3c {
 	  background-color: var(--background-base-lowest);
 	}
@@ -352,6 +364,14 @@
 	.theme-midnight .termsFieldBody_fe70ca {
 	  background-color: var(--background-base-low);
 	  border: 1px solid var(--border-subtle);
+	}
+	
+	.theme-midnight .premiumBrandRefreshBackground_e5f3a9 {
+	  background-color: var(--background-base-lowest) !important;
+	}
+	.theme-midnight .premiumBrandRefreshHeader_e50a4d,
+	.theme-midnight .skuSelectModalContent_e50a4d.premiumBrandRefreshContent_e50a4d.premiumBrandRefreshContent_e50a4d {
+	  background-color: var(--background-base-lowest);
 	}
 	
 	.theme-midnight .confirmation__1051d {
@@ -433,11 +453,11 @@
 	.theme-midnight .body__00943 .separator__00943 + .wrapper__960df {
 	  border-top: none;
 	}
-	.theme-midnight .addFriendInputWrapper__72ba7 {
-	  background: var(--input-background);
-	}
 	.theme-midnight .addFriendInputWrapper__72ba7:not(:focus-within) {
 	  border-color: var(--input-border);
+	}
+	.theme-midnight .addFriendInputWrapper__72ba7 {
+	  background: var(--input-background);
 	}
 	.theme-midnight .outer_bf1984 {
 	  background-color: var(--background-base-low);
@@ -576,7 +596,8 @@
 	  background-color: var(--background-base-low);
 	}
 	.theme-midnight .messageContainer__95796,
-	.theme-midnight .messages__1ccd1 {
+	.theme-midnight .messages__1ccd1,
+	.theme-midnight .forumPost__7d15e {
 	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight .tutorial__2692d,
@@ -637,11 +658,14 @@
 	.theme-midnight .container_d9c882:not(.browser__9a792) {
 	  border: 1px solid var(--app-border-frame);
 	}
-	.theme-midnight .modal__9a792 {
-	  background-color: var(--background-base-low) !important;
-	}
 	.theme-midnight .header_d9c882 {
 	  background-color: var(--background-base-low);
+	}
+	.theme-midnight .browser__9a792 {
+	  background-color: var(--background-base-lowest);
+	}
+	.theme-midnight .browser__9a792 .header_d9c882 {
+	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight .container__6764b {
 	  background-color: var(--background-base-lowest);
@@ -660,6 +684,10 @@
 	.theme-midnight .contentRegion__23e6b,
 	.theme-midnight .contentRegionScroller__23e6b {
 	  background: var(--background-base-lowest);
+	}
+	.theme-midnight .content_e9e3ed,
+	.theme-midnight .sidebar__409aa {
+	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight .accountProfileCard__1fed1 {
 	  background-color: var(--background-base-low);
@@ -783,27 +811,20 @@
 	  background-color: var(--background-base-lower);
 	}
 	.theme-midnight .paymentPane__01014 {
-	  border: 1px solid var(--border-faint);
-	  background-color: var(--background-base-low);
-	}
-	.theme-midnight .paymentPane__01014 .paginator__01014 {
 	  background-color: var(--background-base-low);
 	}
 	.theme-midnight .paymentPane__01014 .payment_e9cb00 {
 	  background-color: var(--background-base-low);
 	}
-	.theme-midnight .paymentPane__01014 .hoverablePayment_e9cb00:hover {
-	  background-color: var(--background-surface-high);
-	}
-	.theme-midnight .paymentPane__01014 .bottomDivider__01014 {
-	  border-bottom-color: var(--border-subtle);
-	}
 	.theme-midnight .paymentPane__01014 .expandedInfo_e9cb00 {
-	  border: 1px solid var(--border-subtle);
 	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight .preview__3e443 {
 	  background-color: var(--background-base-lowest);
+	}
+	.theme-midnight .container_a1d343 {
+	  background-color: var(--background-base-low);
+	  border: 1px solid var(--border-subtle);
 	}
 	.theme-midnight .preview__5d148 {
 	  background-color: var(--background-base-lowest);
@@ -817,8 +838,15 @@
 	.theme-midnight .sliderBar_ac7648:not(.speaking_ac7648) {
 	  background-color: var(--background-surface-highest);
 	}
+	.theme-midnight .cameraWrapper_d41d5f {
+	  background-color: var(--background-base-low);
+	  border-color: var(--border-subtle);
+	}
 	.theme-midnight .backgroundOptionInner__53965 {
 	  background-color: var(--background-base-low);
+	}
+	.theme-midnight .headerContainer__7db08 {
+	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight .game_cc46f0 {
 	  box-shadow: 0 1px 0 0 var(--border-subtle);
@@ -860,9 +888,6 @@
 	  background-color: var(--background-surface-higher);
 	}
 	.theme-midnight .actionContainer_bc4513 {
-	  background-color: var(--background-surface-highest);
-	}
-	.theme-midnight .iconWrapper__96f95 {
 	  background-color: var(--background-surface-highest);
 	}
 	.theme-midnight .editCard_a25a68 {
