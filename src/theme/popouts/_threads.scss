@@ -6,12 +6,16 @@
             border: 1px solid var(--app-border-frame);
         }
     }
-    .modal__9a792 {
-        background-color: var(--background-base-low) !important;
-    }
 
     .header_d9c882 {
         background-color: var(--background-base-low);
+    }
+
+    .browser__9a792 {
+        background-color: var(--background-base-lowest);
+        .header_d9c882 {
+            background-color: var(--background-base-lowest);
+        }
     }
 
     .container__6764b {

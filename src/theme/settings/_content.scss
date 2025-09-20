@@ -8,6 +8,12 @@
         background: var(--background-base-lowest);
     }
 
+    // V2
+    .content_e9e3ed,
+    .sidebar__409aa {
+        background-color: var(--background-base-lowest);
+    }
+
     // User Settings --> My Account
     .accountProfileCard__1fed1 {
         background-color: var(--background-base-low);
@@ -155,26 +161,13 @@
 
     // User Settings --> Billing
     .paymentPane__01014 {
-        border: 1px solid var(--border-faint);
         background-color: var(--background-base-low);
-
-        .paginator__01014 {
-            background-color: var(--background-base-low);
-        }
 
         .payment_e9cb00 {
             background-color: var(--background-base-low);
         }
-        .hoverablePayment_e9cb00:hover {
-            background-color: var(--background-surface-high);
-        }
-
-        .bottomDivider__01014 {
-            border-bottom-color: var(--border-subtle);
-        }
 
         .expandedInfo_e9cb00 {
-            border: 1px solid var(--border-subtle);
             background-color: var(--background-base-lowest);
         }
     }
@@ -182,6 +175,10 @@
     // User Settings --> Appearance
     .preview__3e443 {
         background-color: var(--background-base-lowest);
+    }
+    .container_a1d343 {
+        background-color: var(--background-base-low);
+        border: 1px solid var(--border-subtle);
     }
 
     // User Settings --> Accessibility
@@ -199,8 +196,17 @@
     .sliderBar_ac7648:not(.speaking_ac7648) {
         background-color: var(--background-surface-highest);
     }
+    .cameraWrapper_d41d5f {
+        background-color: var(--background-base-low);
+        border-color: var(--border-subtle);
+    }
     .backgroundOptionInner__53965 {
         background-color: var(--background-base-low);
+    }
+
+    // User Settings --> Activity Privacy
+    .headerContainer__7db08 {
+        background-color: var(--background-base-lowest);
     }
 
     // User Settings --> Registered Games
@@ -257,9 +263,6 @@
         background-color: var(--background-surface-higher);
     }
     .actionContainer_bc4513 {
-        background-color: var(--background-surface-highest);
-    }
-    .iconWrapper__96f95 {
         background-color: var(--background-surface-highest);
     }
     .editCard_a25a68 {
