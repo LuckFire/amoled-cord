@@ -64,19 +64,14 @@
     }
 
     // AutoMod
-    .content__44492 {
-        .messageContent__44492 {
-            border: 1px solid var(--border-subtle);
-            border-bottom: none;
-            background-color: var(--background-surface-high);
-
-            .embedCard__44c9a {
-                background-color: transparent;
-            }
-        }
-        .footerContainer__44492 {
-            border: 1px solid var(--border-subtle);
-        }
+    .embedCard__44c9a {
+        border: 1px solid var(--border-subtle);
+        border-bottom: none;
+        background-color: var(--background-surface-high);
+    }
+    .footerContainer__44492 {
+        border: 1px solid var(--border-subtle);
+        background-color: var(--background-base-lower);
     }
 
     .embedCard_b99f57 {

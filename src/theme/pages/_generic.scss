@@ -1,7 +1,7 @@
 .theme-midnight {
     // Add borders to loading lazy loaded pages and empty channel page
-    .page_c48ade:empty,
-    .page_c48ade:has(.loader_c48ade, > div:empty:only-child),
+    .page__5e434:empty,
+    .page__5e434:has(.loader__5e434, > div:empty:only-child),
     .noChannel__01d5c {
         border-top: 1px solid var(--app-border-frame);
     }

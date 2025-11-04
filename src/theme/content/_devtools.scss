@@ -1,9 +1,30 @@
 .theme-midnight {
+    // Main panel
     .container_db0ccb,
-    .container_a51e6d {
+    .tabBar_fe7ab2 {
         background-color: var(--background-base-lowest);
     }
+    .tabBar_fe7ab2,
     .sidebarContent_db0ccb {
         border-color: var(--app-border-frame);
+    }
+
+    // Sub panel
+    .container_a51e6d,
+    .actionProperties_a81334 {
+        background-color: var(--background-base-lowest);
+        border-color: var(--app-border-frame);
+    }
+    .inspectorContainer__0939d,
+    .inspectorContainer_a81334 {
+        background-color: var(--background-base-lowest);
+    }
+    .inspectorWrapper_fe7ab2 > ul {
+        background-color: var(--background-base-lowest) !important;
+    }
+
+    // Playground
+    .canvas_df4c28 {
+        background-color: var(--background-base-lowest);
     }
 }

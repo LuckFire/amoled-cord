@@ -3,11 +3,6 @@
         background-color: var(--background-base-lowest);
     }
 
-    .previewForm_d9be46 {
-        background-color: var(--background-base-low);
-        border-color: var(--border-faint);
-    }
-
     .descriptionContainer_ca49a1 {
         background-color: var(--background-base-lowest);
         border: 1px solid var(--border-subtle);
@@ -30,7 +25,11 @@
             hsl(var(--black-hsl) / 0.4)
         );
         &.noTags__9a337 {
-            background: linear-gradient(to top, hsl(var(--black-hsl) / 1), hsl(var(--black-hsl) / 0));
+            background: linear-gradient(
+                to top,
+                hsl(var(--black-hsl) / 1),
+                hsl(var(--black-hsl) / 0)
+            );
         }
     }
 }
