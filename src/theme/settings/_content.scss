@@ -10,8 +10,12 @@
 
     // V2
     .content_e9e3ed,
-    .sidebar__409aa {
+    .sidebar__409aa,
+    .contentHeader_e9e3ed {
         background-color: var(--background-base-lowest);
+    }
+    .fixedContent__409aa:after {
+        background: linear-gradient(to bottom, var(--background-base-lowest), transparent);
     }
 
     // User Settings --> My Account
@@ -59,31 +63,11 @@
     }
 
     // User Settings --> Connections
-    .connectContainer_c7f964 {
-        border: 1px solid var(--border-faint);
-        background-color: var(--background-base-low);
-    }
-    .accountButtonInner_c7f964,
-    .accountAddInner_c7f964 {
-        border: 1px solid var(--border-subtle);
-        &:not(:hover) {
-            background-color: var(--background-base-lower);
-        }
-    }
     .connection_c7f964 {
         border: 1px solid var(--border-faint);
-        background-color: var(--background-base-lower);
+        background-color: var(--background-base-low);
 
-        .connectionHeader_c7f964 {
-            border-bottom: 1px solid var(--border-faint);
-            background-color: var(--background-base-low);
-        }
-
-        .metadataContainer_c7f964 {
-            border: 1px solid var(--border-faint);
-            background-color: var(--background-base-lowest);
-        }
-
+        .metadataContainer_c7f964,
         .integrationWrapper_c7f964 {
             border: 1px solid var(--border-faint);
             background-color: var(--background-base-lowest);
@@ -196,11 +180,16 @@
     .sliderBar_ac7648:not(.speaking_ac7648) {
         background-color: var(--background-surface-highest);
     }
-    .cameraWrapper_d41d5f {
+    .cameraWrapper__11e1f {
         background-color: var(--background-base-low);
         border-color: var(--border-subtle);
     }
     .backgroundOptionInner__53965 {
+        background-color: var(--background-base-low);
+    }
+
+    // User Settings --> Keybinds
+    .defaultKeybindGroup__740f2 {
         background-color: var(--background-base-low);
     }
 
@@ -210,8 +199,13 @@
     }
 
     // User Settings --> Registered Games
+    .notDetected_cc46f0 {
+        background-color: var(--background-surface-high);
+        border: 1px solid var(--border-subtle);
+    }
     .game_cc46f0 {
-        box-shadow: 0 1px 0 0 var(--border-subtle);
+        background-color: var(--background-base-low);
+        border: 1px solid var(--border-subtle);
     }
 
     // Guild Settings --> Boost Perks
@@ -249,11 +243,11 @@
             }
         }
     }
-    .header__812a7 {
+    .header__99871 {
         background-color: var(--background-base-low);
         border-bottom: 1px solid var(--border-faint);
     }
-    .container__812a7 {
+    .container__99871 {
         background-color: var(--background-base-lower);
     }
 
@@ -270,11 +264,6 @@
     }
     .collapseable__217b7:is(.collapseable__4546e, .collapseable_fc46b1) {
         background-color: var(--background-surface-high);
-    }
-
-    // Guild Settings --> Bans
-    .bannedUser_cdb2b0:not(:hover) {
-        background-color: var(--background-surface-higher);
     }
 
     // Guild Settings --> Onboarding

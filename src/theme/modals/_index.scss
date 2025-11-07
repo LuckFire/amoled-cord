@@ -5,11 +5,13 @@
 @forward 'connections';
 @forward 'delete-message';
 @forward 'edit-upload';
+@forward 'emoji-studio';
+@forward 'events';
+@forward 'generic';
 @forward 'gif-picker';
 @forward 'invite';
 @forward 'keyboard-shortcuts';
 @forward 'message-reactions';
-@forward 'mana';
 @forward 'nitro';
 @forward 'onboarding';
 @forward 'payment';
