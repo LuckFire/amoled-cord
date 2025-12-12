@@ -1,18 +1,18 @@
 .theme-midnight {
-    --background-message-hover: var(--opacity-8) !important;
+    --message-background-hover: var(--opacity-8) !important;
 
-    --background-mod-faint: var(--opacity-4) !important;
+    --background-mod-muted: var(--opacity-4) !important;
     --background-mod-normal: var(--opacity-16) !important;
     --background-mod-strong: var(--opacity-20) !important;
     --background-mod-subtle: var(--opacity-8) !important;
 
-    --background-modifier-active: var(--opacity-16) !important;
-    --background-modifier-hover: var(--opacity-8) !important;
-    --background-modifier-selected: var(--opacity-20) !important;
+    --interactive-background-active: var(--opacity-16) !important;
+    --interactive-background-hover: var(--opacity-8) !important;
+    --interactive-background-selected: var(--opacity-20) !important;
 
     --background-secondary-alt: var(--neutral-88) !important;
 
-    --card-primary-bg: var(--background-base-low) !important;
+    --card-background-default: var(--background-base-low) !important;
 
     --modal-background: var(--background-base-lowest) !important;
     --modal-footer-background: var(--background-base-lowest) !important;
@@ -26,7 +26,7 @@
 
 @supports (color: color-mix(in lch, red, blue)) {
     .theme-midnight {
-        --background-message-hover: color-mix(
+        --message-background-hover: color-mix(
             in oklab,
             var(--opacity-8) 100%,
             hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.0784313725490196)
@@ -37,7 +37,7 @@
             var(--neutral-88) 100%,
             var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)
         ) !important;
-        --card-primary-bg: color-mix(
+        --card-background-default: color-mix(
             in oklab,
             var(--background-base-low) 100%,
             var(--theme-base-color, #000) var(--theme-base-color-amount, 0%)

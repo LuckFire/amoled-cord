@@ -1,16 +1,16 @@
 .theme-midnight {
-    .applicationStore_f07d62,
-    .mainPageScroller_ca1a02,
-    .scroller_c880e8,
-    .allPerksScroller_ca1a02 {
+    .f07d62e29a48ceee-applicationStore,
+    .ca1a02dcad190ff8-mainPageScroller,
+    .c880e89226639033-scroller,
+    .ca1a02dcad190ff8-allPerksScroller {
         background-color: var(--background-base-lowest);
     }
 
-    .card_b5493b {
+    .b5493bb5330ab072-card {
         border: 1px solid var(--border-subtle);
         background-color: var(--background-surface-high);
 
-        .cardDescription__1f069 {
+        ._1f0692e2665d8dcd-cardDescription {
             background-image: linear-gradient(
                 to bottom,
                 var(--background-surface-high) 50%,
@@ -19,11 +19,11 @@
         }
     }
 
-    .container_da4aee {
+    .da4aee5b24d1a407-container {
         border: 1px solid var(--border-subtle);
         background-color: var(--background-surface-high);
 
-        .textContainer_da4aee {
+        .da4aee5b24d1a407-textContainer {
             background-image: linear-gradient(
                 to right,
                 var(--background-surface-high),

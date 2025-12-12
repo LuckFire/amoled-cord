@@ -1,30 +1,30 @@
 .theme-midnight {
     // Main panel
-    .container_db0ccb,
-    .tabBar_fe7ab2 {
+    .db0ccbb8b3b775e5-container,
+    .fe7ab2c36478c141-tabBar {
         background-color: var(--background-base-lowest);
     }
-    .tabBar_fe7ab2,
-    .sidebarContent_db0ccb {
+    .fe7ab2c36478c141-tabBar,
+    .db0ccbb8b3b775e5-sidebarContent {
         border-color: var(--app-border-frame);
     }
 
     // Sub panel
-    .container_a51e6d,
-    .actionProperties_a81334 {
+    .a51e6d4f2ee35a39-container,
+    .a813349e2fe16207-actionProperties {
         background-color: var(--background-base-lowest);
         border-color: var(--app-border-frame);
     }
-    .inspectorContainer__0939d,
-    .inspectorContainer_a81334 {
+    ._0939dbb675fd8b10-inspectorContainer,
+    .a813349e2fe16207-inspectorContainer {
         background-color: var(--background-base-lowest);
     }
-    .inspectorWrapper_fe7ab2 > ul {
+    .fe7ab2c36478c141-inspectorWrapper > ul {
         background-color: var(--background-base-lowest) !important;
     }
 
     // Playground
-    .canvas_df4c28 {
+    .df4c28a1dd232372-canvas {
         background-color: var(--background-base-lowest);
     }
 }
