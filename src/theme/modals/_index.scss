@@ -1,17 +1,11 @@
-@forward 'accept-invite';
 @forward 'auth-box';
-@forward 'captcha';
-@forward 'claim-reward';
 @forward 'connections';
 @forward 'delete-message';
-@forward 'edit-upload';
 @forward 'emoji-studio';
 @forward 'events';
 @forward 'generic';
 @forward 'gif-picker';
-@forward 'invite';
 @forward 'keyboard-shortcuts';
-@forward 'message-reactions';
 @forward 'nitro';
 @forward 'onboarding';
 @forward 'payment';
@@ -19,6 +13,4 @@
 @forward 'poll-votes';
 @forward 'quest-console-connection';
 @forward 'server-tag';
-@forward 'student-hub-email';
 @forward 'upload-stickers';
-@forward 'voice-channel-status';

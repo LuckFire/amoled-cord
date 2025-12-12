@@ -1,13 +1,13 @@
 .theme-midnight {
-    .background__7449f {
+    ._7449fa59699cedd9-background {
         background-color: var(--background-base-lowest);
     }
 
-    .resourceChannel__7449f:hover {
-        background-color: var(--background-modifier-hover);
+    ._7449fa59699cedd9-resourceChannel:hover {
+        background-color: var(--interactive-background-hover);
     }
 
-    .headerBarInner__7449f:after {
+    ._7449fa59699cedd9-headerBarInner:after {
         background: linear-gradient(to bottom, rgba(50, 52, 58, 0) 0, var(--background-base-lowest) 100%);
     }
 }

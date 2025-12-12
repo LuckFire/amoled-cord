@@ -3,218 +3,218 @@
 // but I'm not sure which ones and I'm too lazy to really dig into it.
 
 .theme-midnight {
-    .contentRegion__23e6b,
-    .contentRegionScroller__23e6b {
+    ._23e6b439306f125a-contentRegion,
+    ._23e6b439306f125a-contentRegionScroller {
         background: var(--background-base-lowest);
     }
 
     // V2
-    .content_e9e3ed,
-    .sidebar__409aa,
-    .contentHeader_e9e3ed {
+    .e9e3ed8b8badfe05-content,
+    ._409aa1aeee28d5f7-sidebar,
+    .e9e3ed8b8badfe05-contentHeader {
         background-color: var(--background-base-lowest);
     }
-    .fixedContent__409aa:after {
+    ._409aa1aeee28d5f7-fixedContent:after {
         background: linear-gradient(to bottom, var(--background-base-lowest), transparent);
     }
 
     // User Settings --> My Account
-    .accountProfileCard__1fed1 {
+    ._1fed1dd06c7aabf7-accountProfileCard {
         background-color: var(--background-base-low);
         border: 1px solid var(--border-subtle);
 
-        .background__1fed1 {
+        ._1fed1dd06c7aabf7-background {
             border: 1px solid var(--border-subtle);
             background-color: var(--background-base-lowest);
-            .fieldList__1fed1 {
+            ._1fed1dd06c7aabf7-fieldList {
                 background-color: var(--background-base-lowest);
             }
         }
     }
 
     // User Settings --> Content & Social
-    .emptyContainer_de8069 {
-        border: 1px solid var(--border-faint);
+    .de806995aea91de8-emptyContainer {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
     }
-    .card__5cea9 {
-        border: 1px solid var(--border-faint);
+    ._5cea9da4c2ca012f-card {
+        border: 1px solid var(--border-muted);
 
-        .header__5cea9 {
-            border-bottom: 1px solid var(--border-faint);
+        ._5cea9da4c2ca012f-header {
+            border-bottom: 1px solid var(--border-muted);
             background-color: var(--background-base-low);
         }
     }
 
     // User Settings --> Family Center
-    .box_f8c98c {
-        border-color: var(--border-faint);
+    .f8c98cc3d7c1bc42-box {
+        border-color: var(--border-muted);
         background-color: var(--background-base-low);
     }
 
     // User Settings --> Authorized Apps
-    .headerV2__50a54 {
-        border-bottom: 1px solid var(--border-faint);
+    ._50a5493e9d9cc496-headerV2 {
+        border-bottom: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
     }
-    .authedAppV2__50a54 {
-        border: 1px solid var(--border-faint);
+    ._50a5493e9d9cc496-authedAppV2 {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-lower);
     }
 
     // User Settings --> Connections
-    .connection_c7f964 {
-        border: 1px solid var(--border-faint);
+    .c7f964e7e0fc8b47-connection {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
 
-        .metadataContainer_c7f964,
-        .integrationWrapper_c7f964 {
-            border: 1px solid var(--border-faint);
+        .c7f964e7e0fc8b47-metadataContainer,
+        .c7f964e7e0fc8b47-integrationWrapper {
+            border: 1px solid var(--border-muted);
             background-color: var(--background-base-lowest);
         }
     }
 
     // User Settings --> Nitro
-    .expandedProgressBarContainerSettingsPage_a61c56,
-    .giftCard_a45ed3 {
-        border: 1px solid var(--border-faint);
+    .a61c561e7be40d05-expandedProgressBarContainerSettingsPage,
+    .a45ed3bc8a11b547-giftCard {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
     }
-    .perkCard_b62c4e {
-        border: 1px solid var(--border-faint);
+    .b62c4e4ee0e62730-perkCard {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
     }
-    .rowBottomBorder_e4ef5c {
+    .e4ef5cb9eb007591-rowBottomBorder {
         border-color: var(--border-subtle);
     }
 
     // User Settings --> Server Boost
-    .appliedBoostContainer_ceb06a {
-        border: 1px solid var(--border-faint);
+    .ceb06aa49ba836f9-appliedBoostContainer {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
 
-        .boostContainerSeparator_ceb06a {
+        .ceb06aa49ba836f9-boostContainerSeparator {
             background-color: var(--border-subtle);
         }
 
-        .boostContainer_ceb06a {
+        .ceb06aa49ba836f9-boostContainer {
             background-color: var(--background-base-low);
         }
 
-        .guildContainer__5dba5:not(.recommendedServerCard__51537) {
-            border-bottom: 1px solid var(--border-faint);
+        ._5dba5003598d9c70-guildContainer:not(._5153730f0c7cf20d-recommendedServerCard) {
+            border-bottom: 1px solid var(--border-muted);
         }
     }
-    .wave__8e08c {
+    ._8e08ce7f1f1b7f5a-wave {
         fill: var(--background-base-lowest);
     }
-    .guildContainer__5dba5 {
+    ._5dba5003598d9c70-guildContainer {
         background-color: var(--background-base-low);
-        &.recommendedServerCard__51537 {
-            border: 1px solid var(--border-faint);
+        &._5153730f0c7cf20d-recommendedServerCard {
+            border: 1px solid var(--border-muted);
         }
     }
-    .wrapper__5b98e {
-        border: 1px solid var(--border-faint);
+    ._5b98ee5ec86ed598-wrapper {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
 
-        .list__5b98e {
+        ._5b98ee5ec86ed598-list {
             border-color: var(--border-subtle);
         }
-        .listItem__5b98e {
+        ._5b98ee5ec86ed598-listItem {
             border-color: var(--border-subtle);
         }
     }
 
     // User Settings --> Subscriptions
-    .detailsBlock_e335a7 {
-        border: 1px solid var(--border-faint);
+    .e335a78803b4d1df-detailsBlock {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
     }
-    .accountCreditsContainer__94f72 .accountCreditRow__94f72:not(:last-child) {
-        border-bottom: 1px solid var(--border-faint);
+    ._94f72ca8df533a71-accountCreditsContainer ._94f72ca8df533a71-accountCreditRow:not(:last-child) {
+        border-bottom: 1px solid var(--border-muted);
     }
-    .fractionalPremiumAccountCredit__94f72,
-    .premiumSubscriptionAccountCredit__94f72 {
-        border: 1px solid var(--border-faint);
+    ._94f72ca8df533a71-fractionalPremiumAccountCredit,
+    ._94f72ca8df533a71-premiumSubscriptionAccountCredit {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-base-low);
     }
-    .fractionalTimeRemainingRow__94f72 {
+    ._94f72ca8df533a71-fractionalTimeRemainingRow {
         background-color: var(--background-base-lower);
     }
 
     // User Settings --> Billing
-    .paymentPane__01014 {
+    ._01014d2e38bd7c76-paymentPane {
         background-color: var(--background-base-low);
 
-        .payment_e9cb00 {
+        .e9cb00d6250845ad-payment {
             background-color: var(--background-base-low);
         }
 
-        .expandedInfo_e9cb00 {
+        .e9cb00d6250845ad-expandedInfo {
             background-color: var(--background-base-lowest);
         }
     }
 
     // User Settings --> Appearance
-    .preview__3e443 {
+    ._3e443c6b2569044a-preview {
         background-color: var(--background-base-lowest);
     }
-    .container_a1d343 {
+    .a1d343a407a39907-container {
         background-color: var(--background-base-low);
         border: 1px solid var(--border-subtle);
     }
 
     // User Settings --> Accessibility
-    .preview__5d148 {
+    ._5d148ffac19e7fb1-preview {
         background-color: var(--background-base-lowest);
     }
 
     // User Settings --> Voice & Video
-    .notches__06283.gray__06283 {
+    ._062838a9530acec0-notches._062838a9530acec0-gray {
         color: var(--background-base-lowest);
     }
-    .progress__06283 {
+    ._062838a9530acec0-progress {
         background-color: var(--background-surface-highest);
     }
-    .sliderBar_ac7648:not(.speaking_ac7648) {
+    .ac7648c9bd968881-sliderBar:not(.ac7648c9bd968881-speaking) {
         background-color: var(--background-surface-highest);
     }
-    .cameraWrapper__11e1f {
+    ._11e1f74ed34823b2-cameraWrapper {
         background-color: var(--background-base-low);
         border-color: var(--border-subtle);
     }
-    .backgroundOptionInner__53965 {
+    ._53965a42989baf13-backgroundOptionInner {
         background-color: var(--background-base-low);
     }
 
     // User Settings --> Keybinds
-    .defaultKeybindGroup__740f2 {
+    ._740f25428e5fa983-defaultKeybindGroup {
         background-color: var(--background-base-low);
     }
 
     // User Settings --> Activity Privacy
-    .headerContainer__7db08 {
+    ._7db089e5a4993141-headerContainer {
         background-color: var(--background-base-lowest);
     }
 
     // User Settings --> Registered Games
-    .notDetected_cc46f0 {
+    .cc46f0f859f26200-notDetected {
         background-color: var(--background-surface-high);
         border: 1px solid var(--border-subtle);
     }
-    .game_cc46f0 {
+    .cc46f0f859f26200-game {
         background-color: var(--background-base-low);
         border: 1px solid var(--border-subtle);
     }
 
     // Guild Settings --> Boost Perks
-    .avatarUploaderInnerSquareDisabled_e04502 {
+    .e0450273efe6a4b3-avatarUploaderInnerSquareDisabled {
         background-color: var(--background-surface-high);
     }
 
     // Guild Settings --> Stickers
-    .wrapper__83b1d {
+    ._83b1d7042b9be375-wrapper {
         background-color: var(--background-surface-high);
         &:focus-within,
         &:hover {
@@ -223,102 +223,102 @@
     }
 
     // Guild Settings --> Roles
-    .titleContainer_e29cd7,
-    .header_c6bf1b {
+    .e29cd7b93c4f1266-titleContainer,
+    .c6bf1b7af480dfda-header {
         background-color: var(--background-base-lowest);
     }
-    .theme-midnight.messageWrapper__981c8 {
+    .theme-midnight._981c8ddc53ff5825-messageWrapper {
         background-color: var(--background-base-lowest);
     }
 
     // Guild Settings --> Access
-    .joinOptions__959cb {
+    ._959cbfbb20fb39e8-joinOptions {
         background-color: var(--background-base-low);
-        .joinOptionContent__959cb {
-            &.uninteractive__959cb:hover {
+        ._959cbfbb20fb39e8-joinOptionContent {
+            &._959cbfbb20fb39e8-uninteractive:hover {
                 background-color: var(--background-base-low);
             }
-            &.active__959cb {
+            &._959cbfbb20fb39e8-active {
                 background-color: var(--background-surface-high);
             }
         }
     }
-    .header__99871 {
+    ._99871ef1d8f8adaa-header {
         background-color: var(--background-base-low);
-        border-bottom: 1px solid var(--border-faint);
+        border-bottom: 1px solid var(--border-muted);
     }
-    .container__99871 {
+    ._99871ef1d8f8adaa-container {
         background-color: var(--background-base-lower);
     }
 
     // Guild Settings --> Safety Setup
-    .actionContainer__6446f,
-    .mentionLimitContainer_ed9c90 {
+    ._6446fb2bd9a3c2e5-actionContainer,
+    .ed9c90c31c2038a5-mentionLimitContainer {
         background-color: var(--background-surface-higher);
     }
-    .actionContainer_bc4513 {
+    .bc45130a46a61b36-actionContainer {
         background-color: var(--background-surface-highest);
     }
-    .editCard_a25a68 {
+    .a25a68d7be1be409-editCard {
         background-color: var(--background-base-low);
     }
-    .collapseable__217b7:is(.collapseable__4546e, .collapseable_fc46b1) {
+    ._217b73c8e5e3ff6d-collapseable:is(._4546e2b07bad4954-collapseable, .fc46b1ccaa4b79c5-collapseable) {
         background-color: var(--background-surface-high);
     }
 
     // Guild Settings --> Onboarding
-    .notice_a9b452,
-    .review_a9b452 {
+    .a9b45282395ecdfc-notice,
+    .a9b45282395ecdfc-review {
         background-color: var(--background-base-low);
         border: 1px solid var(--border-subtle);
     }
-    .onboardingStepContainer__28e57 {
+    ._28e57b0268546d72-onboardingStepContainer {
         border-left: 1px solid var(--border-subtle);
         border-right: 1px solid var(--border-subtle);
         &:last-child {
             border-bottom: 1px solid var(--border-subtle);
         }
     }
-    .container__5d756 {
+    ._5d75644e264790f5-container {
         border: 1px solid var(--border-subtle);
     }
-    .example__5d756 {
+    ._5d75644e264790f5-example {
         background-color: var(--background-surface-high);
     }
-    .channelCoverage_e34850 {
+    .e348504a04b3195e-channelCoverage {
         background-color: var(--background-base-low);
     }
-    .actionItem_d2b0e4,
-    .resourceChannel_d2b0e4,
-    .suggestedChannels_d2b0e4 {
+    .d2b0e4d0195c7d48-actionItem,
+    .d2b0e4d0195c7d48-resourceChannel,
+    .d2b0e4d0195c7d48-suggestedChannels {
         background-color: var(--background-base-low);
     }
 
     // Guild Settings --> Enable Monetization
-    .howItWorksContainer_dd30dc,
-    .creatorBenefitCard__02e4c,
-    .guildCard__2485e {
-        border: 1px solid var(--border-faint);
+    .dd30dca4d268da6e-howItWorksContainer,
+    ._02e4c53e15067b10-creatorBenefitCard,
+    ._2485e7bec1c79566-guildCard {
+        border: 1px solid var(--border-muted);
         background-color: var(--background-surface-high);
     }
 
     // Guild Settings --> Server Template
-    .descriptionBox__981f7 {
+    ._981f723644a1a061-descriptionBox {
         border: 1px solid var(--border-subtle);
         background-color: var(--background-base-low);
     }
 
     // Channel Settings --> Permissions
-    .settingCard__1a4ef {
+    ._1a4ef2934d882343-settingCard {
         border: 1px solid var(--border-subtle);
-        &.active__1a4ef {
+        &._1a4ef2934d882343-active {
             background-color: var(--background-base-low);
         }
     }
-    .cardFolder__1a4ef:not(:empty) {
+    ._1a4ef2934d882343-cardFolder:not(:empty) {
         border-top: 1px solid var(--border-subtle);
     }
-    .scroller__53543 {
+    ._535437b3d3b11fd1-scroller {
         background-color: var(--background-base-lowest);
     }
 }
