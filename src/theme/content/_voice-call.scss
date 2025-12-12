@@ -4,7 +4,12 @@
     ._2f4f7eb58b61c328-streamPreview {
         background-color: var(--background-base-low);
     }
-    ._211d1cc3f7e37d69-participantsButton,
+    ._211d1cc3f7e37d69-participantsButton {
+        background-color: var(--background-surface-higher);
+        &:hover {
+            background-color: var(--background-surface-high);
+        }
+    }
 
     // DM call resize dragger
     .cb9592ad77576717-wrapper:has(._4b14452430df187a-resizeHandle) .cb9592ad77576717-callContainer {

@@ -266,7 +266,12 @@
 	.theme-midnight ._2f4f7eb58b61c328-streamPreview {
 	  background-color: var(--background-base-low);
 	}
-	.theme-midnight ._211d1cc3f7e37d69-participantsButton,
+	.theme-midnight ._211d1cc3f7e37d69-participantsButton {
+	  background-color: var(--background-surface-higher);
+	}
+	.theme-midnight ._211d1cc3f7e37d69-participantsButton:hover {
+	  background-color: var(--background-surface-high);
+	}
 	.theme-midnight .cb9592ad77576717-wrapper:has(._4b14452430df187a-resizeHandle) .cb9592ad77576717-callContainer {
 	  border-bottom: 1px solid var(--border-subtle);
 	}
