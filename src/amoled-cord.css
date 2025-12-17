@@ -222,6 +222,10 @@
   background-color: var(--background-base-lowest);
 }
 
+.theme-midnight ._9e06aaa5aecd6e3e-pillContainer {
+  background-color: var(--background-base-lower);
+}
+
 .theme-midnight ._7449fa59699cedd9-background {
   background-color: var(--background-base-lowest);
 }
@@ -285,6 +289,10 @@
   background-color: var(--background-base-lowest);
 }
 
+.theme-midnight .c50f6267327b9a8c-collectibleInfoContainer {
+  background-color: var(--background-base-lowest);
+}
+
 .theme-midnight ._750deea9823265e4-accountBtnInner,
 .theme-midnight ._750deea9823265e4-application {
   border: 1px solid var(--border-subtle);
@@ -311,6 +319,10 @@
 }
 
 .theme-midnight ._6c39d2934561b275-gifPicker .fed6d32841cc2da2-header {
+  background-color: var(--background-base-lowest);
+}
+
+.theme-midnight ._7f7273e3e762eb9d-footer {
   background-color: var(--background-base-lowest);
 }
 
@@ -355,6 +367,12 @@
 .theme-midnight .e50a4da433dc80b9-premiumBrandRefreshHeader,
 .theme-midnight .e50a4da433dc80b9-skuSelectModalContent.e50a4da433dc80b9-premiumBrandRefreshContent.e50a4da433dc80b9-premiumBrandRefreshContent {
   background-color: var(--background-base-lowest);
+}
+.theme-midnight .d5200e6d16a6b1af-oneStepCheckoutTextWrapper {
+  background-color: var(--background-base-lowest);
+}
+.theme-midnight .d5200e6d16a6b1af-bodyGradient {
+  background: linear-gradient(0deg, transparent 0, var(--background-base-lowest) 46.63%);
 }
 
 .theme-midnight ._1051dda1dcd41f38-confirmation {
