@@ -110,7 +110,7 @@
 	  background: var(--background-base-lowest);
 	}
 	.theme-midnight ._7641b507c6cdbb10-emptyState {
-	  border-left: 1px solid var(--app-border-frame);
+	  border-left: 1px solid var(--app-frame-border);
 	}
 	.theme-midnight .f7ecaca5c80dbf3a-wrapper {
 	  background-color: var(--background-surface-high);
@@ -172,12 +172,12 @@
 	}
 	.theme-midnight .fe7ab2c36478c141-tabBar,
 	.theme-midnight .db0ccbb8b3b775e5-sidebarContent {
-	  border-color: var(--app-border-frame);
+	  border-color: var(--app-frame-border);
 	}
 	.theme-midnight .a51e6d4f2ee35a39-container,
 	.theme-midnight .a813349e2fe16207-actionProperties {
 	  background-color: var(--background-base-lowest);
-	  border-color: var(--app-border-frame);
+	  border-color: var(--app-frame-border);
 	}
 	.theme-midnight ._0939dbb675fd8b10-inspectorContainer,
 	.theme-midnight .a813349e2fe16207-inspectorContainer {
@@ -280,7 +280,7 @@
 	  border-bottom: 1px solid var(--border-subtle);
 	}
 	.theme-midnight ._664ffc673b75c994-container {
-	  border-left: 1px solid var(--app-border-frame);
+	  border-left: 1px solid var(--app-frame-border);
 	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight ._506d985b6344ef3a-background {
@@ -360,7 +360,7 @@
 	}
 	
 	.theme-midnight .c08b38911b1dcc2f-main:not(.c08b38911b1dcc2f-fullBorderWithGradient) {
-	  border-top: 1px solid var(--app-border-frame);
+	  border-top: 1px solid var(--app-frame-border);
 	}
 	.theme-midnight .fe70ca6739eeb5f0-prompt {
 	  border: 1px solid var(--border-normal);
@@ -419,7 +419,7 @@
 	}
 	
 	.theme-midnight ._8a7fc664acf53af6-relative {
-	  border-bottom: 1px solid var(--app-border-frame);
+	  border-bottom: 1px solid var(--app-frame-border);
 	}
 	.theme-midnight ._8a7fc664acf53af6-relative,
 	.theme-midnight ._23746ba3de9452d8-scroller,
@@ -457,11 +457,11 @@
 	.theme-midnight ._5e434347c823b592-page:empty,
 	.theme-midnight ._5e434347c823b592-page:has(._5e434347c823b592-loader, > div:empty:only-child),
 	.theme-midnight ._01d5c7193c9f2ff4-noChannel {
-	  border-top: 1px solid var(--app-border-frame);
+	  border-top: 1px solid var(--app-frame-border);
 	}
 	
 	.theme-midnight .ad5cdf4c3a4bde59-container {
-	  border-top: 1px solid var(--app-border-frame);
+	  border-top: 1px solid var(--app-frame-border);
 	}
 	.theme-midnight ._4a84a2c88d373bef-scroller,
 	.theme-midnight .fb04e18e9304920d-scroller {
@@ -654,7 +654,7 @@
 	}
 	
 	.theme-midnight ._23e6b439306f125a-sidebarRegionScroller {
-	  border-right: 1px solid var(--app-border-frame);
+	  border-right: 1px solid var(--app-frame-border);
 	}
 	
 	.theme-midnight ._23e6b439306f125a-contentRegion,
