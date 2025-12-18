@@ -429,11 +429,11 @@
   background-color: var(--background-base-lowest);
   border: 1px solid var(--border-subtle);
 }
-.theme-midnight ._72ba79a5dfa2ce86-addFriendInputWrapper:not(:focus-within) {
-  border-color: var(--input-border);
-}
 .theme-midnight ._72ba79a5dfa2ce86-addFriendInputWrapper {
   background: var(--input-background);
+}
+.theme-midnight ._72ba79a5dfa2ce86-addFriendInputWrapper:not(:focus-within) {
+  border-color: var(--input-border);
 }
 .theme-midnight .bf1984a18b3ec6f0-outer {
   background-color: var(--background-base-low);
