@@ -1,10 +1,10 @@
 .theme-midnight {
-    ._2f4f7eb58b61c328-videoWrapper:not(._48b20dfd18726df7-wrapper),
-    .c30e20083a9cfc88-streamHidden,
-    ._2f4f7eb58b61c328-streamPreview {
+    .videoWrapper__2f4f7:not(.wrapper__48b20),
+    .streamHidden_c30e20,
+    .streamPreview__2f4f7 {
         background-color: var(--background-base-low);
     }
-    ._211d1cc3f7e37d69-participantsButton {
+    .participantsButton__211d1 {
         background-color: var(--background-surface-higher);
         &:hover {
             background-color: var(--background-surface-high);
@@ -12,16 +12,16 @@
     }
 
     // DM call resize dragger
-    .cb9592ad77576717-wrapper:has(._4b14452430df187a-resizeHandle) .cb9592ad77576717-callContainer {
+    .wrapper_cb9592:has(.resizeHandle__4b144) .callContainer_cb9592 {
         border-bottom: 1px solid var(--border-subtle);
     }
 
     // Stages
-    ._664ffc673b75c994-container {
+    .container__664ff {
         border-left: 1px solid var(--app-frame-border);
         background-color: var(--background-base-lowest);
     }
-    ._506d985b6344ef3a-background {
+    .background__506d9 {
         background-color: var(--background-base-low);
     }
 
@@ -29,7 +29,7 @@
     // --neutral-95 is --background-base-low
     // --opacity-12 is --interactive-background-hover
     // --opacity-24 is --border-subtle
-    ._6b38f2a3ad7aaedf-container._6b38f2a3ad7aaedf-pulse {
+    .container__6b38f.pulse__6b38f {
         background-color: var(--neutral-95);
         border: 1px solid var(--opacity-24);
 
@@ -37,7 +37,7 @@
             background-color: var(--opacity-12);
         }
     }
-    ._71eb2d6ae9535ae3-tileContainer:hover {
+    .tileContainer__71eb2:hover {
         background-color: var(--opacity-12);
     }
 }
