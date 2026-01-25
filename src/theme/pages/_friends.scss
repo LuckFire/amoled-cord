@@ -1,17 +1,17 @@
 .theme-midnight {
-    ._133bf5eea8e33a34-tabBody,
-    ._133bf5eea8e33a34-nowPlayingColumn,
-    ._7d20cf18f8a2784c-container,
-    ._7e549558f336cddb-emptyCard {
+    .tabBody__133bf,
+    .nowPlayingColumn__133bf,
+    .container__7d20c,
+    .emptyCard__7e549 {
         background-color: var(--background-base-lowest);
     }
 
-    ._00943886e1cf89d1-body ._00943886e1cf89d1-section {
+    .body__00943 .section__00943 {
         background-color: var(--background-base-lowest);
         border: 1px solid var(--border-subtle);
     }
 
-    ._72ba79a5dfa2ce86-addFriendInputWrapper {
+    .addFriendInputWrapper__72ba7 {
         &:not(:focus-within) {
             border-color: var(--input-border);
         }
@@ -19,11 +19,11 @@
     }
 
     // Active Now
-    .bf1984a18b3ec6f0-outer {
+    .outer_bf1984 {
         background-color: var(--background-base-low);
 
-        &.bf1984a18b3ec6f0-active,
-        &.bf1984a18b3ec6f0-interactive {
+        &.active_bf1984,
+        &.interactive_bf1984 {
             &:hover {
                 background-color: var(--background-surface-high);
             }

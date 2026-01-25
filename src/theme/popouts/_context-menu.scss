@@ -1,9 +1,9 @@
 .theme-midnight {
-    .c1e9c47c23f12ca3-menu {
+    .menu_c1e9c4 {
         border-color: var(--border-muted);
         background-color: var(--background-surface-high);
     }
-    .f563df886a7377be-button {
+    .button_f563df {
         background-color: var(--background-mod-muted);
         &:hover {
             background-color: var(--background-mod-subtle);
@@ -12,7 +12,7 @@
             background-color: var(--background-mod-strong);
         }
     }
-    ._43313a79e7443995-menu ._43313a79e7443995-customMenuItem ._43313a79e7443995-customNotches {
+    .menu__43313 .customMenuItem__43313 .customNotches__43313 {
         color: var(--background-surface-high);
     }
 }
