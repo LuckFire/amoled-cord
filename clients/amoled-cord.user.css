@@ -3,7 +3,7 @@
 	@name AMOLED-Cord
 	@author LuckFire
 	@description A basically pitch black theme for Discord. Lights out, baby!
-	@version 5.0.10
+	@version 5.0.11
 	@namespace https://github.com/discord-extensions/amoled-cord
 	@license MIT
 	==/UserStyle== */
@@ -224,8 +224,7 @@
 	  background: linear-gradient(to top, hsl(var(--black-hsl)/1), hsl(var(--black-hsl)/0));
 	}
 	
-	.theme-midnight .container__9293f,
-	.theme-midnight .chatHeaderBar_a53846 {
+	.theme-midnight .container__9293f {
 	  --__header-bar-background: var(--background-base-lowest);
 	}
 	.theme-midnight .backdrop__8a7fc {
@@ -452,11 +451,11 @@
 	  background-color: var(--background-base-lowest);
 	  border: 1px solid var(--border-subtle);
 	}
-	.theme-midnight .addFriendInputWrapper__72ba7 {
-	  background: var(--input-background);
-	}
 	.theme-midnight .addFriendInputWrapper__72ba7:not(:focus-within) {
 	  border-color: var(--input-border);
+	}
+	.theme-midnight .addFriendInputWrapper__72ba7 {
+	  background: var(--input-background);
 	}
 	.theme-midnight .outer_bf1984 {
 	  background-color: var(--background-base-low);
@@ -487,9 +486,9 @@
 	}
 	
 	.theme-midnight .applicationStore_f07d62,
-	.theme-midnight .mainPageScroller_ca1a02,
-	.theme-midnight .scroller_c880e8,
-	.theme-midnight .allPerksScroller_ca1a02 {
+	.theme-midnight .mainPageScroller__80907,
+	.theme-midnight .scroller__59141,
+	.theme-midnight .allPerksScroller__80907 {
 	  background-color: var(--background-base-lowest);
 	}
 	.theme-midnight .card_b5493b {
@@ -499,11 +498,11 @@
 	.theme-midnight .card_b5493b .cardDescription__1f069 {
 	  background-image: linear-gradient(to bottom, var(--background-surface-high) 50%, hsl(var(--primary-800-hsl)/0.75) 80%);
 	}
-	.theme-midnight .container_da4aee {
+	.theme-midnight .container__0f226 {
 	  border: 1px solid var(--border-subtle);
 	  background-color: var(--background-surface-high);
 	}
-	.theme-midnight .container_da4aee .textContainer_da4aee {
+	.theme-midnight .container__0f226 .textContainer__0f226 {
 	  background-image: linear-gradient(to right, var(--background-surface-high), hsl(var(--primary-800-hsl)/40%) 90%, transparent);
 	}
 	
@@ -564,7 +563,7 @@
 	}
 	
 	.theme-midnight .popout_a16aea,
-	.theme-midnight .selectDropdown__5fa2f {
+	.theme-midnight .selectDropdown__0edde {
 	  background-color: var(--background-surface-high);
 	}
 	
@@ -787,7 +786,7 @@
 	.theme-midnight .progress__06283 {
 	  background-color: var(--background-surface-highest);
 	}
-	.theme-midnight .sliderBar_ac7648:not(.speaking_ac7648) {
+	.theme-midnight .sliderBar__39fa9:not(.speaking__39fa9) {
 	  background-color: var(--background-surface-highest);
 	}
 	.theme-midnight .cameraWrapper__11e1f {
