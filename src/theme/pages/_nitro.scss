@@ -1,8 +1,8 @@
 .theme-midnight {
     .applicationStore_f07d62,
-    .mainPageScroller_ca1a02,
-    .scroller_c880e8,
-    .allPerksScroller_ca1a02 {
+    .mainPageScroller__80907,
+    .scroller__59141,
+    .allPerksScroller__80907 {
         background-color: var(--background-base-lowest);
     }
 
@@ -19,11 +19,11 @@
         }
     }
 
-    .container_da4aee {
+    .container__0f226 {
         border: 1px solid var(--border-subtle);
         background-color: var(--background-surface-high);
 
-        .textContainer_da4aee {
+        .textContainer__0f226 {
             background-image: linear-gradient(
                 to right,
                 var(--background-surface-high),
